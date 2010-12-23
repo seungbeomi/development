@@ -1,2 +1,9 @@
 *.jar
+target/
+*.class
+classes/
+.*/
+.DS_Store
+bin/
+build/
 
