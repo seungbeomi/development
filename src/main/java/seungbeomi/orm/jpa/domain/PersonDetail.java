@@ -1,50 +1,47 @@
 package seungbeomi.orm.jpa.domain;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 
+
 @Entity
-@Table(name="Person")
-public class Person {
+@Table(name="PERSON_DETAIL")
+public class PersonDetail {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-	private String name;
-	@OneToOne
-	@JoinColumn(name="DETAIL_ID")
-	private PersonDetail detail;
+	@Temporal(TemporalType.DATE)
+	private Date birthday;
+	private String address;
 
 	public int getId() {
 		return id;
 	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
-
-	public String getName() {
-		return name;
+	public Date getBirthday() {
+		return birthday;
 	}
-
-	public void setName(String name) {
-		this.name = name;
+	public void setBirthday(Date birthday) {
+		this.birthday = birthday;
 	}
-
-	public PersonDetail getDetail() {
-		return detail;
+	public String getAddress() {
+		return address;
 	}
-
-	public void setDetail(PersonDetail detail) {
-		this.detail = detail;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 	@Override

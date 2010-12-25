@@ -8,4 +8,10 @@ public interface PersonDao {
 
 	List<Person> list();
 
+	Person get(int id);
+
+	void save(Person p);
+
+	void delete(int id);
+
 }
