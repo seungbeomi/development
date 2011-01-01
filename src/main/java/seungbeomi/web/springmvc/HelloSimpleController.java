@@ -11,7 +11,7 @@ import seungbeomi.web.springmvc.annotation.ViewName;
 @Controller
 public class HelloSimpleController implements SimpleController {
 
-	@RequestMapping("/hello")
+	@RequestMapping("/hello-simple")
 	@ViewName("/WEB-INF/view/hello.jsp")
 	@RequiredParams({"name"})
 	public void control(Map<String, String> params, Map<String, Object> model) {

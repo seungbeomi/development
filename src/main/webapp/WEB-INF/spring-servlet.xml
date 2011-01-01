@@ -11,6 +11,6 @@
 
 	<bean name="/hello" class="seungbeomi.web.springmvc.HelloController" />
 
-	<bean name="simpleHandlerAdapter" class="seungbeomi.web.springmvc.SimpleHandlerAdapter"/>
+	<bean name="simpleHandlerAdapter" class="seungbeomi.web.springmvc.SimpleHandlerAdapter" />
 
 </beans>
