@@ -1,8 +1,6 @@
-package seungbeomi.orm.jpa.dao;
+package seungbeomi.web.springmvc.sample;
 
 import java.util.List;
-
-import seungbeomi.orm.jpa.domain.Person;
 
 public interface PersonDao {
 

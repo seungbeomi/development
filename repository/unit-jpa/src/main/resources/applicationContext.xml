@@ -10,10 +10,11 @@
 		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 
-	<context:property-placeholder location="classpath*:database.properties" />
+	<context:property-placeholder location="classpath*:*.properties" />
+	<!--<context:annotation-config />-->
 
-	<bean id="dataSource"
-		class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
 		<property name="driverClassName" value="${database.driverClassName}" />
 		<property name="url" value="${database.url}" />
 		<property name="username" value="${database.username}" />
@@ -22,23 +23,28 @@
 
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-		<property name="persistenceUnitName" value="persistenceUnit"/>
-		<property name="dataSource" ref="dataSource"/>
-		<property name="jpaVendorAdapter">
-			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
-		</property>
+		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	<bean id="jpaTemplate"
-		class="org.springframework.orm.jpa.JpaTemplate">
-		<property name="entityManagerFactory" ref="entityManagerFactory"/>
-	</bean>
-
-	<bean id="transactionManager"
-		class="org.springframework.orm.jpa.JpaTransactionManager">
+	<bean id="jpaTemplate" class="org.springframework.orm.jpa.JpaTemplate">
 		<property name="entityManagerFactory" ref="entityManagerFactory" />
 	</bean>
 
-	<tx:annotation-driven mode="aspectj" transaction-manager="transactionManager" />
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+
+	<tx:annotation-driven mode="proxy" transaction-manager="transactionManager" />
+	<!--<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="save" propagation="REQUIRED"/>
+		</tx:attributes>
+	</tx:advice>-->
+
+	<bean id="personDao" class="unit.jpa.PersonDaoImpl"/>
+
+	<!--<bean id="personDao" class="unit.PersonDaoJpaTemplate">
+		<property name="jpaTemplate" ref="jpaTemplate"/>
+	</bean>-->
 
 </beans>

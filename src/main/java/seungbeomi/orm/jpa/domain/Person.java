@@ -9,15 +9,15 @@ import javax.persistence.Table;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 
-@Entity
-@Table(name="Person")
+//@Entity
+//@Table(name="Person")
 public class Person {
 
-	@Id
+//	@Id
 	private int id;
 	private String name;
-	@OneToOne
-	@JoinColumn(name="DETAIL_ID")
+//	@OneToOne
+//	@JoinColumn(name="DETAIL_ID")
 	private PersonDetail detail;
 
 	public int getId() {

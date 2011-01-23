@@ -12,8 +12,15 @@
 		</filter>
   	</appender>
 
+	<logger name="org.hibernate.tool.hbm2ddl">
+		<level value="DEBUG"/>
+	</logger>
+	<logger name="org.hibernate.type">
+		<level value="DEBUG"/>
+	</logger>
+
  	<root>
-        <priority value ="DEBUG" />
+        <priority value ="debug" />
     	<appender-ref ref="console" />
   	</root>
 

@@ -1,4 +1,4 @@
-package seungbeomi.orm.jpa.dao;
+package seungbeomi.web.springmvc;
 
 import java.util.Date;
 import java.util.List;
@@ -6,8 +6,10 @@ import java.util.List;
 import org.barista.common.test.AbstractDaoUnitTest;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import seungbeomi.orm.jpa.domain.Person;
-import seungbeomi.orm.jpa.domain.PersonDetail;
+import seungbeomi.web.springmvc.sample.Person;
+import seungbeomi.web.springmvc.sample.PersonDao;
+
+
 
 public class PersonDaoImplTest extends AbstractDaoUnitTest {
 
@@ -20,7 +22,7 @@ public class PersonDaoImplTest extends AbstractDaoUnitTest {
 	protected String[] doGetConfigLocations() {
 		return new String[] {
 				"classpath:DaoTestCase.xml",
-				"classpath:test-context-person.xml"
+				"/seungbeomi/web/springmvc/PersonDaoImplTest-context.xml"
 		};
 	}
 
@@ -30,6 +32,21 @@ public class PersonDaoImplTest extends AbstractDaoUnitTest {
 		super.setUpData();
 	}
 
+	public void testAdd() throws Throwable {
+		System.out.println("# testAdd");
+
+		Person p = new Person();
+		p.setId(123);
+		p.setName("spring");
+		p.setAddress("tokyo");
+
+		targetDao.save(p);
+
+		Person reload = targetDao.view(p.getId());
+		System.out.println("<<< " + reload);
+	}
+
+	/*
 	public void testList() throws Throwable {
 		System.out.println("# testList()");
 		List<Person> lPerson = targetDao.list();
@@ -49,31 +66,6 @@ public class PersonDaoImplTest extends AbstractDaoUnitTest {
 	public void testUpdate() throws Throwable {
 		System.out.println("# testUpdate");
 
-		int id = 9999;
-		String name = "insert";
-
-		Person p = new Person();
-		p.setId(id);
-		p.setName(name);
-		PersonDetail pd = new PersonDetail();
-		pd.setId(p.getId());
-		pd.setBirthday(new Date());
-		pd.setAddress("ADDRESS" + id);
-		p.setDetail(pd);
-
-		// create
-		targetDao.save(p);
-
-		Person reload = targetDao.view(id);
-		System.out.println("create : " + reload);
-
-		// update
-		p.setName("update");
-		pd.setAddress("updateAddress" + id);
-		//targetDao.save(p); // auto update
-
-		reload = targetDao.view(id);
-		System.out.println("update : " + reload);
 
 	}
 
@@ -87,5 +79,6 @@ public class PersonDaoImplTest extends AbstractDaoUnitTest {
 		List<Person> after = targetDao.list();
 		System.out.println("after : " + after.size());
 	}
+	*/
 
 }

@@ -1,0 +1,10 @@
+<html>
+<body>
+## This is a single line comment.
+#*
+ Thus begins a multi-line comment.
+*#
+#set( $foo = "Velocity" )
+Hello $foo World!
+</body>
+<html>

@@ -17,13 +17,13 @@ public class PersonDaoImpl extends JpaDaoSupport implements PersonDao {
 	}
 
 	@Override
-	public Person get(int id) {
+	public Person view(int id) {
 		return (Person) getJpaTemplate().find(Person.class, id);
 	}
 
 	@Override
 	public void save(Person p) {
-		Person input = this.get(p.getId());
+		Person input = this.view(p.getId());
 		// insert
 		if (input == null) {
 			getJpaTemplate().persist(p);
@@ -36,7 +36,7 @@ public class PersonDaoImpl extends JpaDaoSupport implements PersonDao {
 
 	@Override
 	public void delete(int id) {
-		Person input = this.get(id);
+		Person input = this.view(id);
 		if (input != null) {
 			getJpaTemplate().remove(input);
 		}
