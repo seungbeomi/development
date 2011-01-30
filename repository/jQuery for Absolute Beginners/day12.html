@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+<title>Insert title here</title>
+
+<style type="text/css">
+#container {
+    width: 400px;
+    margin: auto;
+    margin-top: 5em;
+}
+#info {
+    background: #7F7777;
+    width: 300px;
+    padding-bottom: .5em;
+    overflow: hidden;
+    position: absolute;
+}
+h4 {
+    padding: .4em 1em;
+    margin: 0 0 .5em 0;
+    background: #292929;
+    color: #9F9F9F;
+    border-bottom: 1px solid #BFBFBF;
+    border-top: 1px solid black;
+}
+#info img {
+    float: left;
+    width: 75px;
+    margin: 0 1em 0 1em;
+    padding: .2em;
+    background: white;
+}
+#info p {
+    margin-left: 75px;
+    margin-top: 0;
+    padding: 0 0 0 2em;
+}
+</style>
+
+<script type="text/javascript">
+    $(function() {
+        $('a').hover(function(e) {
+            var html = '<div id="info">';
+                html += '<h4>Title</h4>';
+                html += '<img src="img01.png" />';
+                html += '<p>This is Paragraph Block</p>';
+                html + '</div>';
+
+            $('#container').append(html).children('#info').hide().fadeIn(1000);
+            $('#info').css('top', e.pageY - 20)
+                      .css('left', e.pageX + 40);
+        }, function() {
+            // mouse out
+            $("#info").remove();
+        });
+
+        $('a').mousemove(function(evt) {
+            $('#info').css('top', evt.pageY -20).css('left', evt.pageX + 40);
+        });
+    });
+</script>
+
+</head>
+<body>
+<h2>Day 12: Advanced Tooltips: Part 1</h2>
+
+<div id="container">
+    <a href="#">Some Movies</a>
+</div>
+
+</body>
+</html>
