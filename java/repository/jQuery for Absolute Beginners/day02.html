@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" src="jquery-1.4.4.js"></script>
+
+<style type="text/css">
+#box {
+    background: red;
+    width: 300px;
+    height: 300px;
+    display: none;
+}
+
+p a {
+    color: red;
+}
+</style>
+
+<script type="text/javascript">
+    $(function() {
+        $('a').click(function() {
+            //$('#box').fadeIn(2000);
+            //$('#box').fadeOut(2000);
+            //$('#box').slideUp(2000);
+            $('#box').slideDown(2000);
+            //$('#box').hide(2000);
+            //$('#box').show(2000);
+            $('p a').css('color', 'blue');
+        });
+    });
+</script>
+
+</head>
+<body>
+<h2>Day 2: Fade, Slide, and Show Methods</h2>
+
+<div id="box"></div>
+<a href="#">Click Me!</a>
+<br />
+<p>
+    Continuing from yesterday, <a href="#">today</a> we’ll take a look at the “fadeIn”, “slideDown”, and “show” methods. We’ll also examine <a href="#">jQuery’s</a> “css” abilities.
+</p>
+
+</body>
+</html>
