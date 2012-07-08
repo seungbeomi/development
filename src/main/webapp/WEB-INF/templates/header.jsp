@@ -1,1 +1,0 @@
-Simple Tiles 2 Example
