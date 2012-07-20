@@ -1,0 +1,6 @@
+# migration 
+ 
+rails generate migration AddPartNumberToProducts
+rails generate migration AddPartNumberToProducts part_number:string
+rails generate migration RemovePartNumberFromProducts part_number:string
+

@@ -1,0 +1,10 @@
+# Agile Web Development with Rails 2/E
+# 레일스와 함께하는 애자일 웹개발
+
+4장 레일스 둘러보기
+rails new demo
+cd demo
+ls -p
+rails server
+
+rails generate controller Say
