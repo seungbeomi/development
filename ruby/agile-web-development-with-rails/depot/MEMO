@@ -1,0 +1,14 @@
+rails new depot
+rails generate scaffold Product title:string description:text image_url:string price:decimal
+rake db:migrate
+rails server
+rake db:seed
+rake db:rollback
+rake test:units
+rails generate controller Store index
+rake test
+rake test:functionals
+rails generate scaffold cart
+rake db:migrate
+rails generate scaffold line_item product_id:integer cart_id:integer
+rake db:migrate
