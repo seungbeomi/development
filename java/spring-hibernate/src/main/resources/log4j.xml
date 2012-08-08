@@ -35,6 +35,15 @@
 	</logger>
 	<!-- JDBC[E] -->
 	
+	<!-- log4jdbc [S] -->
+	<logger name="jdbc.sqlonly">
+		<level value="debug" />
+	</logger>
+	<logger name="jdbc.resultsettable">
+		<level value="debug" />
+	</logger>
+	<!-- log4jdbc [E] -->
+	
 	<!-- Root Logger -->
 	<root>
 		<level value="warn" />

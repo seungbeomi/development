@@ -9,20 +9,20 @@
 			<param name="ConversionPattern" value="%-5p: (%13F:%L)%M() - %m%n" />
 		</layout>
 	</appender>
-	
+
 	<logger name="org.springframework.transaction">
 		<level value="info" />
 	</logger>
 	<logger name="org.hibernate">
-		<level value="info" />
+		<level value="warn" />
 	</logger>
 	<logger name="org.hibernate.SQL">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="org.hibernate.type">
-		<level value="info" />
+		<level value="warn" />
 	</logger>
-	
+
 	<!-- JDBC[S] -->
 	<logger name="java.sql.Connection">
 		<level value="debug" />
@@ -34,11 +34,23 @@
 		<level value="debug" />
 	</logger>
 	<!-- JDBC[E] -->
-	
+
+	<!-- log4jdbc [S] -->
+	<logger name="jdbc.sqlonly">
+		<level value="debug" />
+	</logger>
+	<logger name="jdbc.sqltiming">
+	    <level value="debug" />
+	</logger>
+	<logger name="jdbc.resultsettable">
+		<level value="debug" />
+	</logger>
+	<!-- log4jdbc [E] -->
+
 	<!-- Root Logger -->
 	<root>
 		<level value="warn" />
 		<appender-ref ref="console" />
 	</root>
-	
+
 </log4j:configuration>
