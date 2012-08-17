@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="book.hibernate3.mapping02.onetoone.jointable.Delivery" table="DELIVERY">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <join table="DELIVERY_ORDER" optional="true">
+        	<key column="deliveryId"/>
+        	
+        </join>
+        <many-to-one name="orderinfo" class="book.hibernate3.mapping02.onetoone.jointable.Orderinfo"
+        	/>
+    </class>
+</hibernate-mapping>

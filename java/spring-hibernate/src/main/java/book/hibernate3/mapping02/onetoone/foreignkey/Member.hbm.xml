@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="book.hibernate3.mapping02.onetoone.foreignkey.Member" table="MEMBER">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="USERNAME" />
+        </property>
+        <many-to-one name="memberDetail"
+        	class="book.hibernate3.mapping02.onetoone.foreignkey.MemberDetail"
+        	column="MEMBER_DETAILID"
+        	unique="true"
+        	cascade="save-update,delete"/>
+    </class>
+</hibernate-mapping>

@@ -13,7 +13,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.criterion.Restrictions;
 import org.junit.Test;
 
-public class StudentTest {
+public class UnitTest {
 
 	@Test
 	public void testConfigProperty() {
@@ -51,11 +51,12 @@ public class StudentTest {
 	
 	@Test
 	public void testConfigFile() {
-		Configuration config = new Configuration();
-		config.configure();
 		
 		// obtaining a session object
-		SessionFactory factory = config.buildSessionFactory();
+		SessionFactory factory = new Configuration()
+				.configure("/com/packtpub/springhibernate/ch03/hibernate.cfg.xml")
+				.buildSessionFactory();
+		
 		Session session = factory.openSession();
 		
 		// starting a transaction

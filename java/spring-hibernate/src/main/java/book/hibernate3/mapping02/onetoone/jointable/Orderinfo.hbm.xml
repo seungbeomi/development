@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012. 8. 16 ???? 8:45:23 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="book.hibernate3.mapping02.onetoone.jointable.Orderinfo" table="ORDERINFO">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="count" type="int">
+            <column name="COUNT" />
+        </property>
+        <property name="zipcode" type="java.lang.String">
+            <column name="ZIPCODE" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <one-to-one name="order" class="book.hibernate3.mapping02.onetoone.jointable.DeliveryOrder"></one-to-one>
+    </class>
+</hibernate-mapping>

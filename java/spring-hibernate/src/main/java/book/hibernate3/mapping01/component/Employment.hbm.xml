@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="book.hibernate3.mapping01.component.Employment" table="EMPLOYMENT">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <component name="korName" class="book.hibernate3.mapping01.component.Name">
+        	<parent name="employment"/> <!-- 컴포넌트에서 부모 객체 참조 -->
+            <property name="surname" column="KOR_SURNAME" />
+            <property name="name" column="KOR_NAME" />
+            <!-- 컴포넌트 중첩 -->
+            <component name="familyInfo" class="book.hibernate3.mapping01.component.FamilyInfo">
+            	<property name="origin" column="FAMILY_ORIGIN"/>
+            </component>
+        </component>
+        <component name="engName" class="book.hibernate3.mapping01.component.Name">
+        	<parent name="employment"/> <!-- 컴포넌트에서 부모 객체 참조 -->
+            <property name="surname" column="ENG_SURNAME" />
+            <property name="name" column="ENG_NAME" />
+        </component>
+    </class> 
+</hibernate-mapping>

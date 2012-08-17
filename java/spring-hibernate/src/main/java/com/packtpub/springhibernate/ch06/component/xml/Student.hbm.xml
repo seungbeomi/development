@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.packtpub.springhibernate.ch06.component.xml.Student" table="STUDENT">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <component name="phone" class="com.packtpub.springhibernate.ch06.component.xml.Phone">
+   			<property name="comment" column="COMMENT"/>     	
+   			<property name="number" column="NUMBER"/>     	
+        </component>
+    </class>
+</hibernate-mapping>

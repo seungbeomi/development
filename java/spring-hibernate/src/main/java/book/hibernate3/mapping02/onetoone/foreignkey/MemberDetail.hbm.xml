@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="book.hibernate3.mapping02.onetoone.foreignkey.MemberDetail" table="MEMBER_DETAIL">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <property name="zipcode" type="java.lang.String">
+            <column name="ZIPCODE" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <one-to-one name="member"
+        	class="book.hibernate3.mapping02.onetoone.foreignkey.Member"
+        	property-ref="memberDetail"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012. 8. 10 ???? 12:39:50 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.packtpub.springhibernate.ch06.map.xml.Student" table="STUDENT">
+        <id name="id" column="ID" type="int" >
+            <generator class="increment" />
+        </id>
+        <property name="firstName" column="FIRST_NAME" type="string"/>
+        
+        <map name="papers" table="STUDENT_PAPER">
+        	<key column="STUDENT_ID"/>
+        	<map-key type="string" column="PAPER_TITLE"/>
+        	<element type="string" column="PAPER_PATH"/>
+        </map>
+        
+    </class>
+</hibernate-mapping>

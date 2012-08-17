@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="book.hibernate3.mapping02.onetoone.ArticleDetail" table="BOARD_ARTICLE_DETAIL">
+        <id name="id" type="int">
+            <column name="BOARD_ARTICLEID" />
+            <generator class="foreign">
+            	<param name="property">article</param>
+            </generator>
+        </id>
+        <property name="content" type="string">
+            <column name="CONTENT" />
+        </property>
+        <one-to-one name="article" 
+        	class="book.hibernate3.mapping02.onetoone.Article"
+        	constrained="true"/>
+    </class>
+</hibernate-mapping>

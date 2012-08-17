@@ -84,7 +84,7 @@
 		<dependency>
 			<groupId>org.lazyluke</groupId>
 			<artifactId>log4jdbc-remix</artifactId>
-			<version>0.2.4</version>
+			<version>0.2.6</version>
 		</dependency>
 		<!-- log4jdbc [E] -->
 
@@ -99,6 +99,13 @@
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<useSystemClassLoader>true</useSystemClassLoader>
 				</configuration>
 			</plugin>
 		</plugins>
