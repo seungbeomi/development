@@ -1,14 +1,17 @@
 package com.packtpub.springhibernate.ch06.component.annotation;
 
+import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
 import lombok.Data;
 
-@Embeddable
 @Data
+@Embeddable
 public class Phone {
-
+	
+	@Column(name = "COMMENT")
 	private String comment;
+	@Column(name = "NUMBER")
 	private String number;
 	
 	public Phone() {}

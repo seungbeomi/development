@@ -8,6 +8,7 @@
             <generator class="increment" />
         </id>
         <property name="firstName" column="FIRST_NAME" type="string"/>
+        
         <one-to-one name="phone" 
         			class="com.packtpub.springhibernate.ch06.onetoone.xml.Phone"
         			cascade="all"

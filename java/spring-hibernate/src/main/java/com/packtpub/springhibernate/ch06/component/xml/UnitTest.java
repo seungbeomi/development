@@ -11,7 +11,7 @@ public class UnitTest {
 	@Test
 	public void testComponent () {
 		SessionFactory factory = new Configuration()
-			.configure("/com/packtpub/springhibernate/ch06/hibernate.cfg.xml")
+			.configure("hibernate.cfg.xml")
 			.addClass(Student.class)
 			//.addResource("com/packtpub/springhibernate/ch06/component/xml/Student.hbm.xml")
 			.buildSessionFactory();

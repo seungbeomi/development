@@ -8,6 +8,7 @@
         </id>
         <property name="comment" column="COMMENT" type="string"/>
         <property name="number" column="NUMBER" type="string"/>
+        
         <one-to-one name="student" 
         			class="com.packtpub.springhibernate.ch06.onetoone.xml.Student"
         			cascade="all" />
