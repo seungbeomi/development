@@ -1,4 +1,4 @@
-package book.hibernate3.mapping02.onetoone.foreignkey;
+package book.hibernate3.mapping03.onetoone.foreignkey;
 
 import lombok.Data;
 

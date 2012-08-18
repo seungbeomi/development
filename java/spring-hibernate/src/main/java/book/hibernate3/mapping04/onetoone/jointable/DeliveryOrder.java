@@ -1,4 +1,4 @@
-package book.hibernate3.mapping02.onetoone.jointable;
+package book.hibernate3.mapping04.onetoone.jointable;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package book.hibernate3.mapping02.onetoone.foreignkey;
+package book.hibernate3.mapping03.onetoone.foreignkey;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -32,7 +32,7 @@ public class UnitTest {
 		// 객체저장
 		session.save(member);
 		// 객체로딩
-		Member m = (Member) session.get(Member.class, new Integer(11));
+		Member m = (Member) session.get(Member.class, new Integer(2));
 		MemberDetail d = m.getMemberDetail();
 		assertThat(m.getUsername(), is("username"));
 		assertThat(d.getZipcode(), is("zipcode"));

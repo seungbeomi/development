@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.packtpub.springhibernate.ch06.onetomany.xml.Student" table="STUDENT">
+        <id name="id" type="int">
+            <column name="STUDENT_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="firstName" type="java.lang.String">
+            <column name="FIRST_NAME" />
+        </property>
+        <many-to-one name="school" 
+        	class="com.packtpub.springhibernate.ch06.onetomany.xml.School"
+        	column="SCHOOL_ID"
+        	cascade="all" /> 
+    </class>
+</hibernate-mapping>
