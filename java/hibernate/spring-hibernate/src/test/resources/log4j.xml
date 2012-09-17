@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- Appenders -->
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p: (%13F:%L)%M() - %m%n" />
+		</layout>
+	</appender>
+	
+	<logger name="org.spring.hibernate">
+		<level value="debug" />
+	</logger>
+	<logger name="book">
+		<level value="debug" />
+	</logger>
+	<logger name="com.packtpub.springhibernate">
+		<level value="debug" />
+	</logger>
+	
+	<logger name="org.springframework">
+		<level value="info" />
+	</logger>
+	<logger name="org.hibernate">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.SQL">
+		<level value="debug" />
+	</logger>
+	<logger name="org.hibernate.type">
+		<level value="warn" />
+	</logger>
+	
+	<!-- JDBC[S] -->
+	<logger name="java.sql.Connection">
+		<level value="debug" />
+	</logger>
+	<logger name="java.sql.PreparedStatement">
+		<level value="debug" />
+	</logger>
+	<logger name="java.sql.ResultSet">
+		<level value="debug" />
+	</logger>
+	<!-- JDBC[E] -->
+	
+	<!-- log4jdbc [S] -->
+	<logger name="jdbc.sqlonly">
+		<level value="debug" />
+	</logger>
+	<logger name="jdbc.resultsettable">
+		<level value="debug" />
+	</logger>
+	<!-- log4jdbc [E] -->
+	
+	<!-- Root Logger -->
+	<root>
+		<level value="warn" />
+		<appender-ref ref="console" />
+	</root>
+	
+</log4j:configuration>
