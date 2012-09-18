@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012. 9. 18 ???? 8:28:28 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="book.hibernate.chapter03.entity.User" table="ADUSER">
+        <id name="id" type="long">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="string" unique="true">
+            <column name="NAME" />
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="book.hibernate.chapter03.entity.Advert" table="ADVERT">
+        <id name="id" type="long">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="title" type="string">
+            <column name="TITLE" />
+        </property>
+        <property name="message" type="string">
+            <column name="MESSAGE" />
+        </property>
+        <many-to-one name="user" class="book.hibernate.chapter03.entity.User" not-null="true" foreign-key="fk_advert_user">
+            <column name="aduesr" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 2012. 8. 10 ???? 12:39:50 by Hibernate Tools 3.4.0.CR1 -->
+<!-- Generated 2012. 9. 18 ???? 8:28:28 by Hibernate Tools 3.4.0.CR1 -->
 <hibernate-mapping>
     <class name="book.hibernate.chapter03.entity.Message" table="MESSAGE">
-        <property name="message" column="MESSAGE" type="string"/>
+        <id name="message" type="java.lang.String">
+            <column name="MESSAGE" />
+            <generator class="assigned" />
+        </id>
     </class>
 </hibernate-mapping>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012. 9. 18 ???? 8:28:28 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="book.hibernate.chapter03.entity.Category" table="CATEGORY">
+        <id name="id" type="long">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="title" type="string" unique="true">
+            <column name="TITLE" />
+        </property>
+        <set name="adverts" table="LINK_CATEGORY_ADVERT">
+            <key foreign-key="fk_advert_category">
+                <column name="category" />
+            </key>
+            <many-to-many class="book.hibernate.chapter03.entity.Advert" foreign-key="fk_category_advert">
+            	<column name="advert"/>
+            </many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>
