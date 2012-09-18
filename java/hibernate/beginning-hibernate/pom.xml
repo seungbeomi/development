@@ -16,6 +16,24 @@
 		<maven.test.failure.ignore>true</maven.test.failure.ignore>
 		<spring.framework.version>3.1.0.RELEASE</spring.framework.version>
 	</properties>
+	
+	<profiles>
+		<profile>
+			<id>local</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<profile>local</profile>
+			</properties>
+		</profile>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<profile>dev</profile>
+			</properties>
+		</profile>
+	</profiles>
 
 	<dependencies>
 
@@ -59,6 +77,11 @@
 		<!-- <dependency> <groupId>hsqldb</groupId> <artifactId>hsqldb</artifactId> 
 			<version>1.8.0.10</version> </dependency> -->
 		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.1-901.jdbc4</version>
+		</dependency>
+		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.16</version>
@@ -93,9 +116,9 @@
 						<drop>true</drop>
 						<create>true</create>
 						<format>true</format>
-						<export>false</export> <!-- DB반영 -->
+						<export>true</export> <!-- DB반영 -->
 						<jdk5>true</jdk5>
-						<!-- <propertyfile>src/main/resources/database.properties</propertyfile> -->
+						<propertyfile>src/main/resources/hibernate.properties</propertyfile>
 						<configurationfile>/src/main/java/hbm2ddl.cfg.xml</configurationfile>
 						<outputfilename>schema.sql</outputfilename>
 					</componentProperties>
@@ -108,6 +131,11 @@
 					</components>
 				</configuration>
 				<dependencies>
+					<dependency>
+						<groupId>postgresql</groupId>
+						<artifactId>postgresql</artifactId>
+						<version>9.1-901.jdbc4</version>
+					</dependency>
 					<dependency>
 						<groupId>com.h2database</groupId>
 						<artifactId>h2</artifactId>
@@ -127,7 +155,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-
 	</repositories>
 
 </project>
