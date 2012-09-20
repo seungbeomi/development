@@ -5,11 +5,23 @@
 <hibernate-configuration>
     <session-factory>
     	<!-- database related configurations -->
-        <property name="hibernate.dialect">${ hibernate.dialect }</property>
+        <!-- ORACLE -->
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@127.0.0.1:1521:XE</property>
+        <property name="hibernate.connection.username">oracle</property>
+        <property name="hibernate.connection.password">oracle</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <property name="hibernate.hbm2ddl.auto">create-drop</property>
+        
+        <!-- 
         <property name="hibernate.connection.driver_class">${ hibernate.connection.driver_class }</property>
         <property name="hibernate.connection.url">${ hibernate.connection.url }</property>
         <property name="hibernate.connection.username">${ hibernate.connection.username }</property>
         <property name="hibernate.connection.password">${ hibernate.connection.password }</property>
+        <property name="hibernate.dialect">${ hibernate.dialect }</property>
+        <property name="hibernate.hbm2ddl.auto">${ hibernate.hbm2ddl.auto }</property>
+        -->
+        
         <property name="hibernate.pool_size">5</property>
         <property name="hibernate.connection.autocommit">true</property>
         <property name="hibernate.show_sql">true</property>
