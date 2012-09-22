@@ -21,7 +21,7 @@
         <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
 
 		<property name="current_session_context_class">thread</property>
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.pool_size">5</property>
         <property name="hibernate.connection.autocommit">true</property>
         <property name="hibernate.show_sql">true</property>
