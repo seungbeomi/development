@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012. 9. 19 ???? 10:00:08 by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="Category" table="category" schema="public">
+        <id name="id" type="long">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="title" type="string">
+            <column name="title" />
+        </property>
+        <set name="adverts" inverse="false" table="link_category_advert">
+            <key>
+                <column name="category" not-null="true" />
+            </key>
+            <many-to-many entity-name="Advert">
+                <column name="advert" not-null="true" />
+            </many-to-many>
+        </set>
+    </class>
+</hibernate-mapping>
