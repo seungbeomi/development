@@ -3,18 +3,31 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>seungbeomi</groupId>
 	<artifactId>project</artifactId>
-	<version>1.0</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
-	<name>${artifactId}</name>
+	<name>${project.artifactId} ${project.version}</name>
+
+	<!-- ==================================================== -->
+	<!-- Modules -->
+	<!-- ==================================================== -->
 	<modules>
 		<module>framework</module>
 		<module>component</module>
 		<module>web</module>
 	</modules>
+
+	<!-- ==================================================== -->
+	<!-- Properties -->
+	<!-- ==================================================== -->
 	<properties>
-		<aspectj-maven-plugin-version>1.3</aspectj-maven-plugin-version>
-		<aspectjweaver-version>1.6.9</aspectjweaver-version>
-		<cglib-version>2.2</cglib-version>
+		<!-- spring -->
+		<spring-version>3.1.0.RELEASE</spring-version>
+		<spring-security-version>3.1.0.RELEASE</spring-security-version>
+		<spring-test-version>3.1.0.RELEASE</spring-test-version>
+		<spring-modules-jakarta-commons-version>0.8</spring-modules-jakarta-commons-version>
+		<spring-modules-version>0.8</spring-modules-version>
+
+		<!-- commons -->
 		<commons-attributes-api-version>2.1</commons-attributes-api-version>
 		<commons-beanutils-version>1.8.3</commons-beanutils-version>
 		<commons-codec-version>1.4</commons-codec-version>
@@ -24,22 +37,34 @@
 		<commons-fileupload-version>1.2.2</commons-fileupload-version>
 		<commons-httpclient-version>3.1</commons-httpclient-version>
 		<commons-io-version>2.0</commons-io-version>
+
+		<!-- persistence -->
 		<ibatis-version>2.3.4.726</ibatis-version>
+		<mysql-connector-java-version>5.1.12</mysql-connector-java-version>
+
+		<!-- web -->
 		<jsp-api-version>2.1</jsp-api-version>
 		<jstl-version>1.1.2</jstl-version>
-		<junit-version>4.4</junit-version>
-		<log4j-version>1.2.16</log4j-version>
-		<mysql-connector-java-version>5.1.12</mysql-connector-java-version>
-		<quartz-all-version>1.6.1</quartz-all-version>
-		<servlet-api-version>2.4</servlet-api-version>
-		<slf4j-log4j12-version>1.5.8</slf4j-log4j12-version>
-		<spring-modules-jakarta-commons-version>0.8</spring-modules-jakarta-commons-version>
-		<spring-modules-version>0.8</spring-modules-version>
-		<spring-security-version>2.0.4</spring-security-version>
-		<spring-test-version>2.5.6</spring-test-version>
-		<spring-version>2.5.6</spring-version>
+		<servlet-api-version>2.5</servlet-api-version>
 		<tiles-version>2.0.6</tiles-version>
+		<jstl-version>1.2</jstl-version>
+
+		<!-- test -->
+		<junit-version>4.7</junit-version>
+
+		<!-- log -->
+		<log4j-version>1.2.16</log4j-version>
+		<slf4j-version>1.6.1</slf4j-version>
+
+		<aspectj-maven-plugin-version>1.3</aspectj-maven-plugin-version>
+		<aspectjweaver-version>1.6.9</aspectjweaver-version>
+		<cglib-version>2.2</cglib-version>
+		<quartz-all-version>1.6.1</quartz-all-version>
 	</properties>
+
+	<!-- ==================================================== -->
+	<!-- Profiles -->
+	<!-- ==================================================== -->
 	<profiles>
 		<profile>
 			<id>local</id>
@@ -63,13 +88,33 @@
 			</properties>
 		</profile>
 	</profiles>
+
+	<!-- ==================================================== -->
+	<!-- Build -->
+	<!-- ==================================================== -->
 	<build>
 		<filters>
 			<filter>${basedir}/../../profile-${profile}.properties</filter>
 		</filters>
 		<plugins>
 			<plugin>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<version>2.9</version>
+				<configuration>
+					<additionalProjectnatures>
+						<projectnature>org.springframework.ide.eclipse.core.springnature</projectnature>
+					</additionalProjectnatures>
+					<additionalBuildcommands>
+						<buildcommand>org.springframework.ide.eclipse.core.springbuilder</buildcommand>
+					</additionalBuildcommands>
+					<downloadSources>true</downloadSources>
+					<downloadJavadocs>true</downloadJavadocs>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.5.1</version>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
@@ -82,6 +127,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 				</configuration>
@@ -89,6 +135,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.8.1</version>
 				<configuration>
 					<minmemory>128m</minmemory>
 					<maxmemory>512m</maxmemory>
@@ -96,6 +143,10 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<!-- ==================================================== -->
+	<!-- Distribution Management -->
+	<!-- ==================================================== -->
 	<distributionManagement>
 		<site>
 			<id>site</id>
@@ -103,4 +154,5 @@
 			<url>scp://local.company.com/websites/project.company.com/</url>
 		</site>
 	</distributionManagement>
+
 </project>

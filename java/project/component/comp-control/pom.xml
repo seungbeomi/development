@@ -1,94 +1,31 @@
 ﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>seungbeomi.comp</groupId>
 	<artifactId>comp-control</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>${project.artifactId}</name>
+	<name>${project.artifactId} ${project.version}</name>
+	
+	<!-- ==================================================== -->
+	<!-- Parent                                               -->
+	<!-- ==================================================== -->
 	<parent>
 		<groupId>seungbeomi</groupId>
 		<artifactId>component</artifactId>
-		<version>1.0</version>
+		<version>1.0.0</version>
 	</parent>
+	
+	<!-- ==================================================== -->
+	<!-- Dependencies                                         -->
+	<!-- ==================================================== -->
 	<dependencies>
 		<dependency>
 			<groupId>seungbeomi</groupId>
 			<artifactId>fw-core</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 			<scope>compile</scope>   <!-- compile/provided/runtime/test/system -->
 		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>${junit-version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.ibatis</groupId>
-			<artifactId>ibatis-sqlmap</artifactId>
-			<version>${ibatis-version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql-connector-java-version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j-version}</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>${servlet-api-version}</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>aspectj-maven-plugin</artifactId>
-			<version>${aspectj-maven-plugin-version}</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>${commons-dbcp-version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>cglib</groupId>
-			<artifactId>cglib</artifactId>
-			<version>${cglib-version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springmodules</groupId>
-			<artifactId>spring-modules-validation</artifactId>
-			<version>${spring-modules-version}</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>opensymphony</groupId>
-			<artifactId>quartz-all</artifactId>
-			<version>${quartz-all-version}</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-fileupload</groupId>
-			<artifactId>commons-fileupload</artifactId>
-			<version>${commons-fileupload-version}</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-httpclient</groupId>
-			<artifactId>commons-httpclient</artifactId>
-			<version>${commons-httpclient-version}</version>
-		</dependency>
+		
 	</dependencies>
 </project>

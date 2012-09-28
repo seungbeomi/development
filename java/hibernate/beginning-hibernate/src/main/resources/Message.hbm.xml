@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012. 9. 19 ???? 10:00:08 by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="Message" table="message" schema="public">
+        <id name="message" type="string">
+            <column name="message" />
+            <generator class="assigned" />
+        </id>
+    </class>
+</hibernate-mapping>

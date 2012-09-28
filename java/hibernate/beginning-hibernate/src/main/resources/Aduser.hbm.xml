@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012. 9. 19 ???? 10:00:08 by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="Aduser" table="aduser" schema="public">
+        <id name="id" type="long">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" />
+        </property>
+        <set name="adverts" inverse="true">
+            <key>
+                <column name="aduesr" />
+            </key>
+            <one-to-many class="Advert" />
+        </set>
+    </class>
+</hibernate-mapping>
