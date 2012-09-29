@@ -1,4 +1,4 @@
-package com.hibernate.chapter04;
+package com.hibernate.chapter04.inheritance;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.hibernate.chapter02;
+package com.hibernate.chapter02.onclasstotwotable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

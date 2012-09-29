@@ -1,4 +1,4 @@
-package com.hibernate.chapter04;
+package com.hibernate.chapter05.onttoone;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -8,20 +8,15 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class InheritanceTest {
+public class PersonTest {
 
-	// Single table (default)
-	// Joined
-	// Table per class
-	
-	Session session;
+	private Session session;
 	
 	@Before
 	public void setUp() {
 		Configuration cfg = new Configuration();
-		cfg.addAnnotatedClass(Project.class);
-		cfg.addAnnotatedClass(Module.class);
-		cfg.addAnnotatedClass(Task.class);
+		cfg.addAnnotatedClass(Person.class);
+		cfg.addAnnotatedClass(PersonDetail.class);
 		cfg.configure("hbm2ddl.xml");
 
 		new SchemaExport(cfg).create(true, true);
@@ -37,22 +32,20 @@ public class InheritanceTest {
 	}
 	
 	@Test
-	public void singleTable() {
-		Project p = new Project();
-		p.setProjectName("Hibernate");
+	public void test() {
 		
-		Module m = new Module();
-		m.setProjectName("Spring");
-		m.setModuleName("AOP");
+		PersonDetail d = new PersonDetail();
+		d.setZipCode("123456");
+		d.setJob("Programmer");
+		d.setIncome(123.456);
 		
-		Task t = new Task();
-		t.setProjectName("Java");
-		t.setModuleName("Collections");
-		t.setTaskName("ArrayList");
+		Person p = new Person();
+		p.setPersonName("seungbeomi");
+		p.setPersonDetail(d);
 		
 		session.save(p);
-		session.save(m);
-		session.save(t);
+		// no need if we set cascadeType
+		// session.save(d);
 	}
-	
+
 }

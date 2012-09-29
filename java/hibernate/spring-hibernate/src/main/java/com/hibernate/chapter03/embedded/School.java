@@ -1,4 +1,4 @@
-package com.hibernate.chapter03;
+package com.hibernate.chapter03.embedded;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;

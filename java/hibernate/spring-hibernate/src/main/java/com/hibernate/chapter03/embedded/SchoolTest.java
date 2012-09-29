@@ -1,4 +1,4 @@
-package com.hibernate.chapter02;
+package com.hibernate.chapter03.embedded;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -6,28 +6,32 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
 import org.junit.Test;
 
-public class CustomerTest {
+public class SchoolTest {
 
 	@Test
-	public void test() { 
+	public void test() {
 		Configuration cfg = new Configuration();
-		cfg.addAnnotatedClass(Customer.class);
+		cfg.addAnnotatedClass(School.class);
 		cfg.configure("hbm2ddl.xml");
-		
+
 		new SchemaExport(cfg).create(true, true);
-		
+
 		SessionFactory factory = cfg.buildSessionFactory();
 		Session session = factory.getCurrentSession();
 		session.beginTransaction();
-		
-		Customer customer = new Customer();
-		customer.setCustomerName("seungbeomi");
-		customer.setCustomerAddress("Busan");
-		customer.setCreditScore(780);
-		customer.setRewardPoints(12000);
-		
-		session.save(customer);
-		
+
+		SchoolDetail schoolDetail = new SchoolDetail();
+		schoolDetail.setPublicSchool(false);
+		schoolDetail.setSchoolAddress("Busan");
+		schoolDetail.setStudentCount(300);
+
+		School school = new School();
+		school.setSchoolName("Suyoung High School");
+		school.setSchoolDetail(schoolDetail);
+
+		session.save(school);
+
 		session.getTransaction().commit();
+
 	}
 }
