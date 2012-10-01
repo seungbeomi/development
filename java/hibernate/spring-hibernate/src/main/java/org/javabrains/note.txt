@@ -1,0 +1,13 @@
+# Saving Without Hibernate
+* JDBC Database configuration
+* The Model Object
+* Service method to create the model object
+* Database design
+* DAO method to save the object using SQL queries
+
+# The Hibernate way
+* JDBC Database configuration - Hibernate Configuration
+* The Model object - Annotations
+* Service method to create the model object - Use the Hibernate API
+* Database design - Not needed!
+* DAO method to save the object using SQL queries - Not needed!

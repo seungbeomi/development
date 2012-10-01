@@ -11,49 +11,49 @@
 	</appender>
 	
 	<logger name="book">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="com.packtpub.springhibernate">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	
 	<logger name="org.springframework.transaction">
-		<level value="info" />
+		<level value="warn" />
 	</logger>
 	<logger name="org.hibernate">
-		<level value="debug" />
-	</logger>
+		<level value="warn" />
+	</logger> 
 	<logger name="org.hibernate.SQL">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="org.hibernate.type">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	
 	<!-- JDBC[S] -->
 	<logger name="java.sql.Connection">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="java.sql.PreparedStatement">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="java.sql.ResultSet">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<!-- JDBC[E] -->
 	
 	<!-- log4jdbc [S] -->
 	<logger name="jdbc.sqlonly">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="jdbc.resultsettable">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<!-- log4jdbc [E] -->
 	
 	<!-- Root Logger -->
 	<root>
-		<level value="debug" />
+		<level value="warn" />
 		<appender-ref ref="console" />
 	</root>
 	
