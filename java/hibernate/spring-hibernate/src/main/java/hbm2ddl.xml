@@ -27,6 +27,16 @@
         <property name="hibernate.connection.username">sa</property>
         <property name="hibernate.connection.password"></property>
     	-->
+    	
+    	<!-- Second level cache 
+    	-->
+    	<property name="cache.use_second_level_cache">true</property>
+    	<property name="cache.use_query_cache">true</property>
+    	<property name="cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+    	
+    	<!--  
+    	<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+    	-->
 
 		<property name="current_session_context_class">thread</property>
         <property name="hibernate.hbm2ddl.auto">create</property>

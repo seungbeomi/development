@@ -6,30 +6,73 @@
 	<appender name="console" class="org.apache.log4j.ConsoleAppender">
 		<param name="Target" value="System.out" />
 		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%-5p: (%13F:%L)%M() - %m%n" />
+			<!-- <param name="ConversionPattern" value="%-5p: (%13F:%L)%M() - %m%n" /> -->
+			<param name="ConversionPattern" value="[%-5p] %m%n" />
 		</layout>
-	</appender>
+	</appender> 
 	
-	<logger name="org.spring.hibernate">
-		<level value="debug" />
-	</logger>
 	<logger name="book">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="com.packtpub.springhibernate">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	
-	<logger name="org.springframework">
-		<level value="info" />
+	<logger name="org.springframework.transaction">
+		<level value="warn" />
 	</logger>
 	<logger name="org.hibernate">
 		<level value="warn" />
-	</logger>
+	</logger>  
 	<logger name="org.hibernate.SQL">
 		<level value="debug" />
 	</logger>
 	<logger name="org.hibernate.type">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.pretty">
+		<level value="debug" />
+	</logger>
+	<logger name="org.hibernate.tool.hbm2ddl">
+		<level value="debug" />
+	</logger>
+	<logger name="org.hibernate.hql">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.cache">
+		<level value="debug" />
+	</logger>
+	<logger name="org.hibernate.transaction">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.jdbc">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.connection.DriverManagerConnectionProvider">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.cfg">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.id">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.util">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.engine">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.impl">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.loader">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.event">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.persister">
 		<level value="warn" />
 	</logger>
 	
@@ -47,10 +90,10 @@
 	
 	<!-- log4jdbc [S] -->
 	<logger name="jdbc.sqlonly">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<logger name="jdbc.resultsettable">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	<!-- log4jdbc [E] -->
 	
