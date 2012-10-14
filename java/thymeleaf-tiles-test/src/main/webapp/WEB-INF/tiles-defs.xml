@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition name="home" template="/layout.jsp" templateType="jsp">
+		<put-attribute name="title" value="This is a configured inner definition." />
+		<put-attribute name="header" value="/header.jsp" />
+		<put-attribute name="body" value="/body.jsp" />
+		<put-attribute name="test" value="test!!" />
+	</definition>
+
+</tiles-definitions>
