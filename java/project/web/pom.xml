@@ -23,6 +23,38 @@
 		<module>web-frontend</module>
 		<module>web-backend</module>
 	</modules>
+	
+	<!-- ==================================================== -->
+	<!-- Dependencies ======================================= -->
+	<!-- ==================================================== -->
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-core</artifactId>
+			<version>${tiles-version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+			<version>${tiles-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-portlet</artifactId>
+			<version>${tiles-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-el</artifactId>
+			<version>${tiles-version}</version>
+		</dependency>
+	</dependencies>
 
 	<!-- ==================================================== -->
 	<!-- Build ============================================== -->

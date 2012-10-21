@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition name="batch.index" extends="base">
+		<put-attribute name="title" value="batch index" />
+		<put-attribute name="content" value="/WEB-INF/views/batch/index.jsp" />
+	</definition>
+	<definition name="batch.new" extends="base">
+		<put-attribute name="title" value="batch new" />
+		<put-attribute name="content" value="/WEB-INF/views/batch/new.jsp" />
+	</definition>
+	<definition name="batch.show" extends="base">
+		<put-attribute name="title" value="batch show" />
+		<put-attribute name="content" value="/WEB-INF/views/batch/show.jsp" />
+	</definition>
+	<definition name="batch.edit" extends="base">
+		<put-attribute name="title" value="batch edit" />
+		<put-attribute name="content" value="/WEB-INF/views/batch/edit.jsp" />
+	</definition>
+	
+</tiles-definitions>
