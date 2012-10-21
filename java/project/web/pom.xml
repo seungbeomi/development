@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>kr.co.tsb</groupId>
 	<artifactId>web</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId} ${project.version}</name>
 
@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>kr.co.tsb</groupId>
 		<artifactId>project</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<!-- ==================================================== -->

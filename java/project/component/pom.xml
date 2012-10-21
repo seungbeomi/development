@@ -3,29 +3,46 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>kr.co.tsb</groupId>
 	<artifactId>component</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId} ${project.version}</name>
-	
+
 	<!-- ==================================================== -->
-	<!-- Parent                                               -->
+	<!-- Parent ============================================= -->
 	<!-- ==================================================== -->
 	<parent>
 		<groupId>kr.co.tsb</groupId>
 		<artifactId>project</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	
+
 	<!-- ==================================================== -->
-	<!-- Modules                                              -->
+	<!-- Modules ============================================ -->
 	<!-- ==================================================== -->
 	<modules>
-		<module>comp-control</module>
-		<module>comp-user</module>
+		<module>comp-batch-admin</module>
 	</modules>
-	
+
 	<!-- ==================================================== -->
-	<!-- Build                                                -->
+	<!-- Dependencies ======================================= -->
+	<!-- ==================================================== -->
+	<dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate-version}</version>
+			<!-- <version>${hibernate-version}</version> -->
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-ehcache</artifactId>
+			<version>4.1.5.Final</version>
+			<!-- <version>${hibernate-version}</version> -->
+		</dependency>
+	</dependencies>
+
+	<!-- ==================================================== -->
+	<!-- Build ============================================== -->
 	<!-- ==================================================== -->
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
@@ -48,6 +65,48 @@
 					<include>**/*.properties</include>
 				</includes>
 			</testResource>
+			<testResource>
+				<filtering>true</filtering>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.xml</include>
+					<include>**/*.properties</include>
+				</includes>
+			</testResource>
 		</testResources>
+
+		<plugins>
+			<!-- Goal : hibernate3:hbm2ddl -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>hibernate3-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<componentProperties>
+						<drop>false</drop>
+						<create>true</create>
+						<format>true</format>
+						<export>true</export> <!-- DB반영 유무 -->
+						<jdk5>true</jdk5>
+						<outputfilename>schema.ddl</outputfilename>
+						<configurationfile>src/main/java/hbm2ddl.xml</configurationfile>
+						<propertyfile>database.properties</propertyfile>
+					</componentProperties>
+					<components>
+						<component>
+							<name>hbm2ddl</name>
+							<implementation>annotationconfiguration</implementation>
+						</component>
+					</components>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>com.h2database</groupId>
+						<artifactId>h2</artifactId>
+						<version>1.3.164</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
 	</build>
 </project>

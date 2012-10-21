@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+	debug="false">
+
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- <param name="ConversionPattern" value="%d %5p [%c] %m%n" /> -->
+			<param name="ConversionPattern" value="[%-5p] (%13F:%L)%M() - %m%n" />
+		</layout>
+	</appender>
+
+	<logger name="kr.co.tsb.comp.batch.admin">
+		<level value="DEBUG" />
+	</logger>
+
+	<!-- log SQL with timing information, post execution -->
+	<logger name="java.sql">
+		<level value="ERROR" />
+	</logger>
+
+	<logger name="org.springframework">
+		<level value="warn" />
+	</logger>
+	
+	<!-- HIBERNATE [S] -->
+	<logger name="org.hibernate">
+		<level value="warn" />
+	</logger>  
+	<logger name="org.hibernate.SQL">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.type">
+		<level value="warn" />
+	</logger>
+	<logger name="org.hibernate.connection.DriverManagerConnectionProvider">
+		<level value="warn" />
+	</logger>
+	<!-- HIBERNATE [E] -->
+
+	<!-- JDBC[S] -->
+	<logger name="java.sql.Connection">
+		<level value="debug" />
+	</logger>
+	<logger name="java.sql.PreparedStatement">
+		<level value="debug" />
+	</logger>
+	<logger name="java.sql.ResultSet">
+		<level value="warn" />
+	</logger>
+	<logger name="jdbc.sqlonly">
+		<level value="debug" />
+	</logger>
+	<logger name="jdbc.resultsettable">
+		<level value="debug" />
+	</logger>
+	<!-- JDBC[E] -->
+
+	<root>
+		<level value="ERROR" />
+		<appender-ref ref="console" />
+	</root>
+
+</log4j:configuration>

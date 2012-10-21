@@ -12,9 +12,9 @@
 	<!-- Parent ============================================= -->
 	<!-- ==================================================== -->
 	<parent>
-		<groupId>kr.co.tsb</groupId>
+		<groupId>kr.co.tsb</groupId> 
 		<artifactId>web</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<!-- ==================================================== -->

@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>kr.co.tsb</groupId>
 	<artifactId>project</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId} ${project.version}</name>
 
 	<!-- ==================================================== -->
-	<!-- Modules -->
+	<!-- Modules ============================================ -->
 	<!-- ==================================================== -->
 	<modules>
 		<module>framework</module>
@@ -17,7 +17,7 @@
 	</modules>
 
 	<!-- ==================================================== -->
-	<!-- Properties -->
+	<!-- Properties ========================================= -->
 	<!-- ==================================================== -->
 	<properties>
 		<!-- spring -->
@@ -39,31 +39,40 @@
 		<commons-io-version>2.0</commons-io-version>
 
 		<!-- persistence -->
+		<ojdbc6-version>11.2.0.2.0</ojdbc6-version>
+		<postgresql-version>9.1-901.jdbc4</postgresql-version>
+		<h2-version>1.3.164</h2-version>
 		<ibatis-version>2.3.4.726</ibatis-version>
 		<mysql-connector-java-version>5.1.12</mysql-connector-java-version>
+		<hibernate-version>4.1.5.Final</hibernate-version>
 
 		<!-- web -->
 		<jsp-api-version>2.1</jsp-api-version>
 		<jstl-version>1.1.2</jstl-version>
 		<servlet-api-version>2.5</servlet-api-version>
-		<tiles-version>2.0.6</tiles-version>
+		<tiles-version>2.2.2</tiles-version>
 		<jstl-version>1.2</jstl-version>
 
 		<!-- test -->
 		<junit-version>4.7</junit-version>
 
 		<!-- log -->
-		<log4j-version>1.2.16</log4j-version>
+		<log4j-version>1.2.17</log4j-version>
 		<slf4j-version>1.6.1</slf4j-version>
+		<log4jdbc3-version>1.2.1</log4jdbc3-version>
+		<log4jdbc-remix-version>0.2.4</log4jdbc-remix-version>
+		<logback-version>1.0.6</logback-version>
 
 		<aspectj-maven-plugin-version>1.3</aspectj-maven-plugin-version>
 		<aspectjweaver-version>1.6.9</aspectjweaver-version>
 		<cglib-version>2.2</cglib-version>
 		<quartz-all-version>1.6.1</quartz-all-version>
+		<lombok-version>0.11.0</lombok-version>
+		<hibernate-validator-version>4.2.0.Final</hibernate-validator-version>
 	</properties>
 
 	<!-- ==================================================== -->
-	<!-- Profiles -->
+	<!-- Profiles =========================================== -->
 	<!-- ==================================================== -->
 	<profiles>
 		<profile>
@@ -90,7 +99,74 @@
 	</profiles>
 
 	<!-- ==================================================== -->
-	<!-- Build -->
+	<!-- Dependencies ======================================= -->
+	<!-- ==================================================== -->
+	<dependencies>
+	
+		<!-- validation -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.2.0.Final</version>
+			<scope>compile</scope>
+		</dependency>
+	
+		<!-- persistence -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>${ojdbc6-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgresql-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>${h2-version}</version>
+		</dependency>
+
+		<!-- log -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-log4j12</artifactId>
+		    <version>${slf4j-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf</groupId>
+			<artifactId>log4jdbc3</artifactId>
+			<version>${log4jdbc3-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lazyluke</groupId>
+			<artifactId>log4jdbc-remix</artifactId>
+			<version>${log4jdbc-remix-version}</version>
+		</dependency>
+		<!--  
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback-version}</version>
+		</dependency>
+		-->
+		
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok-version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<!-- ==================================================== -->
+	<!-- Build ============================================== -->
 	<!-- ==================================================== -->
 	<build>
 		<filters>
@@ -145,7 +221,7 @@
 	</build>
 
 	<!-- ==================================================== -->
-	<!-- Distribution Management -->
+	<!-- Distribution Management ============================ -->
 	<!-- ==================================================== -->
 	<distributionManagement>
 		<site>
