@@ -23,11 +23,29 @@
 		<module>web-frontend</module>
 		<module>web-backend</module>
 	</modules>
-	
+
 	<!-- ==================================================== -->
 	<!-- Dependencies ======================================= -->
 	<!-- ==================================================== -->
 	<dependencies>
+
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>${commons-fileupload-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>${commons-beanutils-version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.tiles</groupId>
 			<artifactId>tiles-core</artifactId>
@@ -114,27 +132,12 @@
 					<failOnError>false</failOnError>
 				</configuration>
 			</plugin>
-			<!-- 
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>native2ascii-maven-plugin</artifactId>
-				<version>1.0-alpha-1</version>
-				<executions>
-					<execution>
-						<phase>compile</phase>
-						<goals>
-							<goal>native2ascii</goal>
-						</goals>
-						<configuration>
-							<src>src/main/resources/message</src>
-							<dest>${project.build.directory}/${project.build.finalName}/WEB-INF/classes/config/message</dest>
-							<includes>*.properties</includes>
-							<encoding>UTF-8</encoding>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin> 
-			-->
+			<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>native2ascii-maven-plugin</artifactId> 
+				<version>1.0-alpha-1</version> <executions> <execution> <phase>compile</phase> 
+				<goals> <goal>native2ascii</goal> </goals> <configuration> <src>src/main/resources/message</src> 
+				<dest>${project.build.directory}/${project.build.finalName}/WEB-INF/classes/config/message</dest> 
+				<includes>*.properties</includes> <encoding>UTF-8</encoding> </configuration> 
+				</execution> </executions> </plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
@@ -148,7 +151,8 @@
 						</goals>
 						<configuration>
 							<target>
-								<mkdir dir="${project.build.directory}/${project.build.finalName}/WEB-INF/classes" />
+								<mkdir
+									dir="${project.build.directory}/${project.build.finalName}/WEB-INF/classes" />
 								<copy file="src/main/resources/log4j/log4j-${profile}.xml"
 									tofile="${project.build.directory}/${project.build.finalName}/WEB-INF/classes/log4j.xml"
 									includeEmptyDirs="false" failonerror="false" />

@@ -69,6 +69,7 @@
 		<quartz-all-version>1.6.1</quartz-all-version>
 		<lombok-version>0.11.0</lombok-version>
 		<hibernate-validator-version>4.2.0.Final</hibernate-validator-version>
+		<jackson-mapper-asl-version>1.6.4</jackson-mapper-asl-version>
 	</properties>
 
 	<!-- ==================================================== -->

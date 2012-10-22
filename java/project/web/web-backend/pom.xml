@@ -30,13 +30,7 @@
 		</dependency>
 		<dependency>
 			<groupId>kr.co.tsb.comp</groupId>
-			<artifactId>comp-control</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>kr.co.tsb.comp</groupId>
-			<artifactId>comp-user</artifactId>
+			<artifactId>comp-batch-admin</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
