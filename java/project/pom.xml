@@ -166,7 +166,7 @@
 	<!-- ==================================================== -->
 	<build>
 		<filters>
-			<filter>${basedir}/../../profile-${profile}.properties</filter>
+			<filter>${basedir}/../../profile/profile-${profile}.properties</filter>
 		</filters>
 		<pluginManagement>
 			<plugins>
