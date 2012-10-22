@@ -114,7 +114,7 @@
 					<failOnError>false</failOnError>
 				</configuration>
 			</plugin>
-			<!--  
+			<!-- 
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>native2ascii-maven-plugin</artifactId>
@@ -133,7 +133,8 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> 
+			-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
@@ -147,8 +148,7 @@
 						</goals>
 						<configuration>
 							<target>
-								<mkdir
-									dir="${project.build.directory}/${project.build.finalName}/WEB-INF/classes" />
+								<mkdir dir="${project.build.directory}/${project.build.finalName}/WEB-INF/classes" />
 								<copy file="src/main/resources/log4j/log4j-${profile}.xml"
 									tofile="${project.build.directory}/${project.build.finalName}/WEB-INF/classes/log4j.xml"
 									includeEmptyDirs="false" failonerror="false" />
@@ -157,7 +157,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			-->
 
 			<plugin>
 				<groupId>org.eclipse.m2e</groupId>

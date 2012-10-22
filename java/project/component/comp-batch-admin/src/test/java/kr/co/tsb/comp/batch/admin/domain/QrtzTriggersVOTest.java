@@ -1,6 +1,10 @@
 package kr.co.tsb.comp.batch.admin.domain;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+import org.hibernate.service.ServiceRegistryBuilder;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
 import org.junit.Test;
 
@@ -14,6 +18,17 @@ public class QrtzTriggersVOTest {
 		cfg.configure("hibernate.cfg.xml");
 		
 		new SchemaExport(cfg).create(true, false);
+		
+		ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
+		SessionFactory sessionFactory = cfg.buildSessionFactory(serviceRegistry);
+		Session session = sessionFactory.openSession();
+		session.beginTransaction();
+		// --------------------------------------------
+		
+		
+		// --------------------------------------------
+		session.getTransaction().commit();
+		session.close();
 		
 		/*
 		SessionFactory factory = new Configuration()
