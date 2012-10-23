@@ -56,12 +56,6 @@
 			<groupId>egov-data</groupId>
 			<artifactId>egov-data-hibernate</artifactId>
 			<version>${egov-data-hibernate-version}</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>logback-classic</artifactId>
-					<groupId>ch.qos.logback</groupId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -70,5 +64,6 @@
 			<version>${lombok-version}</version>
 			<scope>provided</scope>
 		</dependency>
+
 	</dependencies>
 </project>
