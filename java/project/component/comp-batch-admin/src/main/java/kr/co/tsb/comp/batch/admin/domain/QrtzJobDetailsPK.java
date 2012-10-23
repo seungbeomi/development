@@ -18,12 +18,12 @@ public class QrtzJobDetailsPK extends BaseVO {
 	
 	@NotNull
 	@Size(max=80)
-	@Column(name="JOB_NAME", nullable=false, length=80)
+	@Column(name="JOB_NAME", nullable=false, length=80, insertable=false, updatable=false)
 	private String jobName;
 	
 	@NotNull
 	@Size(max=80)
-	@Column(name="JOB_GROUP", nullable=false, length=80)
+	@Column(name="JOB_GROUP", nullable=false, length=80, insertable=false, updatable=false)
 	private String jobGroup;
 	
 }
