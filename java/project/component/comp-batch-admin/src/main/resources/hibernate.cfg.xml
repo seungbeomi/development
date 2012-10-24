@@ -14,17 +14,18 @@
         -->
 
         <!-- ORACLE 
+        -->
         <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
         <property name="hibernate.connection.url">jdbc:oracle:thin:@127.0.0.1:1521:XE</property>
         <property name="hibernate.connection.username">oracle</property>
         <property name="hibernate.connection.password">oracle</property>
-        -->
-
+		<!--  
         <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
         <property name="hibernate.connection.url">jdbc:log4jdbc:oracle:thin:@172.16.50.5:1521:bpanetdb</property>
-        <!-- <property name="hibernate.connection.url">jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.50.73)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.50.74)(PORT=1521))(FAILOVER=on)(LOAD_BALANCE=yes)(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=bpadb)))</property> -->
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.50.73)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=172.16.50.74)(PORT=1521))(FAILOVER=on)(LOAD_BALANCE=yes)(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=bpadb)))</property>
         <property name="hibernate.connection.username">bpanet</property>
         <property name="hibernate.connection.password">success</property>
+		-->
         <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
         
     	<!-- H2 
@@ -44,9 +45,9 @@
         <property name="hibernate.use_sql_comments">false</property>
         
         <!-- Mapping Class -->
-        <mapping class="kr.co.tsb.comp.batch.admin.domain.QrtzTriggersVO" />
+        <!-- <mapping class="kr.co.tsb.comp.batch.admin.domain.QrtzTriggersVO" />
         <mapping class="kr.co.tsb.comp.batch.admin.domain.QrtzJobDetailsVO" />
-        <mapping class="kr.co.tsb.comp.batch.admin.domain.QrtzSimpleTriggersVO" />
+        <mapping class="kr.co.tsb.comp.batch.admin.domain.QrtzSimpleTriggersVO" /> -->
         
     </session-factory>
 </hibernate-configuration>

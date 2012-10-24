@@ -7,3 +7,4 @@ import egov.data.hibernate.repository.HibernateRepository;
 public interface QrtzTriggersRepository extends HibernateRepository<QrtzTriggersVO, QrtzTriggersPK>{
 
 }
+ 

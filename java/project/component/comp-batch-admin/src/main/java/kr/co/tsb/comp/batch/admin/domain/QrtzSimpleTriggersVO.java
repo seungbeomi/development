@@ -41,8 +41,8 @@ public class QrtzSimpleTriggersVO extends BaseVO {
 	@ManyToOne
 	@ForeignKey(name="FK_QRTZ_SIMPLE_TRIGGERS")
 	@JoinColumns({
-		@JoinColumn(name="TRIGGER_NAME", referencedColumnName="TRIGGER_NAME"),
-		@JoinColumn(name="TRIGGER_GROUP", referencedColumnName="TRIGGER_GROUP")
+		@JoinColumn(name="TRIGGER_NAME", referencedColumnName="TRIGGER_NAME", insertable=false, updatable=false),
+		@JoinColumn(name="TRIGGER_GROUP", referencedColumnName="TRIGGER_GROUP", insertable=false, updatable=false)
 	})
 	private QrtzTriggersVO qrtzTriggersVO;
 

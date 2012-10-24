@@ -21,9 +21,8 @@
 	<!-- ==================================================== -->
 	<properties>
 		<!-- spring -->
-		<spring-version>3.1.2.RELEASE</spring-version>
-		<!-- <spring-security-version>3.1.0.RELEASE</spring-security-version>
-		<spring-test-version>3.1.0.RELEASE</spring-test-version> -->
+		<spring-version>3.0.5.RELEASE</spring-version>
+		<!-- <spring-security-version>3.1.0.RELEASE</spring-security-version> <spring-test-version>3.1.0.RELEASE</spring-test-version> -->
 		<spring-modules-jakarta-commons-version>0.8</spring-modules-jakarta-commons-version>
 		<spring-modules-version>0.8</spring-modules-version>
 
@@ -44,8 +43,9 @@
 		<h2-version>1.3.164</h2-version>
 		<ibatis-version>2.3.4.726</ibatis-version>
 		<mysql-connector-java-version>5.1.12</mysql-connector-java-version>
-		<hibernate-version>4.1.5.Final</hibernate-version>
-		<spring-data-jpa-version>1.1.0.RELEASE</spring-data-jpa-version>
+		<hibernate-version>3.6.9.Final</hibernate-version>
+		<!-- <hibernate-version>4.1.1.Final</hibernate-version> -->
+		<spring-data-jpa-version>1.0.3.RELEASE</spring-data-jpa-version>
 		<egov-data-hibernate-version>0.1.0-SNAPSHOT</egov-data-hibernate-version>
 
 		<!-- web -->
@@ -139,11 +139,6 @@
 			<version>${log4j-version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>${slf4j-version}</version>
-		</dependency>
-		<dependency>
 			<groupId>net.sf</groupId>
 			<artifactId>log4jdbc3</artifactId>
 			<version>${log4jdbc3-version}</version>
@@ -162,7 +157,13 @@
 			<version>${lombok-version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>${cglib-version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<!-- ==================================================== -->
