@@ -1,4 +1,4 @@
-package kr.co.tsb.web.back.batch;
+package kr.co.tsb.web.batch.admin;
 
 import java.text.DateFormat;
 import java.util.Date;
