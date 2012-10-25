@@ -1,5 +1,7 @@
 package kr.co.tsb.comp.batch.admin.domain;
 
+import static kr.co.tsb.comp.batch.admin.Constants.DEFAULT_GROUP;
+
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import javax.validation.constraints.NotNull;
@@ -11,6 +13,10 @@ import kr.co.tsb.core.domain.BaseVO;
 public class QrtzJobDetailsPK extends BaseVO {
 
 	public QrtzJobDetailsPK() {}
+	public QrtzJobDetailsPK(String jobName) {
+		this.jobName = jobName;
+		this.jobGroup = DEFAULT_GROUP;
+	}
 	public QrtzJobDetailsPK(String jobName, String jobGroup) {
 		this.jobName = jobName;
 		this.jobGroup = jobGroup;

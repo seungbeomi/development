@@ -1,5 +1,7 @@
 package kr.co.tsb.comp.batch.admin.domain;
 
+import static kr.co.tsb.comp.batch.admin.Constants.DEFAULT_GROUP;
+
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import javax.validation.constraints.NotNull;
@@ -13,6 +15,10 @@ import lombok.Data;
 public class QrtzTriggersPK extends BaseVO {
 
 	public QrtzTriggersPK() {}
+	public QrtzTriggersPK(String triggerName) {
+		this.triggerName = triggerName;
+		this.triggerGroup = DEFAULT_GROUP;
+	}
 	public QrtzTriggersPK(String triggerName, String triggerGroup) {
 		this.triggerName = triggerName;
 		this.triggerGroup = triggerGroup;

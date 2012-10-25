@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<!-- <pattern>%d %5p | %t | %-55logger{55} | %m %n</pattern> -->
+			<pattern>%5p | %t | %-55logger{55} | %m %n</pattern>
+			<!-- <pattern>%4d{yyyy-MM-dd HH:mm:ss} %-5p [%-15.15t] - %c - %m%n</pattern> -->
+			<!-- <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern> -->
+			<!-- <Pattern>%d{MMM dd yyyy HH:mm:ss,SSS} %-5p %c - %msg%n</Pattern> -->
+		</encoder>
+	</appender>
+
+	<logger name="kr.co.tsb" level="DEBUG" />
+	<logger name="org.hibernate.SQL" level="DEBUG" />
+	<logger name="org.springframework.web.servlet" level="DEBUG" />
+	<logger name="org.springframework" level="INFO" />
+
+	<root level="WARN">
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</configuration>
