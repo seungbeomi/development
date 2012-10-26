@@ -1,3 +1,3 @@
 <#import "/spring.ftl" as spring />
 
-freemarker ${serverTime}
+freemarker package ${serverTime}
