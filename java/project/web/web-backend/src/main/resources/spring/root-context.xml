@@ -8,17 +8,26 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	 
 	<context:component-scan base-package="kr.co.tsb" />
+	<import resource="classpath*:/META-INF/spring/*.xml" />
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	<!-- <import resource="classpath*:context-*.xml"/> -->
 	<hibernate:repositories base-package="kr.co.tsb.comp.batch.admin.dao" />
 
-    <!-- <jdbc:embedded-database id="dataSource" type="H2" /> -->
-    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+  <!-- <jdbc:embedded-database id="dataSource" type="H2" /> -->
+  <!--  
+  <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
 		<property name="url" value="jdbc:oracle:thin:@172.16.50.5:1521:bpanetdb" />
 		<property name="username" value="bpanet"/>
 		<property name="password" value="success"/>
+	</bean>
+  -->
+  <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="org.postgresql.Driver"/>
+		<property name="url" value="jdbc:postgresql://localhost:5432/test" />
+		<property name="username" value="postgres"/>
+		<property name="password" value="postgres"/>
 	</bean>
 
     <!-- <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"> -->
@@ -27,8 +36,9 @@
         <property name="packagesToScan" value="kr.co.tsb.comp.batch.admin.domain" />
         <property name="hibernateProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
-                <prop key="hibernate.hbm2ddl.auto">validate</prop>
+                <!-- <prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop> -->
+                <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">create</prop>
                 <prop key="hibernate.format_sql">true</prop>
                 <prop key="hibernate.show_sql">false</prop>
             </props>

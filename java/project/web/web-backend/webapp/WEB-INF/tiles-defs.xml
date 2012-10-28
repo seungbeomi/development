@@ -5,7 +5,7 @@
 
 <tiles-definitions>
 
-	<definition name="base" template="/WEB-INF/views/layouts/base.jsp">
+	<definition name="base" template="/WEB-INF/views/layouts/base.ftl">
 		<put-attribute name="title" value="backend" />
 		<put-attribute name="header" expression="/WEB-INF/views/shared/header.jsp" />
 		<put-attribute name="sidebar" value="/WEB-INF/views/shared/sidebar.jsp" />

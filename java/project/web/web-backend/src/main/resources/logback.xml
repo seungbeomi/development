@@ -10,12 +10,12 @@
 		</encoder>
 	</appender>
 
-	<logger name="kr.co.tsb" level="DEBUG" />
-	<logger name="org.hibernate.SQL" level="DEBUG" />
-	<logger name="org.springframework.web.servlet" level="DEBUG" />
-	<logger name="org.springframework" level="INFO" />
+	<logger name="kr.co.tsb" level="debug" />
+	<logger name="org.hibernate.SQL" level="debug" />
+	<logger name="org.springframework.web.servlet" level="debug" />
+	<logger name="org.springframework" level="info" />
 
-	<root level="WARN">
+	<root level="warn">
 		<appender-ref ref="CONSOLE" />
 	</root>
 

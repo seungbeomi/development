@@ -39,7 +39,7 @@
 			<artifactId>commons-beanutils</artifactId>
 			<version>${commons-beanutils-version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
@@ -132,12 +132,27 @@
 					<failOnError>false</failOnError>
 				</configuration>
 			</plugin>
-			<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>native2ascii-maven-plugin</artifactId> 
-				<version>1.0-alpha-1</version> <executions> <execution> <phase>compile</phase> 
-				<goals> <goal>native2ascii</goal> </goals> <configuration> <src>src/main/resources/message</src> 
-				<dest>${project.build.directory}/${project.build.finalName}/WEB-INF/classes/config/message</dest> 
-				<includes>*.properties</includes> <encoding>UTF-8</encoding> </configuration> 
-				</execution> </executions> </plugin> -->
+			<!--  
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>native2ascii-maven-plugin</artifactId>
+				<version>1.0-alpha-1</version>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>native2ascii</goal>
+						</goals>
+						<configuration>
+							<src>src/main/resources/message</src>
+							<dest>${project.build.directory}/${project.build.finalName}/WEB-INF/classes/config/message</dest>
+							<includes>*.properties</includes>
+							<encoding>UTF-8</encoding>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>

@@ -73,6 +73,7 @@
 		<hibernate-validator-version>4.2.0.Final</hibernate-validator-version>
 		<jackson-mapper-asl-version>1.6.4</jackson-mapper-asl-version>
 		<joda-time-version>1.6</joda-time-version>
+		<freemarker-version>2.3.19</freemarker-version>
 	</properties>
 
 	<!-- ==================================================== -->
@@ -162,6 +163,12 @@
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
 			<version>${cglib-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>${freemarker-version}</version>
 		</dependency>
 
 	</dependencies>

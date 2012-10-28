@@ -29,47 +29,47 @@ public class QrtzJobDetailsController {
 	public String index(Model model) {
 		List<QrtzJobDetailsVO> qrtzjobdetails = qrtzJobDetailsRepository.findAll();
 		model.addAttribute("qrtzjobdetails", qrtzjobdetails);
-		return "qrtzjobdetails/index";
+		return "qrtzjobdetails.index";
 	}
 	
-	@RequestMapping(value="/qrtzjobdetails/{jobName}", method=RequestMethod.GET)
+	@RequestMapping(value="/qrtjobdetails/{jobName}", method=RequestMethod.GET)
 	public String show(Model model, @PathVariable String jobName) {
 		QrtzJobDetailsVO qrtzJobDetail = qrtzJobDetailsRepository.findOne(new QrtzJobDetailsPK(jobName));
 		model.addAttribute("qrtzjobdetail", qrtzJobDetail);
-		return "qrtzjobdetails/show";
+		return "qrtzjobdetails.show";
 	}
 	
 	@RequestMapping(value="/qrtzjobdetails/form", method=RequestMethod.GET)
 	public String form(Model model) {
 		model.addAttribute("qrtzjobdetail", new QrtzJobDetailsVO());
-		return "qrtzjobdetails/form";
+		return "qrtzjobdetails.form";
 	}
 	
 	@RequestMapping(value="/qrtzjobdetails/{jobName}/edit", method=RequestMethod.GET)
 	public String edit(@PathVariable String jobName) {
-		return "qrtzjobdetails/edit";
+		return "qrtzjobdetails.edit";
 	}
 	
 	@RequestMapping(value="/qrtzjobdetails", method=RequestMethod.POST)
 	public String create(@Valid QrtzJobDetailsVO qrtzJobDetailsVO, BindingResult result) {
 		if (result.hasErrors()) {
-			return "qrtzjobdetails/form";
+			return "qrtzjobdetails.form";
 		}
 		
-		return "qrtzjobdetails/create";
+		return "qrtzjobdetails.create";
 	}
 	
 	@RequestMapping(value="/qrtzjobdetails", method=RequestMethod.PUT)
 	public String update(@Valid QrtzJobDetailsVO qrtzJobDetailsVO, BindingResult result) {
 		if (result.hasErrors()) {
-			return "qrtzjobdetails/edit";
+			return "qrtzjobdetails.edit";
 		}
-		return "qrtzjobdetails/index";
+		return "qrtzjobdetails.index";
 	}
 	
 	@RequestMapping(value="/qrtzjobdetails/{jobName}", method=RequestMethod.DELETE)
 	public String destroy(@PathVariable String jobName) {
-		return "qrtzjobdetails/index";
+		return "qrtzjobdetails.index";
 	}
 	
 }
