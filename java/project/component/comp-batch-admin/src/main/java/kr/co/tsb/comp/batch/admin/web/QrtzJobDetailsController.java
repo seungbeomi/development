@@ -25,51 +25,51 @@ public class QrtzJobDetailsController {
 	@Autowired
 	private QrtzJobDetailsValidator qrtzJobDetailsValidator;
 
-	@RequestMapping(value="/qrtzjobdetails", method=RequestMethod.GET)
+	@RequestMapping(value="/qrtzJobDetails", method=RequestMethod.GET)
 	public String index(Model model) {
-		List<QrtzJobDetailsVO> qrtzjobdetails = qrtzJobDetailsRepository.findAll();
-		model.addAttribute("qrtzjobdetails", qrtzjobdetails);
-		return "qrtzjobdetails.index";
+		List<QrtzJobDetailsVO> qrtzJobDetails = qrtzJobDetailsRepository.findAll();
+		model.addAttribute("qrtzJobDetails", qrtzJobDetails);
+		return "qrtzJobDetails.index";
 	}
 	
-	@RequestMapping(value="/qrtjobdetails/{jobName}", method=RequestMethod.GET)
+	@RequestMapping(value="/qrtJobdetails/{jobName}", method=RequestMethod.GET)
 	public String show(Model model, @PathVariable String jobName) {
 		QrtzJobDetailsVO qrtzJobDetail = qrtzJobDetailsRepository.findOne(new QrtzJobDetailsPK(jobName));
 		model.addAttribute("qrtzjobdetail", qrtzJobDetail);
-		return "qrtzjobdetails.show";
+		return "qrtzJobDetails.show";
 	}
 	
-	@RequestMapping(value="/qrtzjobdetails/form", method=RequestMethod.GET)
+	@RequestMapping(value="/qrtzJobDetails/form", method=RequestMethod.GET)
 	public String form(Model model) {
 		model.addAttribute("qrtzjobdetail", new QrtzJobDetailsVO());
-		return "qrtzjobdetails.form";
+		return "qrtzJobDetails.form";
 	}
 	
-	@RequestMapping(value="/qrtzjobdetails/{jobName}/edit", method=RequestMethod.GET)
+	@RequestMapping(value="/qrtzJobDetails/{jobName}/edit", method=RequestMethod.GET)
 	public String edit(@PathVariable String jobName) {
-		return "qrtzjobdetails.edit";
+		return "qrtzJobDetails.edit";
 	}
 	
-	@RequestMapping(value="/qrtzjobdetails", method=RequestMethod.POST)
+	@RequestMapping(value="/qrtzJobDetails", method=RequestMethod.POST)
 	public String create(@Valid QrtzJobDetailsVO qrtzJobDetailsVO, BindingResult result) {
 		if (result.hasErrors()) {
-			return "qrtzjobdetails.form";
+			return "qrtzJobDetails.form";
 		}
 		
-		return "qrtzjobdetails.create";
+		return "qrtzJobDetails.create";
 	}
 	
-	@RequestMapping(value="/qrtzjobdetails", method=RequestMethod.PUT)
+	@RequestMapping(value="/qrtzJobDetails", method=RequestMethod.PUT)
 	public String update(@Valid QrtzJobDetailsVO qrtzJobDetailsVO, BindingResult result) {
 		if (result.hasErrors()) {
-			return "qrtzjobdetails.edit";
+			return "qrtzJobDetails.edit";
 		}
-		return "qrtzjobdetails.index";
+		return "qrtzJobDetails.index";
 	}
 	
-	@RequestMapping(value="/qrtzjobdetails/{jobName}", method=RequestMethod.DELETE)
+	@RequestMapping(value="/qrtzJobDetails/{jobName}", method=RequestMethod.DELETE)
 	public String destroy(@PathVariable String jobName) {
-		return "qrtzjobdetails.index";
+		return "qrtzJobDetails.index";
 	}
 	
 }

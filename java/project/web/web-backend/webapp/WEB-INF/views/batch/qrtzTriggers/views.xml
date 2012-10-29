@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition name="qrtzTriggers.index" extends="base">
+		<put-attribute name="title" value="qrtzTriggers index" />
+		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzTriggers/index.jsp" />
+	</definition>
+	<definition name="qrtzTriggers.show" extends="base">
+		<put-attribute name="title" value="qrtzTriggers show" />
+		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzTriggers/show.jsp" />
+	</definition>
+	<definition name="qrtzTriggers.form" extends="base">
+		<put-attribute name="title" value="qrtzTriggers new" />
+		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzTriggers/form.jsp" />
+	</definition>
+	<definition name="qrtzTriggers.edit" extends="base">
+		<put-attribute name="title" value="qrtzTriggers new" />
+		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzTriggers/edit.jsp" />
+	</definition>
+	
+</tiles-definitions>

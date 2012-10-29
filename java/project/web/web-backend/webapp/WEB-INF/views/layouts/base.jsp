@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/views/shared/taglibs.jsp" %>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,13 +52,13 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+        <div class="span2">
           <div class="well sidebar-nav">
             <tiles:insertAttribute name="sidebar"/>
           </div><!--/.well -->
         </div><!--/span-->
         
-        <div class="span9">
+        <div class="span10">
         	<tiles:insertAttribute name="contents"/>
         </div><!--/span-->
       </div><!--/row-->

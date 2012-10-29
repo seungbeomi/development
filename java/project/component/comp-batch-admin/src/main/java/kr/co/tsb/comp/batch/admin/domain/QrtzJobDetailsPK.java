@@ -8,7 +8,9 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import kr.co.tsb.core.domain.BaseVO;
+import lombok.Data;
 
+@Data
 @Embeddable
 public class QrtzJobDetailsPK extends BaseVO {
 
@@ -31,5 +33,5 @@ public class QrtzJobDetailsPK extends BaseVO {
 	@Size(max=80)
 	@Column(name="JOB_GROUP", nullable=false, length=80)
 	private String jobGroup;
-	
+
 }

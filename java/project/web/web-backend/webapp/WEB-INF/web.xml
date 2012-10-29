@@ -31,13 +31,13 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
+	<!--  
 	<servlet>
 		<servlet-name>freemarker</servlet-name>
 		<servlet-class>freemarker.ext.servlet.FreemarkerServlet</servlet-class>
 		<init-param>
 			<param-name>TemplatePath</param-name>
 			<param-value>/</param-value>
-			<!-- <param-value>classpath:org/springframework/web/servlet/view/freemarker/</param-value> -->		
 		</init-param>
 		<init-param>
 			<param-name>NoCache</param-name>
@@ -45,14 +45,14 @@
 		</init-param>
 		<init-param>
 			<param-name>ContentType</param-name>
-			<param-value>text/html; charset=UTF-8</param-value> <!-- Forces UTF-8 output encoding! -->
+			<param-value>text/html; charset=UTF-8</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-
 	<servlet-mapping>
 		<servlet-name>freemarker</servlet-name>
 		<url-pattern>*.ftl</url-pattern>
 	</servlet-mapping>
+	-->
 
 </web-app>

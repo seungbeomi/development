@@ -77,7 +77,7 @@
 			<list>
 				<value>/WEB-INF/tiles-defs.xml</value>
 				<value>/WEB-INF/views/**/views.xml</value>
-				<value>classpath*:/kr/co/tsb/**/views.xml</value>
+				<!-- <value>classpath*:/kr/co/tsb/**/views.xml</value> -->
 			</list>
 		</property>
 	</bean>
