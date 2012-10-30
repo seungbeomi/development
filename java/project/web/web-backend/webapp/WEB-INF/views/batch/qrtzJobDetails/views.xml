@@ -2,21 +2,25 @@
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
 <tiles-definitions>
 	
-	<definition name="qrtzJobDetails.index" extends="base">
+	<definition name="qrtzJobDetails/*" extends="base">
+		<put-attribute name="title" value="qrtzJobDetails {1}" />
+		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzJobDetails/{1}.jsp" />
+	</definition>
+	<!-- <definition name="qrtzJobDetails/index" extends="base">
 		<put-attribute name="title" value="qrtzJobDetails index" />
 		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzJobDetails/index.jsp" />
 	</definition>
-	<definition name="qrtzJobDetails.show" extends="base">
+	<definition name="qrtzJobDetails/show" extends="base">
 		<put-attribute name="title" value="qrtzJobDetails show" />
 		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzJobDetails/show.jsp" />
 	</definition>
-	<definition name="qrtzJobDetails.form" extends="base">
+	<definition name="qrtzJobDetails/form" extends="base">
 		<put-attribute name="title" value="qrtzJobDetails new" />
 		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzJobDetails/form.jsp" />
 	</definition>
-	<definition name="qrtzJobDetails.edit" extends="base">
+	<definition name="qrtzJobDetails/edit" extends="base">
 		<put-attribute name="title" value="qrtzJobDetails new" />
 		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzJobDetails/edit.jsp" />
-	</definition>
+	</definition> -->
 	
 </tiles-definitions>
