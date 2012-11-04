@@ -1,10 +1,18 @@
+# 태스크A: 애플리케이션 생성하
 rails new depot
 rails generate scaffold Product title:string description:text image_url:string price:decimal
 rake db:migrate
 rails server
+rake test
 rake db:seed
 rake db:rollback
+
+# 태스크B: 검증과 단위테스트 
+rake test
 rake test:units
+rake db:test:prepare # 픽스처를 디비에 적용
+
+# 태스크C: 카탈로그 표시하기
 rails generate controller Store index
 rake test
 rake test:functionals
