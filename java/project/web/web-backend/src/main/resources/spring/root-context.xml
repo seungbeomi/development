@@ -15,20 +15,20 @@
 	<hibernate:repositories base-package="kr.co.tsb.comp.batch.admin.dao" />
 
 	<!-- <jdbc:embedded-database id="dataSource" type="H2" /> -->
+  <!--  
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
 		<property name="url" value="jdbc:oracle:thin:@172.16.50.5:1521:bpanetdb" />
 		<property name="username" value="bpanet" />
 		<property name="password" value="success" />
 	</bean>
-  	<!--  
-  	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-		<property name="driverClassName" value="org.postgresql.Driver"/>
+  -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="org.postgresql.Driver" />
 		<property name="url" value="jdbc:postgresql://localhost:5432/test" />
-		<property name="username" value="postgres"/>
-		<property name="password" value="postgres"/>
+		<property name="username" value="postgres" />
+		<property name="password" value="postgres" />
 	</bean>
-  	-->
 
     <!-- <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"> -->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">

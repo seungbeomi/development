@@ -2,7 +2,7 @@
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
 <tiles-definitions>
 	
-	<definition name="qrtzTriggers/*" extends="base">
+	<definition name="-qrtzTriggers/*" extends="base">
 		<put-attribute name="title" value="qrtzTriggers {1}" />
 		<put-attribute name="contents" value="/WEB-INF/views/batch/qrtzTriggers/{1}.jsp" />
 	</definition>

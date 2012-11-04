@@ -10,15 +10,20 @@ rake db:rollback
 # 태스크B: 검증과 단위테스트 
 rake test
 rake test:units
+rake test:functionals
 rake db:test:prepare # 픽스처를 디비에 적용
 
 # 태스크C: 카탈로그 표시하기
 rails generate controller Store index
 rake test
 rake test:functionals
+
+# 태스크D: 장바구니 생성
 rails generate scaffold cart
 rake db:migrate
 rails generate scaffold line_item product_id:integer cart_id:integer
 rake db:migrate
-rails generate migration add_quantity_to_line_items quantity:integer 디비컬럼추가
+
+# 태스크E: 더 똑똑한 장바구니
+rails generate migration add_quantity_to_line_items quantity:integer # 디비컬럼추가
 rails generate migration combine_items_in_cart

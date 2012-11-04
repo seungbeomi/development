@@ -12,5 +12,10 @@
 		<put-attribute name="contents" value="/WEB-INF/views/shared/contents.jsp" />
 		<put-attribute name="footer" value="/WEB-INF/views/shared/footer.jsp" />
 	</definition>
+	
+	<definition name="*/*" extends="base">
+		<put-attribute name="title" value="{1} {2}" />
+		<put-attribute name="contents" value="/WEB-INF/views/batch/{1}/{2}.jsp" />
+	</definition>
 
 </tiles-definitions>

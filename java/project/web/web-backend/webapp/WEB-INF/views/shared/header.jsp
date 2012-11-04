@@ -7,7 +7,7 @@
   </p>
   <ul class="nav">
     <li class="active"><a href="#">Home</a></li>
-    <li><a href="#about">Batch</a></li>
+    <li><a href="<c:url value='/batch/qrtzJobDetails' />">Batch</a></li>
     
     <!-- 
     <li><a href="#contact">Contact</a></li> 
