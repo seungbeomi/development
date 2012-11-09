@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="hst:catalog" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:catalog</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>d6a531e0-ffdb-4231-aa21-5dfabc261aa3</sv:value>
+  </sv:property>
+  <sv:node sv:name="ipadmag-catalog-items">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containeritempackage</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>686a3f7e-6ff7-495f-93d8-31f5d5621903</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5a625121-ee3e-4cd2-8336-d9e414b5d692</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>bannerlocation</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>common/banners/sustainable-wood-ipod-sound-system</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>banner.ftl</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0a319594-79b8-4cbd-86b6-1ef9871dbe29</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.common.HtmlComponent</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>htmlContent</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>common.html</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="feed">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7671a529-ae70-4ab8-8052-98af1588d364</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.Feeds</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>numberOfItems</sv:value>
+        <sv:value>updateInterval</sv:value>
+        <sv:value>title</sv:value>
+        <sv:value>feedURL</sv:value>
+        <sv:value>connectTimeout</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>3</sv:value>
+        <sv:value>15</sv:value>
+        <sv:value>Feed</sv:value>
+        <sv:value>http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=Onehippo</sv:value>
+        <sv:value>2000</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>feed.ftl</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="feedback">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f1e7993d-e88f-437b-93fc-641757a8e216</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>feedback.ftl</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

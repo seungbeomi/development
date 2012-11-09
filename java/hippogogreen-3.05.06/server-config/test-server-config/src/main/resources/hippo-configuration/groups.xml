@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="hippo:groups" h:merge="combine">
+  <sv:node sv:name="admin" h:merge="combine">
+    <sv:property sv:name="hipposys:members" sv:type="String" sv:multiple="true" h:merge="append">
+      <sv:value>acahn-admin</sv:value>
+      <sv:value>adouma-admin</sv:value>
+      <sv:value>aschrijvers-admin</sv:value>
+      <sv:value>bvanhalderen-admin</sv:value>
+      <sv:value>fvanlankvelt-admin</sv:value>
+      <sv:value>jbloemendal-admin</sv:value>
+      <sv:value>jsheriff-admin</sv:value>
+      <sv:value>marry-admin</sv:value>
+      <sv:value>mdenburger-admin</sv:value>
+      <sv:value>svoortman-admin</sv:value>
+      <sv:value>swesten-admin</sv:value>
+      <sv:value>uhommes-admin</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="author" h:merge="combine">
+    <sv:property sv:name="hipposys:members" sv:type="String" sv:multiple="true" h:merge="append">
+      <sv:value>acahn-author</sv:value>
+      <sv:value>adouma-author</sv:value>
+      <sv:value>aschrijvers-author</sv:value>
+      <sv:value>bvanhalderen-author</sv:value>
+      <sv:value>fvanlankvelt-author</sv:value>
+      <sv:value>jbloemendal-author</sv:value>
+      <sv:value>jsheriff-author</sv:value>
+      <sv:value>marry-author</sv:value>
+      <sv:value>mdenburger-author</sv:value>
+      <sv:value>svoortman-author</sv:value>
+      <sv:value>swesten-author</sv:value>
+      <sv:value>uhommes-author</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="editor" h:merge="combine">
+    <sv:property sv:name="hipposys:members" sv:type="String" sv:multiple="true" h:merge="append">
+      <sv:value>acahn-editor</sv:value>
+      <sv:value>adouma-editor</sv:value>
+      <sv:value>aschrijvers-editor</sv:value>
+      <sv:value>bvanhalderen-editor</sv:value>
+      <sv:value>fvanlankvelt-editor</sv:value>
+      <sv:value>jbloemendal-editor</sv:value>
+      <sv:value>jsheriff-editor</sv:value>
+      <sv:value>marry-editor</sv:value>
+      <sv:value>mdenburger-editor</sv:value>
+      <sv:value>svoortman-editor</sv:value>
+      <sv:value>swesten-editor</sv:value>
+      <sv:value>uhommes-editor</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="webmaster" h:merge="combine">
+    <sv:property sv:name="hipposys:members" sv:type="String" sv:multiple="true" h:merge="append">
+      <sv:value>acahn-editor</sv:value>
+      <sv:value>adouma-editor</sv:value>
+      <sv:value>aschrijvers-editor</sv:value>
+      <sv:value>bvanhalderen-editor</sv:value>
+      <sv:value>fvanlankvelt-editor</sv:value>
+      <sv:value>jbloemendal-editor</sv:value>
+      <sv:value>jsheriff-editor</sv:value>
+      <sv:value>marry-editor</sv:value>
+      <sv:value>mdenburger-editor</sv:value>
+      <sv:value>svoortman-editor</sv:value>
+      <sv:value>swesten-editor</sv:value>
+      <sv:value>uhommes-editor</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

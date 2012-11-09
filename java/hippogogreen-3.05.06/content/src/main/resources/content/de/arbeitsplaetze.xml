@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="arbeitsplatze" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>7da10efb-4c87-4704-b777-6dcb2c6c54bf</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>e558cf9b-4676-400c-aac0-166a28d57e9d</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>de</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Arbeitsplätze</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="solar">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ff0aa1a4-4f6d-4888-8d27-6c3bc1d015e1</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>e8443592-1943-4010-a473-dc65fbf97d8b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="energie-account-manager">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d0f2067c-2779-4bb1-8888-c5cf4e277258</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Energie-Account-Manager</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="energie-account-manager">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a2d68d1a-0f7a-4ec0-a296-08733667c586</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>arbeitsplatze/solar/energie-account-manager</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2010-07-02T11:12:50.866+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Master's Degree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>New energy</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>5.0</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>Energy</sv:value>
+          <sv:value>Solar</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Fulltime</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>Frankfurt</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>80000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Ein Lieferant von Energie ist für einen Account Manager suchen die Verantwortung für die Entwicklung und Pflege von Beziehungen innerhalb der Retail-Markt. Dies beinhaltet Preisgestaltung der Angebote an Kunden und Verhandlung Vertrag Margen.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Energie-Account-Manager</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippostd:tags" sv:type="String">
+          <sv:value>Energie</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-02T11:12:50.597+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-02-01T11:24:58.122+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-03-16T15:38:06.977+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>6443c5cd-c4bb-4d45-9fa4-bebd07dd1a2a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;span id="result_box"&gt;&lt;strong&gt;Key Verantwortlichkeiten:&lt;/strong&gt; &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Business Development&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Entwickeln Sie neue Beziehungen mit TPIs in den
+Energiemarkt&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Richten Sie ein Portfolio von Kunden durch
+Schlüssel TPI und direkt mit dem Unternehmen, um die Bruttomarge und das Volumen
+zu erreichen&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Verwalten Preisgestaltung der Angebote / quotes
+folgenden Unternehmen verarbeitet - zu Krediten Verfahren umfassen, einzurichten
+Prozesse&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Implementieren Retention und Business
+Development-Strategien, wie mit Retail Manager mit Schlüssel TPI und direkte
+Kunden vereinbart&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Assist in der Identifizierung und Entwicklung
+neuer Vertriebskanäle&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span id="result_box"&gt; &lt;br/&gt;
+&lt;strong&gt;Relationship Management&lt;/strong&gt; &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Laufende, effektives Management der vorhandenen
+TPI und Kunden eine genaue Aufbau und die Preisgestaltung Operationen&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Devise Konto plant, Aufbewahrung und Wert mit
+Kundenbasis zu maximieren&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Stellen Sie sicher, Abfragen, um ein zufrieden
+stellendes Niveau gelöst werden, Kontakte mit Kollegen und anderen Abteilungen
+gegebenenfalls.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span id="result_box"&gt; &lt;br/&gt;
+&lt;strong&gt;Einzelhandel Team Support&lt;/strong&gt; &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Zug Verkaufspersonal bei der Preisgestaltung
+Operationen und werden Preissystem Experte&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Geben monatliche Reporting-Detaillierung
+Aktivität, Ergebnisse und Prognosen&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Arbeiten Sie eng mit Kollegen in Teams Ziele zu
+erreichen&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Product Development&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Assist Commercial / Marketing in die Entwicklung
+neuer Produkte, um Business-Plan-Ziele (Wachstum, Margen, Risiko-Management) zu
+liefern&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Genaue Rückmeldungen auf Umsatz und Preise
+Aktivität&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span id="result_box"&gt; &lt;br/&gt;
+&lt;strong&gt;Folgen, Ergebnisse und Key Performance Indicators:&lt;/strong&gt; &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Entwicklung von Beziehungen mit Maklern und
+Direktkunden&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Planen und erreichen neue Geschäftsfelder und
+Erneuerung Ziele im Einklang mit Business-Plan&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Stellen Sie sicher, vertraglichen Informationen
+und verwandte Kunden liefern Informationen / Unterlagen gesammelt und im
+Einklang abgeschlossen mit Geschäftsabläufe&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Stellen Sie sicher sind aktualisiert und im
+Einklang mit neuesten Geschäftsabläufe eingesetzt&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Bieten Sie regelmäßige und strukturierte Feedback
+aus dem Markt, einschließlich Wettbewerber Informationen&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Wachsen Sie den grünen Markt&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="einrichtungen-supervisor">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3fb21727-c0bc-422f-b2b8-19b5a2974b6e</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Einrichtungen Supervisor</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="einrichtungen-supervisor">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b1254f5e-f7c3-4edf-b5b6-3d0d0fffe3b4</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>arbeitsplatze/solar/einrichtungen-supervisor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2010-07-01T11:20:00.000+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Master's Degree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>go Green</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>3.5</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>Solar</sv:value>
+          <sv:value>Energy</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Temporary/Contract</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>New York</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>85000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Die Ausstattung Betreuer ist verantwortlich für die Unterstützung der Gesamtstrategie des Unternehmens Einrichtungen funktionieren und Durchführung Facility Maintenance Aufgaben. Diese Position berichtet an und arbeitet eng mit den Einrichtungen Betreuer oder Ansprechpartner bei der Bewältigung Routine Ziele &amp; umfassende Ziele.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Einrichtungen Supervisor</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippostd:tags" sv:type="String">
+          <sv:value>Einrichtungen</sv:value>
+          <sv:value>Facilities</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-02T11:20:20.211+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-02-01T11:25:18.142+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-03-16T15:38:04.218+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>7d1b7ca4-7691-4c24-ab3b-a03205eef73b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;span id="result_box"&gt;Aufgaben umfassen: &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Wie die Einrichtungen Betreuer oder
+Ansprechpartner gerichtet, in der Umsetzung und Raten von Einrichtungen Qualität
+Systeme und Praktiken zu unterstützen, Produktionsausfälle zu minimieren und
+sicherzustellen Sicherheitsstandards.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Operationen notwendigen Tätigkeiten bis hin zu
+komplexen Anlagen Systeme, die ohne Unterbrechung zu halten.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Führen Gebäude Wartungs-und Reparaturarbeiten für
+die Sicherheit der Mitarbeiter und die Produktivität bieten.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Führen präventive und korrektive Wartungsarbeiten
+an allen Einrichtungen, das von den Einrichtungen Betreuer oder Ansprechpartner
+gerichtet.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Assist mit Tracking und Umsetzung korrekte Handel
+bestimmte Codes, Richtlinien und Best Practices für eine Vielzahl von
+Disziplinen in Einrichtungen.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Entwicklung und Umsetzung verbesserter Verfahren
+für Sanitär-, Elektro-, Rohr-Fitting, HVAC-, Brandschutz-, Chemie-und
+Gas-Handling, Abfallbehandlung und IT-Implementierung.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Unterstützung bei der Erstellung und
+kontinuierliche Verbesserung von Einrichtungen Abteilung Betrieb und
+Instandhaltung.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Track, Charts und Rekord Gebäudeausrüstung
+Bedingungen und Parameter, um sicherzustellen, dass sie effizient
+arbeitet.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Carry out Einrichtungen Modifikationen, wie von
+den Einrichtungen Betreuer oder Ansprechpartner.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Assist mit der Inspektion und Installation für
+die Evergreen Einrichtungen.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Unterstützung verschiedener Abteilungen bei der
+Wartung, Reparaturen, Renovierungen und Baumaßnahmen.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Mai nehmen Aufgaben wahr, erfordern Trades Lizenz
+oder Abwasserbehandlung Zertifizierung.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="it">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>538ad79b-d12d-4494-a443-97f4a3966099</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>30bd2c59-d467-433b-9f93-3aff190ba360</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>IT</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="web-designer">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0303825d-390c-4371-934e-db387baf7107</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Web-Designer</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="web-designer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c9354f84-46ae-454d-87d6-582ddd2f7d44</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>arbeitsplatze/it/web-designer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2010-08-11T11:14:00.000+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Bachelor's Degree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>Go Green</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>3.0</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>IT</sv:value>
+          <sv:value>Green</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Parttime</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>San Francisco</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>45000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Web-Designer sind verantwortlich für den Look und der World Wide Web-Seiten für einen Kunden auf der Website zu fühlen. Dies beinhaltet die Entwicklung eines Grafik-Design, die effektiv kommuniziert die Ideen von der Website beworben.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Web-Designer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippostd:tags" sv:type="String">
+          <sv:value>webdesign</sv:value>
+          <sv:value>IT</sv:value>
+          <sv:value>Kreativ</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-02T11:14:45.174+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-02-01T11:25:47.602+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-03-16T15:37:57.599+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>bd88a712-010b-4aca-b9b3-af2e1a200e9b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;span id="result_box"&gt;Ein Web-Designer können sich an der Planung einer Web-Site
+zu nehmen, Treffen mit dem Kunden Ideen für die Gestaltung und Organisation der
+Baustelle zu diskutieren, welche Arten von Farben oder Bilder zu verwenden
+(Fotos, Illustrationen, Videos, etc.), und andere Fragen im Zusammenhang mit
+allgemeinen Grafik-Design. Manchmal ist ein Web-Produzent hat bereits ein
+Grundkonzept für die Web-Seite entwickelt. In diesem Fall ist es der
+Web-Designer hat die Aufgabe, ein Design, das den Produzenten die Ideen am
+besten entspricht. &lt;br/&gt;
+&lt;br/&gt;
+Web-Designer haben in der Regel einen Hintergrund in der bildenden Kunst,
+Grafik-Design oder Publishing mit College-Kurse in Informatik und hands-on
+Erfahrung mit Computern kombiniert werden. Ein Web-Designer können eine
+vierjährige College-Abschluss, ein zweijähriges Associate-Abschluss, oder
+vielleicht keine fortgeschrittenen Schulbildung. Viele Web-Designer selbst
+beibringen HTML und erwerben weitere notwendige EDV-Kenntnisse auf eigene Faust.
+&lt;br/&gt;
+&lt;br/&gt;
+Alle Designer müssen Ausbildung in Computergrafik-Pakete wie Dreamweaver,
+Photoshop, Adobe Illustrator, und Paint Shop Pro sowie Kenntnisse in Flash,
+XML-basierte Web-Anwendungen und-Programmierung, XHTML-Programmierung, und
+andere Web-Programmiersprachen und-technologien. Der Designer sollte auch
+komfortables Arbeiten mit einer Vielzahl von Betriebssystemen wie Windows,
+Macintosh und Unix. Da Computer-Technologie ändert sich schnell, muss
+Web-Designer immer wieder zu bleiben über neue Entwicklungen in
+Grafik-Software-Pakete sowie die in das World Wide Web und verwandte
+Technologien. &lt;br/&gt;
+&lt;br/&gt;
+Die HTML Writers Guild bietet Web-Schulungen und ein Zertifizierungs-Programm.
+Es gibt vier Web-Studie Zertifizierung Stufen angeboten: Web-Technologien,
+Web-Programmierung, Web-Grafiken und Multimedia-und Web-Business. Die Schüler
+müssen die Web-Studiengänge vor Erlangung der Zertifizierung übergeben. &lt;br/&gt;
+Den Job zu bekommen &lt;br/&gt;
+&lt;br/&gt;
+Da immer mehr Unternehmen entwickeln ihre eigenen Web-Sites können Web-Designer
+Öffnungen in Kleinanzeigen in lokalen Zeitungen, Zeitschriften und im Internet
+selbst gefunden werden. Oft beginnen Webdesigner ihre Karriere als Grafiker oder
+Layouter für Werbeagenturen oder Verlage. Nach dem Erlernen der entsprechenden
+EDV-Kenntnisse, können sie ihre künstlerische Erfahrung in der Online-Welt zu
+übertragen. &lt;br/&gt;
+&lt;br/&gt;
+Prospective Web-Designer sollten zusammen ein Portfolio ihrer Arbeit zu
+potentiellen Arbeitgebern zu zeigen. Viele Webdesigner sind Freiberufler, die
+ihre Dienstleistungen zu verkaufen, um Kunden auf eine Beratung oder
+vertraglicher Grundlage. Selbstständige Web-Designer oft etablieren eine
+persönliche Seite im World Wide Web, die ihre gestalterischen Fähigkeiten
+Schaufenster für potenzielle Kunden. &lt;br/&gt;
+Aufstiegsmöglichkeiten und Employment Outlook &lt;br/&gt;
+&lt;br/&gt;
+Es gibt verschiedene Karrierewege im Bereich Webdesign. Die Entry-Level-Position
+des Assistant Designer beinhaltet Gestaltung bestimmter Elemente einer Web-Seite
+oder Website. Projektmanager sind verantwortlich für die Gestaltung und die
+Neugestaltung des gesamten Web-Sites. Der Projektleiter kann mit freischaffenden
+Künstlern und Schriftstellern, die Materialien liefern, in die Website
+integriert werden zu arbeiten. Design-Direktoren beaufsichtigen die Arbeit einer
+Reihe von Web-Designern, die Überprüfung und Korrektur und machen Vorschläge, um
+das Design zu verbessern. Ein Design-Direktor ist in der Regel die Person, die
+am häufigsten trifft sich mit dem Client, um Ideen zu besprechen und
+sicherstellen, dass ein Projekt entspricht den Erwartungen des Kunden.&lt;/span&gt;
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="projektleiter">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1a80e97c-6554-48f8-ba8c-4ba2aec1a1fe</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Projektleiter</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="projektleiter">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e8d2cc9a-94c5-4121-8314-0b048767ab1c</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>arbeitsplatze/it/projektleiter</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2010-06-08T11:21:00.000+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Master's Degree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>go Green</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>5.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>Biotechnology</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Fulltime</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>The Hague</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>60000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Der Projektmanager wird Information Technology planen und liefern erfolgreiche Unternehmensebene Anwendungen und Technologie-Projekte in enger Zusammenarbeit mit Unternehmern und Endbenutzer-Organisationen im gesamten Unternehmen, Technologie-Anbieter und interne / externe IT-Ressourcen.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Projektleiter</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippostd:tags" sv:type="String">
+          <sv:value>field</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-02T11:21:39.594+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-02-01T10:29:03.334+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-03-16T15:38:01.550+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>2bb896a4-b364-4736-bc0a-2aa80a59b70b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;span id="result_box"&gt;Er / sie wird zu verwalten Umfang, Wirtschaft Erwartungen
+und Change Management-Aktivitäten sowie Projektpläne, Ressourcen und Budgets für
+zweckgebundene Projekte. Der Projektmanager wird die volle Projekt-Lebenszyklus
+von der Initiierung bis zur Implementierung zu verwalten, den Übergang auf
+laufende Unterstützung, geeignete interne oder externe Ressource. Er / sie kann
+davon ausgegangen werden, mehrere Projekte gleichzeitig zu verwalten. &lt;br/&gt;
+&lt;br/&gt;
+&lt;strong&gt;Arbeitsbedingungen:&lt;/strong&gt; &lt;br/&gt;
+&lt;br/&gt;
+80% der Zeit ist in der Office-Umgebung verbracht, nutzen Computer, Server,
+Peripheriegeräte, Telefone und allgemeine Büroausstattung. 20% der Zeit für die
+Fahrten außerhalb des Büros auf andere Standorte oder Verkäufer Standorten in
+den USA, Kanada und Mexiko, für die Zwecke der projektbezogenen Arbeit und auf
+Konferenzen, Messen und berufliche Entwicklung Veranstaltungen zu besuchen.
+&lt;br/&gt;
+&lt;br/&gt;
+Aufgaben: &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Berät sich mit Unternehmern und Bewertungen
+Projektvorschläge eindeutig zu identifizieren geschäftlichen Ziele und messbare
+Ziele, erwartete Zeitplan, Finanzierung Einschränkungen, Verfahren zu ihrer
+Durchführung des Projekts, Personalbedarf und Zuteilung von Ressourcen&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Pläne, leitet und koordiniert die Aktivitäten, um
+sicherzustellen, Projektziele innerhalb der definierten Umfang, Zeit-und
+Kostendruck sind erreicht&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Formuliert und definiert die technischen Ansatz
+des Projekts, in Verbindung mit anderen Senior-IT-Ressourcen&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Identifiziert und Zeitpläne Projektleistungen,
+Meilensteine und Aufgaben erforderlich&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Koordinaten Rekrutierung oder Zuweisung der
+erforderlichen Projekt-Personal und ordnet Aufgaben.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Funktioniert mit externen Anbietern, soweit
+anwendbar, nach Statement of Work, um das Projekt umzusetzen nach Plan&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Festlegung der Verfahren für Projekt-Reporting und
+Dokumentation&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Verwaltet Change Control und Ausgabe
+Eskalationsprozesse&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Koordinaten laufendes Projekt die Kommunikation
+mit allen Beteiligten und Teilnehmern&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Identifiziert und Verwaltung Projekt proaktiv
+Risiken und responsively&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Definiert und sichert die Wartung der technischen
+und Projektdokumentation&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;    Überwacht die Entwicklung von Prüfplänen und
+leitet die Qualitätssicherung Testaktivitäten&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="bio-technologie">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2aa162b6-56d5-42fe-8eb1-b8bdf30c5f1f</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>b015feed-4b39-48ed-ab39-d0d5f8193c8e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Bio-Technologie</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="sales-consultant">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6763854c-8e34-4448-a5d0-2fcb45208405</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Sales Consultant</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="sales-consultant">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>56768db6-bda6-4ed7-afd4-e51c50089759</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>arbeitsplatze/bio-technologie/sales-consultant</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2010-07-30T11:13:31.039+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Master's Degree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>Renewable energy</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>10.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>Renewable energy</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Parttime</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>New York</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>120000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Erneuerbare Energie ist heute mehr denn je und benötigte Solar ist bereit, einen wesentlichen und kostengünstigen Beitrag zu leisten. Wir "grünen" Solar-Integratoren und einer der am schnellsten wachsenden Privatunternehmen in der San Francisco Bay Area sind zertifiziert. Sun Light &amp; Power ein zentrales Management und innovatives Team haben ein starkes Interesse an nachhaltigen Lebensstil mit einer Leidenschaft, um einen Unterschied in der Welt, jetzt und für die Zukunft unserer Kinder zu machen.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Verkaufsberater erneuerbare Energien</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippostd:tags" sv:type="String">
+          <sv:value>erneuerbare Energien</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>tbrenninkmeijer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-30T11:13:30.875+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-02-01T11:26:12.478+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-03-16T15:38:02.785+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>35c8f035-bbd5-4e31-bcf3-bc076e4fc6e3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+&lt;span id="result_box"&gt;Sun Light and Power sucht einen erfahrenen und motivierten
+Verkäufer zu gewerblichen und privaten solar zu verkaufen. Das
+Vollzeit-Verkäufer fördert Solar-, beantworten technische Fragen rund um Solar-,
+Geschäfte abzuschließen, und behandeln jeden Kunden mit Respekt und gleichzeitig
+ein hohes Maß an Qualität und Service. &lt;br/&gt;
+&lt;br/&gt;
+&lt;strong&gt;Aufgaben:&lt;/strong&gt; &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Entwickeln und bauen ein Netzwerk von Kunden in
+den Bereichen Wohnen, Gewerbe und öffentlichen Sektor.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Conduct Vertriebs-und Vorschlags-Präsentationen
+für Kunden.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Vertrieb verfolgen über neue und bestehende
+Leitungen der Kunden.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Site-Analyse (Schattierungen, Messungen,
+Auswertungen).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Die Analyse der elektrischen Nutzung des Kunden,
+System-Sizing.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Entwicklung von Umsatz-Datenbank und
+Marketing-Programme.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Besuchen Firmen-Meetings, Ausflüge, Green Expos,
+Konferenzen, Messen und andere verbundene Unternehmen und
+Branchen-Events.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Treffen Sie Umsatzziele.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Andere Aufgaben im Zusammenhang mit
+Solar-Umsatzes.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span id="result_box"&gt; &lt;br/&gt;
+&lt;br/&gt;
+&lt;strong&gt;Arbeitsumgebung / Arrangements:&lt;/strong&gt; &lt;br/&gt;
+&lt;br/&gt;
+&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Individual wird remote arbeiten.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id="result_box"&gt;     Der Zugang zu verlässlichen Telefon-und
+Internetverbindungen ein Muss.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value>http://jobview.monster.com/Design-Sales-Consultant-Job-Sonoma-CA-89206232.aspx</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

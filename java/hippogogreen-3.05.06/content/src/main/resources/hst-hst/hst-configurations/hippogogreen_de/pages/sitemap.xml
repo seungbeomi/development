@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="sitemap">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:component</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>ce5a359f-3457-4e4e-ad37-9e758f06bce3</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:referencecomponent" sv:type="String">
+    <sv:value>hst:pages/simplepage</sv:value>
+  </sv:property>
+  <sv:node sv:name="main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>50f74d7f-f52f-4b51-9f7b-88ed94fd4f98</sv:value>
+    </sv:property>
+    <sv:node sv:name="content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0ca86d7d-a32a-470c-a855-ea98771ea4cd</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>sitemap.main</sv:value>
+      </sv:property>
+      <sv:node sv:name="mainmenu">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4345dca5-71d3-4a98-a32f-b678d7400aa4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>siteMenu</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>mainnavigation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencecomponent" sv:type="String">
+          <sv:value>hst:components/sitemap-menu</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="servicemenu">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6fdd5aa1-1b67-4de0-9676-05942c76eca8</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>siteMenu</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>servicemenu</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencecomponent" sv:type="String">
+          <sv:value>hst:components/sitemap-menu</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

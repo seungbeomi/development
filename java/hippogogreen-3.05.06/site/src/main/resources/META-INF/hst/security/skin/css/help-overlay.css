@@ -1,0 +1,8 @@
+/* Hippo help overlay */ 
+#hippo-help-button a { background: url("../images/help_button.png") no-repeat; height: 115px; width: 115px; position: fixed; bottom: 0; right: 0; z-index: 100000; outline: 0; }
+#hippo-help-overlay { display: none; position: fixed; width: 878px; z-index: 100003 !important; top: 50px !important; }
+#hippo-help-overlay-wrapper { background: #e8f2fa; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; -moz-box-shadow: 0 0 11px #000; -webkit-box-shadow: 0 0 11px #000; box-shadow: 0 0 11px #000; margin: 0 auto; position: relative; overflow: hidden; padding: 30px; height: 100%; }
+#hippo-help-overlay a.close { background-image: url("../images/close_button.png"); position: absolute; right:-10px; top:-10px; cursor:pointer; height:31px; width:31px; z-index: 10;} 
+#hippo-help-overlay a.close:hover { background-image: url("../images/close_button_hover.png"); }
+#hippo-help-overlay iframe { width: 100%; height: 100%; overflow-x: hidden; border:none; }
+#exposeMask { cursor: pointer; z-index: 100002 !important; }

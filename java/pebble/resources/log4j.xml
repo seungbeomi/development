@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+  	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+    	<param name="Target" value="System.out"/>
+    	<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%-5p] - %c{1}.%M - %m%n" />
+    	</layout>
+		<filter class="org.apache.log4j.varia.StringMatchFilter">
+			<param name="StringToMatch" value="Result" />
+			<param name="AcceptOnMatch" value="false" />
+		</filter>
+  	</appender>
+
+	<!--<appender name="dailyPrmsLog" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="C:/development/server/apache-tomcat-6.0.20/webapps/logs/prms.log" />
+		<param name="datePattern" value="'.'yyyy-MM-dd" />
+		<param name="append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ISO8601} [%-5p] - %c{1}.%M - %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="LevelMin" value="debug" />
+        </filter>
+	</appender>-->
+
+	<!-- PRMS logger -->
+	<logger name="net.sourceforge.pebble">
+		<level value="DEBUG"/>
+	</logger>
+
+	<!-- iBatis logger -->
+	<!--
+    <logger name="java.sql.Connection">
+        <level value="DEBUG" />
+    </logger>
+    <logger name="java.sql.Statement">
+        <level value="DEBUG" />
+    </logger>
+    <logger name="java.sql.PreparedStatement">
+        <level value="DEBUG" />
+    </logger>
+    <logger name="java.sql.ResultSet">
+        <level value="DEBUG" />
+    </logger>
+
+    <logger name="org.springbyexample.jdbc">
+        <level value="WARN" />
+    </logger>
+    <logger name="org.springframework.security">
+        <level value="WARN" />
+    </logger>
+	-->
+
+	<root>
+		<priority value="debug" />
+		<appender-ref ref="console" />
+		<!--<appender-ref ref="dailyPrmsLog" /> -->
+	</root>
+
+</log4j:configuration>

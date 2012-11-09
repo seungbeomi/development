@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="вакансии">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>b4f64174-7395-4d09-83d0-a286644888ed</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-job-folder</sv:value>
+    <sv:value>new-job</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>e558cf9b-4676-400c-aac0-166a28d57e9d</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>ru</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Вакансии</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="иt">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8e9c975a-63b7-48bc-889d-f9f560004605</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-job-folder</sv:value>
+      <sv:value>new-job</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>30bd2c59-d467-433b-9f93-3aff190ba360</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>ru</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>ИT</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="менеджер-проектов">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d6f0f210-bd41-4351-8d2a-ce753aa2f602</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Менеджер проектов</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="менеджер-проектов">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>76fa32d1-5641-48f5-8923-8213d1936c1b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>вакансии/иt/менеджер-проектов</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2011-06-08T11:21:00.000+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Master's Degree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>Hippo</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>5.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>Biotechnology</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Temporary/Contract</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>Amsterdam</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>60000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>•	Работадатель: Hippo
+•	Место: Амстердам
+•	Дата опубликования: 8ого июия 2011 г.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Менеджер проектов</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>field</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-02T11:21:39.594+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-08-06T15:30:51.170+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-08-07T10:56:18.661+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>2bb896a4-b364-4736-bc0a-2aa80a59b70b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>ru</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Он/ она будет организовать работу и ожидание делового общества и изменять
+деятельности управления. Он/ она будет также планировать, средства и бюджеты
+проектировать за отпущенные проектам. Менеджер продуктов будет организовать
+совершенный жизненный цикл продукта, с начала воплощением в жизнь, потом
+постоянной поддержкой и отпущать внутреннему или внешнему источнику. Он/ она
+будет всевозможно спрашиваются руководить большими проектами одновременно.
+&lt;br/&gt;
+Условия труда: &lt;br/&gt;
+80 процентов времени проводится  в сфере офиса, где он/ она использует
+компьютерами, серверами, периферийными устройствами, телефонами и общественными
+вещами в офисе. 20 процентов времени проводится по дороге к другим местам или
+места покупателей в США, Каннаде и Мексике, с целью работа связанная с
+проектами, чтобы присутствовать на конференции, шоу и профессиональных событиях
+для развития. &lt;br/&gt;
+Ответственности: &lt;br/&gt;
+•    Консультации с деловыми лидерами. Перевесить предложений для проектов чтобы
+установлять явные измеримые деловые цели, ожидаемые схемы, пределы
+финансирования, &lt;br/&gt;
+•    Осуществляет планы, направляет и координирует деятельности чтобы
+обеспечить, добивается целей проектов внутри намеренного размера, времена и
+лимитов для расходов. &lt;br/&gt;
+•    Формулирует и определяет технитческий подход к проекту в сотрудничестве с
+другими ИТ-источниками. &lt;br/&gt;
+•    Опознает и планирует когда нужно сдавать проекты, вехи и обязанным задачи.
+&lt;br/&gt;
+•    Координирует вербовку и разнарядку необходимого персонала для проектов и
+присуждает задачи. &lt;br/&gt;
+•    Определяет процедуры чтобы обеспечить за отчёт и документацию проекта.
+&lt;br/&gt;
+•    Руководит контролем изменений и заботится о том, что присутствуют процессы
+в случае стрых необходимостей. &lt;br/&gt;
+•    Координирует постоянную связь о проекте всяким заинтересованным лицам и
+участникам. &lt;br/&gt;
+•    Опознает и управляет риски проекта про-активно и ответственно. &lt;br/&gt;
+•    Установляет и уверяет обслуживание технической и проективной документации.
+&lt;br/&gt;
+•    Просмотрит развитие планирование тестов и направляет деятельности тестов
+для гарантии качества.&lt;/p&gt;
+
+&lt;p&gt;Искать работу &lt;br/&gt;
+•    Оратно в результаты поиска&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="restapi-detail">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:component</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>6bc286d9-8186-4e87-97c2-459cc86e75d8</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:referencecomponent" sv:type="String">
+    <sv:value>hst:pages/standardpage</sv:value>
+  </sv:property>
+  <sv:node sv:name="main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>bcfb41ba-02b3-4ff8-8127-8b197cf9c3dc</sv:value>
+    </sv:property>
+    <sv:node sv:name="content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>41e39900-7816-4a22-b28e-50a7ea6f86f6</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.restapi.RestApiDetail</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>restapi-detail</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="left">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fb965bdb-77e9-45e1-8555-67b29ed3c95b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>standard.main.left</sv:value>
+      </sv:property>
+      <sv:node sv:name="leftmenu">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>be7093a3-f12f-4c92-99c8-df2503125123</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>com.onehippo.gogreen.components.common.RepoSiteMenu</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>siteMenu</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>aboutmenu</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>about.leftmenu</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="pageactions">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>614d2478-016f-43b9-80e5-03679e5f12e2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>standard.main.left.pageactions</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

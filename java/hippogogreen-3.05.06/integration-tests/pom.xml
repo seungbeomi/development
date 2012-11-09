@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2011 Hippo Licensed under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License. You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+  applicable law or agreed to in writing, software distributed under
+  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
+  OR CONDITIONS OF ANY KIND, either express or implied. See the
+  License for the specific language governing permissions and
+  limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.onehippo.gogreen</groupId>
+    <artifactId>hippogogreen</artifactId>
+    <version>3.05.06</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <name>Hippo Go Green Integration Tests</name>
+  <description>Hippo Go Green Integration Tests</description>
+  <groupId>com.onehippo.gogreen</groupId>
+  <artifactId>hippogogreen-integration-tests</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+    <selenium.version>2.12.0</selenium.version>
+    <buildPath>${project.build.directory}/${project.artifactId}-${project.version}</buildPath>
+    <display>:20</display>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.onehippo.gogreen</groupId>
+      <artifactId>hippogogreen-cms</artifactId>
+      <version>${project.version}</version>
+      <type>war</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.onehippo.gogreen</groupId>
+      <artifactId>hippogogreen-site</artifactId>
+      <version>${project.version}</version>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>5.14.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-api</artifactId>
+      <version>${selenium.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-firefox-driver</artifactId>
+      <version>${selenium.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <defaultGoal>package</defaultGoal>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>debug</id>
+      <properties>
+        <display>:0</display>
+      </properties>
+    </profile>
+    <profile>
+      <id>headless</id>
+
+      <dependencies>
+        <dependency>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+          <scope>provided</scope>
+        </dependency>
+        <dependency> 
+          <groupId>org.slf4j</groupId> 
+          <artifactId>slf4j-log4j12</artifactId> 
+          <scope>provided</scope> 
+        </dependency> 
+        <dependency> 
+          <groupId>org.slf4j</groupId> 
+          <artifactId>jcl-over-slf4j</artifactId> 
+          <scope>provided</scope> 
+        </dependency> 
+      </dependencies>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>testCompile</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <source>1.6</source>
+              <target>1.6</target>
+            </configuration>
+          </plugin>
+
+          <plugin>
+            <groupId>org.codehaus.cargo</groupId>
+            <artifactId>cargo-maven2-plugin</artifactId>
+            <executions>
+               <execution>
+                  <id>cargo-start</id>
+                  <phase>pre-integration-test</phase>
+                  <goals>
+                     <goal>start</goal>
+                  </goals>
+               </execution>
+               <execution>
+                  <id>cargo-stop</id>
+                  <phase>post-integration-test</phase>
+                  <goals>
+                     <goal>stop</goal>
+                  </goals>
+               </execution>
+            </executions>
+            <configuration>
+              <configuration>
+                <home>${project.build.directory}/tomcat6x</home>
+                <properties>
+                  <cargo.remote.username>admin</cargo.remote.username>
+                  <cargo.remote.password />
+                  <cargo.servlet.port>18888</cargo.servlet.port>
+                  <cargo.jvmargs>
+                    <![CDATA[-Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -noverify ${javaagent}]]>
+                  </cargo.jvmargs>
+                  <catalina.servlet.uriencoding>UTF-8</catalina.servlet.uriencoding>
+                </properties>
+                <deployables>
+                  <deployable>
+                    <groupId>com.onehippo.gogreen</groupId>
+                    <artifactId>hippogogreen-cms</artifactId>
+                    <type>war</type>
+                    <properties>
+                      <context>/cms</context>
+                    </properties>
+                  </deployable>
+                  <deployable>
+                    <groupId>com.onehippo.gogreen</groupId>
+                    <artifactId>hippogogreen-site</artifactId>
+                    <type>war</type>
+                    <properties>
+                      <context>/site</context>
+                    </properties>
+                  </deployable>
+                </deployables>
+              </configuration>
+              <container>
+                <containerId>tomcat6x</containerId>
+                <systemProperties>
+                  <repo.path>${project.build.directory}/storage</repo.path>
+                  <log4j.configuration>file:${project.basedir}/../conf/log4j-dev.xml</log4j.configuration>
+                </systemProperties>
+                <zipUrlInstaller>
+                  <url>http://archive.apache.org/dist/tomcat/tomcat-6/v6.0.32/bin/apache-tomcat-6.0.32.tar.gz</url>
+                </zipUrlInstaller>
+                <timeout>300000</timeout>
+                <dependencies>
+                  <dependency>
+                    <groupId>org.apache.geronimo.specs</groupId>
+                    <artifactId>geronimo-jta_1.1_spec</artifactId>
+                    <classpath>extra</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>javax.jcr</groupId>
+                    <artifactId>jcr</artifactId>
+                    <classpath>extra</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>javax.jdo</groupId>
+                    <artifactId>jdo2-api</artifactId>
+                    <classpath>extra</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>javax.mail</groupId>
+                    <artifactId>mail</artifactId>
+                    <classpath>extra</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>org.onehippo.cms7</groupId>
+                    <artifactId>hippo-repository-api</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>org.onehippo.cms7</groupId>
+                    <artifactId>hippo-cms-sso</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>org.onehippo.cms7</groupId>
+                    <artifactId>hippo-repository-builtin</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>org.onehippo.cms7</groupId>
+                    <artifactId>hippo-addon-publication-workflow-common</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>org.onehippo.cms7.hst</groupId>
+                    <artifactId>hst-api</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                  <dependency>
+                    <groupId>org.onehippo.cms7.hst</groupId>
+                    <artifactId>hst-commons</artifactId>
+                    <classpath>shared</classpath>
+                  </dependency>
+                  <dependency> 
+                    <groupId>log4j</groupId> 
+                    <artifactId>log4j</artifactId> 
+                    <classpath>shared</classpath> 
+                  </dependency> 
+                  <dependency> 
+                    <groupId>org.slf4j</groupId> 
+                    <artifactId>slf4j-api</artifactId> 
+                    <classpath>shared</classpath> 
+                  </dependency> 
+                  <dependency> 
+                    <groupId>org.slf4j</groupId> 
+                    <artifactId>jcl-over-slf4j</artifactId> 
+                    <classpath>shared</classpath> 
+                  </dependency> 
+                  <dependency> 
+                    <groupId>org.slf4j</groupId> 
+                    <artifactId>slf4j-log4j12</artifactId> 
+                    <classpath>shared</classpath> 
+                  </dependency> 
+               </dependencies>
+              </container>
+            </configuration>
+          </plugin>
+
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>selenium-maven-plugin</artifactId>
+            <version>2.1</version>
+            <executions>
+              <execution>
+                <phase>pre-integration-test</phase>
+                <goals>
+                  <goal>xvfb</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <xauthEnabled>false</xauthEnabled>
+            </configuration>
+          </plugin>
+
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <configuration>
+              <skip>true</skip>
+            </configuration>
+            <executions>
+              <execution>
+                <phase>integration-test</phase>
+                <goals>
+                  <goal>test</goal>
+                </goals>
+                <configuration>
+                  <skip>false</skip>
+                  <environmentVariables>
+                    <DISPLAY>${display}</DISPLAY>
+                  </environmentVariables>
+                  <suiteXmlFiles>
+                    <suiteXmlFile>src/test/resources/tests.xml</suiteXmlFile>
+                  </suiteXmlFiles>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+  <repositories>
+    <repository>
+      <id>openqa</id>
+      <url>http://nexus.openqa.org/content/repositories/releases</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>    	
+    <pluginRepository>
+      <id>codehaus.snapshots</id>
+      <url>http://snapshots.repository.codehaus.org/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+    </pluginRepository>
+
+    <pluginRepository>
+      <id>mortbay.repo</id>
+      <url>http://www.mortbay.org/maven2/snapshot</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+</project>

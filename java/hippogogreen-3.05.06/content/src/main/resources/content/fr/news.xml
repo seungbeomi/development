@@ -1,0 +1,1404 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>51e8a589-4d50-4015-a181-cc1df366a394</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-news-folder</sv:value>
+    <sv:value>new-news</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>08864dfd-8e37-44eb-ba58-63c4e42ff078</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>fr</sv:value>
+  </sv:property>
+  <sv:node sv:name="facetednews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippofacnav:facetnavigation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:docbase" sv:type="String">
+      <sv:value>51e8a589-4d50-4015-a181-cc1df366a394</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+      <sv:value>Période</sv:value>
+      <sv:value>Catégorie</sv:value>
+      <sv:value>Année${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+      <sv:value>hippogogreen:date$[{name:'Ce mois-ci', resolution:'month', begin:0, end:1},{name:'Le mois prochain', resolution:'month', begin:-1, end:0},{name:'Cette année', resolution:'year', begin:0, end:1}]</sv:value>
+      <sv:value>hippogogreen:categories</sv:value>
+      <sv:value>hippogogreen:date$year</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+      <sv:value>200</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Actualités</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="2012">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>86e7d304-af0d-47df-bf09-186f6ca69b20</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-news-folder</sv:value>
+      <sv:value>new-news</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>28947c4d-e118-4b9d-9fa8-b99007f303ad</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>fr</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="10">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0166de4c-1175-4fb8-bfe8-9d63374ec939</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-news-folder</sv:value>
+        <sv:value>new-news</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>25dbb3fc-c23d-4e22-82ad-328b3128d2ad</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="la-roumanie-passe-a-lheure-dhiver">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4e17aaf9-c0b3-4cd2-b36f-6789f0991035</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>La Roumanie passe à l'heure d'hiver</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="la-roumanie-passe-a-lheure-dhiver">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>959f067b-76e0-48e3-8720-434ced936eed</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2012/10/la-roumanie-passe-a-lheure-dhiver</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Energy Saving Modules</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-10-22T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Dans l'après-midi du 30 Octobre 2005, la Roumanie avec d'autres pays de l'Europe passera à l'heure d'hiver officiel. Ainsi, de 04h00 deviendra 03h00 et sera valable jusqu'au 26 Mars 2006, lorsque l'heure d'été officiel sera de nouveau utilisé.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>La Roumanie passe à l'heure d'hiver</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T14:35:58.298+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:05:10.753+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:05:12.927+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e2b21f5-1a40-434c-a2dd-becf2f45d8fb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Après la décision du gouvernement roumain nb. 20 à partir de 1997, la
+Roumanie adopte l'heure d'hiver et l'heure d'été dans la même journée avec les
+Etats de l'Union européenne et d'autres pays faisant partie de cet accord. Heure
+d'hiver officiel est adoptée dans le dernier dimanche d'Octobre et de l'heure
+d'été dans le dernier dimanche de Mars.&lt;/p&gt;
+
+&lt;p&gt;Habituellement, l'heure officielle d'un pays est l'heure d'hiver. Heure d'été
+est un temps légal adopté par certains pays ou territoires au cours d'une partie
+de l'année. Heure d'été est en général une heure en face du temps de norme
+officielle.&lt;/p&gt;
+
+&lt;p&gt;Ce système est utilisé pour l'heure d'été. Pendant les mois d'été, le temps
+est déplacé vers l'avant afin de pouvoir utiliser la lumière du soleil aussi
+bien pour les activités humaines, ainsi que pour économiser de l'énergie
+électrique utilisée pour l'éclairage.&lt;/p&gt;
+
+&lt;p&gt;En Roumanie, l'heure d'été a été introduit en 1932. Jusqu'en 1939 cette année
+travaillé à partir du premier dimanche d'Avril (en 1932: 22 mai) 00:00 AM et le
+premier dimanche d'Octobre 01h00 (heure locale). A partir du 1er Avril 1940 AM
+00:00 et 2 novembre 1942 03h00, heure d'été a été permanente en Roumanie. A
+partir de 1943 l'heure d'été a été suspendue et la Roumanie utilisé juste le
+temps officiel (heure d'hiver).&lt;/p&gt;
+
+&lt;p&gt;Heure d'été a été réintroduite à partir de 1979 et guidé par deux règles
+jusqu'à ce que l'alignement aux normes européennes:&lt;/p&gt;
+
+&lt;p&gt;* 1979-1983: premier dimanche de Avril 00h00 - dernier dimanche de Septembre
+01:00 (exception: 1979, l'heure d'été a commencé en 27 mai);&lt;/p&gt;
+
+&lt;p&gt;* 1984-1996: dernier dimanche de Mars 00:00 - dernier dimanche de Septembre
+01:00&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Romania switches to Winter Time</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Romania_switches_to_Winter_Time</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cedd0233-40f3-4a4b-a6bf-8ae63f276d61</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="08">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>90721094-86a1-42dc-8ccb-76c64b3b3802</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-news-folder</sv:value>
+        <sv:value>new-news</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>883d38ca-b223-48ae-b37e-78ea3e276224</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="greenpeace-tente-de-dejouer-la-baie-de-chesapeake-la-flotte-de-peche">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>56c305cf-17c5-41b7-acb7-639d34772f78</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Greenpeace tente de déjouer la baie de Chesapeake la flotte de pêche</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="greenpeace-tente-de-dejouer-la-baie-de-chesapeake-la-flotte-de-peche">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>fc3a1028-b7dd-48fd-b684-82a3910c8fa7</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2012/08/greenpeace-tente-de-dejouer-la-baie-de-chesapeake-la-flotte-de-peche</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Sea</sv:value>
+            <sv:value>Sustainable Business</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-08-10T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Des militants de Greenpeace dispersés écoles de poissons-appâts menhaden dans la baie de Chesapeake, le mardi, lorsque les navires de pêche appartenant à Omega Protein Corp étaient sur le point d'abandonner leurs filets sceine.
+               La flotte se composait de deux Omega avions spotter et quatre bateaux de pêche, avec huit offres. Greenpeace est arrivé avec quatre se déplaçant rapidement hors-bord de bateaux à moteur, monté par des militants qui ont tenté treize pour chasser le poisson. La Garde côtière a été appelé et mis fin à la confrontation pacifique.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Greenpeace tente de déjouer la baie de Chesapeake la flotte de pêche</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>activism</sv:value>
+            <sv:value>oceans</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin14</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-29T10:38:53.129+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:26:57.089+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:26:59.670+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>83e1ced5-d2da-4751-84ac-00201d14decc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Des militants de Greenpeace dispersés écoles de poissons-appâts menhaden dans
+la baie de Chesapeake, le mardi, lorsque les navires de pêche appartenant à
+Omega Protein Corp étaient sur le point d'abandonner leurs filets sceine.&lt;/p&gt;
+
+&lt;p&gt;La flotte se composait de deux Omega avions spotter et quatre bateaux de
+pêche, avec huit offres. Greenpeace est arrivé avec quatre se déplaçant
+rapidement hors-bord de bateaux à moteur, monté par des militants qui ont tenté
+treize pour chasser le poisson. La Garde côtière a été appelé et mis fin à la
+confrontation pacifique.&lt;/p&gt;
+
+&lt;p&gt;La Société basée à Houston protéines Omega est le plus grand transformateur
+et distributeur de menhaden riche en protéines et de produits d'huile de poisson
+aux États-Unis. La société représente près de 90% de la totalité des captures
+East Coast menhaden.&lt;/p&gt;
+
+&lt;p&gt;Un porte-parole de Omega Toby Gascon dit de Greenpeace, "Ils ont maintenant
+démontré que leur véritable ordre du jour est à mettre Omega retirer des
+affaires, même si cela signifie risquer la sécurité des pêcheurs d'Omega." Leur
+flotte est hors de Reedville, en Virginie, maintenant un port de pêche haut des
+États-Unis en raison de l'usine de transformation Omega récente a ouvert là-bas.
+&lt;/p&gt;
+
+&lt;p&gt;La baie de Chesapeake menhaden sont considérés comme une source importante de
+nourriture pour les espèces de poissons populaires auprès des pêcheurs sportifs.
+Ils sont également, à côté des huîtres, une desserte Premier filtre dans les
+eaux de la baie. La population Oyster Bay a subi des déclins drastiques de la
+maladie au cours des deux dernières décennies. Les études de populations
+menhaden sont toujours pas concluants que les scientifiques tentent de
+déterminer le nombre total de la baie de menhaden.&lt;/p&gt;
+
+&lt;p&gt;Greenpeace affirme que l'espèce est près de leurs creux historiques et les
+prédateurs qui en dépendent sur le poisson comme source de nourriture, tels que
+le bar rayé, montrent des signes de souffrance de malnutrition et de mauvaise
+condition physique.&lt;/p&gt;
+
+&lt;p&gt;Le Chesapeake Bay Foundation, un organisme sans but lucratif, ont fait
+l'éloge de gouverneur du Maryland Robert Ehrlich, et le Département d'État des
+Ressources naturelles. Ils ont obtenu un engagement des États-marine de
+l'Atlantique de la Commission des pêches (ASMFC) à chercher un plafond sur la
+récolte commerciale de l'Atlantique Menhaden.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Wikinews</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Greenpeace_tries_to_thwart_Chesapeake_Bay_fishing_fleet</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>39d2aa09-0a83-40e7-bd4b-2fa43013745a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="indonesienne-panne-causee-par-un-manque-de-capacite-de-production">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ccb4fbf9-0b87-4828-bfd9-302c4d0c1792</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Indonésienne panne causée par un manque de capacité de production</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="indonesienne-panne-causee-par-un-manque-de-capacite-de-production">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>7f293882-008e-484c-8de3-6b4afd983052</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2012/08/indonesienne-panne-causee-par-un-manque-de-capacite-de-production</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Energy</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-08-20T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Une panne de courant en Indonésie qui a laissé environ 100 millions de personnes sans électricité a provoqué une crise politique. Monopole d'énergie du pays appartenant à l'État, PLN, n'a pas déterminé la cause immédiate, et le président du pays a ordonné à l'agence nationale de renseignement et de la police d'enquêter.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Indonésienne panne causée par un manque de capacité de production</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>politics</sv:value>
+            <sv:value>energy</sv:value>
+            <sv:value>blackout</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin14</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-29T10:48:02.685+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:52:28.576+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:52:31.062+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>54d4f7e9-5645-4514-8686-c2dac845a1b3</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Une panne de courant en Indonésie qui a laissé environ 100 millions de
+personnes sans électricité a provoqué une crise politique. Monopole d'énergie du
+pays appartenant à l'État, PLN, n'a pas déterminé la cause immédiate, et le
+président du pays a ordonné à l'agence nationale de renseignement et de la
+police d'enquêter.&lt;/p&gt;
+
+&lt;p&gt;La panne semble liée à des carences dans la capacité de l'Indonésie de
+production d'électricité.&lt;/p&gt;
+
+&lt;p&gt;La panne de courant suit les tentatives pour faire face à la crise
+énergétique du pays de plus en plus, y compris la conservation et à essayer de
+permettre à des entreprises privées pour fournir de l'énergie, qui a été
+déclarée inconstitutionnelle en 2004. En Janvier, le gouvernement indonésien a
+tenu un sommet spécial d'énergie pour attirer les investissements dans leur
+infrastructure énergétique. Au sommet, ils fixé l'objectif d'ajouter 22.000
+mégawatts à la capacité actuelle de l'Indonésie de 23.000 mégawatts, afin de
+soutenir la croissance du pays.&lt;/p&gt;
+
+&lt;p&gt;La Banque mondiale et d'autres ont averti que sans davantage
+d'investissements dans l'infrastructure énergétique du pays un déficit
+énergétique se traduira. Toutefois, les investisseurs étrangers restent
+réticents à investir en Indonésie. "La panne d'électricité a donné lieu à plus
+de soucis à une crise énergétique qui pourrait nuire à la nation secteur
+industriel», a déclaré un trader sur les marchés boursiers de l'Indonésie. [1]
+&lt;/p&gt;
+
+&lt;p&gt;La panne a commencé à 10:23 h, heure locale, Août 18, 2005, quand le pouvoir
+a échoué le long du circuit électrique qui relie Java, Bali, et de Madura,
+provoquant des pannes de Java et de Bali. Près de la moitié du pays dépend du
+réseau électrique que les échecs expérimentés. Quelques-unes des grandes lignes
+de la grille sont plus de 20 ans, selon le président de PLN Widiono Eddie.&lt;/p&gt;
+
+&lt;p&gt;Le black-out provoqué des embouteillages à Jakarta, a forcé l'annulation de
+plusieurs vols internationaux et domestiques à l'aéroport de Jakarta
+Soekarno-Hatta International, arrêtez de service de Jakarta train électrique, et
+perturbé le fonctionnement des hôpitaux. Certains grands hôpitaux ont été
+contraints de retarder la chirurgie alors que de nombreux petits hôpitaux ne
+pouvaient pas recevoir les patients. Environ 1.800 policiers ont été appelés à
+l'action par la police métropolitaine de Jakarta à faire face à court terme les
+problèmes causés par la panne de courant.&lt;/p&gt;
+
+&lt;p&gt;Bougies utilisées à la place de l'éclairage électrique a commencé six feux à
+Jakarta seul.&lt;/p&gt;
+
+&lt;p&gt;Mulyo Aji, un fonctionnaire de PLN, a déclaré pannes de courant
+supplémentaires sont susceptibles à l'avenir que la demande augmente l'énergie,
+sans aucun stock de correspondants de nouvelles de l'électricité devraient
+entrer bientôt en ligne.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Wikinews</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Indonesian_blackout_caused_by_lack_of_generation_capacity</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="06">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5c877759-a5d7-4a39-a0c9-a798fbe5179c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-news-folder</sv:value>
+        <sv:value>new-news</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>fe87127d-1ca9-4e5d-a2d0-7ceb0f4bc7eb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="nasa-solaire-voile-passe-dabord-test-majeur">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2a2bcb77-4ad1-4233-94f2-b68dd7e20a5e</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>NASA solaire voile passe d'abord test majeur</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="nasa-solaire-voile-passe-dabord-test-majeur">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>e0e3865d-cbe0-4c81-a859-d79b6df3ea8a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2012/06/nasa-solaire-voile-passe-dabord-test-majeur</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-06-02T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>La NASA a complété un test majeur d'un 20-mètres carrés de voile solaire, marquant une "étape cruciale" dans la technologie de la propulsion spatiale. Il n'est pas le premier à tester les voiles solaires, comme les Japonais ont déployé deux voiles solaires dans l'espace. La Planetary Society est la planification sur le lancement d'une voile solaire peut-être par Juin 21.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>NASA solaire voile passe d'abord test majeur</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>technology</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T16:16:26.790+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:10:06.811+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:10:09.033+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3e6805d4-75e8-43c4-8dca-39e39e7f90f2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Tourné en orbite par un missile converti balistique intercontinental (ICBM),
+le Cosmos 1 sera lancé à partir d'un sous-marin immergé de Russie au sein de la
+mer de Barents. Le vaisseau spatial, alimenté par la voile, n'aura pas de
+destination. Le but est simplement de tester le système de propulsion qui
+utilise la pression de particules de lumière solaire pour déplacer le navire
+vers l'extérieur à partir d'une orbite de départ autour de la terre à 500 miles.
+&lt;/p&gt;
+
+&lt;p&gt;La technologie de propulsion est actuellement considéré comme le plus
+efficace disponible pour voyager dans l'espace interstellaire. Théoriquement un
+métier propulsé par la pression d'une source de lumière constante, tel qu'un
+laser spécialement conçu, peut atteindre une vitesse approchant la vitesse de la
+lumière. Cela est dû à l'efficacité de l'engin spatial ne pas avoir à porter son
+propre carburant. En approchant de la vitesse de la lumière, cependant,
+nécessitent une longue période d'accélération constante. Cette grande vitesse
+sera impossible pour les véhicules d'essai actuels et toute lancées dans un
+avenir prévisible, car elles reposent sur la lumière du Soleil, qui devient
+rapidement plus faible que la distance augmente.&lt;/p&gt;
+
+&lt;p&gt;Selon les Nouvelles de National Geographic, "la NASA, l'Agence spatiale
+européenne, le Japon et la Russie ont tous développé des voiles solaires, mais
+aucun n'a encore essayé de prouver que les voiles peuvent propulser un engin
+spatial en vertu de vol contrôlé."&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5044a402-5412-4c76-a069-bdf2aa2d2764</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="04">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5c688709-2372-4aa6-ab06-3cd0b5d43dd5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-news-folder</sv:value>
+        <sv:value>new-news</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9e3441c2-8b73-4bc2-903e-3eea2a1bf107</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a4e55c08-6a74-493e-b8a4-6c702a4f9e90</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>US comité de la Chambre approuve la modification, heure avancée de</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6ea94e60-3fd1-4f09-8f61-25bfd8bebe24</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2012/04/us-comite-de-la-chambre-approuve-la-modification-heure-avancee-de</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-04-07T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Le US House Energy and Commerce Committee a adopté un amendement, le mercredi de prolonger l'heure d'été de deux mois. La mesure bipartite est parrainé par Fred Upton Rep, républicain du Michigan, et le représentant Ed Markey, démocrate du Massachusetts.</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>US comité de la Chambre approuve la modification, heure avancée de</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T14:39:09.278+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:25:58.785+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:26:01.297+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e91d753-9d13-40c8-b5b1-41dbabebada8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;"Le plus de lumière que nous avons, le moins d'électricité que nous
+utilisons," Rep Ed Markey a déclaré. Markey a également appuyé la mesure en
+soulignant les avantages pour l'entreprise. "Il n'y a plus d'activité
+économique, parce que les gens sentent qu'ils peuvent se promener en toute
+sécurité", at-il dit.&lt;/p&gt;
+
+&lt;p&gt;«L'extension de l'heure d'été est logique, surtout de la flambée des coûts
+énergétiques», Rép Fred Upton dit.&lt;/p&gt;
+
+&lt;p&gt;Le projet de loi étend l'heure d'été pour commencer sur le premier dimanche
+de Mars et se termine le dernier dimanche de Novembre. L'heure d'été commence
+actuellement le premier dimanche d'Avril et se termine le premier dimanche
+d'Octobre.&lt;/p&gt;
+
+&lt;p&gt;Le US Department of Transportation estime que l'extension de l'heure d'été
+permettrait d'économiser 10.000 barils de pétrole par jour. Les Etats-Unis
+consomme environ 20 millions de barils de pétrole par jour.&lt;/p&gt;
+
+&lt;p&gt;La Chambre est d'approuver la planification de la facture énergétique à
+laquelle l'amendement a été fixé dans quelques semaines. Plusieurs autres
+amendements au projet de loi sont encore débattues.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/US_House_committee_approves_daylight_saving_time_amendment</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>2ac72a9e-1558-49c3-b8f5-01019e57703d</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2010">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8095ed18-5b4b-4fef-b4ff-337e434f1084</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-news-folder</sv:value>
+      <sv:value>new-news</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>4dbebf8b-4208-4421-b168-79ccf7158d44</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>fr</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="07">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e06f5b42-c017-4b3d-80db-864c19c90932</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-news-folder</sv:value>
+        <sv:value>new-news</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0a885364-4a6a-4492-83f6-8092981d42da</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="toyota-placer-verre-eau-tableau-bord">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3d7233b6-3edf-4171-a9c2-7f2c0f50ecf3</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Toyota suggère de placer un verre d'eau sur votre tableau de bord</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="toyota-placer-verre-eau-tableau-bord">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>48991854-abc2-4c68-9dd3-06663a4b991f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2010/07/toyota-placer-verre-eau-tableau-bord</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Économie</sv:value>
+            <sv:value>Énergie</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2010-07-29T10:01:14.593+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Pour une réduction de 10 % de carburant...</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Toyota suggère de placer un verre d'eau sur votre tableau de bord</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>Toyota</sv:value>
+            <sv:value>iPhone</sv:value>
+            <sv:value>Carburant</sv:value>
+            <sv:value>Voiture</sv:value>
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin11</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-29T07:49:49.033Z</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-01-12T14:38:25.313Z</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2011-01-12T14:41:17.708Z</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>9dc1dea3-34ae-49ee-ad0f-a6e8b1e41f37</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt; &lt;body&gt;
+
+                &lt;p&gt;Non, Toyota n'essaye pas de vous vendre une voiture roulant à l'eau. Ils essaient simplement de
+                montrer ce que peu de gens savent : la conduite économique grâce à une application installée sur votre
+                mobile.&lt;/p&gt;
+
+                &lt;/body&gt; &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>TreeHugger.com</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>
+                http://www.treehugger.com/files/2010/07/toyota-glass-of-water-on-dash-gas-mileage-mpg-trick.php
+              </sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>0fe3ed44-8293-47f3-b84b-e17bb4720b79</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>54d01cb8-120e-488b-9514-4cd19c7c68f3</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="06">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8d5614f3-d0ec-4951-9f13-19e17fc2a8fc</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-news-folder</sv:value>
+        <sv:value>new-news</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>b59e46a3-ff73-4cdc-b102-6cf5045b2548</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="conference-sur-le-climat-a-copenhague">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>38ea876e-4121-49e4-bf03-6c7840c225fb</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Conférence sur le climat à Copenhague</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="conference-sur-le-climat-a-copenhague">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>56b1c86e-f449-4f71-9725-0db5003839b8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>news/2010/06/conference-sur-le-climat-a-copenhague</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Réchauffement</sv:value>
+            <sv:value>Climat</sv:value>
+            <sv:value>Conférence</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2010-06-22T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>La conférence de Copenhague a été la 15e « Conférence des parties » (COP 15) de la
+              Convention-cadre des Nations unies sur les changements climatiques. Elle s'est tenue à Copenhague
+              (Danemark), du 7 au 18 décembre 2009. Conformément à la feuille de route adoptée en 2007 lors de la COP
+              13, elle devait être l'occasion, pour les 192 pays ayant ratifié la Convention, de renégocier un accord
+              international sur le climat remplaçant le protocole de Kyoto, initié lors de la COP 3 en 1997 et dont la
+              première étape prend fin en 2012. Cette COP 15 était également la MOP 5, soit la 5e réunion annuelle
+              depuis l'entrée en vigueur du protocole de Kyoto en 2005.
+            </sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Conférence sur le climat à Copenhague</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>Réchauffement</sv:value>
+            <sv:value>Climat</sv:value>
+            <sv:value>Conférence</sv:value>
+            <sv:value>Copenhague</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin20</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-30T15:29:10.063+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-12-13T17:15:17.607+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2011-12-13T17:15:19.814+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0faa3f16-bddc-4405-ac6e-0106804872c5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt; &lt;body&gt;
+
+                &lt;p&gt;Quinzième édition du sommet annuel des représentants des pays ayant ratifié la &lt;a
+                title="Convention-cadre des Nations unies sur le changement climatique"
+                href="http://fr.wikipedia.org/wiki/Convention-cadre_des_Nations_unies_sur_le_changement_climatique"&gt;Convention-cadre
+                des Nations unies sur le changement climatique&lt;/a&gt;, la COP 15 a abouti au &lt;em&gt;« premier
+                accord réellement mondial »&lt;/em&gt; (selon le secrétaire général de l'ONU) visant à réduire de moitié
+                les émissions de &lt;a title="Gaz à effet de serre"
+                href="http://fr.wikipedia.org/wiki/Gaz_%E0_effet_de_serre"&gt;gaz à effet de serre&lt;/a&gt; en 2050 par
+                rapport à celles de 1990, pour ne pas dépasser une augmentation moyenne de 2 °C en 2100 par rapport à
+                l'ère pré-industrielle, soit 1850 (et non pas à 1,5 °C comme le souhaitaient vivement les représentants
+                des pays insulaires (&lt;a title="AOSIS" href="http://fr.wikipedia.org/wiki/AOSIS"&gt;AOSIS&lt;/a&gt;),
+                le G77, la Chine et l'&lt;a title="ALBA" href="http://fr.wikipedia.org/wiki/ALBA"&gt;ALBA&lt;/a&gt;.&lt;/p&gt;
+
+                &lt;p&gt;Cet accord n'est pas juridiquement contraignant, car il ne prolonge pas le &lt;a
+                title="Protocole de Kyoto" href="http://fr.wikipedia.org/wiki/Protocole_de_Kyoto"&gt;protocole de Kyoto&lt;/a&gt;,
+                censé prendre fin en 2013. Il n'est en outre pas assorti de dates-butoirs ni d'objectifs quantitatifs
+                alors que pour stabiliser la hausse de températures à 2 degrés par rapport à l'ère pré-industrielle, les
+                pays industrialisés doivent réduire de 40 % les émissions de gaz à effet de serre avant 2020. A l’heure
+                actuelle (fin décembre 2009), le cumul des objectifs négociés ne dépasse pas les 20 %. Chaque pays s'est
+                engagé à formuler avant fin janvier 2010 ses objectifs de baisse d'émission de gaz à effet de serre pour
+                l'horizon 2015-2020. Certains pays en développement ont néanmoins accepté de mettre en œuvre des mesures
+                d’atténuation et de lutte contre la &lt;a title="Déforestation"
+                href="http://fr.wikipedia.org/wiki/D%E9forestation"&gt;déforestation&lt;/a&gt;, au niveau national, et
+                de publier un bilan bisannuel de ces efforts tandis que les pays riches ont accepté de consacrer
+                annuellement (de 2020 à 2100) 100 milliards de dollars américains aux pays en développement.&lt;/p&gt;
+
+                &lt;/body&gt; &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Wikipedia</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://fr.wikipedia.org/wiki/Conf%C3%A9rence_de_Copenhague_de_2009_sur_le_climat</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

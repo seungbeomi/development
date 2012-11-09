@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="common" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:directory</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>101cc297-3d17-43b5-aa70-d443f87b00d2</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>2566d02a-3d7d-47ba-8c60-beab5fc0a958</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="banners">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:directory</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>e808759e-57c7-46a9-98e4-a7b10e97740c</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-banner-folder</sv:value>
+      <sv:value>new-banner</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>d8fca4a5-3a4b-4558-bc54-94b393816b95</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Banners</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="rhode-island-green-home-and-living-show">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7dd6e830-b439-47bc-8c0e-163983d4b3fa</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Rhode Island Green Home and Living Show</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="rhode-island-green-home-and-living-show">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d0ee89d1-660f-43d7-aa77-706d65ae85ed</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/rhode-island-green-home-and-living-show</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Rhode Island Green Home and Living Show</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T13:28:24.081+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T13:28:44.786+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-29T18:15:37.813+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>84a4ead5-bb62-421a-860e-e7297a319bb3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>37430a7a-6f3e-41b6-a589-61a9e4130a1c</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>56a39341-e2ab-4ab3-9b24-91bac36331b6</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="sjf-summit-on-the-new-green-economy">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d79c50ef-dd20-416b-85bc-faa4c75e70fa</sv:value>
+      </sv:property>
+      <sv:node sv:name="sjf-summit-on-the-new-green-economy">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>19c91143-fa9e-4028-962a-c0cef38b8ca1</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/sjf-summit-on-the-new-green-economy</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>SJF Summit on the New Green Economy</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T13:29:02.947+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T13:29:22.701+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-08-02T10:55:49.720+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0db01068-a582-4dc7-abff-79dda95bd9f2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>6e2b3aaf-8019-4699-bd84-a8ac36e87586</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>014a67a2-eb02-4489-859c-7ad61a32bf79</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>SJF Summit on the New Green Economy</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="sustainability-national-forum">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1af66068-748d-436c-b8e0-da9cd233055a</sv:value>
+      </sv:property>
+      <sv:node sv:name="sustainability-national-forum">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>40bc8f71-848c-4804-bd12-7b279380671e</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/sustainability-national-forum</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>SustainAbility National Forum</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T13:29:39.839+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T13:29:56.229+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:57.740+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>400cbaa8-8087-4e53-8cfe-7ac34dfab6cd</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>af4d3c25-89a8-4e33-bec2-d65097c4f87d</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>429c32b6-2df0-484f-93b1-c614fab9c69f</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>SustainAbility National Forum</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="elves-and-sprites">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5b9057c3-3de7-401e-ad45-89ee9f92a74e</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Elves and Sprites</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="elves-and-sprites">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7f63598d-956e-4240-88d2-be2dd895617d</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/elves-and-sprites</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Elves and Sprites</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:00:52.812+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:03:04.494+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:56.476+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a603c81b-982d-4a17-81b3-db356aed4fe9</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>b5519550-d0e3-43c1-9a16-0f71fb8cb1a0</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>9ce85187-eebc-4a40-8185-c1517033df43</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="european-retailers-adopt-voluntary-sustainable-business-code">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ffa43adb-4cf8-4b62-b6b7-da4fefb15221</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>European Retailers Adopt Voluntary Sustainable Business Code</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="european-retailers-adopt-voluntary-sustainable-business-code">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>255f37fe-9464-4bdf-a4b7-ec7113c7e0bb</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/european-retailers-adopt-voluntary-sustainable-business-code</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>European Retailers Adopt Voluntary Sustainable Business Code</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>acahn</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:02:36.899+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-26T13:31:40.279+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>acahn</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-29T18:15:39.813+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>5a6cff9b-5d0c-4cb1-8fe4-375a4fbe2552</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ccd4b2ae-a525-4a9e-8485-f818f3d85a5b</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ad4955dc-cb02-4f7e-a366-5e379d991e59</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="high-above-the-earth-satellites-track-melting-ice">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0f6772b5-b263-4d78-853c-360b333a3232</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>High Above the Earth, Satellites Track Melting Ice</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="high-above-the-earth-satellites-track-melting-ice">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5a836241-abf5-4765-9302-b2c3fea02262</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/high-above-the-earth-satellites-track-melting-ice</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>High Above the Earth, Satellites Track Melting Ice</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:09:59.752+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:11:50.671+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:56.232+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>23a5d917-3a1e-4668-8dea-00ac85879065</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8bc939c9-7d74-403b-a976-416950cff9ad</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>3e52f519-f905-407d-bdc3-6378897b0ba7</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="tesla-shares-sink-below-original-offering-price">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5541fe62-3f97-4c13-8aa4-bdd8716a1f6f</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Tesla shares sink below original offering price</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="tesla-shares-sink-below-original-offering-price">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>afa9a47a-d1cc-4cae-8581-064eebe4c37f</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/tesla-shares-sink-below-original-offering-price</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Tesla shares sink below original offering price</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:16:36.637+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:16:54.542+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:57.376+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>9138a41f-0e57-4187-8bea-02a3c14af9cc</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>c13d2834-33cf-4f14-9449-ab0f5e47c973</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>3e4631f8-c95b-4e3f-a7e2-e8ca77abaf16</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="solar-power-the-sky-is-the-limit">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b12fd52b-8e95-4339-9906-61c168c23d94</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Solar power: the sky is the limit</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="solar-power-the-sky-is-the-limit">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>16c6e5f7-7ff4-4d50-a3f2-4f68369cf360</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/solar-power-the-sky-is-the-limit</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Solar power: the sky is the limit</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:24:18.205+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:26:03.273+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-29T18:15:36.725+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ed798fd9-2016-4b1c-8d40-edecb4db9335</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>9efd7ca7-587e-4645-934a-9262b0108231</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>0489881e-adf4-4a77-a281-21fc5442a276</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="new-record-worlds-largest-wind-turbine">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d30daa78-2b1d-432e-a252-cd498d4025ff</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>New Record: World's Largest Wind Turbine</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="new-record-worlds-largest-wind-turbine">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>794ebece-de4b-44ad-9507-692596489ea4</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/new-record-worlds-largest-wind-turbine</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>New Record: World's Largest Wind Turbine</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>tbrenninkmeijer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:31:47.667+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-20T14:17:19.830+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>tbrenninkmeijer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-20T14:17:22.574+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>5d6e691f-bd1f-48f4-adf0-3efa904e03b2</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ae3de0c6-cf9f-48b4-89e4-3a2f666f0fcf</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>37e1cf7e-9ab4-4f2b-981b-ff5fc7a84cdc</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="melting-glacier-in-italy-gets-a-giant-thermal-blanket">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d315c08d-8973-4871-87f4-4fcb4f2e3f8e</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Melting Glacier in Italy Gets a Giant Thermal Blanket</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="melting-glacier-in-italy-gets-a-giant-thermal-blanket">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e8cd45cc-b6c5-4b46-83b7-90917fa4483d</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/melting-glacier-in-italy-gets-a-giant-thermal-blanket</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Melting Glacier in Italy Gets a Giant Thermal Blanket</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:41:53.858+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:43:15.292+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:53.172+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>6881adca-1506-426f-9f9d-1f309a2ce215</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>a2dad282-ba55-4ee7-bbab-be3693aad773</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d3eade45-4a2f-45aa-8221-90b581a01e42</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="nano-particles-improve-water-cooling-efficiency-by-60">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>237170ce-9d36-4039-807f-cbc64e89633e</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Nano-Particles Improve Water Cooling Efficiency by 60%!</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="nano-particles-improve-water-cooling-efficiency-by-60">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2e0ab78f-efb6-4751-8afb-518d8238b366</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/nano-particles-improve-water-cooling-efficiency-by-60</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Nano-Particles Improve Water Cooling Efficiency by 60%!</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:48:58.028+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:49:24.027+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:56.108+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>41bc0aeb-0992-4648-a601-59205a7d9ab6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>fd0a7725-3286-4f08-8602-95af4349083c</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>2566b7f4-3fcc-414a-806b-b3cd9442570e</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="birch-wood-compostable-cutlery">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>587ea7df-b148-4213-a310-d6247c60c591</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Birch Wood Compostable Cutlery</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="birch-wood-compostable-cutlery">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>afd88a84-9489-493f-846f-e8b6e5709e5c</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/birch-wood-compostable-cutlery</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Birch Wood Compostable Cutlery</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor20</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T14:58:52.336+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-29T17:08:46.597+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor20</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-29T17:09:00.765+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>881eded8-a104-4c0e-921b-5e9791e74730</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>16bffab8-d1eb-407e-ab38-5d00de0dfe92</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>b683e689-4e10-4c8a-a445-78b4fc088a09</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="recycled-plastic-cups">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e38238fa-26d4-43d1-af88-1b7ff2c0f2da</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Recycled Plastic Cups</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="recycled-plastic-cups">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f6425d73-8363-4b15-80e0-4d0022001cd3</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/recycled-plastic-cups</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Recycled Plastic Cups</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T15:06:12.807+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T15:06:35.655+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:56.352+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ea4aac4c-3d7a-4644-96aa-8bc4c5f84818</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>f0492710-9db9-4bf0-9aff-f22730fe1ec2</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>afc10e5a-bfa6-452e-a30f-8c09533eb1bc</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="sustainable-wood-ipod-sound-system">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d2898751-43d4-439c-a516-e4a512fb5adc</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Sustainable Wood iPod Sound System</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="sustainable-wood-ipod-sound-system">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>2269a4ca-e727-493d-8403-e0e3aef90ed5</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/sustainable-wood-ipod-sound-system</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Sustainable Wood iPod Sound System</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>bart</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T15:15:46.213+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:38:46.044+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>bart</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:38:47.796+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>5c982268-bfac-4b0f-8416-08b312e4c7ef</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>864aacd2-ac7a-4602-8aba-eba2ebc27e80</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>66e2aff5-e8ff-4134-bfe7-d292930b8b9b</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="organic-cotton-reusable-lunch-bag">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c9ad3a64-c6fd-402f-bb61-4e7cf299380a</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Organic Cotton Reusable Lunch Bag</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="organic-cotton-reusable-lunch-bag">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6bb0a5a6-8dd6-40e3-877e-1832f131431e</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/organic-cotton-reusable-lunch-bag</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Organic Cotton Reusable Lunch Bag</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T15:29:04.743+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T15:30:58.432+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:54.568+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>8449cbf9-c15c-4d0c-b470-f56a874124f6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>60bbb306-fe07-48b8-a1a3-965c7458a78d</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>8454b2df-d1ec-48ec-8556-81bd535acbb2</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="the-green-johanna-compost-bin">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2b6c2370-26bc-45f3-a067-a23af2e3d58f</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>The Green Johanna Compost Bin</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="the-green-johanna-compost-bin">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:banner</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f72dc69f-7fe2-43d0-b84c-a67da84137c9</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>common/banners/the-green-johanna-compost-bin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>The Green Johanna Compost Bin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-12T15:31:12.758+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-07-12T15:31:32.605+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-07-16T11:32:57.868+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a366f537-016e-49ef-9aeb-3e18c8f75f01</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>874e6328-c4a5-4618-99d1-c538c0e0bdac</sv:value>
+          </sv:property>
+          <sv:property sv:multiple="true" sv:name="hippo:facets" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:modes" sv:type="String"/>
+          <sv:property sv:multiple="true" sv:name="hippo:values" sv:type="String"/>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:doclink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>d10fefbe-8bd6-4442-8e07-340f79fe8a83</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Banners</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="Contact-Us" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>e9e1efde-37ec-49f9-9c08-ecca71091e54</sv:value>
+    </sv:property>
+    <sv:node sv:name="Contact-Us">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>ef:form</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>02360673-8253-40ce-a3db-77fd77d1e0d9</sv:value>
+      </sv:property>
+      <sv:property sv:name="ef:action" sv:type="String">
+        <sv:value>mail</sv:value>
+      </sv:property>
+      <sv:property sv:name="ef:actionurl" sv:type="String">
+        <sv:value>http://test.com/action.do</sv:value>
+      </sv:property>
+      <sv:property sv:name="ef:notificationemail" sv:type="String">
+        <sv:value>info@onehippo.com</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>Contact-Us</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2012-06-21T16:39:31.592+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2012-06-21T17:02:38.326+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2012-06-22T10:49:06.204+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2b266831-8a86-46e7-8a75-91f26afe7d5a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="field1">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ef:textfield</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ab6a2556-a7c5-4ceb-91ed-ee54de2cb524</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:fieldname" sv:type="String">
+          <sv:value>field_name</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:hint" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="ef:label" sv:type="String">
+          <sv:value>Your Name</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:length" sv:type="Long">
+          <sv:value>40</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:mandatory" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:validexpression" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="field2">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ef:textfield</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a62726a1-f3eb-4173-84a5-f3b98f9f41ba</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:fieldname" sv:type="String">
+          <sv:value>field_name</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:hint" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="ef:label" sv:type="String">
+          <sv:value>E-mail Address</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:length" sv:type="Long">
+          <sv:value>40</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:mandatory" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:validexpression" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="field0">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ef:textarea</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d9ba8d3e-1c53-454d-9ab0-df8877769249</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:cols" sv:type="Long">
+          <sv:value>40</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:fieldname" sv:type="String">
+          <sv:value>field_name</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:hint" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="ef:label" sv:type="String">
+          <sv:value>Comments/Questions</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:mandatory" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:rows" sv:type="Long">
+          <sv:value>10</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:validexpression" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Contact Us</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="homepage-intro">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9c0aae76-9974-41ce-b932-3bb9c8f387ef</sv:value>
+    </sv:property>
+    <sv:node sv:name="homepage-intro">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:simpledocument</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>52dd04ef-d41f-46c3-b004-506896272e2f</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>common/homepage-intro</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:summary" sv:type="String">
+        <sv:value>Think Green, Go Green.</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:title" sv:type="String">
+        <sv:value>Welcome</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-12-23T12:37:06.873+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-23T11:38:13.688Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-23T11:38:17.793Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>dfd4f6c0-56dd-4d71-9a4d-bcbdb6b8443e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Welcome to the Go Green website, be inspired!&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:form">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="valuelists">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>eca6a5f4-9b34-4bc2-8b36-ff89d649d3c4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Value Lists</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="categories">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3a3c1f25-cb14-46c2-bb36-7e5fd8743fb4</sv:value>
+      </sv:property>
+      <sv:node sv:name="categories">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:valuelist</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1a883b76-1564-48c8-8fe7-5a929f6165d5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f958c12b-4b23-4ce6-a018-cd8daa7e3219</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Food</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Food</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Transport</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Transport</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Health care</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Health care</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Animal &amp; Garden</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Animal &amp; Garden</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Clothing</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Clothing</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Reuse</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Reuse</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Print</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Print</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Gadgets</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Gadgets</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Categories</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="employers">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>777cfd72-8fd4-434a-a769-948f6fc81d00</sv:value>
+      </sv:property>
+      <sv:node sv:name="employers">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:valuelist</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3cb01574-3494-4c1f-9e58-06d80b71b152</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Hippo</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Hippo</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>New Energy</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>New Energy</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>go Green</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>go Green</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>ERM</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>ERM</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Verengo</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Verengo</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Genesis</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Genesis</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Go Green</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Go Green</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Sunpower</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Sunpower</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Accenture</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Accenture Energy</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>TierraSolar</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>TierraSolar</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>EuropBio</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>EuropaBio</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Johnson Controls</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Johnson Controls</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Renewable Energy</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Renewable Energy</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Alternative Energy</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Alternative Energy</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>AMEC</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>AMEC</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Greenology</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Greenology</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Green2Morrow</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Green2Morrow</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="selection:listitem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>selection:listitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:key" sv:type="String">
+            <sv:value>Solarity</sv:value>
+          </sv:property>
+          <sv:property sv:name="selection:label" sv:type="String">
+            <sv:value>Solarity</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Employers</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="simpledocuments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>70703299-03af-4921-b79a-24963fe78b59</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-simple-folder</sv:value>
+      <sv:value>new-simple</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>a3d88589-f518-4f81-a042-d34e3d18e9ee</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="hst:pages" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:pages</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>50dc4def-1bb8-4bb6-b1e4-1bfee0b3110e</sv:value>
+  </sv:property>
+  <sv:node sv:name="products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>966475a9-2921-4428-b5e9-430bf2d0c694</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.products.Overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>products.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="manifest">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8cdf59de-0a00-436e-9617-d4960640a9c1</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.BaseComponent</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>manifest.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="events-detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d0269d9a-053d-45b3-b012-dfa81eb2472b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.Detail</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>events.detail.ftl</sv:value>
+    </sv:property>
+    <sv:node sv:name="boxes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d087ed74-06bf-4f56-a4b5-a7f836029293</sv:value>
+      </sv:property>
+      
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.vBox</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="boxes2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b8575914-855a-407b-bec2-d4370ce0c6d9</sv:value>
+      </sv:property>
+      
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.vBox</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="boxes3">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0002b70c-54eb-4051-b1ec-ed14e0ec2e99</sv:value>
+      </sv:property>
+      
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.vBox</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="opds">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>66b8501a-1917-471e-be31-fcd1231b390a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.BaseComponent</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>opds.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="products-overview" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:component</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>e46923f3-c8ad-4f86-a8aa-35dbc967051c</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:referencecomponent" sv:type="String">
+    <sv:value>hst:pages/standardpage</sv:value>
+  </sv:property>
+  <sv:node sv:name="main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>003f7e72-5dae-4b56-8152-2b8738c902ea</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>products.main</sv:value>
+    </sv:property>
+    <sv:node sv:name="content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6e5734d9-6bed-4f63-849f-235a189922a7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencecomponent" sv:type="String">
+        <sv:value>hst:components/productsoverview</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="leftnav">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c8e0da24-133c-4c0b-b0b5-4fd41a32d12a</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>facet.location</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>produkte/facetedproducts/Produktkategorie</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencecomponent" sv:type="String">
+        <sv:value>hst:components/productleftnav</sv:value>
+      </sv:property>
+      <sv:node sv:name="boxes-left">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>33e60a65-ff90-4405-8927-1d3329e62454</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="pageactions">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3a47f091-9537-4155-ac86-1ec95348c634</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>standard.main.left.pageactions</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="right">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a217192f-7af4-4ce9-91c1-33d051682c54</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.common.FacetNavigation</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>facetnav.location</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>produkte/facetedproducts</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>products.facetnav</sv:value>
+      </sv:property>
+      <sv:node sv:name="suggestproduct">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>10c6e4a8-6ea1-4748-8166-491928beea5d</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencecomponent" sv:type="String">
+          <sv:value>hst:components/suggestproduct</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="boxes-right">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fdc4680f-aca2-467f-bebc-e9567bd3ca7c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
+

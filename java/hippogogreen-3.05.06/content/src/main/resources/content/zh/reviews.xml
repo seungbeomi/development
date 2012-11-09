@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="reviews" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>091e8e0f-ffe2-4da8-9578-648badb2ed0b</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>f664f023-9fab-4fff-b5a0-9652ea8677af</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>zh</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>reviews</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="绿色约翰娜堆肥箱">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a3a96a31-f0aa-4f00-b51f-43a40f26294e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>340f1cec-6d29-4ea3-afcb-c088d796f09c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>zh</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>39b0fd74-c0ad-49fc-83dd-8d711a45b832</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Review for 绿色约翰娜堆肥箱 2011-12-01 17.40.12.969</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:review</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4acf483e-fdb1-4d0b-a2e7-60c66259b446</sv:value>
+        </sv:property>
+        <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>评论/绿色约翰娜堆肥箱/review-for-绿色约翰娜堆肥箱-2011-12-01-17.40.12.969</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:comment" sv:type="String">
+          <sv:value>尼斯斌, 我想这些.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:date" sv:type="Date">
+          <sv:value>2011-12-01T17:40:13.705+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:email" sv:type="String">
+          <sv:value>jack@example.com</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:name" sv:type="String">
+          <sv:value>Jack</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:rating" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>siteuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-12-01T17:40:13.289+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-12-01T17:41:22.038+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-12-01T17:41:33.430+01:00</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippogogreen:productlink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>ac4d790d-41f8-4522-8767-ae7cfdbe419a</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

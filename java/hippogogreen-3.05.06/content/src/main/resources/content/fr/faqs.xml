@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="faqs">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>39fe67f1-9fea-4e45-91aa-8d7eaffa428e</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-faq</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>2b7e4dc2-c728-4fe9-9545-2f4167e51353</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>fr</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>FAQs</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="comment-demarrer-un-business-vert">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2a4c42ed-fc36-4e99-a359-8ab25f58a657</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Comment démarrer un business vert</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="comment-demarrer-un-business-vert">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>64249c41-8161-46a6-aa46-9a95acec7879</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/comment-demarrer-un-business-vert</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Comment démarrer un business vert</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Business</sv:value>
+        <sv:value>Énergie</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-07T14:31:33.790Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-01-12T14:55:03.791Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-01-12T15:08:27.435Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_20c8f29d-fb15-45c6-96af-5586c9311f5f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f9023423-ea39-4b26-969b-57c379f53f93</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt; &lt;body&gt;
+
+            &lt;p&gt;Ils sont écolos convaincus ou créateurs malins ayant senti décoller le marché, ingénieurs «
+            clean-tech » ou entrepreneurs futés... Voici le parcours exemplaires de quelques éco-entrepreneurs. Ils
+            délivrent les clés de réussite dans ce businessvert qui devient bien plus qu'un rêve.&lt;/p&gt; &lt;h3&gt;Catégorie
+            « clean-tech » &lt;/h3&gt; &lt;p&gt;&lt;strong&gt;&lt;em&gt;Yprema recycle les matériaux de construction&lt;/em&gt;&lt;/strong&gt;
+            &lt;br/&gt; « Dans nos métiers, le recyclage est une question de bon sens », lance Claude Prigent, le
+            fondateur d'Yprema. &lt;br/&gt; Créée en 1989, cette PME familiale s'est d'emblée inscrite dans une démarche
+            d'écologie industrielle en recyclant les déchets de démolition en matériaux de construction pour les routes.
+            &lt;br/&gt; Ce savoir-faire typiquement français s'exprime sur un marché dominé par des mastodontes mondiaux
+            comme Colas, Vinci ou Eurovia. Pour la petite boîte française, la marge de manoeuvre est faible. « Ces
+            grands groupes et leurs filiales maillent tout le territoire et il devient quasi impossible de trouver de
+            nouveaux sites pour accroître nos installations », regrette le patron d'Yprema. Seule solution, être plus
+            inventif.&lt;/p&gt;
+
+            &lt;p&gt;" Nous développons des services de proximité pour que les artisans participent eux aussi au
+            recyclage " Claude Prigent, fondateur d'Yprema&lt;/p&gt;
+
+            &lt;p&gt;Activité : recyclage des déchets de démolition des chantiers en matériaux de construction pour les
+            routes / Création : 1989 / Effectifs : 90 salariés / Chiffre d'affaires prévisionnel 2007 : 20 millions
+            d'euros (CA 2006 : 16 millions d'euros) / www.yprema.fr&lt;/p&gt;
+
+            &lt;p&gt;C'est ainsi que Claude Prigent s'apprête à créer des espaces destinés aux artisans dans ses
+            immenses carrières à ciel ouvert. &lt;br/&gt; Car il n'est plus question de cantonner le recyclage aux
+            seules grosses entreprises du BTP. «  Nous développons des services de proximité comme la réception de la
+            terre de déblai des petites opérations de terrassement.  » Recyclage et développement durable doivent
+            devenir des mécanismes quotidiens, ajoute Claude Prigent. Il s'agit d'une question culturelle.&lt;/p&gt;
+
+            &lt;p&gt;« En Autriche, cela fait dix ans qu'on ne délivre plus de permis de démolition pour les bâtiments,
+            rappelle-t-il. Là-bas, on parle de déconstruction, ce qui oblige à réfléchir à toute la chaîne et à intégrer
+            en amont la phase de recyclage.  » Lors de la démolition, tous les matériaux sont mélangés, quand on procède
+            à la déconstruction, on récupère les éléments après les avoir triés. &lt;br/&gt; «  On ne peut plus ne
+            produire que du neuf. On est entrés dans la culture de la réparation et de la récupération  », insiste
+            Claude Prigent.&lt;/p&gt;
+
+            &lt;p&gt;&lt;strong&gt;&lt;em&gt;Cervin EnR, l'outsider du panneau solaire&lt;/em&gt;&lt;/strong&gt; &lt;br/&gt;
+            Cervin EnR, spécialisée dans les technologies solaires thermiques et photovoltaïques, se positionne en
+            outsider sur un marché aujourd'hui dominé par des fabricants allemands et autrichiens. &lt;br/&gt; A côté de
+            ces derniers, qui n'ont que leurs produits à vendre, sans aucune offre de service, et les installateurs, qui
+            ne sont pas toujours à la pointe malgré leur appellation Qualisol (quatre installations solaires par an
+            suffisent pour l'obtenir), nous proposons un ensemble de services intégrés, du bureau d'études au service
+            commercial, jusqu'à l'installation et la maintenance.&lt;/p&gt;
+
+            &lt;p&gt;«  Nous avons pris une longueur d'avance sur le marché de l'énergie solaire  » Thierry Chambon, PDG
+            de Cervin EnR&lt;/p&gt;
+
+            &lt;p&gt;CERVIN ENR Activité : installation de systèmes solaires thermiques et photovoltaïques / Création :
+            fin 2005 / Effectifs : 200 salariés d'ici à fin décembre / Chiffre d'affaires prévisionnel 2007 : 15
+            millions d'euros (CA 2006 : 3,7 millions d'euros) / www.cervin-enr.com&lt;/p&gt;
+
+            &lt;p&gt; Thierry Chambon est l'ancien secrétaire général d'une société immobilière. Il a repris les rênes
+            de la société six mois à peine après sa création. Il aura fallu peu de temps aux deux fondateurs - qui
+            souhaitent rester discrets - pour s'apercevoir des potentialités gigantesques du marché de l'énergie
+            solaire. Ils ont alors préféré, tout en restant au capital, passer la main à un profil financier pour
+            structurer la société assez rapidement. &lt;br/&gt; Opération réussie, avec notamment une levée de 12
+            millions d'euros en juillet 2007, à l'occasion de l'inscription de Cervin EnR sur le marché libre Euronext.
+            &lt;/p&gt;
+
+            &lt;p&gt;La croissance fulgurante de l'entreprise n'étonne pas son PDG  :  « Nous avons pris une longueur
+            d'avance sur tous les artisans que j'appelle les "installateurs militants", positionnés depuis vingt ans sur
+            le secteur, mais qui n'ont pas vu le décollage du marché à temps et n'ont pas su ou voulu se structurer pour
+            prendre de l'ampleur. Nous nous plaçons en pole position au moment même où les donneurs d'ordre et les
+            architectes commencent à intégrer l'énergie solaire dans leurs schémas. »&lt;/p&gt;
+
+            &lt;/body&gt; &lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="quel-type-de-batterie-utiliser">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c0bddb93-a9be-43f4-b322-fe431c80fe6f</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Quel type de batterie utiliser</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="quel-type-de-batterie-utiliser">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>da5b78af-0353-4714-9132-7579525bdaef</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/quel-type-de-batterie-utiliser</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Quel type de batterie utiliser ?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Énergie</sv:value>
+        <sv:value>Solaire</sv:value>
+        <sv:value>Batterie</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T10:20:41.640Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-01-12T14:56:13.073Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-01-12T15:08:27.633Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_5b9addb7-1fa6-4f7f-920d-48160d2669d7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e403ac5e-5ff4-4dbe-8b06-bc6629d6f005</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt; &lt;body&gt;
+
+            &lt;p&gt;Une &lt;strong&gt;batterie d'accumulateurs&lt;/strong&gt; ou généralement une &lt;strong&gt;batterie&lt;/strong&gt;,
+            est un ensemble d'&lt;a title="Accumulateur électrique"
+            href="http://fr.wikipedia.org/wiki/Accumulateur_%E9lectrique"&gt;accumulateurs électriques&lt;/a&gt; reliés
+            entre eux de façon à créer un &lt;a title="Générateur" href="http://fr.wikipedia.org/wiki/G%E9n%E9rateur"&gt;générateur&lt;/a&gt;
+            de &lt;a title="Courant continu" href="http://fr.wikipedia.org/wiki/Courant_continu"&gt;courant continu&lt;/a&gt;
+            de la &lt;a title="Capacité" href="http://fr.wikipedia.org/wiki/Capacit%E9"&gt;capacité&lt;/a&gt; et de la
+            &lt;a title="Tension électrique" href="http://fr.wikipedia.org/wiki/Tension_%E9lectrique"&gt;tension&lt;/a&gt;
+            désirée.&lt;/p&gt;
+
+            &lt;p&gt;Ces accumulateurs même s'ils sont seuls sont parfois appelés éléments de la batterie ou &lt;strong&gt;cellule&lt;/strong&gt;.&lt;/p&gt;
+
+            &lt;p&gt;On appelle ainsi batteries les accumulateurs rechargeables destinées aux &lt;a title="Appareil"
+            href="http://fr.wikipedia.org/wiki/Appareil"&gt;appareils&lt;/a&gt; &lt;a title="Électrique"
+            href="http://fr.wikipedia.org/wiki/%C9lectrique"&gt;électriques&lt;/a&gt; et &lt;a title="Électronique"
+            href="http://fr.wikipedia.org/wiki/%C9lectronique"&gt;électroniques&lt;/a&gt; &lt;a title="Domestique"
+            href="http://fr.wikipedia.org/wiki/Domestique"&gt;domestiques&lt;/a&gt;. &lt;/p&gt;
+
+            &lt;/body&gt; &lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

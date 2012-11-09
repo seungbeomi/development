@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="hippo:users" h:merge="combine">
+  <sv:node sv:name="acahn-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.cahn@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Arje</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Cahn</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$BWmr8A567jM=$ix+DV5Dlw3HC4vtF4luWjBakjaA=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="acahn-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.cahn@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Arje</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Cahn</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$2Zc9M0I9s6I=$7HcJ9TexLgZBMH2KQFSnzrsuWlU=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="acahn-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.cahn@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Arje</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Cahn</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$XQgxSyF+0k0=$/Tal5WkqHX+cdDyZbj3lterjpXw=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="adouma-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.douma@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Ate</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Douma</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$8MspOfFOXzc=$B6G5PspkYiSBpPrZ+j78VYFKAnY=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="adouma-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.douma@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Ate</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Douma</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$e7OJTvJpW2Q=$Rr+fmG5NpKvxSIQ+sA/M9YN7fPI=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="adouma-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.douma@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Ate</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Douma</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$cV9v8ifuAKo=$cZakR2pJFicfBNb2ychb6JfQTAU=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="aschrijvers-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.schrijvers@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Ard</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Schrijvers</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$kWPbia2hpos=$5PxC29XFFNyLrqVNFohgqM/jbJo=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="aschrijvers-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.schrijvers@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Ard</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Schrijvers</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$durWm4ZysAw=$dwoqLO4DspyHwVD0bL0SXxW+BWY=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="aschrijvers-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>a.schrijvers@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Ard</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Schrijvers</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$xzqheceJ2Ls=$mgweRl3QuzvBZ4+3aha7Q9deGZM=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bvanhalderen-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>b.vanhalderen@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Berry</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Halderen</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$L8JRG5ubyQw=$HPCeqlXXigm5g8WYfIvZKBiklQo=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bvanhalderen-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>b.vanhalderen@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Berry</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Halderen</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$i1D8NM0mhTo=$RdyECCBbDG7P6sSd7Ly+qsw79Es=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bvanhalderen-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>b.vanhalderen@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Berry</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Halderen</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$TvokNokkfmE=$t6QrCthx+isz7r7iDhSQKx8Oy8o=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="fvanlankvelt-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>f.vanlankvelt@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Frank</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Lankvelt</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$6XvPZeZxGG4=$uWwm7TPPbM2brpE8I9rMkcu8vkc=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="fvanlankvelt-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>f.vanlankvelt@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Frank</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Lankvelt</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$4Ci525v/pgM=$/1I1ZQqWgSw2eF/PyO0RnxqfRlY=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="fvanlankvelt-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>f.vanlankvelt@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Frank</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Lankvelt</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$4ie5INNQtcM=$9j9PCnqshDXHFjoql/JQYCaeZSA=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="jbloemendal-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>j.bloemendal@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Jannis</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Bloemendal</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$Ij4SDZub08M=$cw/s7W4JDgq2jOZO71Ydrp0GoIY=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="jbloemendal-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>j.bloemendal@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Jannis</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Bloemendal</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$etqKFfE3lLk=$RFY7Ufk6UW9wF+MPDIRKpbyJ37c=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="jbloemendal-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>j.bloemendal@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Jannis</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Bloemendal</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$InriDP3fDtI=$be6wQuYvIqYXuERZvCISTbn/kR8=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="jsheriff-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>j.sheriff@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Junaidh</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Sheriff</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$grJvwkVsl3U=$mQjhHYe3LikAp/vFS6T9oWzuybI=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="jsheriff-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>j.sheriff@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Junaidh</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Sheriff</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$P2TD23TPVDI=$CDmc4emwb17bIjO9t5iOUdONFwU=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="jsheriff-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>j.sheriff@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Junaidh</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Sheriff</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$Ak/1yyQS2cQ=$0mjmSBM/z5TTkwNfXpA3KTImLI8=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mdenburger-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>m.denburger@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Mathijs</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>den Burger</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$IqYK1/HnA30=$WDALSQMRKLX9aVZIT7n2PVJ5hcg=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mdenburger-author">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:user</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:active" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:email" sv:type="String">
+        <sv:value>m.denburger@onehippo.com</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:firstname" sv:type="String">
+        <sv:value>Mathijs</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:lastname" sv:type="String">
+        <sv:value>den Burger</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:password" sv:type="String">
+        <sv:value>$SHA-1$+HhA5KM+M7M=$BQYeadMoncwYKYf0bFZWuNdImHI=</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+        <sv:value>internal</sv:value>
+      </sv:property>
+    </sv:node>
+  <sv:node sv:name="mdenburger-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>m.denburger@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Mathijs</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>den Burger</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$xHPNbg4tFb8=$lBxWvKxXBL6uYAyBiGq5PpwQpE0=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="marry-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>m.vanduijvenbode@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Marry</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Duijvenbode</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$jwAIfMmnNiQ=$OdbIsAiK8CbY0lJjhsL0GBhcPUw=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:passwordlastmodified" sv:type="Date">
+      <sv:value>2011-09-05T12:46:18.146+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="marry-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>m.vanduijvenbode@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Marry</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Duijvenbode</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$2c76DCEIDQc=$XvKhAW9URQBFu7p/JbyykQpZdGc=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:passwordlastmodified" sv:type="Date">
+      <sv:value>2011-09-05T12:47:07.704+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="marry-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>m.vanduijvenbode@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Marry</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>van Duijvenbode</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$HH8u7S/M/b4=$54OpyL6CTWiSCKwPHhkC6aqOuos=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:passwordlastmodified" sv:type="Date">
+      <sv:value>2011-09-05T12:46:44.370+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="svoortman-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>s.voortman@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Simon</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Voortman</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>svoortman</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="svoortman-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>s.voortman@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Simon</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Voortman</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>svoortman</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="svoortman-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>s.voortman@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Simon</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Voortman</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>svoortman</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="swesten-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>s.westen@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Stephan</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Westen</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$94HYKbbSMmo=$X9uPEjsl58mgbsAbKj8toWDRU7Q=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="swesten-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>s.westen@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Stephan</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Westen</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$sr16073ZdY4=$IGogaGfobqrNT5G4gKRHPo48Rnk=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="swesten-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>s.westen@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Stephan</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Westen</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$CsyCvb02zDE=$2ohqiRQ+oq/hYkqEB3XBb5Sdqzs=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="uhommes-admin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>u.hommes@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Unico</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Hommes</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$vkOdnOSprns=$IOpKC+bgCkncNPiNgJ6nf+UXcAk=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="uhommes-author">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>u.hommes@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Unico</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Hommes</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$urTe5Jtv75w=$mTROHnf9rValRv/3Dbj2UoqixEE=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="uhommes-editor">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:user</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:active" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:email" sv:type="String">
+      <sv:value>u.hommes@onehippo.com</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:firstname" sv:type="String">
+      <sv:value>Unico</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:lastname" sv:type="String">
+      <sv:value>Hommes</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:password" sv:type="String">
+      <sv:value>$SHA-1$EDMAnWRNA/c=$20W5CHeai09ltkNDa2aaL/h7Viw=</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:securityprovider" sv:type="String">
+      <sv:value>internal</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

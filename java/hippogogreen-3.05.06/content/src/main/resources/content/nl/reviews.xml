@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010 Hippo
+
+  Licensed under the Apache License, Version 2.0 (the  "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS"
+  BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. -->
+<sv:node sv:name="reviews" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>72273c2c-6b70-4a33-9dad-7f18c2901dc0</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>630f1a89-8fc3-4ab7-a2e1-ecbc78d7efcc</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>nl</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Produkt Reviews</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="Nature Friend Magazine">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5d7bbdce-9c3f-4efe-ac52-4a2962813af5</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-document</sv:value>
+      <sv:value>new-translated-folder</sv:value>
+    </sv:property>
+    <sv:node sv:name="review-for-naturefriend-1295611579278">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3a6d40e2-e04f-412d-b0a8-415a47f9097a</sv:value>
+      </sv:property>
+      <sv:node sv:name="review-for-naturefriend-1295611579278">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:review</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>184269d5-23fb-46b1-8e8c-8ff405626ba4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>reviews/Nature Friend Magazine/review-for-naturefriend-1295611579278</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:comment" sv:type="String">
+          <sv:value>Groet Produkt</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:date" sv:type="Date">
+          <sv:value>2011-01-21T13:06:20.302+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:email" sv:type="String">
+          <sv:value>bob@bob.com</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:name" sv:type="String">
+          <sv:value>Bob</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:rating" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2011-01-21T13:06:19.905+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-01-21T12:06:20.523Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-01-21T12:06:26.650Z</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippogogreen:productlink">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>b5fb3cea-7edd-49e8-97a3-19907f5895e1</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

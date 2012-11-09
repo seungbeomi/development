@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="hst:sitemap" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemap</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>40b6e51d-3b0e-4948-aa2d-cf58fe6ca1b8</sv:value>
+  </sv:property>
+  <sv:node sv:name="events">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>94e1b98c-c947-4120-9898-1483cf7ee00c</sv:value>
+    </sv:property>
+    <sv:node sv:name="_any_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d3f69cae-e5b5-4ffb-a95c-a50883a28be8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/events-detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>events/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="index.manifest">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7705caaa-a5f6-4d65-a2a2-1493e26a01dd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/manifest</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>119961ee-ffa5-4ac9-bc76-f097d3f552b9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/products</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>products</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="opds.xml">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>60b3823b-d9bd-4689-846a-6cacfd847ac1</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/opds</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

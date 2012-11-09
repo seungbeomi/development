@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="comments">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>ab4c657c-36b2-4f91-8c4d-ac9f9aa103ce</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>0c68a179-0692-44de-9223-14fe9045c742</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>ru</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="news">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ef350b43-7061-489a-b60f-9474640f9a5b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>133b3f93-895d-433d-9dfb-0f05bd91f152</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>ru</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="конференция-в-копенгагене">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:translated</sv:value>
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e1b95a4a-4762-456e-a5d2-c7f2965d255d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>ea20ee11-9cfe-4263-b6ed-63ad822879b8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>ru</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Конференция в Копенгагене</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="конференция-в-копенгагене">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d8cddb9d-3390-4c4a-920a-7aeaccc95967</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>конференция в копенгагене</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="конференция-в-копенгагене">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:comment</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>dc8e7ed9-1688-42ec-b684-a67c0f92fcf1</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>реакции/новости/конференция-в-копенгагене/конференция-в-копенгагене</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:body" sv:type="String">
+            <sv:value>Привет! Я никогда не услышал об этой интересной конференции, где мне можно побольше узнать об этом предмете?</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:email" sv:type="String">
+            <sv:value>zubov144@mail.ru</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:name" sv:type="String">
+            <sv:value>Д. Зубов</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2011-08-03T20:07:43.849+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-08-07T10:00:25.192+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2011-08-07T10:00:30.900+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>ff29479f-d460-4d30-a62c-374c5aa4aa34</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>ru</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:documentlink">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>31814156-c945-4820-a8a8-950548708b79</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="events">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>30ad8760-46b2-4c6a-8b37-2b80b3f609e7</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>ru</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

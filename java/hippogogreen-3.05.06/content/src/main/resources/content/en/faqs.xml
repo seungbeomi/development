@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010 Hippo
+
+  Licensed under the Apache License, Version 2.0 (the  "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS"
+  BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. -->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="faqs">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>bc0f346b-db91-4834-98db-af53b628972f</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-faq</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>2b7e4dc2-c728-4fe9-9545-2f4167e51353</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>FAQs</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="Ways-to-Make-Your-Business-Environmentally-Friendly">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>34877f65-941f-44b0-bb86-562df26c2f1d</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Ways to Make Your Business Environmentally Friendly</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Ways-to-Make-Your-Business-Environmentally-Friendly">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4a0cf56b-3899-4336-a2b0-a5b47f5aafbd</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/Ways-to-Make-Your-Business-Environmentally-Friendly</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Ways to Make Your Business Environmentally Friendly</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String">
+        <sv:value>Start up</sv:value>
+        <sv:value>Green</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-07T16:30:00.988+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:17:31.524+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:17:34.000+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String">
+        <sv:value>key_363b2355-b7d6-4255-b98c-d17709416596</sv:value>
+        <sv:value>key_51d3ed5f-b9ca-4d4b-8419-de042ee5546b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c275a96b-2b11-4ede-a657-d97dc380f674</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Turn off equipment when it's not being used. This can reduce the energy used
+by 25 percent; turning off the computers at the end of the day can save an
+additional 50 percent.&lt;/li&gt;
+&lt;li&gt;Encourage communications by email, and read email messages onscreen to
+determine whether it's necessary to print them. If it's not, don't!&lt;/li&gt;
+&lt;li&gt;Reduce fax-related paper waste by using a fax-modem and by using a fax cover
+sheet only when necessary.Fax-modems allow documents to be sent directly from a
+computer, without requiring a printed hard copy.&lt;/li&gt;
+&lt;li&gt;Produce double-sided documents whenever possible.&lt;/li&gt;
+&lt;li&gt;Do not leave taps dripping; always close them tightly after use. (One drop
+wasted per second wastes 10,000 litres per year.)&lt;/li&gt;
+&lt;li&gt;Install displacement toilet dams in toilet reservoirs. Placing one or two
+plastic containers filled with stones [not bricks] in the toilet's reservoir
+will displace about 4 litres of water per flush - a huge reduction of water use
+over the course of a year.&lt;/li&gt;
+&lt;li&gt;Find a supply of paper with maximum available recycled content.&lt;/li&gt;
+&lt;li&gt;Choose suppliers who take back packaging for reuse.&lt;/li&gt;
+&lt;li&gt;Instigate an ongoing search for "greener" products and services in the local
+community. The further your supplies or service providers have to travel, the
+more energy will be used to get them to you.&lt;/li&gt;
+&lt;li&gt;Before deciding whether you need to purchase new office furniture, see if
+your existing office furniture can be refurbished. It's less expensive than
+buying new and better for the environment.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="How-to-start-a-Green-Business">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>783e3212-01bf-4f1e-bffc-96a29e3d2471</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>How to start a Green Business</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="How-to-start-a-Green-Business">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e562030d-e88d-4c3c-820d-fdae4109f6ba</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/How-to-start-a-Green-Business</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>How to start a Green Business?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>acahn</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String">
+        <sv:value>Business</sv:value>
+        <sv:value>Energy</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-07T16:31:33.790+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:45:09.604+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-26T08:15:47.243+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String">
+        <sv:value>key_20c8f29d-fb15-45c6-96af-5586c9311f5f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f9023423-ea39-4b26-969b-57c379f53f93</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Becoming a green business means making changes across your organization, from
+the way you manage your day-to-day operations to the products you offer to your
+customers.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Energy Efficiency Guide: Save energy costs, find energy saving tips, and
+get  information on grants, loans and incentives for making energy efficient
+upgrades .&lt;/li&gt;
+&lt;li&gt;Environmental Management: Manage environmental issues to avoid liability,
+reduce costs and get recognized as a green business.&lt;/li&gt;
+&lt;li&gt;Grants, Loans and Incentives: Get info on energy efficient upgrades and tax
+credits to green technology development.&lt;/li&gt;
+&lt;li&gt;Government Contracting: Learn about opportunities to sell green products and
+services to the government.&lt;/li&gt;
+&lt;li&gt;Green Commuting Options: Cut down on your energy costs, protect the
+environment and increase employee productivity by adopting telecommuting
+policies and other green commuting options.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="How-to-Recycle-Different-Types-of-Plastic">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f9d0963a-d15f-408d-8504-d3347755a9c2</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>How to Recycle Different Types of Plastic</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="How-to-Recycle-Different-Types-of-Plastic">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>81e324d2-73ce-4141-b9b9-eae98420911b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/How-to-Recycle-Different-Types-of-Plastic</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>How to Recycle Different Types of Plastic</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String">
+        <sv:value>Recycle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:15:00.056+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:19:21.544+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:19:23.612+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String">
+        <sv:value>key_5b9addb7-1fa6-4f7f-920d-48160d2669d7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2cbbfcec-3466-4e20-94f4-bef557d4db80</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;The confusion over what we can and cannot recycle continues to confound
+consumers. Plastics are especially troublesome, as different types of plastic
+require different processing to be reformulated and re-used as raw material.
+Some municipalities accept all types of plastic for recycling, while others only
+accept jugs, containers and bottles with certain numbers stamped on their
+bottoms. &lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="Why-Is-Recycling-Not-Mandatory">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8d2939ce-a6f4-4ab8-bc03-baddbc1208cc</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Why Is Recycling Not Mandatory</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Why-Is-Recycling-Not-Mandatory">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e21ad50d-4b67-460c-b82f-8df98847fe70</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/Why-Is-Recycling-Not-Mandatory</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Why Is Recycling Not Mandatory</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>acahn</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String">
+        <sv:value>Recycle</sv:value>
+        <sv:value>Mandatory</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:16:12.332+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-26T14:05:06.923+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>acahn</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-29T18:15:45.785+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String">
+        <sv:value>key_e0a827ec-50d1-4112-8e3d-604f7c3f6993</sv:value>
+        <sv:value>key_53bc8b17-ade6-4bc6-8b8c-c03168495c81</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cf49de52-66f5-4651-999b-81ddc60e480d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Mandatory recycling is a hard sell in the United States of America, where the
+economy runs largely along free market lines and land filling waste remains
+inexpensive and efficient. When the research firm Franklin Associates examined
+the issue a decade ago, it found that the value of the materials recovered from
+curbside recycling was far less than the extra costs of collection,
+transportation, sorting and processing incurred by municipalities. &lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value>About.com Earth Talk</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value>http://environment.about.com/od/recycling/a/must_recycle.htm</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="What-type-of-battery-should-I-use">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>1b756417-7f58-4131-8739-3cc860710d24</sv:value>
+    </sv:property>
+    <sv:node sv:name="What-type-of-battery-should-I-use">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a1253dcf-12da-43e0-ad4f-4a021c21f178</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/What-type-of-battery-should-I-use</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>What type of battery should I use?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String">
+        <sv:value>solar energy</sv:value>
+        <sv:value>battery</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:20:41.640+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:21:36.064+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-29T18:15:34.329+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String">
+        <sv:value>key_5b9addb7-1fa6-4f7f-920d-48160d2669d7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e403ac5e-5ff4-4dbe-8b06-bc6629d6f005</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;It is possible to use any 12V flooded or sealed lead-acid battery with our
+panels, though it is better to use a 'deep cycle' battery. Deep cycle batteries
+are designed to endure sustained discharge whereas some batteries, e.g. car
+battery, are designed for short bursts of energy only. We recommend a 75Ahr
+flooded lead acid battery.&lt;/p&gt;
+
+&lt;p&gt;How long will the systems last? The Uni-Solar® flexible panels, properly
+cared for should last at least 10 years. Proper care simply involves securing
+the panel so that it does not flap about and preventing the surface from getting
+scuffed. The panels are resistant to salt water and are designed to be left in
+the sun! They should not, however be positioned where they will be submerged for
+long periods. Each Uni-Solar® flexible panel has a 3 year warranty. &lt;br/&gt;
+The Uni-Solar® and AstroPower framed panels come with a 10 year warranty, and
+should last at least 20 years. &lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>What type of battery should I use?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="What-will-solar-energy-cost-me">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>be377a24-6102-47fb-b16f-453d5b897b59</sv:value>
+    </sv:property>
+    <sv:node sv:name="What-will-solar-energy-cost-me">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5ab42ebb-d82d-40dd-b518-b7d8c351d3d0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/What-will-solar-energy-cost-me</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>What will solar energy cost me</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String">
+        <sv:value>solar energy</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:22:11.188+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:22:58.756+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-29T18:15:44.137+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String">
+        <sv:value>key_5b9addb7-1fa6-4f7f-920d-48160d2669d7</sv:value>
+        <sv:value>key_d9ab96ea-5be1-4ba3-94d1-a62174e4e962</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>82f28cbd-1971-40a2-a4ff-a624ee1e8d95</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Solar electricity costs about $10 to $12 a watt installed, though you may be
+eligible for state incentives. Check your utility bill to see your monthly
+usage. A robust solar electric system will cost about $20,000. You can spend as
+much money, to receive as much solar electricity, as you feel comfortable with.
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>What will solar energy cost me</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="if-I-want-to-use-solar-energy-to-supply-all-the-power-to-my-home-or-remote-cabin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d53e4ce2-fe52-499e-a352-0bd393cd4bc7</sv:value>
+    </sv:property>
+    <sv:node sv:name="if-I-want-to-use-solar-energy-to-supply-all-the-power-to-my-home-or-remote-cabin">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>44323b00-6967-4892-b330-7cbb8cd81faf</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/if-I-want-to-use-solar-energy-to-supply-all-the-power-to-my-home-or-remote-cabin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>if I want to use solar energy to supply all the power to my home or remote cabin?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String">
+        <sv:value>solar energy</sv:value>
+        <sv:value>private</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:23:17.556+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:24:24.152+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-19T12:24:25.828+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c021b717-5120-490b-a229-8a964a1be2c6</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;the cost is about $12 a watt and a total cost of about $20,000. For a remote
+cabin, the cost is generally much cheaper than hooking up to the grid.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>if I want to use solar energy to supply all the power to my home or remote cabin?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

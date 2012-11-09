@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010 Hippo
+
+  Licensed under the Apache License, Version 2.0 (the  "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS"
+  BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. -->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="polls">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>071ce482-e31a-4103-a0f6-0cb290bb7d57</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-poll-folder</sv:value>
+    <sv:value>new-poll</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>06f3be65-8d1e-4b85-b748-4bc1c05558c2</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Polls</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="How-do-you-feel-about-green-energy">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>489b5f7d-980e-4256-b4c7-81df97df94ba</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>How do you feel about green energy</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="How-do-you-feel-about-green-energy">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>poll:polldocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7ddcf753-cc80-405c-8e43-437f40fc12cd</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>polls/How-do-you-feel-about-green-energy</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>acahn</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-12T11:58:58.196+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-26T13:30:31.375+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>acahn</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-29T18:15:45.025+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>a85bf9da-9056-444a-8efe-e749a97a97ca</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="poll:poll">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>poll:poll</sv:value>
+        </sv:property>
+        <sv:property sv:name="poll:active" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="poll:introduction" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="poll:text" sv:type="String">
+          <sv:value>How do you feel about green energy ?</sv:value>
+        </sv:property>
+        <sv:node sv:name="poll:option">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>poll:option</sv:value>
+          </sv:property>
+          <sv:property sv:name="poll:label" sv:type="String">
+            <sv:value>Good, but how much does it cost?</sv:value>
+          </sv:property>
+          <sv:property sv:name="poll:value" sv:type="String">
+            <sv:value>A</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="poll:option">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>poll:option</sv:value>
+          </sv:property>
+          <sv:property sv:name="poll:label" sv:type="String">
+            <sv:value>Great, I will replace my current energy supplier in the future</sv:value>
+          </sv:property>
+          <sv:property sv:name="poll:value" sv:type="String">
+            <sv:value>B</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="poll:option">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>poll:option</sv:value>
+          </sv:property>
+          <sv:property sv:name="poll:label" sv:type="String">
+            <sv:value>Why should I change to green energy?</sv:value>
+          </sv:property>
+          <sv:property sv:name="poll:value" sv:type="String">
+            <sv:value>C</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

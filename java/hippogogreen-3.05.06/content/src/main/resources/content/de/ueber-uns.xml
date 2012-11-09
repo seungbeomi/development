@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="ueber-uns">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>fc7f568c-9115-4ebf-84f6-684ceaa96ca2</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>4c798917-eea5-4a36-904f-399c36e9e1ea</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>de</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Über uns</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="allgemeine-geschaftsbedingungen">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>e6f05b4e-2494-40ed-8a02-1e9b8d303102</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>f83d8be1-5cc7-4f1f-82ba-2ceacd2faed1</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Allgemeine Geschäftsbedingungen</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="allgemeine-geschaftsbedingungen">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>49cd9458-06da-4b13-b6aa-3587a8fad6b9</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Allgemeine Geschäftsbedingungen</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="allgemeine-geschaftsbedingungen">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:simpledocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1fb6c1c9-17c2-4311-892f-1249cc59e863</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>ueber-uns/allgemeine-geschaftsbedingungen/allgemeine-geschaftsbedingungen</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Die Inhalte dieser Website sind nur für Demonstrations-Zwecke.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Allgemeine Geschäftsbedingungen</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>tbrenninkmeijer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-23T19:13:58.130+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2012-03-26T12:49:55.597+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2012-03-26T12:50:01.645+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>d195edba-cacd-477a-97b5-c87bbc9c2d97</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>de</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Hippo hat versucht nur Inhalte die der Creative Commons Lizenz unterstellt
+sind zu verwenden und die jeweiligen Urheber zu benennen. Sollten Sie Inhalte
+finden, die nicht in dieser Demo verwendet werden dürfen teilen Sie uns dieses
+bitte via Email an: info @ onehippo(punkt)com mit, wir werden die jeweiligen
+Inhalte schnellstmöglich entfernen.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:form">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:mirror</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

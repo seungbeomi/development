@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010 Hippo Licensed under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License. You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+  applicable law or agreed to in writing, software distributed under
+  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
+  OR CONDITIONS OF ANY KIND, either express or implied. See the
+  License for the specific language governing permissions and
+  limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.onehippo.cms7</groupId>
+    <artifactId>hippo-cms7-release</artifactId>
+    <version>7.7.2</version>
+  </parent>
+
+  <name>Hippo Go Green</name>
+  <description>Hippo Go Green Demo</description>
+  <groupId>com.onehippo.gogreen</groupId>
+  <artifactId>hippogogreen</artifactId>
+  <version>3.05.06</version>
+  <packaging>pom</packaging>
+
+  <scm>
+    <connection>scm:svn:http://svn.onehippo.org/repos/hippo/hippo-demos/hippo-go-green/tags/hippogogreen-3.05.06</connection>
+    <developerConnection>scm:svn:https://svn.onehippo.org/repos/hippo/hippo-demos/hippo-go-green/tags/hippogogreen-3.05.06</developerConnection>
+    <url>http://svn.onehippo.org/viewvc/hippo-demos/hippo-go-green/tags/hippogogreen-3.05.06</url>
+  </scm>
+
+  <properties>
+    <lib.atomikos.version>3.1.4</lib.atomikos.version>
+    <lib.commons.lang.version>2.6</lib.commons.lang.version>
+    <lib.commons.codec.version>1.5</lib.commons.codec.version>
+    <lib.freemarker.version>2.3.18</lib.freemarker.version>
+    <lib.javax-annotation-security>1.0.1</lib.javax-annotation-security>
+    <lib.javax-servlet-jstl.version>1.1.2</lib.javax-servlet-jstl.version>
+    <lib.json.version>20090211</lib.json.version>
+    <lib.rome.version>1.0.0</lib.rome.version>
+    <lib.spring.version>3.0.5.RELEASE</lib.spring.version>
+    <lib.spring-js.version>2.0.5.RELEASE</lib.spring-js.version>
+    <lib.taglibs.version>1.1.2</lib.taglibs.version>
+    <lib.xercesImpl.version>2.9.1</lib.xercesImpl.version>
+    <hippo.cms.version>2.22.07-SNAPSHOT</hippo.cms.version>
+    <maven.plugin.license.version>1.9.0</maven.plugin.license.version>
+
+    <junit.version>4.8.2</junit.version>
+    <easymock.version>2.4</easymock.version>
+
+    <forge.poll.version>1.05.04</forge.poll.version>
+
+    <yui.sources.version>1.01.10</yui.sources.version>
+    <!--
+    <hippoecm.export.dir>${project.basedir}/content/src/main/resources</hippoecm.export.dir>
+    -->
+
+    <sonar.l10n.locales>nl,fr,it,de</sonar.l10n.locales>
+  </properties>
+
+  <repositories>
+   <repository>
+      <id>hippo</id>
+      <name>Hippo Maven 2</name>
+      <url>http://maven.onehippo.com/maven2/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+    </repository>
+  </repositories>
+
+  <dependencyManagement>
+    <dependencies>
+
+      <!-- Libraries -->
+
+      <dependency>
+        <groupId>org.apache.geronimo.specs</groupId>
+        <artifactId>geronimo-annotation_1.1_spec</artifactId>
+        <version>${lib.javax-annotation-security}</version>
+        <!-- NOTE: You should use 'provided' instead of 'compile'
+           when your application container provides javax.annotation.security package. -->
+        <scope>compile</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>${lib.json.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.java.dev.rome</groupId>
+        <artifactId>rome-fetcher</artifactId>
+        <version>${lib.rome.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>net.java.dev.rome</groupId>
+        <artifactId>rome</artifactId>
+        <version>${lib.rome.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>${lib.spring.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+        <version>${lib.spring.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${lib.spring.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-aop</artifactId>
+        <version>${lib.spring.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>${lib.spring.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.onehippo.yui</groupId>
+        <artifactId>yui-2.xx-sources</artifactId>
+        <version>${yui.sources.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+
+      <dependency>
+        <groupId>org.easymock</groupId>
+        <artifactId>easymock</artifactId>
+        <version>${easymock.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>${lib.commons.codec.version}</version>
+      </dependency>
+      <!-- other predefined compile scope versioned dependencies -->
+      <dependency>
+        <groupId>org.freemarker</groupId>
+        <artifactId>freemarker</artifactId>
+        <version>${lib.freemarker.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework.webflow</groupId>
+        <artifactId>org.springframework.js</artifactId>
+        <version>${lib.spring-js.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>commons-lang</groupId>
+        <artifactId>commons-lang</artifactId>
+        <version>${lib.commons.lang.version}</version>
+      </dependency>
+
+      <!-- other predefined runtime scope versioned dependencies -->
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>${lib.javax-servlet-jstl.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>taglibs</groupId>
+        <artifactId>standard</artifactId>
+        <version>${lib.taglibs.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>xerces</groupId>
+        <artifactId>xercesImpl</artifactId>
+        <version>${lib.xercesImpl.version}</version>
+        <scope>runtime</scope>
+      </dependency>
+
+      <!-- other predefined test scope versioned dependencies -->
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+        <scope>test</scope>
+      </dependency>
+
+    </dependencies>
+
+  </dependencyManagement>
+
+  <build>
+    <defaultGoal>package</defaultGoal>
+    <pluginManagement>
+      <plugins>
+
+        <plugin>
+          <inherited>false</inherited>
+          <groupId>com.mycila.maven-license-plugin</groupId>
+          <artifactId>maven-license-plugin</artifactId>
+          <version>${maven.plugin.license.version}</version>
+          <configuration>
+            <header>${project.basedir}/etc/license-header.txt</header>
+            <failIfMissing>true</failIfMissing>
+            <aggregate>true</aggregate>
+            <properties>
+              <year>2010</year>
+              <company>Hippo B.V.</company>
+            </properties>
+            <excludes>
+              <exclude>LICENSE.txt</exclude>
+              <exclude>**/overlays/**</exclude>
+              <exclude>**/*.log</exclude>
+              <exclude>target/**</exclude>
+              <exclude>**/tomcat/**</exclude>
+              <exclude>**/yui-css.css</exclude>
+              <exclude>**/README</exclude>
+              <exclude>**/*.txt</exclude>
+            </excludes>
+            <mapping>
+              <cnd>JAVADOC_STYLE</cnd>
+              <tag>DYNASCRIPT_STYLE</tag>
+              <jspf>DYNASCRIPT_STYLE</jspf>
+            </mapping>
+          </configuration>
+        </plugin>
+      </plugins>
+
+    </pluginManagement>
+ </build>
+
+  <profiles>
+
+    <profile>
+      <id>default</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+        <property>
+          <name>jrebel</name>
+        </property>
+      </activation>
+      <modules>
+        <module>content</module>
+        <module>rating-plugin</module>
+        <module>cms</module>
+        <module>site</module>
+        <module>integration-tests</module>
+        <module>server-config</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>cargo.run</id>
+     <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.cargo</groupId>
+            <artifactId>cargo-maven2-plugin</artifactId>
+            <configuration>
+              <configuration>
+                <deployables>
+                  <deployable>
+                    <type>war</type>
+                    <properties>
+                      <context>/cms</context>
+                    </properties>
+                    <location>${project.basedir}/cms/target/cms.war</location>
+                  </deployable>
+                  <deployable>
+                    <location>${project.basedir}/site/target/site.war</location>
+                    <type>war</type>
+                    <properties>
+                      <context>/site</context>
+                    </properties>
+                  </deployable>
+                </deployables>
+                <properties>
+                  <catalina.servlet.uriencoding>UTF-8</catalina.servlet.uriencoding>
+                </properties>
+                <configfiles>
+                  <configfile>
+                    <file>${project.basedir}/conf/context.xml</file>
+                    <todir>conf/</todir>
+                    <tofile>context.xml</tofile>
+                  </configfile>
+                </configfiles>
+              </configuration>
+              <container>
+               <systemProperties>
+                  <log4j.configuration>file:${project.basedir}/conf/log4j-dev.xml</log4j.configuration>
+                </systemProperties>
+              </container>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <profile>
+      <id>dist</id>
+      <dependencies>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+          <scope>provided</scope>
+        </dependency>
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>jcl-over-slf4j</artifactId>
+          <scope>provided</scope>
+        </dependency>
+        <dependency>
+          <groupId>log4j</groupId>
+          <artifactId>log4j</artifactId>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
+      <build>
+        <defaultGoal>validate</defaultGoal>
+        <plugins>
+          <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>distro-assembly</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+                <configuration>
+                  <descriptors>
+                    <descriptor>${basedir}/src/main/assembly/distribution.xml</descriptor>
+                  </descriptors>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+  </profiles>
+
+</project>

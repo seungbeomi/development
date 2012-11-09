@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+
+    Copyright (C) 2010 Hippo B.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+
+<sv:node sv:name="hst:templates" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:templates</sv:value>
+  </sv:property>
+  <sv:node sv:name="layout.mobilepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String">
+      <sv:value>header</sv:value>
+      <sv:value>body</sv:value>
+      <sv:value>footer</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/layout/mobile.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.standard.header">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/standard/header.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.standard.footer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/standard/footer.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.standard.langnavigation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/standard/langnavigation.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.standard.logo">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/standard/logo.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.products.overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/products/overview.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.ajax.products.overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/products/overview-ajax.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.ajax.events.overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/events/ajax-overview.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.products.detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/products/detail.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.events.overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/events/overview.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.events.detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/events/detail.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.products.search">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String">
+      <sv:value>facets</sv:value>
+      <sv:value>results</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/products/search.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.products.search.facets">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/products/search-facets.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.products.search.results">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/products/search-results.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.events.search">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String">
+      <sv:value>facets</sv:value>
+      <sv:value>results</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/events/search.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.events.search.facets">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/events/search-facets.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.events.search.results">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/events/search-results.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="events.layar">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/events/layar.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile.error">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/mobile/standard/error.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

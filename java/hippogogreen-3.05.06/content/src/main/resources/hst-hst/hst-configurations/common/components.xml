@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+
+    Copyright (C) 2010 Hippo B.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+
+<sv:node sv:name="hst:components" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:components</sv:value>
+  </sv:property>
+
+  <sv:node sv:name="header">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.common.WebsiteLogo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>standard.header.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="home">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.BaseComponent</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>home.main</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="productsoverview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.products.Overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>products.overview</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="jobs-overview-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.jobs.Overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>jobs-overview-main</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="productleftnav">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.products.LeftNavigation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String">
+      <sv:value>facet.location</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parametervalues" sv:type="String">
+      <sv:value>products/facetedproducts/Product Category</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>products.leftnav</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="relateddocuments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.RelatedDocuments</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>common.relateddocuments</sv:value>
+    </sv:property>
+  </sv:node>
+  
+  <sv:node sv:name="easyform">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.common.DummyForm</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String">
+      <sv:value>ef-mailsession</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parametervalues" sv:type="String">
+      <sv:value>mail/Session</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>easyform</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="tagcloud">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>org.onehippo.forge.tcmp.hst.TagCloudComponent</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>common.tagcloud</sv:value>
+    </sv:property>
+  </sv:node>
+  
+  <sv:node sv:name="suggestproduct">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.products.SuggestProduct</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>product.suggestform</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.common.Comments</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>common.comments</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="eventregistration">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.events.EventRegistration</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String">
+      <sv:value>ef-mailsession</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parametervalues" sv:type="String">
+      <sv:value>mail/Session</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>easyform</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="footermenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.common.SiteMenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>standard.footer.menu</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="rss-news">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.common.LatestItems</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String">
+      <sv:value>scope</sv:value>
+      <sv:value>limit</sv:value>
+      <sv:value>orderBy</sv:value>
+      <sv:value>sortOrder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parametervalues" sv:type="String">
+      <sv:value>news</sv:value>
+      <sv:value>10</sv:value>
+      <sv:value>hippogogreen:date</sv:value>
+      <sv:value>descending</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>rss.news</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="sitemap-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.onehippo.gogreen.components.common.SiteMenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>sitemap.menu</sv:value>
+    </sv:property>
+  </sv:node>
+  
+</sv:node>

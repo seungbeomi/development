@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="resellerfaqs" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>81b64447-cb2d-4853-be66-06d98fbeffb1</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-faq</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>2b7e3dc2-c72e-4fe9-9545-2f4167e51c53</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Reseller FAQs</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="how-do-i-become-a-reseller">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>fd161fb1-7797-4522-a614-50ff78ffd244</sv:value>
+    </sv:property>
+    <sv:node sv:name="how-do-i-become-a-reseller">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2728d918-0cb8-4776-9dd9-f362573c3a41</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resellerfaqs/how-do-i-become-a-reseller</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>How do I become a reseller?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:10:40.020+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:11:30.363+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:11:34.038+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>92dd3057-31b4-448b-bfb3-8044a40c57aa</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Use the contact form in the about section to contact us, please provide
+information about your geographical location and website.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>How do I become a reseller?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="what-is-the-minimum-initial-order-quantity-to-get-reseller-pricing">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>266cffd4-2c24-41b2-af2d-bdc0302ca423</sv:value>
+    </sv:property>
+    <sv:node sv:name="what-is-the-minimum-initial-order-quantity-to-get-reseller-pricing">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7d2e5549-7bdd-4d75-8061-07ea4ec97ff2</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resellerfaqs/what-is-the-minimum-initial-order-quantity-to-get-reseller-pricing</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>What is the minimum initial order quantity to get reseller pricing?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:11:52.228+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:12:28.734+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:12:31.567+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>03d15565-56bd-4190-b766-74e38f1c1a85</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;As a reseller you need to buy at least 10 items to qualify for the reseller
+price of that product.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>What is the minimum initial order quantity to get reseller pricing?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="how-much-does-it-cost-to-become-a-reseller">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ab3df355-7378-49e4-89b9-a1ccad5e88d8</sv:value>
+    </sv:property>
+    <sv:node sv:name="how-much-does-it-cost-to-become-a-reseller">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0a88923c-5341-4943-a89f-150be7f1f05c</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resellerfaqs/how-much-does-it-cost-to-become-a-reseller</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>How much does it cost to become a reseller?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:17:37.378+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:17:49.726+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:17:52.585+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>31b694f1-dcc5-4bf7-8b4d-c80fa9479e36</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Absolutely nothing!&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>How much does it cost to become a reseller?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="what-are-the-advantages-of-becoming-a-reseller">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>590ff4a8-47e2-4279-be80-b65c240a8f75</sv:value>
+    </sv:property>
+    <sv:node sv:name="what-are-the-advantages-of-becoming-a-reseller">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>59b18958-809e-4017-ad31-39f289a7810f</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resellerfaqs/what-are-the-advantages-of-becoming-a-reseller</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>What are the advantages of becoming a reseller?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:18:09.756+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:18:26.674+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:18:29.201+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>dfd20b82-2783-460d-843c-690e8dc7811f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Primarily becoming a reseller is interesting because you get a 10% discount
+on each article. Secondly, as a reseller we will keep you up to date with the
+latest articles, even before they show up on our website.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>What are the advantages of becoming a reseller?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="what-credit-cards-do-you-accept">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>320f5335-f143-49f4-a4e3-eb31c8d9e83a</sv:value>
+    </sv:property>
+    <sv:node sv:name="what-credit-cards-do-you-accept">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>58bd15fb-d311-4033-a53a-4b6b8e10d02c</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resellerfaqs/what-credit-cards-do-you-accept</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>What credit cards do you accept?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:18:40.179+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:19:23.914+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:19:26.977+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>282de258-b2d4-4b47-9aa1-7d7f9bf9f194</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;We accept Visa, MasterCard, American Express, Discover, and JCB.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>What credit cards do you accept?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="how-and-when-will-the-articles-be-delivered">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>497e4706-2b8b-4b64-a110-621d95db5ff7</sv:value>
+    </sv:property>
+    <sv:node sv:name="how-and-when-will-the-articles-be-delivered">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a96c0b2e-37af-4623-b289-1dc1e4ee204b</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>resellerfaqs/how-and-when-will-the-articles-be-delivered</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>How and when will the articles be delivered?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:19:35.683+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:19:56.731+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2011-10-20T11:20:00.556+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>a58484d1-4109-49d4-afec-48d77d7e74f3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;We will send the articles in one or more safety boxes through FedEx next day
+after placing the order.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>How and when will the articles be delivered?</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

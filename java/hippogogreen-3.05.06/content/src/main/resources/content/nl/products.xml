@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="products">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>3d647e7e-ea21-4208-90a3-a854bdb74783</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-product-folder</sv:value>
+    <sv:value>new-product</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>35fff2a7-22b7-4423-88dd-aa136f95dffe</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>nl</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="facetedproducts">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippofacnav:facetnavigation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:docbase" sv:type="String">
+      <sv:value>3d647e7e-ea21-4208-90a3-a854bdb74783</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+      <sv:value>Prijs</sv:value>
+      <sv:value>Product Categorie</sv:value>
+      <sv:value>Score</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+      <sv:value>hippogogreen:price$[{name:'€ 0 - € 25', resolution:'double', end:25}, {name:'€ 25 - € 50', resolution:'double', begin:25, end:50}, {name:'€ 50 - € 100', resolution:'double', begin:50, end:100}, {name:'€ 100 - € 250', resolution:'double', begin:100, end:250}, {name:'€ 250 - € 500', resolution:'double', begin:250, end:500}, {name:'€ 500 en meer', resolution:'double', begin:500}]</sv:value>
+      <sv:value>hippogogreen:categories</sv:value>
+      <sv:value>hippogogreen:rating$[{name:'1 ster of meer', resolution:'double', begin:1}, {name:'2 sterren of meer', resolution:'double', begin:2}, {name:'3 sterren of meer', resolution:'double', begin:3}, {name:'4 sterren of meer', resolution:'double', begin:4}, {name:'5 sterren', resolution:'double', begin:5, end:6}]</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+      <sv:value>1000</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Producten</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="voedsel">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>43ec4688-4b66-4865-9d8c-27b9ec543a2c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-product</sv:value>
+      <sv:value>new-product-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>089c6505-1ab5-4ac3-ad81-0bc07ef1427a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Voedsel</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="2010">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2db76d8d-8c35-4f44-9d51-d9fb53b37f38</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-product</sv:value>
+        <sv:value>new-product-folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e869716a-8c24-489f-a28f-9e64c6b2f399</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="07">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d421f4c4-708a-4314-bae7-25503c1e38bb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+        <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+          <sv:value>new-product</sv:value>
+          <sv:value>new-product-folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>8c586f28-f8a1-4999-87df-6aa96104fb71</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="berkenhouten-composteerbaar-bestek">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:hardhandle</sv:value>
+            <sv:value>hippo:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>b46cddbb-46c4-41ef-af16-4e2bf1e99143</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippo:translation">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:translation</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:language" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippo:message" sv:type="String">
+              <sv:value>Berkenhouten composteerbaar bestek</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="berkenhouten-composteerbaar-bestek">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:product</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>hippo:harddocument</sv:value>
+              <sv:value>hippotranslation:translated</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>d8e2502f-1c97-43f4-8a30-73e83a2b12c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>live</sv:value>
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/voedsel/2010/07/berkenhouten-composteerbaar-bestek</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+              <sv:value>Voedsel</sv:value>
+              <sv:value>Hergebruik</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:price" sv:type="Double">
+              <sv:value>5.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:rating" sv:type="Double">
+              <sv:value>0.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:summary" sv:type="String">
+              <sv:value>Hier is berkenhout milieuvriendelijk bestek! Gemaakt van hernieuwbare grondstoffen, 100% composteerbaar, en het kan heet voedsel en vloeistoffen weerstaan!</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:title" sv:type="String">
+              <sv:value>Berkenhouten composteerbaar bestek</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:votes" sv:type="Long">
+              <sv:value>0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:holder" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>published</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2010-07-12T12:51:51.631Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:55:41.315Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:55:47.437Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>5a30d21a-7122-43e0-bf5d-ffe1a2de108f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>nl</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippotranslation:translations">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippotranslation:translations</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:description">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Dit bestek is gegroeid uit herplante berkenbossen in China en is net als
+de bossen zelf F.S.C. (Forest Stewardship Council) gecertificeerd. Kostbaar
+water/irrigatie wordt niet afgewend om de bomen te helpen groeien, dit bespaart
+grondstoffen; en het bestek can composteren in ELKE vorm van afval, compost of
+vuilnisbak. De messen kunnen biefstuk snijden, de vorken kunnen prima gebruikt
+worden voor een salade en de lepels zijn ideaal voor yoghurt of gepureerde/dikke
+soepen.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Productkenmerken:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Polyethyleen en polypropyleen vrij&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;FSC gecertificeerd&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Licht&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Je kan het verbranden! (lodges, kampeerders, jagers en faciliteiten die
+niet willen betalen om hun afval te laten verwijderen houden van dit
+product)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Het zal NOOIT smelten of zacht worden als het ooit wordt achtergelaten
+in een heet gebied&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Het is geen composiet product, het is massief hout&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Het bestek voldoet aan alle richtlijnen en eisen die CFIA en USDA
+stellen&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Leuke feitjes:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Als het belandt in een hemelwaterriool en eindigt op een riveroever of
+strand OF als het eindigt in een stortplaats, blijft het slechts een stuk
+natuurlijk hout&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Hout is een natuurlijke afstoter van bacteriën (koks die dit weten
+kiezen voor houten snijplanken in plaats van plastic versies)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Voedselmiddelen worden niet gebruikt om het bestek te maken – de bomen
+zijn niet genetisch bewerkt&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Deze producten worden verscheept uit Canada dus extra kosten worden in
+rekening gebracht.&lt;/em&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="relateddocs:docs">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>relateddocs:docs</sv:value>
+              </sv:property>
+              <sv:node sv:name="relateddocs:reldoc">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hippo:facetselect</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:docbase" sv:type="String">
+                  <sv:value>429c32b6-2df0-484f-93b1-c614fab9c69f</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+              </sv:node>
+              <sv:node sv:name="relateddocs:reldoc">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hippo:facetselect</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:docbase" sv:type="String">
+                  <sv:value>a76619c8-c3ce-4b34-b6c6-e7076d51095d</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+              </sv:node>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>78c4391e-9ff7-4618-8c63-4521bbed2782</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>7cd24906-ce40-42ef-8c52-7223151fafb1</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>1eb80ac4-02d5-4173-b38e-712fc1684760</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>76b26948-2bea-441d-9291-2861746b4772</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:copyright">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogogreen:copyright</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:description" sv:type="String">
+                <sv:value/>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:url" sv:type="String">
+                <sv:value>http://www.greenhome.com/products/restaurant_supplies/bowls,_plates_and_trays/117253/</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hergebruik">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ad3d9a84-81ce-4e30-912e-d06f1c419bb9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-product</sv:value>
+      <sv:value>new-product-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>b0b52823-1f70-485b-ba72-ecb900174665</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Hergebruik</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="2010">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a38c17e7-d421-40a0-ab48-4da1ee9df332</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-product</sv:value>
+        <sv:value>new-product-folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>b3859bec-26fa-4b55-a677-b7cb03d59eca</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="07">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>306cd9cb-2a11-426c-ae99-3b762c163af7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+        <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+          <sv:value>new-product</sv:value>
+          <sv:value>new-product-folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>31a3c3cb-97a6-45ac-b764-9701fe19a075</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="duurzaam-houten-ipod-geluidsysteem">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:hardhandle</sv:value>
+            <sv:value>hippo:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ac14cf9d-51af-4c03-ab36-4980c62fb5b2</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippo:translation">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:translation</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:language" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippo:message" sv:type="String">
+              <sv:value>Duurzaam houten iPod geluidsysteem</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="duurzaam-houten-ipod-geluidsysteem">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:product</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>hippo:harddocument</sv:value>
+              <sv:value>hippotranslation:translated</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>b111c3e3-24c1-4954-ba58-25b92c048ae8</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>live</sv:value>
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/hergebruik/2010/07/duurzaam-houten-ipod-geluidsysteem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:categories" sv:type="String">
+              <sv:value>Hergebruik</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:price" sv:type="Double">
+              <sv:value>219.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:rating" sv:type="Double">
+              <sv:value>0.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:summary" sv:type="String">
+              <sv:value>Vers heeft de populariteit van de iPod gebruikt en heeft een prachtig, briljant klinkend systeem gemaakt dat een minimale impact heeft op het milieu. Dit stereo-systeem is gemaakt van duurzaam hout dat geplant wordt op een plantage (zonder giftige chemicaliën of zware metalen) en versterkt digitale muziek. Elk systeem is uniek, met de hand afgewerkt en duurt een week om te bouwen.</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:title" sv:type="String">
+              <sv:value>Duurzaam houten iPod geluidsysteem</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:votes" sv:type="Long">
+              <sv:value>0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:holder" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>published</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2010-07-12T13:11:46.277Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:56:36.118Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:56:39.378Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>88dfba73-434b-4136-b654-5457314f51d0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>nl</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippotranslation:translations">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippotranslation:translations</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:description">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Fantastisch geluid: dit systeem is 'stijf' – dit zorgt ervoor dat de
+behuizing zelf niet meetrilt door de druk van de speaker en daardoor wordt het
+natuurlijke, bedoelde geluid van de speakers zelf niet verstoord.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Een Vers behuizing is meer dan 4 keer zo dik als plastic rivalen – hij is
+9.5mm dik terwijl een plastic systeem doorgaans 2mm dik is.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Hernieuwbaar: De voorraad van eucalyptus-en dennenhout gekozen voor de
+kern van Vers komt uit een lokaal uitbestede en gemanagede plantage dichtbij de
+fabriek zelf; elke boom die gebruikt wordt, wordt ook herplant. Het hout dat
+gebruikt wordt in een Vers systeem vervangt 80% van wat plastic had kunnen zijn.
+En, de papieren verpakking is gemaakt van 100% hergebruikt materiaal en bijna al
+de interne plastic verpakking, tasjes en omhulsels zijn vervangen door
+hergebruikt papier of gewoonweg verwijderd.&lt;/em&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="relateddocs:docs">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>relateddocs:docs</sv:value>
+              </sv:property>
+              <sv:node sv:name="relateddocs:reldoc">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hippo:facetselect</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:docbase" sv:type="String">
+                  <sv:value>ffa43adb-4cf8-4b62-b6b7-da4fefb15221</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+              </sv:node>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>71ee7fcd-2ff1-4de0-bfe8-4175800bf08f</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>5637dc20-6ed9-4418-8c99-4b70870d19e3</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>088123f5-759b-414a-a659-6668537a2b86</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>278ba984-4cf2-4104-aa9f-36c3a2bce709</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>881f8556-57c9-4338-9cc6-b741b44d05ad</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:copyright">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogogreen:copyright</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:description" sv:type="String">
+                <sv:value>Green Home, Inc.</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:url" sv:type="String">
+                <sv:value>http://www.greenhome.com/products/appliances/radios_and_electronics/115714/</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="transport">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2da40642-31ba-4ca0-890f-e0d87a0ae8ee</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-product</sv:value>
+      <sv:value>new-product-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>01d4d4dd-a2c0-446e-a619-ecbda3c503ec</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Transport</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="2010">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>38f5a4f6-4ab4-403d-a635-b0875bb46e69</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-product</sv:value>
+        <sv:value>new-product-folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c2dfbd90-0d93-4171-ae20-b00dd122c211</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="07">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>852dddc7-35e6-4e39-807e-ad5dddd1989e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+        <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+          <sv:value>new-product</sv:value>
+          <sv:value>new-product-folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>243d7b82-554e-45ce-839e-12759b813ec9</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="tandemfiets">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:hardhandle</sv:value>
+            <sv:value>hippo:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ae3eaed4-319a-436a-80ad-0d2bf12c06b3</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippo:translation">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:translation</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:language" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippo:message" sv:type="String">
+              <sv:value>Tandemfiets</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="tandemfiets">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:product</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>hippo:harddocument</sv:value>
+              <sv:value>hippotranslation:translated</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>fe179dfd-c5a0-44d1-9e4b-46039875c853</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>live</sv:value>
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/transport/2010/07/tandemfiets</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:categories" sv:type="String">
+              <sv:value>Transport</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:price" sv:type="Double">
+              <sv:value>289.99</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:rating" sv:type="Double">
+              <sv:value>0.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:summary" sv:type="String">
+              <sv:value>De Pacific Cycle 26 inch Pacific Green Dualie Tandemfiets heeft een extra groot stalen tandem frame. Dit is een 21-traps Shimano fiets met SRAM MRX versnellingen om uw rit prettiger te maken. De fiets heeft ook lichtgewicht aluminium velgen.</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:title" sv:type="String">
+              <sv:value>Pacific Cycle 26 inch Pacific Green Dualie Tandemfiets</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:votes" sv:type="Long">
+              <sv:value>0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:holder" sv:type="String">
+              <sv:value>boris</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>published</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>moos hueting</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2010-07-27T16:05:39.211Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2010-12-17T10:24:55.491Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>boris</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+              <sv:value>2010-12-24T17:00:58.314Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>a5e6ab37-2432-4549-aec1-d34984c423b5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>nl</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippotranslation:translations">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippotranslation:translations</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:description">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Tandems zijn fietsen die zijn ontworpen voor meer dan 1 berijder.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pacific Cycle is een leider in de consumentenmarkt voor merkproducten.
+Pacific Cycle ontwerpt, verkoopt en distribueert fietsen en andere recreationele
+producten van hoge kwaliteit over de hele wereld. De producten van Pacific Cycle
+bevatten een groot aantal merken, zoals Schwinn, Mongoose, InSTEP, Pacific,
+Playsafe en Dyno. Pacific Cycle is een topverkoper van fietsen in Noord-Amerika
+en is één van de meest succesvolle leveranciers van fietsen.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Opmerking: Cadeauverpakking is niet beschikbaar voor dit product.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:copyright">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogogreen:copyright</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:description" sv:type="String">
+                <sv:value>etoys.com</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:url" sv:type="String">
+                <sv:value>http://www.etoys.com/product/index.jsp?productId=3902398&amp;siteID=q5QZHUbCIj8-9qIWSq443Wg8CS3mhYzpSw</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="relateddocs:docs">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>relateddocs:docs</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>746f6f51-4b65-41c5-b3af-b4b06205983d</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="gezondheidszorg">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>de95b7f9-a9ba-4ef1-a54b-73c22e34a1f6</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-product</sv:value>
+      <sv:value>new-product-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>72fb5161-4dec-4df2-b655-79edcf079b97</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Gezondheidszorg</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="2010">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>877eff43-f259-4031-a681-96225575cec9</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-product</sv:value>
+        <sv:value>new-product-folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e5daf1e0-e070-4fdf-b6db-db24e8811493</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="07">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>93dc9bff-aa80-4ba3-8d76-71d0fac4e384</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+        <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+          <sv:value>new-product</sv:value>
+          <sv:value>new-product-folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>6636cea9-45e5-4e6e-8af8-ab13cddab5a4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="douchegordijn-van-hennep">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:hardhandle</sv:value>
+            <sv:value>hippo:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>980dab62-1f3e-4cf9-a2ee-6dbf6e60af8f</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippo:translation">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:translation</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:language" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippo:message" sv:type="String">
+              <sv:value>Douchegordijn van hennep</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="douchegordijn-van-hennep">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:product</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>hippo:harddocument</sv:value>
+              <sv:value>hippotranslation:translated</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>b8265d79-a3a6-4860-ae8b-351aa0d82fad</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>live</sv:value>
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/gezondheidszorg/2010/07/douchegordijn-van-hennep</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:categories" sv:type="String">
+              <sv:value>Gezondheidszorg</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:price" sv:type="Double">
+              <sv:value>72.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:rating" sv:type="Double">
+              <sv:value>0.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:summary" sv:type="String">
+              <sv:value>Dit douchegordijn van hennep tovert uw badkamer om door de natuur uw dagelijks leven binnen te brengen!
+
+Douchegordijnen van hennep zijn prachtig, zacht, subtiel aromatisch en een gezond alternatief voor traditionele vinyl douchegordijnen, die giftige chemicaliën uitstoten die schadelijk zijn voor de menselijke gezondheid en bijdragen aan luchtvervuiling binnenshuis. Deze douchegordijnen van hennep, in tegenstelling tot die van vinyl, kunnen in de wasmachine gewassen worden. Hang na het wassen het douchegordijn simpelweg op aan haar zeilringen om te drogen. Rimpels verdwijnen door de vochtigheid die wordt veroorzaakt tijdens het douchen!</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:title" sv:type="String">
+              <sv:value>Douchegordijn van hennep</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:votes" sv:type="Long">
+              <sv:value>0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:holder" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>published</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>moos hueting</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2010-07-27T10:17:52.187Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:57:57.851Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:59:04.383Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>eeebc463-da67-4678-a982-85b95e235991</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>nl</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippotranslation:translations">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippotranslation:translations</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:description">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Hennepplanten gebruiken minder water dan katoenplanten en leveren meer
+vezels op per acre. Het gebruiken van een hennep douchegordijn laat zien dat je
+bezorgd bent over het milieu doordat je het gebruik van chemicaliën en plastic
+in het productieproces vermindert, dit zorgt weer voor minder vuilstortplaatsen.
+Bovendien steun je het gebruik van hennep als een veelbelovend alternatief voor
+katoen en andere conventionele vezels.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Let op: Deze douchegordijnen worden met de hand gemaakt en dit proces
+duurt ongeveer 2 weken. Geef ons alstublieft 3 weken om het product te leveren.
+Door het handgemaakte karakter van deze gordijnen wordt er een extra 25% in
+rekening gebracht als het product wordt teruggebracht zonder defecten.
+Geretourneerde gordijnen worden niet geaccepteerd als ze zijn gewassen of
+gebruikt. De intrisieke duurzaamheid van hennep en de stevige, roestvrije
+zeilringen zullen ervoor zorgen dat het douchegordijn jaren meegaat.&lt;/em&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:copyright">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogogreen:copyright</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:description" sv:type="String">
+                <sv:value>Green Home, Inc.</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:url" sv:type="String">
+                <sv:value>http://www.greenhome.com/products/bath/shower_curtains/111647</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="relateddocs:docs">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>relateddocs:docs</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>2528d787-61f8-4112-b223-688994061458</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="dier--tuin">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0c48a0a9-7734-46f4-ae1f-dc26b129eef9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-product</sv:value>
+      <sv:value>new-product-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>e91aa7e9-77d1-4d6a-844c-2f7202567fed</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Dier &amp; tuin</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="2010">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d9464933-ee80-4aa1-896c-7ec89a36233f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-product</sv:value>
+        <sv:value>new-product-folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9b6aeb61-da31-4550-a583-8a4e579b52b5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="07">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>013ea81f-c509-42a1-97a7-f026399c2d0c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+        <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+          <sv:value>new-product</sv:value>
+          <sv:value>new-product-folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ad449043-57ec-41c4-8e35-666e45c63487</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="de-green-johanna-compostbak">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:hardhandle</sv:value>
+            <sv:value>hippo:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6b1432ff-58ca-49cb-bf9d-be930b09a7fc</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippo:translation">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:translation</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:language" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippo:message" sv:type="String">
+              <sv:value>De Green Johanna compostbak</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="de-green-johanna-compostbak">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:product</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>hippo:harddocument</sv:value>
+              <sv:value>hippotranslation:translated</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>a7ab6991-120f-48bf-81a9-c866ccfcc078</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>live</sv:value>
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>products/dier--tuin/2010/07/de-green-johanna-compostbak</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:categories" sv:type="String">
+              <sv:value>Dier &amp; Tuin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:price" sv:type="Double">
+              <sv:value>250.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:rating" sv:type="Double">
+              <sv:value>0.0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:summary" sv:type="String">
+              <sv:value>Alhoewel hij lijkt op een normale compostbak, is de Green Johanna ontworpen met extra functies due de meeste standaard compostbakken niet hebben – hij is knaagdierbestendig en is goed geïsoleerd. Dit betekent dat het composteren sneller gaat dan bij een normale compostbak en dat je elke vorm van voedselafval erin kwijt kan, zelfs gekookt eten, botten, vis en vlees, die men beter niet in een gewone compostbak kan doen.</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:title" sv:type="String">
+              <sv:value>De Green Johanna compostbak</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:votes" sv:type="Long">
+              <sv:value>0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:holder" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>published</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2010-07-12T13:26:05.115Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:58:14.622Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+              <sv:value>2010-12-25T09:59:04.661Z</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>280b0f48-7d92-4d6c-beac-b045ad298767</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>nl</sv:value>
+            </sv:property>
+            <sv:node sv:name="hippotranslation:translations">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippotranslation:translations</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:description">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Kenmerken&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Inbegrepen: Green Johanna Hot Composter + Roerstok + Home Composting Made
+Easy handboek&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Inhoud: 74 Gallons&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Dimensies: 39'' basis diameter x 21''top diameter x 37'' hoogte&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ontworpen om tenminste 10 jaar mee te gaan&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Werkt het hele jaar door&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Geschikt voor gezinnen tot 5 mensen (260 pond voedselafval per persoon
+per jaar)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Helpt je vuilnisbakken schoon te houden&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ELKE vorm van voedselafval kan erin gestop worden waaronder vlees,
+botten, melkproducten en heeft minimaal 30% extra tuinafval nodig&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Volledig veilig voor uzelf en uw huisdieren&lt;/em&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="relateddocs:docs">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>relateddocs:docs</sv:value>
+              </sv:property>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>8b5cc983-8b77-4fdf-b2e8-ba3b28a3a072</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>8d0cdcec-96c5-4238-9784-fcbf1b13d139</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>6209c3bc-ea24-47e0-b9ce-11fb68977f04</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>72a0bc68-e713-4998-9861-70a8e1f41e6c</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:image">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogallerypicker:imagelink</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>265be1d9-98ac-420c-bf30-0c5ec49fc0fe</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="hippogogreen:copyright">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippogogreen:copyright</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:description" sv:type="String">
+                <sv:value/>
+              </sv:property>
+              <sv:property sv:name="hippogogreen:url" sv:type="String">
+                <sv:value/>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="tijdschrift">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>02d28f6e-b729-457f-bc1d-5eb0e50e66f5</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-product</sv:value>
+      <sv:value>new-product-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>6c32bf51-52e2-4acd-a401-5cb6280727d2</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Tijdschrift</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="naturefriend">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b5fb3cea-7edd-49e8-97a3-19907f5895e1</sv:value>
+      </sv:property>
+      <sv:node sv:name="naturefriend">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:product</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a40d4cdd-7731-4905-806b-f2eb8cc97d9c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>products/tijdschrift/naturefriend</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:categories" sv:type="String">
+          <sv:value>Voedsel</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:price" sv:type="Double">
+          <sv:value>36.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:rating" sv:type="Double">
+          <sv:value>0.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Nature Friend Magazine is een kindertijdschrift waar de hele familie, ook de grootouders, van kunnen genieten. We publiceren twaalf uitgaves per jaar, waarvan er zes enigszins gericht zijn op een ouder publiek. Er zijn veel manieren waarop wij onze lezers betrekken – we willen uw kunst, foto's, verhalen, puzzels en gedichten. Afgezien van de inzendingen die we elke maand gebruiken, hebben we een jaarlijkse lezersuitgave die bestaat uit enkel inzendingen van onze lezers.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Nature Friend Magazine</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:votes" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin13</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-30T10:31:43.995Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2010-12-25T09:58:37.310Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2010-12-25T09:59:04.096Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>305e552e-6648-4013-8849-6f51f6f9140b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>nl</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Nature Friend Magazine is begonnen in 1983 en werd in de eerste instantie
+gepubliceerd door de Stanley Brubaker family uit Goshen, Indiana. Het idee voor
+het tijdschrift kwam voort uit Mr. Brubakers wens om kinderen aan te moedigen om
+in God te geloven als hun Schepper en om Zijn werk op te zoeken, te herkennen en
+te waarderen.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Omdat de leer van Goddelijke schepping de eerste en belangrijkste is in
+de Bijbel, moeten onze kinderen er op kunnen vertrouwen om de ondermijnende
+invloeden uit de hedendaagse cultuur te weerstaan. Nature Friend heeft ervoor
+gekozen niet controversieel of uiterst uitdagend te zijn over de kwestie van
+evolutie tegenover schepping. Ons beleid is simpelweg om te geloven in de
+waarheid van Gods woord en om dit te presenteren als een feit waar je van kan
+genieten terwijl je leert over alle wezens die God heeft geschapen. Nature
+Friend erkent dat God de bedoeling had om de mens te laten waken over Zijn
+creatie en dat alleen Hij aanbeden mag worden, niet Zijn creaties.&lt;/em&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="relateddocs:docs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>relateddocs:docs</sv:value>
+          </sv:property>
+          <sv:node sv:name="relateddocs:reldoc">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>fb80df2c-9c45-4952-9490-4d1f832f9bb5</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="relateddocs:reldoc">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e9d5be67-8ca4-4517-a575-5c631050956b</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>4dd07017-9a9d-42c4-b7cb-6fb2446c2e01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

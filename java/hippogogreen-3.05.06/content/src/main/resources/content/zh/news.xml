@@ -1,0 +1,1760 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010 Hippo
+
+  Licensed under the Apache License, Version 2.0 (the  "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS"
+  BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. -->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="新闻">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>c6328f80-fd68-428e-8ddc-99e97b8d92db</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>08864dfd-8e37-44eb-ba58-63c4e42ff078</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>zh</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="2012">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f13cf631-1c3f-4895-999b-c53294892a90</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>28947c4d-e118-4b9d-9fa8-b99007f303ad</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>zh</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="10">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>132a0bd6-1563-4813-bbcc-32b0f60cb40d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>25dbb3fc-c23d-4e22-82ad-328b3128d2ad</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>zh</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="罗马尼亚切换到冬季时间">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fe302b5f-17ec-467a-b3e4-f6ed711f1006</sv:value>
+        </sv:property>
+        <sv:node sv:name="罗马尼亚切换到冬季时间">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4167c751-c9e7-479a-b72f-de33b0508a5d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2012/10/罗马尼亚切换到冬季时间</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Energy Saving Modules</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-10-22T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>在2005年10月30日下午，罗马尼亚与欧洲其他国家将切换到正式的冬季时间。因此，04:00 AM将成为03:00 AM和有效期将一直持续到2006年3月26日正式夏令时间时，将再次使用。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>罗马尼亚切换到冬季时间</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T14:35:58.298+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:13:43.094+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:13:46.139+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e2b21f5-1a40-434c-a2dd-becf2f45d8fb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+继罗马尼亚政府的决策NB。从1997年20，罗马尼亚采用冬令时和夏令时，在同一天与欧盟和其他国家对这一交易的一部分。在十月的最后一个星期日，在3月最后一个星期日夏令时间通过官方的冬季时间。
+&lt;/p&gt;
+
+&lt;p&gt;通常，一个国家的官方时间是冬令时间。夏天的时候，是通过法律的一些国家或地区在一年的时间。夏天的时候通常是官方标准时间前一小时。&lt;/p&gt;
+
+&lt;p&gt;该系统可用于夏令。在夏季，时间前移，以便使用尽可能多的阳光，人类活动以及节约电能用于照明。&lt;/p&gt;
+
+&lt;p&gt;在罗马尼亚，夏季时间在1932年首次推出。这个工作直到1939年，每年从四月的第一个星期日（1932年：5月22日）00:00
+AM和01:00调幅十月的第一个星期日（当地时间）。从1940年4月1日起00:00 AM和1942年11月2日03:00
+AM，夏令时间在罗马尼亚永久。从1943年夏天的时候被禁赛和罗马尼亚只用官方时间（冬令时）。&lt;/p&gt;
+
+&lt;p&gt;重新从1979年夏天的时候，遵循两个规则，直到对准欧洲标准：&lt;/p&gt;
+
+&lt;p&gt;*1979-1983年：第一个星期日四月00:00 AM - 去年九月星期日01:00（例外：1979年，在5月27日开始夏令时）;&lt;/p&gt;
+
+&lt;p&gt;*1984年至1996年：三月○点的最后一个星期日 - 去年九月1时星期日&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Romania switches to Winter Time</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Romania_switches_to_Winter_Time</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cedd0233-40f3-4a4b-a6bf-8ae63f276d61</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="08">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3886b46d-65a3-44f7-90dd-1286b1b3315e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>883d38ca-b223-48ae-b37e-78ea3e276224</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>zh</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="greenpeace-试图阻挠切萨皮克湾的捕鱼船队">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cd299bdf-8b02-418f-92a7-74eb134aae2d</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Greenpeace 试图阻挠切萨皮克湾的捕鱼船队</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="greenpeace-试图阻挠切萨皮克湾的捕鱼船队">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0be8abc1-ba80-4fa5-b28e-6fe7336fd89f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2012/08/greenpeace-试图阻挠切萨皮克湾的捕鱼船队</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Sea</sv:value>
+            <sv:value>Sustainable Business</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-08-10T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>Greenpeace 散落在切萨皮克湾的鲱鱼饵料鱼周二活动家学校时属于欧米茄蛋白质公司的渔船约下降sceine网。
+              欧米茄舰队包括两个的去污剂飞机和4艘渔船八份标书。绿色和平组织的四个快速移动的板摩托艇抵达，由13个活动家，谁试图赶走鱼载人。海岸警卫队被称为和平和结束对抗。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>Greenpeace 试图阻挠切萨皮克湾的捕鱼船队</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>activism</sv:value>
+            <sv:value>oceans</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin14</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-29T10:38:53.129+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:34:31.524+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T14:34:34.174+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>83e1ced5-d2da-4751-84ac-00201d14decc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;绿色和平组织成员分散在切萨皮克湾鲱鱼饵料鱼周二学校时，属于欧米茄蛋白质公司的渔船约下降sceine网。&lt;/p&gt;
+
+&lt;p&gt;
+欧米茄舰队包括两个的去污剂飞机和4艘渔船八份标书。绿色和平组织的四个快速移动的板摩托艇抵达，由13个活动家，谁试图赶走鱼载人。海岸警卫队被称为和平和结束对抗。
+&lt;/p&gt;
+
+&lt;p&gt;总部位于休斯顿的欧米茄蛋白质公司是全球最大的处理器和富含蛋白质的鲱鱼和鱼油产品在美国的分销商。公司占近90％，整个东海岸鲱鱼捕捞。&lt;/p&gt;
+
+&lt;p&gt;
+欧米茄发言人托比吹牛说，绿色和平组织“现在他们已经证明，他们的真正议程是把欧米茄业务，即使这意味着要冒着的欧米茄渔民的安全。”他们的舰队是Reedville，弗吉尼亚州，现在是美国顶级的渔港，由于最近有欧米茄加工厂开。
+&lt;/p&gt;
+
+&lt;p&gt;
+切萨皮克湾鲱鱼被认为是流行体育渔民的鱼类的重要食物来源。他们都还可以，旁边的牡蛎，海湾水域的一个主要滤食性。在过去二十年中，海湾牡蛎人口遭受疾病的急剧下降。鲱鱼种群的研究还没有定论，科学家们试图确定海湾鲱鱼的总人数。
+&lt;/p&gt;
+
+&lt;p&gt;绿色和平组织说，接近历史低点，并依靠鱼类作为食物来源的捕食者物种，如鲈鱼，显示患营养不良和身体状况不佳的迹象。&lt;/p&gt;
+
+&lt;p&gt;
+切萨皮克湾基金会，不以营利为目的的组织，有马里兰州州长罗伯特·埃利希和国家的自然资源部的好评。他们获得了从大西洋各州海洋渔业委员会（ASMFC）的承诺，以寻求大西洋鲱鱼的商业捕捞上限。
+&lt;/p&gt;
+
+&lt;p&gt;一个休闲垂钓和环保联盟，称为鲱物，也加入辩论说海岸全大西洋鲱鱼的人口已降至纪录低点附近。他们也反对由欧米茄进入 切萨皮克水域的侵占。&lt;/p&gt;
+
+&lt;p&gt;
+问题是鲱鱼收获由ASMFC建议上限。委员会建议草案的的补遗限制鲱鱼收获110400吨，这是平均超过5年的连续下跌中的物种的收成。该限制将适用于大西洋和内陆水域物种。建议上限是2006年和2007年开放给公众辩论。
+&lt;/p&gt;
+
+&lt;p&gt;
+ASMFC最近拒绝自愿限制在13.5万公吨，将自己的收获，为今后四年每年由欧米茄报价。他们指出，欧米茄还要求重新在马里兰和新泽西州的一些水域，这是目前封闭工业围网作业。在弗吉尼亚州亚历山德里亚，在未来数天的公众听证会定。
+&lt;/p&gt;
+
+&lt;p&gt;欧米茄表示，ASMFC的自己的报告表明大西洋鲱鱼的人口水平是健康的。&lt;/p&gt;
+
+&lt;p&gt;
+一个切萨皮克湾基金会的资深科学家，威廉·J·戈尔兹伯勒，说，“我相信，在目前的水平，包括总渔获量以及从切萨皮克湾的清除，对围网捕捞的鲱鱼帽，将采取审慎的措施“
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Wikinews</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Greenpeace_tries_to_thwart_Chesapeake_Bay_fishing_fleet</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>39d2aa09-0a83-40e7-bd4b-2fa43013745a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="印尼大停电造成的发电能力不足">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c445a97c-9949-4580-9215-6e0d1553c136</sv:value>
+        </sv:property>
+        <sv:node sv:name="印尼大停电造成的发电能力不足">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>a3f8b5ef-986a-4e9d-a562-c37f17a43c9b</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2012/08/印尼大停电造成的发电能力不足</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Energy</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-08-20T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>在印度尼西亚的停电，约100万人无电离开已经引起了一场政治危机。国家的国有能源垄断，兹罗提，还没有决定的直接原因，该国总统已下令国家的情报机构和警察进行调查。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>印尼大停电造成的发电能力不足</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>politics</sv:value>
+            <sv:value>energy</sv:value>
+            <sv:value>blackout</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin14</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-29T10:48:02.685+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:00:17.410+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:00:19.608+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>54d4f7e9-5645-4514-8686-c2dac845a1b3</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+在印度尼西亚的停电，约100万人无电离开已经引起了一场政治危机。国家的国有能源垄断，兹罗提，还没有决定的直接原因，该国总统已下令国家的情报机构和警察进行调查。
+&lt;/p&gt;
+
+&lt;p&gt;停电出现在印尼的发电能力不足有关。&lt;/p&gt;
+
+&lt;p&gt;
+停电如下尝试，以应对该国日益增长的能源危机，包括保护和试图让私营公司提供的能量，在2004年被裁定违宪。在1月，印尼政府举行了一次特别的能源峰会，以吸引他们的能源基础设施的投资。在首脑会议上，他们将增加22000兆瓦，印尼目前的23000兆瓦的能力，以支持该国的经济增长目标。
+&lt;/p&gt;
+
+&lt;p&gt;
+世界银行和其他机构也警告说，如果没有更多的在该国的能源基础设施的投资将导致能源赤字。然而，外国投资者仍然担心在印尼的投资。印尼股市的交易员表示，“停电导致对能源危机的担心，这可能会损害国家的工业部门，”[1]
+&lt;/p&gt;
+
+&lt;p&gt;
+停电在当地时间上午10:23开始，2005年8月18日，当电源故障以及电气系统连接爪哇，巴厘，马都拉，造成爪哇和巴厘中断。几乎全国的一半依赖于电网，有经验的失败。一些对电网的主线是20岁以上，按兹罗提总裁埃迪Widiono。
+&lt;/p&gt;
+
+&lt;p&gt;停电造成交通拥堵，在雅加达，在雅加达苏加诺 -
+哈达国际机场的国际和国内航班被迫取消，关闭雅加达的电动火车服务，并扰乱了医院的经营。一些较大的医院，手术被迫推迟，而许多较小的医院无法接收病人。约1800名人员被称为雅加达的警视厅行动，以对付停电造成的短期问题。
+&lt;/p&gt;
+
+&lt;p&gt;用蜡烛代替电灯开始仅在雅加达6火灾。&lt;/p&gt;
+
+&lt;p&gt;mulyo AJI，兹罗提官方表示，更多的电源故障有可能在未来随着能源需求的增加，没有任何相应的新的电力供应，预计很快来到网上。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Wikinews</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Indonesian_blackout_caused_by_lack_of_generation_capacity</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="06">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9db3ad11-0832-4c7c-a22c-c7b3f2a9902b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>fe87127d-1ca9-4e5d-a2d0-7ceb0f4bc7eb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>zh</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="nasa太阳帆通过第一次重大考验">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f08113b4-71db-4416-826f-e68c4b5b9b66</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>NASA太阳帆通过第一次重大考验</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="nasa太阳帆通过第一次重大考验">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6b1ea33d-376d-4273-a461-40ea774c6b69</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2012/06/nasa太阳帆通过第一次重大考验</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-06-02T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>美国航空航天局已经完成了一个20平方米的太阳帆的重大考验，标志着航天推进技术的一个“重要里程碑”。这不是第一，以测试太阳帆，日本已在太空部署了两个太阳帆。行星协会正计划在6月21日发射太阳帆可能。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>NASA太阳帆通过第一次重大考验</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>technology</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T16:16:26.790+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:18:47.275+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:18:49.541+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>3e6805d4-75e8-43c4-8dca-39e39e7f90f2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+射门被一辆经过改装的洲际弹道导弹（ICBM）进入轨道，宇宙1将推出从水下的俄罗斯潜艇在巴伦支海。飞船，由帆供电，不会有任何目的地。根本目的是测试使用的太阳能光粒子的压力向外移动开始在500公里的轨道绕地球船舶推进系统。
+&lt;/p&gt;
+
+&lt;p&gt;
+推进技术目前被认为是最有效的星际太空旅行。压力恒定的光源，如一个专用的激光，推动工艺，理论上可以达到接近光速的速度。这是因为宇宙飞船不必携带自己的燃料效率。然而，接近光速的速度，将需要一个长期恒定加速度。如此高的速度将是不可能的，目前的测试车辆及任何发射，在可预见的未来，因为他们依靠来自太阳的光，迅速成为距离的增加而弱。
+&lt;/p&gt;
+
+&lt;p&gt;据国家地理新闻“，美国宇航局，欧洲航天局，日本和俄罗斯都已经开发的太阳帆，但尚没有试图证明，可以推动帆控制飞行的航天器。”&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/NASA_solar_sail_passes_first_major_test</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5044a402-5412-4c76-a069-bdf2aa2d2764</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="04">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>df2e5b80-79b8-4e6c-9acf-24f766c7c707</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9e3441c2-8b73-4bc2-903e-3eea2a1bf107</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>zh</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="美国众议院委员会批准夏令时间的修正案">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6cfc8e6c-e525-4920-80fa-01dad5293813</sv:value>
+        </sv:property>
+        <sv:node sv:name="美国众议院委员会批准夏令时间的修正案">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6380cfd9-c0d3-4573-a9bc-f652149878f4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2012/04/美国众议院委员会批准夏令时间的修正案</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2012-04-07T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>美国众议院能源和商业委员会周三通过的修正案，夏令时延长两个月。赞助，密歇根州的共和党众议员弗雷德·厄普顿，马萨诸塞州民主党众议员埃德·马基，两党措施。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>美国众议院委员会批准夏令时间的修正案</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T14:39:09.278+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:28:34.790+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2012-05-23T15:28:37.417+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0e91d753-9d13-40c8-b5b1-41dbabebada8</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;“我们有更多的日光，我们使用更少的电力，”众议员埃德·马基说。马基指出的商业利益，也支持措施。
+“还有更多的经济活动，因为人们觉得他们可以平安走动，”他说。&lt;/p&gt;
+
+&lt;p&gt;“延长日光节约时间，使感，特别是能源成本暴涨，众议员弗雷德·厄普顿说。”&lt;/p&gt;
+
+&lt;p&gt;该法案延长日光节约时间开始在三月的第一个星期日，在十一月的最后一个星期日结束。目前夏令时开始的第一个星期日在十月的第一个星期日四月结束。&lt;/p&gt;
+
+&lt;p&gt;美国运输部估计，延长夏令时间，将节省每天10000桶石油。美国每天消耗大约20万亿桶石油。&lt;/p&gt;
+
+&lt;p&gt;房子是规划批准的能源法案修正案附着在几个星期。若干其他修订条例草案仍在进行辩论。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/US_House_committee_approves_daylight_saving_time_amendment</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>2ac72a9e-1558-49c3-b8f5-01019e57703d</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2010">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4c2edff5-72ac-489c-84dd-4a28b6644086</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>4dbebf8b-4208-4421-b168-79ccf7158d44</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>zh</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="07">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3ce500ec-b348-4514-b1ae-4ee859230351</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0a885364-4a6a-4492-83f6-8092981d42da</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>zh</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="进化过程或比设想快">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c4e874c0-d454-4363-bb0c-d369f508a1a2</sv:value>
+        </sv:property>
+        <sv:node sv:name="进化过程或比设想快">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>fbcd3beb-57c8-494d-a503-b70f13df7cd2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2010/07/进化过程或比设想快</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Biosphere Technology</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2010-07-06T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>哈佛大学的两名研究生自称能证实进化的过程比过去设想的要快很多。为了预计生物对所处环境的变异的适应速度，物理学生陆述义与之前的室友，经济学家Motohiro　Yogo联手，将一个经济学模式应用于一个海洋化石记录。该技术，向量自回归，原来的应用范围是根据它的历史记录来预测股市场的发展。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>进化过程或比设想快</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>Katja de Wit</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-20T13:43:44.494+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-07-15T11:08:09.223+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>5f4dfddf-dad3-4152-91c6-d30a27df1239</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+ 根据初步分析，通过他们的模式得出的结论与已有的研究一致：生物的适应过程是缓慢的。不过，一些地质年代有化石存在的岩石较之其他年代常见。因此，根据这不平衡的分布做了调整之后，时间窗口消失了。从地质记录上看，生物圈对变异似乎直接会产生反应。这意味着生物能够从大规模集群灭绝迅速恢复；过去的研究则认为这种恢复需要数百万年时间。
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>3e52f519-f905-407d-bdc3-6378897b0ba7</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>2e44d9c2-64ac-4769-b8a2-5d2cc485eeed</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Evolution_may_occur_faster_than_once_thought,_scientists_claim</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b491c993-3e62-4db0-9840-6c6fbade277b</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="意大利消失冰川得到巨型隔热毯">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d9cc12c6-84e4-4e45-b4e9-d3694088de0f</sv:value>
+        </sv:property>
+        <sv:node sv:name="意大利消失冰川得到巨型隔热毯">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>623e7d0c-8808-4ac2-afcd-6c642bf448e2</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2010/07/意大利消失冰川得到巨型隔热毯</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Melting Ice</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2010-07-09T17:04:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>因希望能够减缓意大利北部山区的冰融化速度，当地官员最近开始用隔热材料遮盖该地区的一个最受威胁的冰川，制造一种巨型安全毯来防止冰在炎热的夏天天气融化。听起很不寻常，可是测试显示这种隔热毯可能是拯救当地冰川完全消失的绝招——至少在目前。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>意大利消失冰川得到巨型隔热毯</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>Smeltende Gletsjer</sv:value>
+            <sv:value>Klimaat</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-12T14:34:18.722+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-07-15T11:10:14.707+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>9c3705dd-574d-40ef-8352-cb3d42bd7e73</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+工人们正赶着将97万方尺的四毫米隔热材料遮盖极受威胁的普乐瑟纳冰川，防止太阳紫外光线的侵蚀。如果运气好，隔热材料可以减少在炎热夏天融化的冰，直到夏季结束把它收回。
+&lt;br/&gt;
+意大利用这种材料来保护它的冰川，这却不是第一次。两年前已经进行了小规模的试验，充分显示了这个方法的有效性。被遮盖的冰的融化程度比暴露的部分少60%。在测试中，暴露的部分厚度减少了约五尺。
+&lt;br/&gt;
+对意大利特伦托省来说，这富有创意的方案恰逢其时。特伦托省的冰川，如同世界多个冰川一样，在最近几十年不断在迅速缩小。据BBC巴西统计，单是自1993年至2003年的十年时间里，特伦托普勒瑟纳冰川失去了总重量的39%。
+&lt;br/&gt;
+而罪魁祸首呢？没错：“有一点可以明确断言：冰川的融化是全球的气温提高所引起的。”环境工程师尼古拉·包里告诉BBC巴西。“根据最近四五年的观察，雪的融化速度比正常加快了一倍。”
+&lt;br/&gt;
+不幸的是，在被高气温影响的世界各地，不管当地的努力多有志向有创新，这都是全球问题，需要国际社会做出努力来解决。人们为了挽救普勒瑟纳冰川做出的辛勤工作，可能只能推迟不可避免的后果。
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>2e44d9c2-64ac-4769-b8a2-5d2cc485eeed</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>fc234d21-a769-49e5-ba1c-6a0f176fd6c0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>0d990656-f544-450a-b4c9-d633f068309c</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>32cefa88-25ff-4f6a-994d-d9963b86b9a6</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value/>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="丰田、特斯拉将研发电动suv">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cf6139a8-e104-4254-92e1-181c087ec8bd</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>丰田、特斯拉将研发电动SUV</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="丰田、特斯拉将研发电动suv">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>6f91691c-d724-4506-bd66-12532a51d5cc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2010/07/丰田、特斯拉将研发电动suv</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Electrical car</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2010-07-17T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>丰田汽车公司宣布已和特斯拉汽车公司达成将共同研发电动版RAV4型运动休旅车（SUV）的正规化协议。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>丰田、特斯拉将研发电动SUV</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>katja</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-28T14:35:41.181+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-07-15T11:12:29.463+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>8ce60caa-ad47-41fc-81ed-77357b4a0009</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+2010年5月，丰田和特斯拉的领导人丰田章男和埃伦·莫斯克分别宣布将共同研发电动汽车。这次协议的内容将当时公布的计划正规化，允许特斯拉在加州的一家汽车生产厂和丰田共同从事该项目。
+&lt;br/&gt;
+位于加州费利蒙市的工厂将2011年由特斯拉公司重新开放。该工厂过去是丰田和通用汽车共同经营的，但当丰田公司宣布不要在加州继续生产汽车之后停工，随后则被特斯拉公司收购。
+&lt;br/&gt;
+目前特斯拉公司只生产一款汽车，即价位在10,9万美元的Roadster。将来在费利蒙工厂生产的S型正在研制中。 &lt;br/&gt;
+分析家表示支持这次行动；
+绿色运输贸易集团的首席执行官约翰·泊瑟尔说到：“日本汽车商丰田愿意与特斯拉公司联手来生产它已有的一款汽车的电动版，这意味着两家公司的合作会非常有意义。”
+&lt;br/&gt;
+随着这次宣布特斯拉的股票上升0,75美元；丰田的股票下降1,65美元。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Toyota, Tesla to develop electric SUV</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Toyota,_Tesla_to_develop_electric_SUV</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>eda53e2d-e245-439d-9825-045664233920</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>4a35cad1-dbd2-408a-9342-70d4cfa238f5</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6d81d6de-8956-48a0-8e3c-ebd3923fbd32</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="06">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>53ce23a7-9fa7-4de8-a708-57c8ee800cb3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>b59e46a3-ff73-4cdc-b102-6cf5045b2548</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>zh</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="哥本哈根气候大会开幕">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1b459a09-febe-4f47-a1ea-96b975aa3267</sv:value>
+        </sv:property>
+        <sv:node sv:name="哥本哈根气候大会开幕">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>36afa3ba-c6e9-40d6-a5de-2e82cdfa4b7e</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2010/06/哥本哈根气候大会开幕</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String" sv:multiple="true">
+            <sv:value>Global Warming</sv:value>
+            <sv:value>Conference</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2010-06-22T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value> 新的公约现在触手可及 —— 丹麦首相拉尔斯·勒克·拉斯穆森。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>哥本哈根气候大会开幕</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>Global warming</sv:value>
+            <sv:value>Copenhagen treaty</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin20</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-30T15:29:10.063+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-07-15T11:14:25.255+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>0faa3f16-bddc-4405-ac6e-0106804872c5</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+在制止气候变化和全球变暖的呼吁声中，联合国气候变化大会（COP15）星期一正式开幕。这次大会是有史以来规模最大的一次气候大会，从12月7日到18日在丹麦哥本哈根的贝拉会议中心举行。来自192
+个国家和地区的约15000名代表，包括政府官员、企业、环保组织、研究机构的代表和110名国家元首在内将出席这次会议。 &lt;br/&gt;
+COP15文化开幕式中播放了丹麦导演米克尔·布劳拜·波尔森的四分钟电影《请帮助世界》。电影描述一个小女孩的噩梦情景：全球变暖、沙漠荒原、恐怖的洪水带来的生态末日灾难。当小女孩从噩梦中醒来时，她和其他儿童一起祈求我们“请帮助世界”。波尔森说到：“我们这部作品是针对你的心而不是你的大脑的一个召唤。”另外有一位小号手、一位竖琴手和丹麦国家少年女声合唱团带来的音乐表演。
+&lt;br/&gt;
+作为两年激烈争议的最终结果，联合国气候变化大会是在充满希望的气氛中开始的。对于在两周之内达成协议的艰难任务，与会者普遍保有乐观态度。会议主席康妮·赫泽高在一个新闻简报会上说“死线有效”，但是还“必须在仅有的时间内解决目前的问题”。拉尔斯·勒克·拉斯穆森强调，至于如何分配排放减少的负担，谈判中需要克服发达和发展中国家对彼此的深刻疑心。发达和新兴经济体方面有一系列减少温室气体的承诺已经出现，但不少主要问题仍有待解决。联合国秘书长潘基文表示，具有法律约束力的气候变化公约将2010年出现。
+&lt;br/&gt;
+ 根据已经通过的承诺，欧盟将会到2020年比1990年水平减少温室气体排放20%，但同时表示，在其他主要国家承担“相应的诺言”的条件之下，此数字将提高到30%。美国国家环境保护局近来裁定温室气体有害人类健康的新闻可能会引起美国温室气体排放的减少。《德国金融时报》报导称，据无名的外交人士，欧盟将在未来三年提供“10-30亿欧元”来援助发展中国家，支持它们抵抗气候变化带来的变异、尽量减少和适应气候变化。
+&lt;br/&gt;
+由于大量的碳足迹和私人飞机、加长轿车的广泛使用，这次会议不免遭受环保作风虚伪的指责。为了减少会议的环境气候影响，丹麦政府决定不要给参与者奉献礼物，将资源投资到“COP15气候奖学金”项目上，让10-12名精英人物在丹麦各个大学进行为期两年的气候领域硕士课程。在会议中心外聚集着包括气候正义组织、地球之友、气候行动营、350.org和绿色和平等组织在内的数千人呼吁紧急行动。环保组织地球之友批评“丹麦举办方在哥本哈根会议之前召集少数国家进行关闭会议等非民主行为”。谈判案文草案已经公开发表，但传闻称另外还有由个别大国包括会议举办方在内共同提出的“第二个”公约文件。
+&lt;br/&gt;
+根据巴厘路线图，第15届联合国气候变化框架公约缔约方大会（COP15）和第5届京都议定书缔约方会议（COP/MOP5）必须就2012年后的气候变化减缓达成框架协议。110名国家政府元首已经宣布将在12月18日前抵达哥本哈根，试图完成一个全球性的气候政策。若能达成协议，联合国有意将之改写成代替2012年满期的京都议定书排放限制的具有法律约束力文件。
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Wikinews</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Copenhagen_climate_conference_opens</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>97f87c90-4f88-4de1-a6dd-0f212479f03e</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>ba3afefe-92f6-4103-9e83-339b27166e69</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="第二轮联合国气候变化谈判在波恩继续进行">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:hardhandle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>83e10816-114c-4a40-9c9e-1d85c6aaee2c</sv:value>
+        </sv:property>
+        <sv:node sv:name="第二轮联合国气候变化谈判在波恩继续进行">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:newsitem</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>hippo:harddocument</sv:value>
+            <sv:value>hippotranslation:translated</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>882338c7-d2a6-43dd-affc-19c6b8540e4a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>新闻/2010/06/第二轮联合国气候变化谈判在波恩继续进行</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:categories" sv:type="String">
+            <sv:value>Global warming</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:date" sv:type="Date">
+            <sv:value>2010-06-22T10:22:00.000+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:summary" sv:type="String">
+            <sv:value>2010年联合国气候变化大会（COP16）谈判本周在德国波恩继续进行。</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:title" sv:type="String">
+            <sv:value>第二轮联合国气候变化谈判在波恩继续进行</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>Global warming</sv:value>
+            <sv:value>conference</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin20</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2010-07-30T15:17:23.923+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2011-07-15T11:15:57.371+02:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>editor01</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>f1b0bcc7-7432-46a3-a0b1-e43f41f8df70</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>zh</sv:value>
+          </sv:property>
+          <sv:node sv:name="hippotranslation:translations">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippotranslation:translations</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;
+2010年联合国气候变化大会（COP16）谈判本周在德国波恩继续进行。4500名参与者包括来自182个国家政府、企业、环保组织和研究机构的代表出席会议。COP16将2010年11月29日至12月10日在墨西哥坎昆召开。
+&lt;br/&gt;
+墨西哥气候变化特别代表路易斯·阿方索·德阿尔瓦向路透社表示：“墨西哥不希望引起徒然的期望，但我们确实很勤奋坚定。”他对联合国即将离任的气候秘书长伊弗·德布尔和欧盟气候专员康妮·赫泽高的怀疑态度表示批评。
+&lt;br/&gt;
+根据联合国气候变化框架公约（UNFCCC）进行谈判，下一次会议将8月举行，随后将在坎昆大会召开之前再举行为期一周的最后一次闭会期间会议，就在2009年联合国气候变化哥本哈根大会未得到解决的问题继续讨论。
+&lt;br/&gt;
+两个工作组分别是长期合作行动特设工作组（AWG-LCA）和进一步承诺特设工作组（AWG-KP），都是为达成气候变化的长期反应而特别建立的。 &lt;br/&gt;
+AWG-LCA谈判组负责在6月份的会议之前提供新的“COP16谈判案文”的任务。AWG—KP则负责为已经批准在2012年后继续履行京都议定书的37个发达国家提出进一步减排承诺。
+&lt;br/&gt;
+另外有两个UNFCCC常委会，其一是科学技术咨询附属机构（SBSTA），其二是执行附属机构（SBI）。 &lt;br/&gt;
+大会的正式名称是联合国气候变化框架公约（UNFCCC）的第16届缔约方大会（COP16）和作为京都议定书缔约方会议的第6届缔约方大会（CMP6）。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:copyright">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogogreen:copyright</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:description" sv:type="String">
+              <sv:value>Wikinews</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippogogreen:url" sv:type="String">
+              <sv:value>http://en.wikinews.org/wiki/Second_round_of_Bonn_UN_Climate_Change_negotiations_continue</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="relateddocs:docs">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>relateddocs:docs</sv:value>
+            </sv:property>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>bd065aa8-5f0b-44a5-bc72-6e37eed2ee68</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>f490e905-57e7-4846-a13a-23136836a357</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="relateddocs:reldoc">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>3e740aa9-6714-48e3-8fd0-914c9ed3a7cd</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="hippogogreen:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>94638e46-2a0f-412d-b5d8-608e26c6d1ad</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="facetednews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippofacnav:facetnavigation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:docbase" sv:type="String">
+      <sv:value>c6328f80-fd68-428e-8ddc-99e97b8d92db</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+      <sv:value>期</sv:value>
+      <sv:value>新闻类</sv:value>
+      <sv:value>一年${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+      <sv:value>hippogogreen:date$[{name:'本月', resolution:'month', begin:0, end:1}, {name:'上个月', resolution:'month', begin:-1, end:0}, {name:'今年', resolution:'year', begin:0, end:1}]</sv:value>
+      <sv:value>hippogogreen:categories</sv:value>
+      <sv:value>hippogogreen:date$year</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+      <sv:value>200</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

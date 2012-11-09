@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:channels">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:channels</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>d5c75df1-12f0-499e-b678-817a5e1daef1</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippogogreen">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9aa2d97a-2802-4b54-8301-abc527fd7c84</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>English Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-go-green.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Go Green</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4a389082-758d-440e-ada7-ec8427db8302</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>French Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-mise-au-vert.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Mise au Vert</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7d940247-0fbf-4c70-8dad-ff4a7f4191b9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>Dutch Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-duurzaam.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Duurzaam</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5db99ef9-660c-43e8-9979-79aef93e91ae</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>Russian Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-go-green-logo---russian.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Хиппо идите зелёный</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-mobile">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>614d71df-6f8b-41ee-b846-07aa9840d6b3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.MobileInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>English Mobile Site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>mobile</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-go-green.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Go Green</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-mobile-fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f786a5a5-dec1-4f3a-96f3-ee49c02e4cff</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.MobileInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>French Mobile Site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>mobile</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-mise-au-vert.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Mise au Vert</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-mobile-nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>6d1698b5-f667-4e77-b9a0-79e055747d23</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.MobileInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>Dutch Mobile Site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>mobile</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-duurzaam.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Duurzaam</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-mobile-ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>dac3f0fb-f2b7-4793-b7cd-8d07998d24df</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.MobileInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>Russian Mobile Site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>mobile</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-go-green-logo---russian.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Хиппо идите зелёный</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-ipad-mag">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>bcf83b5a-8a4e-4336-a682-ccaaf509c81b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>IPad Magazine</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>ipad-magazine</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>GoGreen IPad Magazine</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-es">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7e3fa18d-9495-49d1-aa83-cb7976f3bc6f</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>Spanish Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-go-green-logo---spanish.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo Durable</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-zh">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a48faa13-64e4-4699-b36a-73d61c2674bb</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>Chinese Website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-go-green-logo---chinese.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>绿色环保河马</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-de">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a48faa13-64e4-4699-b36a-73d61c2674bb</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>com.onehippo.gogreen.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>German website</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="logo" sv:type="String">
+        <sv:value>/content/gallery/logos/hippo-go-green-logo---german.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="pageTitlePrefix" sv:type="String">
+        <sv:value>Hippo geht gruen</sv:value>
+      </sv:property>
+      <sv:property sv:name="themeCss" sv:type="String">
+        <sv:value>/content/assets/themes/css/green.css</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+
+</sv:node>

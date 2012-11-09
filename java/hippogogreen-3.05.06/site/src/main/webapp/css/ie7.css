@@ -1,0 +1,83 @@
+/**
+ * Copyright (C) 2010 Hippo B.V.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#hd #login span { display: inline; }
+
+#hd #top-nav { text-align: right; z-index: 998; }
+#hd #top-nav li { text-align: left; }
+#hd #top-nav #text-size { line-height: 18px; padding-right: 2px; }
+#hd #top-nav #language .selected { text-align: right; float: none; }
+#hd #top-nav #text-size { display: inline; }
+#hd #top-nav #text-size a { display: inline; }
+#hd #top-nav #text-size .text { display: inline; }
+#hd #top-nav #text-size:hover .button { display: inline; }
+#hd #top-nav #language { display: inline; padding: 0 7px; }
+/* IE7's hover function doesn't work properly. Line below is an ugly workaround for this. */
+#hd #top-nav #language > ul { top: -2px; }
+#hd #top-nav #language li.top { position: relative; top: 4px; }
+#hd #top-nav #language li.bottom { position: relative; top: -12px; }
+#hd #top-nav #language li { line-height: normal; }
+
+#bd .box-general { display: block; float: left; }
+#bd #content #find-products h3 { display: inline; float: left; }
+#bd .box-right, #bd #content .box-bottom { display: block; clear: left;}
+
+#bd #home-blogs { clear: left; }
+#bd #home-blogs .blog-item { clear: both; }
+#bd #home-blogs .blog-item li { display: inline; } 
+#bd #home-blogs .blog-item .image { display: block; }
+
+#bd .box-poll li.option, 
+  #bd .box-poll li.text, 
+  #bd .box-poll li.result .wrapper, 
+  #bd .box-poll li.result .poll-bar,  
+  #bd .box-poll li.result .poll-percentage { display: inline; }
+#bd .box-poll li.option { margin-right: 7px; }
+
+#bd #content .rating { display: inline; }
+
+#bd #left #page-actions li, #bd #left #page-actions .function a,
+  #bd #right #page-actions li, #bd #right #page-actions .function a { display: inline; }
+#bd #left #page-actions li, #bd #right #page-actions li { margin: 0 1px; } 
+
+#bd #content #document-actions li, #bd #content #document-actions li a { display: inline; }
+#bd #content #document-actions li { margin: 2px 1px 0; }
+
+#bd #content #page-nav li { display: inline; margin: 0 2px; }
+
+#bd #content #comments .comment-item { clear: left; }
+#bd #content #comments .comment-item .bg-bottom { float: left; }
+
+#bd a.filter, #bd #filter .filter-by li.active span { display: inline; }
+
+#bd #content #article-footer .rate li,
+  #bd #content #article .date, #bd #content #article .seperator, #bd #content #article .comments a, #bd #content #product .date { display: inline; }
+
+#bd .box-general .text { float: left; }
+#bd .box-poll .text { float: none; }
+
+#bd #events #calendar .box .info .top { background: none; }
+#bd #events #calendar .box:hover { font-weight: bold; }
+#bd #events #calendar .box:hover .info { font-weight: normal; }
+#bd #events #calendar .box .arrow { margin-top: 11px; }
+#bd #events #calendar .box .count { margin-left: -30px; }
+#bd #events #calendar .box a:hover { text-decoration: none; }
+
+#bd #left #left-nav .sub-sec li { background-position: 0 9px; }
+
+#ft { clear: left; }
+#ft .logo, #ft #ft-nav, #ft #brochure { float: left; display: inline; }
+#ft #ft-disclaimer { clear: left; }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport"
+    sv:name="filters" h:merge="combine">
+  <sv:node sv:name="hideHippogogreengalleryNamespace" h:merge="insert" h:location="showOtherNamespaces">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>frontend:pluginconfig</sv:value>
+    </sv:property>
+    <sv:property sv:name="display" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="path" sv:type="String">
+      <sv:value>/hippo:namespaces/hippogogreengallery</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

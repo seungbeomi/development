@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sites">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sites</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>3d7b0696-118d-43ad-a39b-15e208ffece8</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippogogreen">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2664648e-442a-4251-95a4-3f2697b8547b</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8afd9a29-5e74-422a-9058-526c341801a1</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>89c70f48-fd75-484b-b46d-50a29f41d63b</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>6140a8f0-40d6-49bb-8dd1-2d4a8ef14e74</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_fr-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>676705ea-6536-42c1-b164-04e0e73ee72d</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>6140a8f0-40d6-49bb-8dd1-2d4a8ef14e74</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b8eb14c6-7549-453c-9f7f-c34b14fcae56</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b34e40b6-880a-4081-8c49-29a645629e21</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_nl-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3d95f967-1ad7-456f-950f-cddcee7199c6</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b34e40b6-880a-4081-8c49-29a645629e21</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>98c58f46-3bde-45a7-8d48-2df0d73aabd5</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9c03dd2d-7bf7-4169-9644-64fa80d15e76</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile_fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5c23fc45-4403-40fb-b394-84a433f1bf34</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>6140a8f0-40d6-49bb-8dd1-2d4a8ef14e74</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile_fr-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8aa031ea-80ab-4a83-b540-77c587bb79bb</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>6140a8f0-40d6-49bb-8dd1-2d4a8ef14e74</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile_nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>dc8a4bbf-2570-4c4e-a92f-00764073be14</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b34e40b6-880a-4081-8c49-29a645629e21</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile_nl-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b6a97f05-0221-46c2-ae4c-3ea3ae973bb9</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b34e40b6-880a-4081-8c49-29a645629e21</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="rest">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>694d5f6a-536a-440e-a10f-c766b1e03534</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="rest-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d30f3c5a-48b8-4173-a0a7-41c51e15473d</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="ipadmag">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>fda12cb8-67c5-4be3-ade2-754bf35e5c7c</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="ipadmag-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b221dbb2-ee43-4307-8679-45e0b0fcbdc0</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>996bcac5-86cf-49b5-a7a3-16a74863e814</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>86e181a9-0b95-49dd-bf01-7ffff72ca36b</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>2c1cbbc6-3e44-4ec5-8eda-51aebbfeebe5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_ru-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>886bc4bb-7886-4990-9837-a40c4ba31df9</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>2c1cbbc6-3e44-4ec5-8eda-51aebbfeebe5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile_ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>58deabb3-ef46-4a0c-bdc6-5ea9b76a9edc</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>2c1cbbc6-3e44-4ec5-8eda-51aebbfeebe5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="mobile_ru-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>50e8d96f-dcf5-4512-b60f-5d9702fc8b95</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>2c1cbbc6-3e44-4ec5-8eda-51aebbfeebe5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_es">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4b074ba7-83cd-46c8-8e5f-cefdcf3d10ce</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b29268d3-00a6-4321-b7fc-4ede3e0a37f6</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_es-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>4b074ba7-83cd-46c8-8e5f-cefdcf3d10ce</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>b29268d3-00a6-4321-b7fc-4ede3e0a37f6</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_zh">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7bf10a77-cd75-4d5c-a1e6-af6478a1f940</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>f7dbfafd-4bee-465f-95a5-93c8fe7cd585</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_zh-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>15df88db-ba27-4afe-8f63-1e8dd9293ee4</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>f7dbfafd-4bee-465f-95a5-93c8fe7cd585</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_de">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9678f045-b378-486d-a3ba-b56dedcc4a1b</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>383aa7c6-9a6b-4473-b912-c7f41bfb48cb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_de-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9678f045-b378-486d-a3ba-b56dedcc4a1b</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:content">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:facetselect</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:docbase" sv:type="String">
+        <sv:value>383aa7c6-9a6b-4473-b912-c7f41bfb48cb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true">
+        <sv:value>hippo:availability</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true">
+        <sv:value>single</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

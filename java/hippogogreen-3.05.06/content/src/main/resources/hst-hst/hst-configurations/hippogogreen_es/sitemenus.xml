@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sitemenus">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemenus</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>188335ac-2695-4ae4-bf2b-ff31ad46991a</sv:value>
+  </sv:property>
+  <sv:node sv:name="mainnavigation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>155affa4-e454-4301-b33a-84f8563229d1</sv:value>
+    </sv:property>
+    <sv:node sv:name="Inicio">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2a77b8ab-213f-4395-9ff6-48653a9fee0b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>home</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Noticias y Eventos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c4dbbef1-579d-40b1-aa37-7828d6512a76</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>news</sv:value>
+      </sv:property>
+      <sv:node sv:name="Lista di eventos">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>afa8861a-e14d-44d3-96eb-630744a707d6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+          <sv:value>events</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="Productos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a75cfaed-b527-4c93-b249-ecf0599562cf</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>products</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="aboutmenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d7884c90-d39a-4e9f-97e4-cf034f1ca91f</sv:value>
+    </sv:property>
+    <sv:node sv:name="RSS">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>848245a8-2b7e-4a8f-9bbf-253b7506b3ac</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>rss</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="API">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9b76982a-2aa1-4b00-8573-55e40933d799</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:depth" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:foldersonly" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>rest</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Mapa del Sitio">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3151c48f-003a-4708-90a3-4638e6892782</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>sitemap</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="servicemenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2abbc9fa-08db-4d53-8e8a-8945182c346a</sv:value>
+    </sv:property>
+    <sv:node sv:name="RSS">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5805c7e1-a78a-44d6-99ef-0d702e1f26e4</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>rss</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="API">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9feaeae8-3fed-4fb5-be92-99c21d81876c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>rest</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Mapa del Sitio">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6802c476-38df-41ec-9e5e-39e6fa9638fa</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>sitemap</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="sectionsmenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>55d18cb7-648f-47a1-aade-b2f27fdcdd4a</sv:value>
+    </sv:property>
+    <sv:node sv:name="Noticias y Eventos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6a68f10f-b567-474a-9bf8-d5aac71a921a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>news</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Productos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>eb29867a-1cd9-43a3-9d2e-13757a451bfa</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>products</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Moviles">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d73b1029-fd37-4810-b3c6-2b55848d6a8e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>mobile</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

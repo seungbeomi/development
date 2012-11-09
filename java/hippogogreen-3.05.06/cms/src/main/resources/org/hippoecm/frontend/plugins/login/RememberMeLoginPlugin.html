@@ -1,0 +1,166 @@
+<!--
+    * Copyright 2007-2008 Hippo
+    *
+    * Licensed under the Apache License, Version 2.0 (the  "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+-->
+<html xmlns:wicket="http://wicket.apache.org/">
+  <wicket:head>
+    <title>Hippo CMS 7</title>
+    <link rel="shortcut icon" href="skin/images/hippo-cms.ico" type="image/x-icon"/>
+    <link rel="stylesheet" media="screen" type="text/css" href="skin/help-overlay.css"/>
+    <link rel="stylesheet" media="screen" type="text/css" href="skin/rss-info.css"/>
+    <script src="skin/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="skin/js/jquery.tools.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="skin/js/help-overlay.js" type="text/javascript"></script>
+    <script src="skin/js/rss-info.js" type="text/javascript"></script>
+  </wicket:head>
+  <body>
+    <wicket:panel>
+      <div class="hippo-body-back-hack">
+        <div wicket:id="pinger" class="hippo-global-hideme">[Prevents session timeouts]</div>
+        
+        <table width="100%">
+          <tr>
+            <td width="60%" valign="top">
+              <div class="hippo-login-panel">
+                <form class="hippo-login-panel-form" wicket:id="signInForm" name="signInForm">
+                  <h2>
+                    <div class="hippo-global-hideme">
+                      <wicket:message key="header"/>
+                      <span><wicket:message key="subheader"/></span></div>
+                  </h2>
+                  <div class="hippo-login-feedback" wicket:id="feedback">Feedback panel</div>
+                  <div class="hippo-login-form-container">
+                    <table>
+                      <tr>
+                        <td width="50%"><label>
+                          <wicket:message key="username-label"/>
+                          &nbsp;</label></td>
+                        <td><input class="hippo-form-text" wicket:id="username" type="text" value="foo@goo.moo"/><span
+                            wicket:id="infouserlogin"></span></td>
+                      </tr>
+                      <tr>
+                        <td><label>
+                          <wicket:message key="password-label"/>
+                          &nbsp;</label></td>
+                        <td><input class="hippo-form-password" wicket:id="password" type="password" value="password"/></td>
+                      </tr>
+                      <tr>
+                        <td><label>
+                          <wicket:message key="locale-label"/>
+                          &nbsp;</label></td>
+                        <td><select name="locale" wicket:id="locale"></select></td>
+                      </tr>
+                      <tr>
+                        <td><label>
+                          <wicket:message key="rememberme-label"/>
+                        </label></td>
+                        <td><input class="hippo-form-checkbox" wicket:id="rememberme" type="checkbox"/></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td class="hippo-global-alignright">
+                          <input class="hippo-form-submit" type="submit" name="submit" wicket:id="submit" value="label"/>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </form>
+                <div class="hippo-login-panel-copyright">
+                  &copy; 1999-2012 Hippo B.V.
+                </div>
+              </div>
+            </td>
+            <td width="40%"  valign="top">
+              <div id="infoboxs">
+                <div id="info-login" class="hippo-login-panel">
+                  <h2>
+                    <wicket:message key="info-login-credentials"/>
+                  </h2>
+                  <table>
+                    <tbody>
+                    <tr>
+                      <th>
+                        <p>
+                          <wicket:message key="info-login-role"/>
+                        </p>
+                      </th>
+                      <th>
+                        <p>
+                          <wicket:message key="info-login-username"/>
+                          -
+                          <wicket:message key="info-login-password"/>
+                        </p>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>
+                          <wicket:message key="info-login-author"/>
+                        </p>
+                      </td>
+                      <td><span id="RandomAuthor"></span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>
+                          <wicket:message key="info-login-editor"/>
+                        </p>
+                      </td>
+                      <td><span id="RandomEditor"></span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>
+                          <wicket:message key="info-login-administrator"/>
+                        </p>
+                      </td>
+                      <td><span id="RandomAdmin"></span></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div id="feeds" class="hippo-login-panel">
+                  <ul id="events">
+                    <li class="type">
+                      <h2>
+                        <wicket:message key="info-events"/>
+                      </h2>
+                    </li>
+                  </ul>
+                  <ul id="news">
+                    <li class="type">
+                      <h2>
+                        <wicket:message key="info-news"/>
+                      </h2>
+                    </li>
+                  </ul>
+                  <ul id="blogs">
+                    <li class="type">
+                      <h2>
+                        <wicket:message key="info-blogs"/>
+                      </h2>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </wicket:panel>
+  </body>
+</html>

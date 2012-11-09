@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="jobs">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>e4968ca8-c840-44c1-900f-acdacd0b136d</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-job-folder</sv:value>
+    <sv:value>new-job</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>e558cf9b-4676-400c-aac0-166a28d57e9d</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>fr</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Emplois</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="informatique">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>df25201d-8f5e-4fda-9722-adebe1d6cce3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-job-folder</sv:value>
+      <sv:value>new-job</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>30bd2c59-d467-433b-9f93-3aff190ba360</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>fr</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Informatique</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="developpeur-web">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4ce3813d-d384-4a68-bbf1-8c97a3c14a3d</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value>fr</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Développeur web</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="developpeur-web">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>21ff99bc-46e1-4fd1-a6e5-15ad65c2340e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>jobs/informatique/developpeur-web</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2010-08-11T11:14:00.000+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Master</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>Go Green</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>3.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:industries" sv:type="String" sv:multiple="true">
+          <sv:value>Informatique</sv:value>
+          <sv:value>Vert</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Plein temps</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>San Francisco</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>45000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Un développeur web est responsable de la création de pages web pour le site de clients.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Développeur web</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>Informatique</sv:value>
+          <sv:value>Graphisme</sv:value>
+          <sv:value>Web</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-02T09:14:45.174Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-01-12T14:51:53.200Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-01-12T14:54:02.789Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>bd88a712-010b-4aca-b9b3-af2e1a200e9b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>fr</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt; &lt;body&gt; &lt;h4&gt;Débuter entre 23 000 € et 30 000 € l'année &lt;/h4&gt; &lt;p&gt;Selon
+              les sociétés, le concepteur multimédia débutant peut se voir proposer un salaire allant de 23 000 à 30 000
+              € l'année.&lt;/p&gt; &lt;h4&gt;Bâtir l'architecture &lt;/h4&gt; &lt;p&gt;On l'appelle développeur ou
+              programmeur mais quel que soit l'intitulé de la fonction, son travail reste le même : il prend en charge
+              la partie technique des projets Web ou multimédia depuis l'étude de faisabilité jusqu'à la phase d'essais.
+              Concrètement, il rédige les lignes de code nécessaires à la création du produit (CD-Rom ou site Internet),
+              contenant du texte, des images et du son. C'est souvent le seul à maîtriser parfaitement les contraintes
+              techniques.&lt;/p&gt; &lt;h4&gt;Bac+2 : le niveau minimal &lt;/h4&gt; &lt;p&gt;Pour ce type de poste, les
+              BTS ou DUT informatique, ou le DUT services et réseaux de communication, constituent le niveau minimal
+              requis, certaines entreprises privilégiant même les formations de niveau bac+5 et au-delà (diplôme
+              d'ingénieurs ou master). Ajoutée aux compétences techniques, la sensibilité artistique constitue un plus
+              certain.&lt;/p&gt;
+
+              &lt;/body&gt; &lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="biotechnologies">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>74abeba1-d1dd-45d3-9e56-7b5c7ac1b889</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-job-folder</sv:value>
+      <sv:value>new-job</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>b015feed-4b39-48ed-ab39-d0d5f8193c8e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>fr</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Biotechnologies</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="commercial">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5ad130e0-13fe-4100-9679-3e7d7fe90639</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value>fr</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Commercial</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="commercial">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b7f8332e-ad2b-4789-a599-9d2bd447fbb7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>jobs/biotechnologies/commercial</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2010-07-30T11:13:31.039+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Ingénieur</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>Energiz</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>10.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>Énergie renouvelables</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Mi-temps</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>New York</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>120000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>Une énergie renouvelable est une énergie exploitée par l'Homme, de telle manière que ses réserves ne
+            s'épuisent pas. En d'autres termes, sa vitesse de formation doit être plus grande que sa vitesse
+            d'utilisation.
+          </sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>Commercial énergies renouvelables</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>tbrenninkmeijer</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-30T09:13:30.875Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-01-12T14:53:52.467Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-01-12T14:54:02.294Z</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>35c8f035-bbd5-4e31-bcf3-bc076e4fc6e3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>fr</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt; &lt;body&gt;
+
+              &lt;p&gt;Son &lt;a title="Rayonnement solaire" href="http://fr.wikipedia.org/wiki/Rayonnement_solaire"&gt;rayonnement&lt;/a&gt;
+              constitue en lui-même une énergie exploitable. Ce rayonnement donne aussi naissance à d'autres formes
+              d'énergie, ainsi le &lt;a title="Cycle de leau" href="http://fr.wikipedia.org/wiki/Cycle_de_l'eau"&gt;cycle
+              de l'eau&lt;/a&gt; permet de créer de l'&lt;a title="Énergie hydroélectrique"
+              href="http://fr.wikipedia.org/wiki/%C9nergie_hydro%E9lectrique"&gt;hydroélectricité&lt;/a&gt;, le vent est
+              aussi exploité. La &lt;a title="Photosynthèse" href="http://fr.wikipedia.org/wiki/Photosynth%E8se"&gt;photosynthèse&lt;/a&gt;
+              a aussi comme origine le soleil, elle crée différents matériaux exploitables énergétiquement, mais pas
+              toujours renouvelables. La chaleur interne de la Terre est source d'énergie considérée comme renouvelable,
+              la &lt;a title="Géothermie" href="http://fr.wikipedia.org/wiki/G%E9othermie"&gt;géothermie&lt;/a&gt;. La
+              rotation des astres, système &lt;a title="Terre" href="http://fr.wikipedia.org/wiki/Terre"&gt;Terre&lt;/a&gt;-&lt;a
+              title="Lune" href="http://fr.wikipedia.org/wiki/Lune"&gt;Lune&lt;/a&gt;, engendre des mouvements d'eau à
+              la surface de la Terre, mouvements exploitables énergétiquement via l'&lt;a title="Énergie marémotrice"
+              href="http://fr.wikipedia.org/wiki/%C9nergie_mar%E9motrice"&gt;énergie marémotrice&lt;/a&gt;.&lt;/p&gt;
+
+              &lt;p&gt;Le caractère renouvelable d'une énergie dépend de la vitesse à laquelle la source se régénère,
+              mais aussi de la vitesse à laquelle elle est consommée. Le &lt;a title="Pétrole"
+              href="http://fr.wikipedia.org/wiki/P%E9trole"&gt;pétrole&lt;/a&gt; ainsi que tous les &lt;a
+              title="Combustible fossile" href="http://fr.wikipedia.org/wiki/Combustible_fossile"&gt;combustibles
+              fossiles&lt;/a&gt; ne sont pas des énergies renouvelables, les ressources étant consommées à une vitesse
+              bien supérieure à la vitesse à laquelle ces ressources sont naturellement créées.&lt;/p&gt;
+
+              &lt;p&gt;Une &lt;a title="Agence internationale des énergies renouvelables"
+              href="http://fr.wikipedia.org/wiki/Agence_internationale_des_%E9nergies_renouvelables"&gt;agence
+              internationale des énergies renouvelables&lt;/a&gt; (&lt;a title="IRENA"
+              href="http://fr.wikipedia.org/wiki/IRENA"&gt;IRENA&lt;/a&gt;) a été créée en début 2009.&lt;/p&gt;
+
+              &lt;/body&gt; &lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value>http://jobview.monster.com/Design-Sales-Consultant-Job-Sonoma-CA-89206232.aspx</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

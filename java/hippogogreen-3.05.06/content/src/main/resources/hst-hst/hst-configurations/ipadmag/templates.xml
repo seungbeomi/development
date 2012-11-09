@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="hst:templates" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:templates</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>f85cc16b-f5d6-431c-9048-a8cf2e49336c</sv:value>
+  </sv:property>
+  <sv:node sv:name="products.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>56571138-6083-4f71-9330-b999e5a652a0</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#ftl encoding="UTF-8"&gt;
+&lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;#assign ga=JspTaglibs["http://www.onehippo.org/jsp/google-analytics"]&gt;
+&lt;@hst.defineObjects /&gt;
+&lt;!doctype html&gt;
+&lt;!-- Most of this code comes from the original PugPig.com book --&gt;
+&lt;html dir="ltr" lang="en"&gt;
+&lt;head&gt;
+&lt;title&gt;pugpig&lt;/title&gt;
+&lt;meta charset="utf-8" /&gt;
+&lt;meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no"&gt;
+&lt;!-- To get rid of the URL and button bars --&gt;
+&lt;meta name="apple-mobile-web-app-capable" content="yes" /&gt;
+&lt;!-- Status Bar Style (default, black, black-translucent) --&gt;
+&lt;meta name="apple-mobile-web-app-status-bar-style" content="black" /&gt;
+&lt;link rel="stylesheet" href="http://kaldorgroup.com/Books/BOOKPUGPIG/css/style.css" /&gt;
+
+&lt;script type="text/javascript" src="http://kaldorgroup.com/Books/BOOKPUGPIG/js/pugpig.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://kaldorgroup.com/Books/BOOKPUGPIG/js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="http://kaldorgroup.com/Books/BOOKPUGPIG/js/jquery.animate-enhanced.js"&gt;&lt;/script&gt;
+&lt;script src="http://kaldorgroup.com/Books/BOOKPUGPIG/js/overlay.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://kaldorgroup.com/Books/BOOKPUGPIG/js/cloud-carousel.1.0.5.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+
+var products =
+   [
+            &lt;#list docs.items as product &gt;
+                &lt;@hst.link var="thumbnail" hippobean=product.mainImage.largeThumbnail /&gt;
+               { "image": "${thumbnail}", "name": "${product.title}", "desc": "Rated 5 stars!", "price":"$100"},
+            &lt;/#list&gt;
+
+   ];
+
+$(document).ready(function(){
+    for (var idx=0; idx &lt; products.length; idx++) {
+      $("#carousel1").append("&lt;img class='cloudcarousel' src='" + products[idx].image + "' alt='" + products[idx].desc + "' title='" + products[idx].name + "' data-price='" + products[idx].price + "' /&gt;");
+    }
+
+    $("#carousel1").CloudCarousel(
+        {
+            xPos: 380,
+            yPos: 50,
+            altBox: $("#description"),
+            titleBox: $("#product"),
+            priceBox: $("#price"),
+            bringToFront: true,
+            reflHeight: 0
+        }
+    );
+});
+
+function touchStart(event) {
+  // event.preventDefault();
+  startX = event.targetTouches[0].pageX;
+}
+
+function touchMove(event) {
+  event.preventDefault();
+  curX = event.targetTouches[0].pageX - startX;
+  if (curX &gt; 100) {
+    startX = event.targetTouches[0].pageX;
+    $("#carousel1").data('cloudcarousel').rotate(-1);
+  }
+  else if (curX &lt; -100) {
+    startX = event.targetTouches[0].pageX;
+    $("#carousel1").data('cloudcarousel').rotate(1);
+  }
+}
+
+function touchEnd(event) {
+    $("#carousel1").data('cloudcarousel').showFrontText();
+}
+
+&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="page"&gt;
+    &lt;div id="carousel"&gt;
+        &lt;section&gt;
+            &lt;header&gt;
+                &lt;h1&gt;GoGreen's Top Sellers&lt;/h1&gt;
+                &lt;p&gt;Latest goodies from the Hippo GoGreen store! Go find yourself a nice Green thingy. Their all great!&lt;/p&gt;
+            &lt;/header&gt;
+            &lt;article&gt;
+                &lt;div id="priceboard"&gt;
+                    &lt;div id="priceboardcontent"&gt;
+                        &lt;h3 id="product"&gt;&lt;/h3&gt;
+                        &lt;p id="description"&gt;&lt;/p&gt;
+                        &lt;p id="price"&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div id="carousel1" ontouchstart="touchStart(event);" ontouchmove="touchMove(event);" ontouchend="touchEnd(event);"&gt;&lt;/div&gt;
+            &lt;/article&gt;
+            &lt;footer&gt;
+            &lt;/footer&gt;
+        &lt;/section&gt;
+        &lt;div id="overlay" onclick="hideOverlay();"&gt;
+            &lt;p&gt;The carousel uses Cloud Carousel by Christophe Beyls, although we have modified it to accept touch events. The page also has an example of the script to time the pugpig snapshot, which is something you'll need on certain pages.&lt;/p&gt;
+            &lt;img id="pig" src="http://kaldorgroup.com/Books/BOOKPUGPIG/images/prod2.png" alt=""&gt;
+        &lt;/div&gt;
+        &lt;div id="overlay-preloader"&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="manifest.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>32ad520c-b4c9-4780-93be-b303ce257c4e</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;@hst.defineObjects /&gt;
+CACHE MANIFEST
+# rev 3
+events/2010/09/international-bioenergy-days.html
+events/2010/10/west-coast-green-symposium.html
+events/2010/09/opportunity-green-conference.html</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="events.detail.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d91b8648-dffa-47e9-b43e-64f669893733</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#ftl encoding="UTF-8"&gt;
+&lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;#assign ga=JspTaglibs["http://www.onehippo.org/jsp/google-analytics"]&gt;
+&lt;@hst.defineObjects /&gt;
+
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;title&gt;Generic 3 col&lt;/title&gt;
+
+&lt;meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" /&gt;
+
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+
+&lt;link rel="stylesheet" type="text/css" href="http://webinar.onehippo.com/generic.css" /&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+    &lt;@hst.include ref="boxes"/&gt;
+
+  &lt;header&gt;
+
+    &lt;p class="section-head"&gt;${document.title}&lt;/p&gt;
+
+    &lt;hr /&gt;
+
+  &lt;/header&gt;
+
+
+
+  &lt;article class="normal column1 h13"&gt;
+
+
+
+    &lt;div class="head"&gt;
+
+      &lt;h1&gt;${document.date.time?date?string.medium}&lt;/h1&gt;
+
+      &lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;&lt;b&gt;&lt;/b&gt;
+
+    &lt;/div&gt;
+
+
+
+    &lt;figure class="primary"&gt;
+
+      &lt;div&gt;                    
+      				&lt;#assign image=document.firstImage/&gt;
+                    &lt;#if image?has_content&gt;
+                        &lt;@hst.link var="src" hippobean=image.largeThumbnail /&gt;
+                        &lt;img class="image" src="${src}" align="left"/&gt;
+                    &lt;/#if&gt;            
+	  &lt;/div&gt;
+
+      &lt;figcaption&gt;We love to have captions on images&lt;/figcaption&gt;
+
+    &lt;/figure&gt;
+
+
+
+    &lt;div class="body"&gt;
+
+                &lt;@hst.html hippohtml=document.description/&gt;
+                &lt;@hst.include ref="boxes3"/&gt;
+
+    &lt;/div&gt;
+
+
+
+  &lt;/article&gt;
+
+&lt;@hst.include ref="boxes2"/&gt;
+
+
+&lt;/body&gt;
+
+&lt;/html&gt;</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="opds.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>05509c6a-3404-4fac-8e59-11484f4d0cab</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#assign fmt=JspTaglibs["http://java.sun.com/jsp/jstl/fmt"]&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;@hst.defineObjects /&gt;
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog"&gt;
+  &lt;id&gt;tag:onehippo.org,2011-07-22:/ipadmag&lt;/id&gt;
+
+  &lt;link rel="self" href="http://kaldorgroup.com/hippo.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/&gt;
+
+  &lt;title&gt;All Issues&lt;/title&gt;
+  &lt;updated&gt;2011-07-24T10:01:15Z&lt;/updated&gt;
+  &lt;author&gt;
+    &lt;name&gt;Spec Writer&lt;/name&gt;
+    &lt;uri&gt;http://opds-spec.org&lt;/uri&gt;
+  &lt;/author&gt;
+
+  &lt;entry&gt;
+    &lt;title&gt;Issue 1&lt;/title&gt;
+    &lt;id&gt;tag:onehippo.org,2011-07-22:/ipadmag/1&lt;/id&gt;
+    &lt;updated&gt;2011-07-24T10:02:08Z&lt;/updated&gt;
+    &lt;summary type="html"&gt;
+      &amp;lt;img src="http://arje.labs.onehippo.org/binaries/largethumbnail/content/gallery/events/2010/09/bioenergy.png" /&amp;gt;
+    &lt;/summary&gt;
+    
+    &lt;link rel="http://opds-spec.org/image" 
+href="http://arje.labs.onehippo.org/binaries/largethumbnail/content/gallery/events/2010/09/bioenergy.png"
+          type="image/png"/&gt; 
+
+    &lt;link rel="http://opds-spec.org/acquisition" 
+          href="http://arje.labs.onehippo.org/ipadmag/index.manifest"
+          type="text/cache-manifest"/&gt;
+  &lt;/entry&gt;
+&lt;/feed&gt;</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="feedback.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2d03ac9c-8fe6-4cc7-9db4-598e5a99ba29</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#ftl encoding="UTF-8"&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;@hst.defineObjects /&gt;
+&lt;div id="contactable"&gt;
+&lt;!-- Contactable example from http://theodin.co.uk/blog/ajax/contactable-jquery-plugin.html --&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"&gt;&lt;/script&gt; 
+&lt;script type="text/javascript" src="http://anygoogle.com/contactable/jquery.validate.pack.js"&gt;&lt;/script&gt; 
+&lt;script type="text/javascript" src="http://anygoogle.com/contactable/jquery.contactable.js"&gt;&lt;/script&gt; 
+&lt;link rel="stylesheet" href="http://anygoogle.com/contactable/contactable.css" type="text/css" /&gt; 
+&lt;script&gt;$(function(){$('#contactable').contactable({subject: 'feedback URL:'+location.href});});&lt;/script&gt;</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="feed.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>86313ebf-e0c7-407d-a604-eb6efebc79e5</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#ftl encoding="UTF-8"&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;@hst.defineObjects /&gt;
+&lt;br/&gt;
+&lt;div style="background-color:#dddddd; border: 1px solid #B5076D; padding: 10px;"&gt;
+&lt;#list feeds as feed &gt;
+&lt;a href="${feed.entries[1].link}"&gt;${feed.entries[1].title}&lt;/a&gt;
+&lt;/#list&gt;
+&lt;/div&gt;
+&lt;br/&gt;</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="banner.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>df8499ac-de4b-4245-a4d9-41f4c5ca908b</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#ftl encoding="UTF-8"&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;@hst.defineObjects /&gt;
+&lt;@hst.link var="link" hippobean=document.docLink /&gt;
+&lt;@hst.link var="image" hippobean=document.image.original /&gt;
+&lt;a href="${link}"&gt;&lt;img src="${image}" /&gt;&lt;/a&gt;</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="feed-old.ftl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d9edf65e-57ac-475c-9dd3-103d49d9ae54</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+    <sv:property sv:name="hst:script" sv:type="String">
+      <sv:value>&lt;#ftl encoding="UTF-8"&gt;
+&lt;#assign hst=JspTaglibs["http://www.hippoecm.org/jsp/hst/core"]&gt;
+&lt;@hst.defineObjects /&gt;
+    &lt;script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'&gt;&lt;/script&gt; 
+    &lt;script type="text/javascript"&gt; 
+        $(function() {
+            var offset = $("#box").offset();
+            var topPadding = 15;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() &gt; offset.top) {
+                    $("#box").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $("#box").stop().animate({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+    &lt;/script&gt; 
+
+			&lt;div id="floating-box"&gt; 
+				&lt;div id="box" style="position: absolute;right: -70px;top:5px;border: 1px solid #B5076D; border-right: 0px;padding: 10px;background-color: #FFF; font-size: -1; width:300px; z-index=1000;"&gt;
+					&lt;div style="margin: 10px 0; width:200px"&gt;
+
+&lt;#list feeds as feed &gt;
+${feed.entries[1].title}
+&lt;/#list&gt;
+
+
+&lt;/div&gt; 
+				&lt;/div&gt; 
+			  &lt;/div&gt;</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="hst:sitemap" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemap</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>11af4e4c-ef1b-4e9e-9bcc-128c67140fb7</sv:value>
+  </sv:property>
+  <sv:node sv:name="news">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f61df39a-c78c-4c03-9e47-070f226b84f6</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/news-overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>news</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>news</sv:value>
+    </sv:property>
+    <sv:node sv:name="tags">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>85131217-0856-4faa-954e-9be77c43829e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>tagclouds/newstags</sv:value>
+      </sv:property>
+      <sv:node sv:name="_any_">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>acb847a7-4491-493e-a57b-e0d1bc497464</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/news-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>${parent}/newstags/${1}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="_any_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>93a91bb1-b231-4f1d-9b79-966ff5d3da8d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/news-detail</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>bannerlocation</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>common/banners/sustainable-wood-ipod-sound-system</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="faceted">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>af6da1f8-f9d2-40a9-b35d-bf6b4cc6bd19</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/news-overview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}</sv:value>
+      </sv:property>
+      <sv:node sv:name="_any_">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>82acb43c-a3e1-459c-afb3-5e7c17c62daa</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/news-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>${parent}/facetednews/${1}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="events">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0c31d3d5-48e1-49d2-bec6-5de0de092a81</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/events-overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>events</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>events</sv:value>
+    </sv:property>
+    <sv:node sv:name="_any_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d1c10b60-47b8-4ade-9bd2-60bac6c8a404</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/events-detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="root">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>95eb7b95-4307-49b4-945f-cb8488ffd372</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/homepage</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>home</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="products">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ad6ffac0-31ca-4894-9048-3bc13116fa53</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/products-overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>products</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>products</sv:value>
+    </sv:property>
+    <sv:node sv:name="_any_">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>333d3a28-7230-42ff-aad5-4d2ac6a44729</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/products-overview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/facetedproducts/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="_any_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6e067f23-dac0-4008-9b81-860df68e5d04</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/product-detail</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+        <sv:value>bannerlocation</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>common/banners/sustainable-wood-ipod-sound-system</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="jobs">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>fe3b3160-8de0-4a67-8737-c414808d33cd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/jobs-overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>jobs</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>jobs</sv:value>
+    </sv:property>
+    <sv:node sv:name="_any_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2d3b939e-3db0-47f6-a81f-f0ed1dce6c13</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/jobs-detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="faceted">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f037bb70-b562-4d96-a94f-5192d88b9c5f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/jobs-overview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>jobfacets</sv:value>
+      </sv:property>
+      <sv:node sv:name="_any_">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9ab9c655-62df-43b4-80ce-d7fefdce9793</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/jobs-overview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>${parent}/${1}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="contactus">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>e344374d-6747-48a1-9326-8bea7f2d6f9a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/contactus-page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>common/Contact-Us</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="search">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>32082f11-e2d8-4d80-93b5-5aa408e05681</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/search</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+      <sv:value>bannerlocation</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+      <sv:value>common/banners/sustainable-wood-ipod-sound-system</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>search</sv:value>
+    </sv:property>
+    <sv:node sv:name="tags">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>adb1db14-bbac-4735-b360-0db8190d82d1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>tagclouds/searchtags</sv:value>
+      </sv:property>
+      <sv:node sv:name="_any_">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bdaee2ea-a25c-4c6f-a0c8-d44975183961</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/search</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>${parent}/searchtags/${1}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="faceted">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f0942b49-09ac-4d28-8640-138d87d047f7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/search</sv:value>
+      </sv:property>
+      <sv:node sv:name="_any_">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>86aeefb1-e4b0-4aa0-a104-f6631a04ad40</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/search</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>searchfacets/${1}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="faq">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>475fd358-4d7c-4435-8116-2c63aa1b7dc3</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/faq</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>faqs</sv:value>
+    </sv:property>
+    <sv:node sv:name="_default_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>900a24a1-5328-479a-890e-b37acdcc9374</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/faq-detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="_any_">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a55db161-c139-4ebb-afb8-1c3c52c0db66</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/error</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="about">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8e773f10-d05c-410b-b6c0-a26c9c81543d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/about</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>about</sv:value>
+    </sv:property>
+    <sv:node sv:name="_any_">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>eae2c317-46a5-4f40-a5b0-dd76e528edf7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/about</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="rss">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7e1e6370-26c9-4d3f-a3b0-ccbd54f35d3a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:components/rss-news</sv:value>
+    </sv:property>
+    <sv:node sv:name="_any_">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>05e55ba4-1360-4c10-8777-a40fb782caff</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:components/rss-news</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="sitemap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ef3a3711-9a88-430b-b503-3f5bce4c4cf4</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/sitemap</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>sitemap</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="newsletters">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7c60d262-8698-48df-8bc1-145180af02c9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/newsletter-overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>newsletters</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>common/newsletters</sv:value>
+    </sv:property>
+    <sv:node sv:name="_any_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e2f834e6-83b8-4d41-87b2-a1b0c2e854ff</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/newsletter-detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="rest">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>42b6ec02-0059-40b7-99c8-a8601eab9e07</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/restapi-overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>restapi</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>restapi</sv:value>
+    </sv:property>
+    <sv:node sv:name="browser">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>889c2b2f-6b93-4a89-8698-08748a2dcff7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/restapi-browser</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>restapi/browser</sv:value>
+      </sv:property>
+      <sv:node sv:name="_any_.html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>07121d9d-913e-40c1-a5b9-7454624b93b5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/restapi-detail</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>${parent}/${1}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="documentation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2a94cdb5-e743-421b-a594-b3f58264410a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/restapi-documentation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:refId" sv:type="String">
+        <sv:value>restapi-documentation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>restapi/documentation</sv:value>
+      </sv:property>
+      <sv:node sv:name="_any_.html">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4d6c412d-f363-4212-abf5-f95752b4ad33</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:pages/restapi-detail</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+          <sv:value>${parent}/${1}</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="resellerfaq">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9572e447-42a0-48b9-bcaa-bd837dc2faed</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:authenticated" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/faq</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>resellerfaqs</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="hst:roles" sv:type="String">
+      <sv:value>reseller</sv:value>
+    </sv:property>
+    <sv:node sv:name="_default_.html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ac241753-a0eb-4e8f-9dc9-f062ada9978e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+        <sv:value>hst:pages/faq-detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+        <sv:value>${parent}/${1}</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

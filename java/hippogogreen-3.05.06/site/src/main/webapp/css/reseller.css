@@ -1,0 +1,17 @@
+/* Header */
+#hd { background: url(../images/bg-reseller-header.png) no-repeat; }
+
+/* Header - Login */
+#hd #login span { background: url(../images/bg-login-small-reseller.png) repeat-x -1px 0; }
+#hd #login span.username { background: url("../images/hover-main-nav.png") repeat-x scroll 0 1px transparent; margin-right: 10px; padding-left: 10px; text-align: center; }
+#hd #login span a.black { display: block; font-weight: bold; font-size: 93%; color: #333333; padding: 5px 10px 0; }
+#hd #login-form { background: url(../images/bg-login-brown.png) no-repeat 0 0; }
+
+
+/* Reseller contact box */
+#bd .reseller-contact li.pic { display: inline-block; }
+#bd .reseller-contact li.message { display: inline; position: absolute; padding: 0px 10px 0px 10px; }
+#bd .reseller-contact li.action { height: 35px; margin-top:5px; text-align: center; line-height: 2.3; vertical-align: top; }
+#bd .reseller-contact li.contact { background: url('../images/bg-reseller-contact.png') no-repeat scroll 0 0 transparent;  }
+#bd .reseller-contact li.faq { background: url('../images/bg-reseller-faq.png') no-repeat scroll 0 0 transparent; }
+#bd .reseller-contact li.action a { color: #ffffff; font-weight: bold; }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  Copyright 2010 Hippo
+
+  Licensed under the Apache License, Version 2.0 (the  "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS"
+  BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<sv:node sv:name="jobfacets" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippofacnav:facetnavigation</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:docbase" sv:type="String">
+    <sv:value>e4968ca8-c840-44c1-900f-acdacd0b136d</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String">
+    <sv:value>Date de clôture</sv:value>
+    <sv:value>Secteur</sv:value>
+    <sv:value>Expérience</sv:value>
+    <sv:value>Formation</sv:value>
+    <sv:value>Lieu</sv:value>
+    <sv:value>Salaire</sv:value>
+    <sv:value>Type</sv:value>
+    <sv:value>Employeur</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+    <sv:value>1000</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facets" sv:type="String">
+    <sv:value>hippogogreen:closingdate$[{name:'Aujourd\'hui', resolution:'day', begin:0, end:0},{name:'Hier', resolution:'day', begin:-1, end:0},{name:'7 derniers jours', resolution:'day', begin:-7, end:1},{name:'15 derniers jours', resolution:'day', begin:-14, end:0}]</sv:value>
+    <sv:value>hippogogreen:industries</sv:value>
+    <sv:value>hippogogreen:experience$[{name:'Débutant (moins de 3 ans)', resolution:'double', end:3},{name:'Confirmé (3 à 7 ans)', resolution:'double', begin:3, end:7},{name:'Expérimenté (7 ans ou plus) ', resolution:'double', begin:7}]</sv:value>
+    <sv:value>hippogogreen:education</sv:value>
+    <sv:value>hippogogreen:location</sv:value>
+    <sv:value>hippogogreen:salary$[{name:'moins de 20.000 €', resolution:'double', end:20000},{name:'20.000 à 30.000 €',resolution:'double', begin:20000, end:30000},{name:'30.000 à 50.000 €', resolution:'double', begin:30000,end:50000},{name:'50.000 € ou plus',resolution:'double', begin:50000}]</sv:value>
+    <sv:value>hippogogreen:jobtype</sv:value>
+    <sv:value>hippogogreen:employer</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:filters" sv:type="String">
+    <sv:value>jcr:primaryType=hippogogreen:job</sv:value>
+  </sv:property>
+</sv:node>

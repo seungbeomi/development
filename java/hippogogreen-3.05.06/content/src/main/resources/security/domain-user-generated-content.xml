@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="user-generated-content">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hipposys:domain</sv:value>
+  </sv:property>
+  <sv:node sv:name="hipposys:authrole">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:authrole</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:groups" sv:type="String" sv:multiple="true">
+      <sv:value>sitewriters</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:role" sv:type="String">
+      <sv:value>editor</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hipposys:authrole">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:authrole</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:groups" sv:type="String" sv:multiple="true">
+      <sv:value>sitewriters</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:role" sv:type="String">
+      <sv:value>readwrite</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippogogreen-comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hippogogreen-comments-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippogogreen/comments</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippogogreen-reviews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hippogogreen-reviews-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippogogreen/reviews</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippomiseauvert-comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hippomiseauvert-comments-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippomiseauvert/comments</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippomiseauvert-reviews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hippomiseauvert-reviews-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippomiseauvert/reviews</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippogagroen-comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hippogagroen-comments-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippogagroen/comments</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippogagroen-reviews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hippogagroen-reviews-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippogagroen/reviews</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-хиппо-идите-зелёный-comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-хиппо-идите-зелёный-comments-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/хиппо-идите-зелёный/comments</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-хиппо-идите-зелёный-reviews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-хиппо-идите-зелёный-reviews-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/хиппо-идите-зелёный/reviews</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hipopotamo-ir-verde-comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hipopotamo-ir-verde-comments-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hipopotamo-ir-verde/comments</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hipopotamo-ir-verde-reviews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hipopotamo-ir-verde-reviews-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hipopotamo-ir-verde/reviews</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-河马转到绿-comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-河马转到绿-comments-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/河马转到绿/comments</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-河马转到绿-reviews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-河马转到绿-reviews-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/河马转到绿/reviews</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippo-geht-gruen-comments">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hippo-geht-gruen-comments-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippo-geht-gruen/comments</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="content-documents-hippo-geht-gruen-reviews">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:domainrule</sv:value>
+    </sv:property>
+    <sv:node sv:name="content-documents-hipopotamo-ir-verde-reviews-nodes">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposys:facetrule</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:equals" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:facet" sv:type="String">
+        <sv:value>hippo:paths</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:filter" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:type" sv:type="String">
+        <sv:value>Reference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposys:value" sv:type="String">
+        <sv:value>/content/documents/hippo-geht-gruen/reviews</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

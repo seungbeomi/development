@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="jobfacets">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippofacnav:facetnavigation</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:docbase" sv:type="String">
+    <sv:value>b4f64174-7395-4d09-83d0-a286644888ed</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+    <sv:value>дата опубликования</sv:value>
+    <sv:value>Промышленность</sv:value>
+    <sv:value>Опыт</sv:value>
+    <sv:value>Образование</sv:value>
+    <sv:value>Место</sv:value>
+    <sv:value>Зарплата</sv:value>
+    <sv:value>Вид работы</sv:value>
+    <sv:value>работадатель</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+    <sv:value>hippogogreen:closingdate$[{name:'Today', resolution:'day', begin:0, end:0}, {name:'Yesterday', resolution:'day', begin:-1, end:0}, {name:'Last 7 days', resolution:'day', begin:-7, end:1}, {name:'Last 14 days', resolution:'day', begin:-14, end:0}]</sv:value>
+    <sv:value>hippogogreen:industries</sv:value>
+    <sv:value>hippogogreen:experience$[{name:'Стартёр (с 0 – 3 года)', resolution:'double', end:3},{name:'Средний (с 3 – 7 лет)', resolution:'double', begin:3, end:7},{name:'Опытный (с 7 лет или больше)', resolution:'double', begin:7}]</sv:value>
+    <sv:value>hippogogreen:education</sv:value>
+    <sv:value>hippogogreen:location</sv:value>
+    <sv:value>hippogogreen:salary$[{name:'€20.000 или меньше', resolution:'double', end:20000},{name:'€20.000 - €30.000',resolution:'double', begin:20000, end:30000},{name:'€30.000 - €50.000', resolution:'double', begin:30000,end:50000},{name:'€50.000 или больше',resolution:'double', begin:50000}]</sv:value>
+    <sv:value>hippogogreen:jobtype</sv:value>
+    <sv:value>hippogogreen:employer</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:filters" sv:type="String" sv:multiple="true">
+    <sv:value>jcr:primaryType=hippogogreen:job</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+    <sv:value>1000</sv:value>
+  </sv:property>
+</sv:node>

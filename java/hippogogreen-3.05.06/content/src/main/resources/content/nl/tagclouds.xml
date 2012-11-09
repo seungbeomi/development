@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010 Hippo
+
+  Licensed under the Apache License, Version 2.0 (the  "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS"
+  BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. -->
+<sv:node sv:name="tagclouds" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+    <sv:value>hippo:harddocument</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>33889e94-c119-4b46-9c30-be0236be0924</sv:value>
+  </sv:property>
+  <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:multiple="true" sv:name="hippostd:foldertype" sv:type="String">
+    <sv:value>new-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:node sv:name="newstags">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>6fba8e7f-ea7c-4a21-91b1-755ce5951b64</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Nieuws Tags</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="newstags">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>tcmp:tagcloud</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5eb35d84-c5af-4758-b877-96189c00ec1d</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>tagclouds/newstags</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-06-30T10:26:22.726+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-28T12:50:16.497+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-07-28T12:50:18.677+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="tcmp:sources" sv:type="Path">
+        <sv:value>/content/documents/hippogagroen/tags/tags</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="tcmp:stylenames" sv:type="String">
+        <sv:value>sizeMin</sv:value>
+        <sv:value>sizeMax</sv:value>
+        <sv:value>colorMin</sv:value>
+        <sv:value>colorMax</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="tcmp:stylevalues" sv:type="String">
+        <sv:value>10</sv:value>
+        <sv:value>50</sv:value>
+        <sv:value>ec0631</sv:value>
+        <sv:value>1599db</sv:value>
+      </sv:property>
+      <sv:property sv:name="tcmp:title" sv:type="String">
+        <sv:value>Nieuws tags</sv:value>
+      </sv:property>
+      <sv:node sv:name="Turbines">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6b52ab2c-ee99-4b3c-bb92-8a0a91478bbd</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Turbines</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Turbines</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Smeltende Gletsjer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>505b04cb-1dd4-4db7-b09b-bca6f1f5e631</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Smeltende Gletsjer</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Smeltende Gletsjer</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>1</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Klimaat">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>765e0b2e-589b-454f-b65c-217f5ed81440</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Klimaat</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Klimaat</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>3</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="searchtags">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+      <sv:value>hippo:hardhandle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8449e9fd-3871-4802-93ff-1dadbe9d8f10</sv:value>
+    </sv:property>
+    <sv:node sv:name="searchtags">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>tcmp:tagcloud</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:harddocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f5cfc881-6942-45e2-a5f7-afab498b9127</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="hippo:availability" sv:type="String">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>tagclouds/searchtags</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>editor20</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-07T13:15:19.047+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-07-30T14:33:02.255+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>editor20</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-08-02T10:55:49.016+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="tcmp:sources" sv:type="Path">
+        <sv:value>/content/documents/hippogagroen/tags/tags/tags</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="tcmp:stylenames" sv:type="String">
+        <sv:value>sizeMin</sv:value>
+        <sv:value>sizeMax</sv:value>
+        <sv:value>colorMin</sv:value>
+        <sv:value>colorMax</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="tcmp:stylevalues" sv:type="String">
+        <sv:value>10</sv:value>
+        <sv:value>50</sv:value>
+        <sv:value>ec0631</sv:value>
+        <sv:value>1599db</sv:value>
+      </sv:property>
+      <sv:property sv:name="tcmp:title" sv:type="String">
+        <sv:value>Search tags</sv:value>
+      </sv:property>
+      <sv:node sv:name="solar energy">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b64145c2-ea4e-4668-832d-e7a3a84922b3</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Zonne energie</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/solar energy</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>4</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Klimaat">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ee09ae37-4fd7-4059-9964-f57821a299da</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Klimaat</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Klimaat</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>4</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Recycle">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a9cdf453-baac-46c4-bd39-951f9f551b59</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Recycle</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Recycle</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>2</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Energie">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>123c523a-bd5b-4604-9723-a8dcadb29521</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Energie</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Energie</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>3</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Groene Groei Versnellen">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0eb80211-9522-4166-ac24-2cb0a3d9cb00</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Groene Groei Versnellen</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Groene Groei Versnellen</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>2</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="Turbines">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>tcmp:ecmtag</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>78902c4f-cba3-4fd1-8519-e341234fa882</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:difference" sv:type="String">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:label" sv:type="String">
+          <sv:value>Turbines</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:reference" sv:type="String">
+          <sv:value>/content/documents/hippogagroen/tags/tags/Turbines</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:update" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="tcmp:value" sv:type="String">
+          <sv:value>2</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

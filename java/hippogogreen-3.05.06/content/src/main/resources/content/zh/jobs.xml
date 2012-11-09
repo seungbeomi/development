@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2010 Hippo
+
+  Licensed under the Apache License, Version 2.0 (the  "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS"
+  BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. -->
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="乔布斯">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>70d96b62-b1c9-4478-82a0-744fcb53bbba</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>e558cf9b-4676-400c-aac0-166a28d57e9d</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>zh</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="it">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:translated</sv:value>
+      <sv:value>hippo:harddocument</sv:value>
+      <sv:value>hippotranslation:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d3823ce9-e7c7-47b4-8770-dde1e6f5c9c2</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>30bd2c59-d467-433b-9f93-3aff190ba360</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>zh</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippotranslation:translations">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippotranslation:translations</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>IT</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="项目经理">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>11b104f3-b266-4871-85f6-18b857f8d848</sv:value>
+      </sv:property>
+      <sv:node sv:name="项目经理">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:job</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+          <sv:value>hippotranslation:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>85db7c0c-0c54-48f7-8b8b-9a91b1c50412</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>河马转到绿/乔布斯/it/项目经理</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:closingdate" sv:type="Date">
+          <sv:value>2011-06-08T11:21:00.000+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:education" sv:type="String">
+          <sv:value>Master's Degree</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:employer" sv:type="String">
+          <sv:value>Hippo</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:experience" sv:type="Double">
+          <sv:value>5.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:industries" sv:type="String">
+          <sv:value>Biotechnology</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:jobtype" sv:type="String">
+          <sv:value>Fulltime</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:location" sv:type="String">
+          <sv:value>Amsterdam</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:salary" sv:type="Double">
+          <sv:value>60000.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:summary" sv:type="String">
+          <sv:value>工作描述
+项目经理对所分配的项目是负责范围、商业期望、变更管理活动、项目计划、资源和预算管理的角色。从项目启动到实施，项目经理在管理整个项目生命周期，将持续的支持调至适当的内外部资源。项目经理可能要同时管理数个项目。</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:title" sv:type="String">
+          <sv:value>项目经理</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>editor01</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+          <sv:value>field</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-02T11:21:39.594+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-07-15T11:29:50.867+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>editor01</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>2bb896a4-b364-4736-bc0a-2aa80a59b70b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>zh</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippotranslation:translations">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippotranslation:translations</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:description">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;工作条件 &lt;br/&gt;
+80%的工作时间在办公环境，使用电脑、服务器、外部设备、电话和一般办公设备。20%的时间需要出行到美国、加拿大、墨西哥的出售地点或其他地点，办理项目相关工作，参加会议、贸易展、专业发展活动等。
+&lt;/p&gt;
+
+&lt;p&gt;工作职责 &lt;br/&gt;
+与商业领袖进行协商，审查项目建议以清楚确定经营目标、预期计划、资金限制、项目程序、人手需求和资源分配。 &lt;br/&gt;
+安排、指点、协调项目活动，以确保项目目标在规模、时间、费用限制之内完成。 &lt;br/&gt;
+结合高级IT人员以制定、限定项目的技术方法。 &lt;br/&gt;
+确定、安排项目可交付物、里程碑、所需任务。 &lt;br/&gt;
+协调项目人员的招聘、分配，分配任务。 &lt;br/&gt;
+根据工作说明与外部供应商适当地进行合作，以按计划实施项目。 &lt;br/&gt;
+建立项目汇报记录程序。 &lt;br/&gt;
+管理变更控制、问题升级过程。 &lt;br/&gt;
+向利益相关者、参与者协调进行中项目的沟通程序。 &lt;br/&gt;
+主动地确定、管理项目风险。 &lt;br/&gt;
+限定、确保技术、项目的记录维修。 &lt;br/&gt;
+监督测试计划的发展、指点质量保证测试活动。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="hippogogreen:copyright">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogogreen:copyright</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:description" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippogogreen:url" sv:type="String">
+            <sv:value/>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

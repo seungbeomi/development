@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+
+    Copyright (C) 2010 Hippo B.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<sv:node sv:name="hst:catalog" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:catalog</sv:value>
+  </sv:property>
+  <sv:node sv:name="gogreen-and-mobile-catalog-items" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:containeritempackage</sv:value>
+  </sv:property>
+ 
+    <sv:node sv:name="banner">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.common.Banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String">
+        <sv:value>bannerlocation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String">
+        <sv:value>common/banners/sustainable-wood-ipod-sound-system</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>common.banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/catalog/icon-banner.png</sv:value>
+      </sv:property>
+    </sv:node>
+
+    <sv:node sv:name="html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.onehippo.gogreen.components.common.HtmlComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String">
+        <sv:value>htmlContent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String">
+        <sv:value />
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>common.html</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>HTML</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/catalog/icon-html.png</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+
+</sv:node>

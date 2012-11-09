@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:hosts">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:virtualhosts</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>2714b106-bcd4-4f60-8969-3ada08b4ce3a</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:defaulthostname" sv:type="String">
+    <sv:value>localhost</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:homepage" sv:type="String">
+    <sv:value>root</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:locale" sv:type="String">
+    <sv:value>en_US</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:pagenotfound" sv:type="String">
+    <sv:value>pagenotfound</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:showcontextpath" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:defaultcontextpath" sv:type="String">
+    <sv:value>/site</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:channelmanagerhostgroup" sv:type="String">
+    <sv:value>dev-localhost</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:showport" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:prefixexclusions" sv:type="String" sv:multiple="true">
+    <sv:value>/ping</sv:value>
+    <sv:value>/binaries</sv:value>
+    <sv:value>/images</sv:value>
+    <sv:value>/login/</sv:value>
+    <sv:value>/repository</sv:value>
+    <sv:value>/javascript/yui</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:scheme" sv:type="String">
+    <sv:value>http</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:suffixexclusions" sv:type="String" sv:multiple="true">
+    <sv:value>.do</sv:value>
+    <sv:value>.jsp</sv:value>
+    <sv:value>.css</sv:value>
+    <sv:value>.js</sv:value>
+    <sv:value>.pdf</sv:value>
+    <sv:value>.ico</sv:value>
+    <sv:value>.gif</sv:value>
+    <sv:value>.GIF</sv:value>
+    <sv:value>.jpg</sv:value>
+    <sv:value>.jpeg</sv:value>
+    <sv:value>.JPEG</sv:value>
+    <sv:value>.JPG</sv:value>
+    <sv:value>.png</sv:value>
+    <sv:value>.PNG</sv:value>
+    <sv:value>.ftl</sv:value>
+    <sv:value>.FTL</sv:value>
+    <sv:value>.ico</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:versioninpreviewheader" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:node sv:name="dev-localhost">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:virtualhostgroup</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:cmslocation" sv:type="String">
+      <sv:value>http://localhost:8080/cms</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:defaultport" sv:type="Long">
+      <sv:value>8080</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2cbcc8cd-e8b8-4806-9603-c70129652c19</sv:value>
+    </sv:property>
+    <sv:node sv:name="localhost">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:virtualhost</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>2c48ebaa-fd8b-42e5-984a-3a5777736139</sv:value>
+      </sv:property>
+      <sv:node sv:name="hst:root">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:mount</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>825b6997-fb11-450f-bbb0-9e9f84852cff</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:alias" sv:type="String">
+          <sv:value>site</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:channelpath" sv:type="String">
+          <sv:value>/hst:hst/hst:channels/hippogogreen</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:mountpoint" sv:type="String">
+          <sv:value>/hst:hst/hst:sites/hippogogreen</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:showport" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:node sv:name="restapi">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>66be3e89-54e6-471f-8819-ef6f4fbf226c</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>restapi</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:authenticated" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:isSite" sv:type="Boolean">
+            <sv:value>false</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/rest</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountsite" sv:type="String">
+            <sv:value>site</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:namedpipeline" sv:type="String">
+            <sv:value>JaxrsRestContentPipeline</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:roles" sv:type="String" sv:multiple="true">
+            <sv:value>everybody</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:showport" sv:type="Boolean">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:subjectbasedsession" sv:type="Boolean">
+            <sv:value>true</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:types" sv:type="String" sv:multiple="true">
+            <sv:value>rest</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="fr">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>296973fb-cdde-4c3d-a3e1-c1686d0c7ec0</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>site-fr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-fr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:locale" sv:type="String">
+            <sv:value>fr_FR</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountmobile" sv:type="String">
+            <sv:value>mobile-fr</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/hippogogreen_fr</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="nl">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2bd1609e-b558-47d9-81f6-f877c1c9df93</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>site-nl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-nl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:locale" sv:type="String">
+            <sv:value>nl_NL</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountmobile" sv:type="String">
+            <sv:value>mobile-nl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/hippogogreen_nl</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="ru">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>3df31cd2-0303-4daf-b0b9-c02f94cfe18f</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>site-ru</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-ru</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:locale" sv:type="String">
+            <sv:value>ru_RU</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountmobile" sv:type="String">
+            <sv:value>mobile-ru</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/hippogogreen_ru</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="mobile">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>47344804-2290-4b31-af1f-b01b5ce9ba19</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>mobile</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-mobile</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:homepage" sv:type="String">
+            <sv:value>products</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/mobile</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountsite" sv:type="String">
+            <sv:value>site</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:types" sv:type="String" sv:multiple="true">
+            <sv:value>mobile</sv:value>
+          </sv:property>
+          <sv:node sv:name="fr">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:mount</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>3163f0e9-9b37-4d12-af4a-e2f817f45fbf</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:alias" sv:type="String">
+              <sv:value>mobile-fr</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:channelpath" sv:type="String">
+              <sv:value>/hst:hst/hst:channels/hippogogreen-mobile-fr</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:homepage" sv:type="String">
+              <sv:value>produits</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:locale" sv:type="String">
+              <sv:value>fr_FR</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountpoint" sv:type="String">
+              <sv:value>/hst:hst/hst:sites/mobile_fr</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountsite" sv:type="String">
+              <sv:value>site-fr</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:types" sv:type="String" sv:multiple="true">
+              <sv:value>mobile</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="nl">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:mount</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>0717286c-db1d-4442-b900-b500d76b6fb0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:alias" sv:type="String">
+              <sv:value>mobile-nl</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:channelpath" sv:type="String">
+              <sv:value>/hst:hst/hst:channels/hippogogreen-mobile-nl</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:homepage" sv:type="String">
+              <sv:value>produkten</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:locale" sv:type="String">
+              <sv:value>nl_NL</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountpoint" sv:type="String">
+              <sv:value>/hst:hst/hst:sites/mobile_nl</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountsite" sv:type="String">
+              <sv:value>site-nl</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:types" sv:type="String" sv:multiple="true">
+              <sv:value>mobile</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="ru">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:mount</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>42ac4734-b98e-47fb-903d-2d0c69a40c6f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:alias" sv:type="String">
+              <sv:value>mobile-ru</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:channelpath" sv:type="String">
+              <sv:value>/hst:hst/hst:channels/hippogogreen-mobile-ru</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:homepage" sv:type="String">
+              <sv:value>продукты</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:locale" sv:type="String">
+              <sv:value>ru_RU</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountpoint" sv:type="String">
+              <sv:value>/hst:hst/hst:sites/mobile_ru</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:mountsite" sv:type="String">
+              <sv:value>site-ru</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:types" sv:type="String" sv:multiple="true">
+              <sv:value>mobile</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="ipadmag">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>369ae4a3-6e79-4235-92dd-1ae174b0626a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>ipadmag</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-ipad-mag</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:homepage" sv:type="String">
+            <sv:value>products</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/ipadmag</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountsite" sv:type="String">
+            <sv:value>site</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:types" sv:type="String" sv:multiple="true">
+            <sv:value>ipadmag</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="zh">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2ede13d2-05d5-484f-b8d4-9946709b5757</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>site-zh</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-zh</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:locale" sv:type="String">
+            <sv:value>zh_CN</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/hippogogreen_zh</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="es">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>09ab575f-882f-448c-ada6-a2baaaee695d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>site-es</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-es</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:locale" sv:type="String">
+            <sv:value>es_ES</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountmobile" sv:type="String">
+            <sv:value>mobile-es</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/hippogogreen_es</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="de">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:mount</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>09ab575f-882f-448c-ada6-a2baaaee695d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:alias" sv:type="String">
+            <sv:value>site-de</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:channelpath" sv:type="String">
+            <sv:value>/hst:hst/hst:channels/hippogogreen-de</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:locale" sv:type="String">
+            <sv:value>de_DE</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountmobile" sv:type="String">
+            <sv:value>mobile-de</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:mountpoint" sv:type="String">
+            <sv:value>/hst:hst/hst:sites/hippogogreen_de</sv:value>
+          </sv:property>
+        </sv:node>
+
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

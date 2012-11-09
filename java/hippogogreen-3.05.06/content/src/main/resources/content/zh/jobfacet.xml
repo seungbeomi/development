@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2011 Hippo B.V.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<sv:node sv:name="jobfacets" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippofacnav:facetnavigation</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:docbase" sv:type="String">
+    <sv:value>70d96b62-b1c9-4478-82a0-744fcb53bbba</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+    <sv:value>配售日期</sv:value>
+    <sv:value>行业</sv:value>
+    <sv:value>经验</sv:value>
+    <sv:value>教育</sv:value>
+    <sv:value>位置</sv:value>
+    <sv:value>工资</sv:value>
+    <sv:value>工作类型</sv:value>
+    <sv:value>雇主</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+    <sv:value>hippogogreen:closingdate$[{name:'今天', resolution:'day', begin:0, end:0}, {name:'昨日', resolution:'day', begin:-1, end:0}, {name:'过去7天', resolution:'day', begin:-7, end:1}, {name:'最近14天', resolution:'day', begin:-14, end:0}]</sv:value>
+    <sv:value>hippogogreen:industries</sv:value>
+    <sv:value>hippogogreen:experience$[{name:'入门（0-3年）', resolution:'double', end:3},{name:'Medior (3-7年)', resolution:'double', begin:3, end:7},{name:'高级(7年以上)', resolution:'double', begin:7}]</sv:value>
+    <sv:value>hippogogreen:education</sv:value>
+    <sv:value>hippogogreen:location</sv:value>
+    <sv:value>hippogogreen:salary$[{name:'$20.000美元或更少', resolution:'double', end:20000},{name:'$20.000 - $30.000',resolution:'double', begin:20000, end:30000},{name:'$30.000 - $50.000', resolution:'double', begin:30000,end:50000},{name:'$50.000元或以上',resolution:'double', begin:50000}]</sv:value>
+    <sv:value>hippogogreen:jobtype</sv:value>
+    <sv:value>hippogogreen:employer</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:filters" sv:type="String" sv:multiple="true">
+    <sv:value>jcr:primaryType=hippogogreen:job</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+    <sv:value>1000</sv:value>
+  </sv:property>
+</sv:node>

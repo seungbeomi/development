@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="searchfacets">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippofacnav:facetnavigation</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:docbase" sv:type="String">
+    <sv:value>b29268d3-00a6-4321-b7fc-4ede3e0a37f6</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:skipresultsetfacetsavailable" sv:type="Boolean">
+    <sv:value>true</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facetnodenames" sv:type="String" sv:multiple="true">
+    <sv:value>Periodico</sv:value>
+    <sv:value>Typo del Documento</sv:value>
+    <sv:value>Categoria${sortby:'facetvalue', sortorder:'ascending'}</sv:value>
+    <sv:value>Fecha${sortby:'facetvalue', sortorder:'descending'}</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:facets" sv:type="String" sv:multiple="true">
+    <sv:value>hippogogreen:date$[{name:'Este Mes', resolution:'month', begin:0, end:1},{name:'El Mes Anterior', resolution:'month', begin:-1, end:0}, {name:'Este Año', resolution:'year', begin:0, end:1}]</sv:value>
+    <sv:value>jcr:primaryType</sv:value>
+    <sv:value>hippogogreen:categories</sv:value>
+    <sv:value>hippogogreen:date$year</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:filters" sv:type="String">
+    <sv:value>not(jcr:primaryType=ef:form)</sv:value>
+    <sv:value>not(jcr:primaryType=hippogogreen:banner)</sv:value>
+    <sv:value>not(jcr:primaryType=hippogogreen:comment)</sv:value>
+    <sv:value>not(jcr:primaryType=hippogogreen:restapi)</sv:value>
+    <sv:value>not(jcr:primaryType=hippogogreen:review)</sv:value>
+    <sv:value>not(jcr:primaryType=hippostd:directory)</sv:value>
+    <sv:value>not(jcr:primaryType=hippostd:folder)</sv:value>
+    <sv:value>not(jcr:primaryType=poll:polldocument)</sv:value>
+    <sv:value>not(jcr:primaryType=selection:valuelist)</sv:value>
+    <sv:value>not(jcr:primaryType=tcmp:tagcloud)</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippofacnav:limit" sv:type="Long">
+    <sv:value>1000</sv:value>
+  </sv:property>
+</sv:node>

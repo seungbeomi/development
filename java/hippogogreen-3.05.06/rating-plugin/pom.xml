@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>hippogogreen</artifactId>
+    <groupId>com.onehippo.gogreen</groupId>
+    <version>3.05.06</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.onehippo.gogreen</groupId>
+  <name>Hippo Go Green Rating Plugin</name>
+  <artifactId>hippogogreen-rating-plugin</artifactId>
+  <packaging>jar</packaging>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-package-cms-dependencies</artifactId>
+      <scope>provided</scope>
+      <type>pom</type>
+      <exclusions>
+        <exclusion>
+          <artifactId>rome</artifactId>
+          <groupId>rome</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <defaultGoal>package</defaultGoal>
+    <resources>
+      <resource>
+        <filtering>false</filtering>
+        <directory>${basedir}/src/main/java</directory>
+        <includes>
+          <include>**/*.html</include>
+          <include>**/*.css</include>
+          <include>**/*.png</include>
+          <include>**/*.gif</include>
+          <include>**/*.js</include>
+          <include>**/*.properties</include>
+        </includes>
+      </resource>
+      <resource>
+        <filtering>false</filtering>
+        <directory>${basedir}/src/etc</directory>
+        <includes>
+          <include>**/*.txt</include>
+        </includes>
+      </resource>
+      <resource>
+        <filtering>false</filtering>
+        <directory>${basedir}/src/main/resources</directory>
+        <includes>
+          <include>**/*.cnd</include>
+          <include>**/*.xml</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+  
+</project>

@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="faqs">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippo:harddocument</sv:value>
+    <sv:value>hippotranslation:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>2aaef445-0a6f-415a-9bad-88b6baa16275</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+    <sv:value>live</sv:value>
+    <sv:value>preview</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-faq</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>2b7e4dc2-c728-4fe9-9545-2f4167e51353</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>nl</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippotranslation:translations">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippotranslation:translations</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Veel Gestelde Vragen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="manieren-om-uw-bedrijf-milieuvriendelijk-te-maken">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>9cff4b31-25a4-4627-a059-955f9a2a00be</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Manieren om uw bedrijf milieuvriendelijk te maken</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="manieren-om-uw-bedrijf-milieuvriendelijk-te-maken">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8033adad-a628-4284-b122-13913e00bb44</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/manieren-om-uw-bedrijf-milieuvriendelijk-te-maken</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Manieren om uw bedrijf milieuvriendelijk te maken</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Groen</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-07T14:30:00.988Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-17T10:31:21.215Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-24T17:00:58.048Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_363b2355-b7d6-4255-b98c-d17709416596</sv:value>
+        <sv:value>key_51d3ed5f-b9ca-4d4b-8419-de042ee5546b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c275a96b-2b11-4ede-a657-d97dc380f674</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Zet apparatuur uit die niet wordt gebruikt. Dit can energiegebruik
+reduceren met 25%; het uitzetten van computers aan het einde van de dag kan
+zorgen voor een extra bezuiniging van 50%.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Moedig communiceren via email aan, lees emailberichten eerst op het
+scherm om te bepalen of printen nodig is. Als het niet nodig is, doe het dan
+niet!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Verminder het papiergebruik van faxen door een fax-modem te gebruiken en
+door alleen een voorblad bij faxen te gebruiken als het nodig is. Fax-modems
+kunnen documenten direct verzenden vanaf een computer, ze hebben geen geprinte
+versie nodig.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Print dubbelzijdig wanneer dat mogelijk is.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Laat een kraan niet druppelen; doe ze altijd goed dicht na gebruik. (Eén
+druppel per seconde verspilt 10,000 liter per jaar.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Installeer verplaatsingsdammen in de toiletreservoirs. Het plaatsen van 1
+of 2 plastic bakken gevuld met stenen (geen bakstenen) in het reservoir van het
+toilet kan 4 liter water verplaatsen per keer dat iemand doortrekt – een
+gigantische reductie in het gebruik van water gedurende een jaar.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Zoek een leverancier van papier die zoveel mogelijk recycled papier
+gebruikt.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Kies leveranciers die verpakkingen terugnemen om te recyclen.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Start een zoektocht op naar 'groenere' producten en diensten binnen de
+lokale gemeenschap. Hoe verder leveranciers moeten reizen om u te bereiken, hoe
+meer energie zij gebruiken.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Voordat u beslists nieuw kantoormeubilair aan te schaffen, kunt u kijken
+of uw huidig meubilair niet opnieuw opgeknapt kan worden. Dat is goedkoper dan
+nieuw meubilair kopen en beter voor het milieu.&lt;/em&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hoe-start-je-een-groene-onderneming-op">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>855f418e-c59e-4e85-820e-a4bb51d6215a</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Hoe start je een Groene Onderneming op?</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hoe-start-je-een-groene-onderneming-op">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>147d71c0-b37b-40d6-ba0c-429876e3c14a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/hoe-start-je-een-groene-onderneming-op</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Hoe start je een Groene Onderneming op?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Business</sv:value>
+        <sv:value>Energy</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-07T14:31:33.790Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-17T10:32:51.511Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-24T17:00:59.172Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_20c8f29d-fb15-45c6-96af-5586c9311f5f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f9023423-ea39-4b26-969b-57c379f53f93</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;em&gt;Het worden van een groene onderneming betekent dat je veranderingen moet
+doorvoeren in de hele organisatie, van de manier hoe je je dagelijkse zaken
+managed tot de producten die je aan je klanten aanbiedt.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Efficiënt met energie omgaan: bespaar energiekosten, zoek tips over hoe
+je energie kan besparen, zoek informatie over giften, leningen en innitiatieven
+om efficiënte upgrades uit te voeren met betrekking tot energie.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Milieubeleid: Manage zaken met betrekking op het milieu goed om
+aansprakelijkheid te vermijden, verminder kosten en zorg dat je herkent wordt
+als een groene onderneming.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Giften, leningen en innitiatieven: Zorg dat je informatie krijgt over
+efficiënte upgrades met betrekking tot energie en verdiep je in belastingszaken
+voor de ontwikkeling van groene technologie.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Overheidsopdrachten: Doe kennis op over mogelijkheden om groene producten
+en diensten aan de overheid te verkopen.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Groene commuting opties: Bespaar energiekosten, bescherm het milieu en
+verhoog de productiviteit van werknemers door het aannemen van
+telecommutingbeleid en andere groene commuting opties.&lt;/em&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hoe-recycle-je-verschillende-soorten-plastic">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a3505baf-df74-40c2-8169-46f5690cb5d6</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Hoe recycle je verschillende soorten plastic</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hoe-recycle-je-verschillende-soorten-plastic">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0361f409-1c91-4c37-a8a4-8f57cab39bdd</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/hoe-recycle-je-verschillende-soorten-plastic</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Hoe recycle je verschillende soorten plastic</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Recycle</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T10:15:00.056Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-17T10:50:57.987Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-24T17:00:59.065Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_5b9addb7-1fa6-4f7f-920d-48160d2669d7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2cbbfcec-3466-4e20-94f4-bef557d4db80</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;De verwarring over wat we wel en niet kunnen recyclen blijft consumenten
+verbijsteren. Plastic is bijzonder vervelend, verschillende soorten plastic
+vereisen namelijk verschillende manieren van verwerking om te worden hergebruikt
+als basismateriaal. Sommige gemeentes accepteren alle soorten plastic voor
+recycling, terwijl anderen alleen kannen, verpakkingen en flessen met bepaalde
+nummers aan de onderkant gestempeld accepteren.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="waarom-is-recycling-niet-verplicht">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>1e70db65-7dfe-487b-ac4e-8bb8d22ee28d</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Waarom is recycling niet verplicht</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="waarom-is-recycling-niet-verplicht">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>861be3f0-7c52-4da7-afbd-14821ca9e6cc</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/waarom-is-recycling-niet-verplicht</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Waarom is recycling niet verplicht</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Recycle</sv:value>
+        <sv:value>Mandatory</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T10:16:12.332Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-17T10:59:04.671Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-24T17:00:59.915Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_e0a827ec-50d1-4112-8e3d-604f7c3f6993</sv:value>
+        <sv:value>key_53bc8b17-ade6-4bc6-8b8c-c03168495c81</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cf49de52-66f5-4651-999b-81ddc60e480d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Verplicht recyclen is een concept dat moeilijk verkoopt in de Verenigde
+Staten, &lt;span id="result_box"&gt;de economie draait grotendeels langs de vrije
+markt lijnen en afvalstorting blijft goedkoop en efficiënt. Toen de
+onderzoeksfirma Franklin Associates dit probleem tien jaar geleden onderzocht,
+concludeerde zij dat de waarde van de materialen die gewonnen werden door
+&lt;em&gt;curbside recycling &lt;/em&gt;veel minder was dan de extra kosten die gemeentes
+maakten door verzameling, transport, sorteren en verwerking van het materiaal.
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value>About.com Earth Talk</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value>http://environment.about.com/od/recycling/a/must_recycle.htm</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="welke-soort-batterij-moet-ik-gebruiken">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>17ae2083-f188-4ec4-85c2-37e688a82ead</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Welke soort batterij moet ik gebruiken?</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="welke-soort-batterij-moet-ik-gebruiken">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6bdf6191-49c8-4666-916e-97ded8679519</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/welke-soort-batterij-moet-ik-gebruiken</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Welke soort batterij moet ik gebruiken?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>solar energy</sv:value>
+        <sv:value>battery</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T10:20:41.640Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-17T11:11:01.007Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-24T17:00:59.735Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_5b9addb7-1fa6-4f7f-920d-48160d2669d7</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e403ac5e-5ff4-4dbe-8b06-bc6629d6f005</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Het is mogelijk om elke overstroomde of verzegelde lood-zuur batterij te
+gebruiken met onze panelen, hoewel het beter is om een ' deep cycle' batterij te
+gebruiken. Deep cycle batterijen zijn ontworpen om continue ontlading te te
+verduren terwijl sommige andere batterijen, bijvoorbeeld accu's in auto's alleen
+zijn ontworpen voor korte energie-uitbarstingen. Wij raden een 75Ahr
+overstroomde lood-zuur batterij aan.&lt;/p&gt;
+
+&lt;p&gt;Hoe lang houden de systemen het uit? De Uni-Solar® flexibele panelen hebben
+een duurzaamheid van minimaal 10 jaar, mits er goed voor ze gezorgd wordt. Deze
+zorg houdt simpelweg in dat ervoor moet worden gezorgd dat de panelen goed
+bevestigd zijn zodat ze niet deinen en men moet letten op beschadiging van het
+oppervlak. De panelen zijn resistent tegen zout water en zijn ontworpen om in de
+zon gelaten te worden. Ze moeten echter niet gepositioneerd worden op een plaats
+waar zij gedurende lange tijd onder water zijn. Elk Uni-Solar® flexibeel paneel
+heeft een garantie van 3 jaar. De Uni-Solar® en AstroPower ingelijste panelen
+hebben een garantie van 10 jaar en hebben een duurzaamheid van tenminste 20
+jaar.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hoeveel-gaat-zonne-energie-mij-kosten">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>90ca27da-6832-411c-883d-5807f7e007e0</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Hoeveel gaat zonne-energie mij kosten</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hoeveel-gaat-zonne-energie-mij-kosten">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>574457a4-a788-473c-b11c-4aa8a4a0a945</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/hoeveel-gaat-zonne-energie-mij-kosten</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Hoeveel gaat zonne-energie mij kosten</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>solar energy</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T10:22:11.188Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-17T11:17:40.807Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-24T17:00:59.450Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotaxonomy:keys" sv:type="String" sv:multiple="true">
+        <sv:value>key_5b9addb7-1fa6-4f7f-920d-48160d2669d7</sv:value>
+        <sv:value>key_d9ab96ea-5be1-4ba3-94d1-a62174e4e962</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>82f28cbd-1971-40a2-a4ff-a624ee1e8d95</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Zonne-elektriciteit kost ongeveer $10 tot $12 per watt die geïnstalleerd is,
+wellicht sta je echter in aanmerking voor overheidssubsidies. Bekijk je
+elektriciteitsrekening om maandelijkse kosten te ontdekken. A stevig elektrisch
+systeem voor zonne-energie kost ongeveer $20,000. Je kan net zoveel geld
+uitgeven als je zonne-energie nodig hebt.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="als-ik-zonne-energie-wil-gebruiken-voor-alle-stroomvoorziening-van-mijn-huis-of-hut">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:hardhandle</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>54c435fc-7024-49d5-bd7f-5a28a8a4a339</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Als ik zonne-energie wil gebruiken voor alle stroomvoorziening van mijn huis of hut</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="als-ik-zonne-energie-wil-gebruiken-voor-alle-stroomvoorziening-van-mijn-huis-of-hut">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogogreen:faq</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:harddocument</sv:value>
+        <sv:value>hippotranslation:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f15537e8-d39d-49ed-bc29-07c7e1553464</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>faqs/als-ik-zonne-energie-wil-gebruiken-voor-alle-stroomvoorziening-van-mijn-huis-of-hut</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogogreen:question" sv:type="String">
+        <sv:value>Als ik zonne-energie wil gebruiken voor alle stroomvoorziening van mijn huis of afgelegen stulp</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>solar energy</sv:value>
+        <sv:value>private</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>tbrenninkmeijer</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-07-19T10:23:17.556Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-12-17T11:21:09.211Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>boris</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2010-12-24T17:00:57.718Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c021b717-5120-490b-a229-8a964a1be2c6</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>nl</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippotranslation:translations">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippotranslation:translations</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:answer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt;
+&lt;body&gt;
+
+&lt;p&gt;Het kost ongeveer $12 per Watt en totale kosten voor het systeem bedragen
+ongeveer $20,000. For een afgelegen stulp zijn deze kosten meestal veel
+goedkoper dan een gebruikelijke stroomvoorziening.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippogogreen:copyright">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogogreen:copyright</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:description" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippogogreen:url" sv:type="String">
+          <sv:value/>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

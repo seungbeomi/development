@@ -1,0 +1,14 @@
+/*@import "cms_skin.css";*/
+
+/*
+//########################################################################
+//  DOCUMENT ICONS
+//########################################################################
+*/
+.hippogogreen-newsitem {
+    background: url("images/news.png") no-repeat 5px 5px;
+}
+
+.hippogogreen-event {
+    background: url("images/event.png") no-repeat 5px 5px;
+}

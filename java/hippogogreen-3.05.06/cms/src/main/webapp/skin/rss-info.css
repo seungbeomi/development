@@ -1,0 +1,33 @@
+.hippo-login-panel {
+  float: right;
+}
+
+#infoboxs {
+  width: 360px;
+  margin-top: 100px;
+  float: right;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#info-login { position: relative;  width: 300px; padding: 30px; color: #333; float:right; margin: 0;}
+#feeds { position: relative; top: 0; width: 300px; padding: 30px; color: #333; float:right; margin-top: 20px; }
+
+#info-login h2, #feeds h2 { height: auto; background: none; color: #333; font-size: 135%; border-bottom: 1px solid #666; margin-bottom: 10px; }
+#feeds h2 { text-align: right; }
+
+#info-login table { width: 100%; margin-bottom: 10px; }
+#info-login th { font-size: 123.1%; color: #333; padding-bottom: 3px; }
+#info-login td { padding: 1px 0; }
+
+#feeds ul { list-style-type: none; }
+#feeds li { margin-bottom: 20px; }
+#feeds li.type { margin: 0; }
+#feeds h3 { }
+#feeds ul a { font-size: 123.1%; font-weight: normal; color: #666; display: block; text-decoration: none; }
+#feeds ul a:hover { background-color: #dbdbdb; }
+#feeds ul span { display: none; }
+
+#blogs li p { display: none; }
+#blogs li { margin-bottom: 10px; }
+#blogs li:last-child { margin-bottom: 0; }

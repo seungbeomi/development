@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sitemenus">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemenus</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>a9c72c6c-350c-4e4c-897f-10c855f12620</sv:value>
+  </sv:property>
+  <sv:node sv:name="mainnavigation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8d66e7ac-d4a2-4354-a110-d2da8fd3c58b</sv:value>
+    </sv:property>
+    <sv:node sv:name="首页">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0949ac81-5736-4be9-8995-47ae94379e60</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>home</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="新闻">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>94f8ebd7-67b3-4327-8573-bbd128a72c17</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>news</sv:value>
+      </sv:property>
+      <sv:node sv:name="活动">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemenuitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>25cc0a09-a230-47b2-bc81-c8f0b84ca743</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+          <sv:value>events</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="乔布斯">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>58a88d4f-ce90-41b3-bd82-bd2a8bb9e12b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>jobs</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="产品">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>659acfe1-ca37-4a44-80e9-eeeddb5579bb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>products</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="servicemenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>6a8e8955-6266-48fb-80f9-5759b4600cfc</sv:value>
+    </sv:property>
+    <sv:node sv:name="RSS">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cb09a747-c7d1-4a43-a49d-a94003d178c5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>rss</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="网站地图">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>78df5f5d-f7df-497f-a8d3-55180bc2a8e3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>sitemap</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="联系">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>01a5ec05-3ee8-4f44-9c7f-e23ad4a75ccf</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>contact</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="常见问题">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>59176c92-4b62-4a6e-b1d6-363a9bc4e670</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>faq</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="sectionsmenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>74cc018d-8d19-419a-884b-92c6476042d8</sv:value>
+    </sv:property>
+    <sv:node sv:name="新闻与活动">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3e0d334a-fa9a-48d0-86d6-b50bc6c4ad6d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>news</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="乔布斯">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1c24d86f-c018-4d3e-811e-81860a7f3663</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>jobs</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="产品">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d8363380-d806-4ddd-8bfd-8cee181b91da</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>products</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

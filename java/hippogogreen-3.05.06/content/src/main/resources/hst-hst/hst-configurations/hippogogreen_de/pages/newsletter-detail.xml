@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="newsletter-detail">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:component</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>c8bbca53-ef07-4f2d-ac5c-f9c34d2ebc3b</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:componentclassname" sv:type="String">
+    <sv:value>com.onehippo.gogreen.components.common.Newsletter</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:template" sv:type="String">
+    <sv:value>newsletter-detail</sv:value>
+  </sv:property>
+  <sv:node sv:name="boxes-under">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containercomponent</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>576d7a69-c3c9-4ad4-935e-dddebd8e996e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:xtype" sv:type="String">
+      <sv:value>HST.vBox</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

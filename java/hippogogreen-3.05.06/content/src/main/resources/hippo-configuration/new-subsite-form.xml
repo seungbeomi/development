@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="new-subsite-form">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:templatequery</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:translated</sv:value>
+    <sv:value>hippostd:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:icon" sv:type="String">
+    <sv:value>adddocument_ico</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:modify" sv:type="String" sv:multiple="true">
+    <sv:value>./_name</sv:value>
+    <sv:value>$name</sv:value>
+    <sv:value>./_node/hippostdpubwf:createdBy</sv:value>
+    <sv:value>$holder</sv:value>
+    <sv:value>./_node/hippostdpubwf:creationDate</sv:value>
+    <sv:value>$now</sv:value>
+    <sv:value>./_node/hippostdpubwf:lastModifiedBy</sv:value>
+    <sv:value>$holder</sv:value>
+    <sv:value>./_node/hippostdpubwf:lastModificationDate</sv:value>
+    <sv:value>$now</sv:value>
+    <sv:value>./_node/hippostd:holder</sv:value>
+    <sv:value>$holder</sv:value>
+    <sv:value>./_node/_name</sv:value>
+    <sv:value>$name</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:language" sv:type="String">
+    <sv:value>xpath</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:statement" sv:type="String">
+    <sv:value>/jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-subsite-form/hippostd:templates/node()</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:class" sv:type="String">
+      <sv:value>org.hippoecm.repository.standardworkflow.FolderWorkflow</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>new form</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:class" sv:type="String">
+      <sv:value>org.hippoecm.repository.standardworkflow.FolderWorkflow</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>nl</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>nieuw formulier</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippo:translation">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:translation</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:class" sv:type="String">
+      <sv:value>org.hippoecm.repository.standardworkflow.FolderWorkflow</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:language" sv:type="String">
+      <sv:value>de</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:message" sv:type="String">
+      <sv:value>Neues Formular</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippostd:templates">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:templates</sv:value>
+    </sv:property>
+    <sv:node sv:name="new-form">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:hardhandle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f8539606-bce2-48aa-a2aa-a02b93ee7241</sv:value>
+      </sv:property>
+      <sv:node sv:name="new-form">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>ef:form</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:harddocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>33c53f09-b705-4143-9306-cba3d3a80fc9</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:action" sv:type="String">
+          <sv:value>mail</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:actionurl" sv:type="String">
+          <sv:value>http://test.com/action.do</sv:value>
+        </sv:property>
+        <sv:property sv:name="ef:notificationemail" sv:type="String">
+          <sv:value>events@gogreen.onehippo.com</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>new-subsite-form/hippostd:templates/new-form</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>new</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2010-07-08T16:52:38.639+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2011-10-18T15:34:00.459+02:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2011-10-18T15:34:30.583+02:00</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
