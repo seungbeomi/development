@@ -313,10 +313,17 @@
 				<version>2.2.0.RELEASE</version>
 			</dependency>
 
+			<!-- 
 			<dependency>
 				<groupId>net.sf.valuelist</groupId>
 				<artifactId>core</artifactId>
 				<version>1.0-SNAPSHOT</version>
+			</dependency> 
+			-->
+			<dependency>
+				<groupId>net.sf.valuelist</groupId>
+				<artifactId>valuelist</artifactId>
+				<version>0.1.8</version>
 			</dependency>
 
 			<dependency>

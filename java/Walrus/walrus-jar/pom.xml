@@ -102,10 +102,16 @@
 			<groupId>org.springframework.webflow</groupId>
 			<artifactId>spring-webflow</artifactId>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>net.sf.valuelist</groupId>
 			<artifactId>core</artifactId>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>net.sf.valuelist</groupId>
+			<artifactId>valuelist</artifactId>
 		</dependency>
+		
 		<dependency>
 			<groupId>rome</groupId>
 			<artifactId>rome</artifactId>
