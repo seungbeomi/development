@@ -1,0 +1,15 @@
+// 서버 설치 라이브러리
+
+geronimo-jta_1.1_spec-1.1.jar
+hippo-addon-publication-workflow-common-2.22.05.jar
+hippo-cms-sso-2.22.10.jar
+hippo-repository-api-2.22.09.jar
+hippo-repository-builtin-2.22.09.jar
+hst-api-2.24.07.jar
+hst-commons-2.24.07.jar
+jcl-over-slf4j-1.6.4.jar
+jcr-2.0.jar
+jdo2-api-2.3-eb.jar
+log4j-1.2.16.jar
+slf4j-api-1.6.4.jar
+slf4j-log4j12-1.6.4.jar
