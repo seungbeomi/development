@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:batch="http://www.springframework.org/schema/batch"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch.xsd">
+
+	<batch:job id="job2">
+		<batch:listeners>
+			<batch:listener ref="job2Listener" />
+		</batch:listeners>
+		<batch:step id="setupStep" next="readWrite">
+			<batch:tasklet ref="setupTasklet" />
+		</batch:step>
+		<batch:step id="readWrite" next="teardown">
+			<batch:tasklet>
+				<batch:chunk reader="job2Reader" processor="job2Processor" writer="job2Writer" commit-interval="1" />
+			</batch:tasklet>
+			<batch:listeners>
+				<batch:listener ref="job2Listener" />
+				<batch:listener ref="job2ChunkListener" />
+				<batch:listener ref="job2ItemReadListener" />
+				<batch:listener ref="job2ProcessListener" />
+				<batch:listener ref="job2ItemWriterListener" />
+				<batch:listener ref="job2SkipListener" />
+				<batch:listener ref="job2StepExecutionListener" />
+			</batch:listeners>
+		</batch:step>
+		<batch:step id="teardown">
+			<batch:tasklet ref="teardownTasklet" />
+		</batch:step>
+	</batch:job>
+
+	<bean id="job2Listener" class="simple.spring.batch.job2.Job2Listener" />
+	<bean id="job2ChunkListener" class="simple.spring.batch.job2.Job2ChunkListener" />
+	<bean id="job2ItemReadListener" class="simple.spring.batch.job2.Job2ItemReadListener" />
+	<bean id="job2ProcessListener" class="simple.spring.batch.job2.Job2ItemProcessListener" />
+	<bean id="job2ItemWriterListener" class="simple.spring.batch.job2.Job2ItemWriteListener" />
+	<bean id="job2SkipListener" class="simple.spring.batch.job2.Job2SkipListener" />
+	<bean id="job2StepExecutionListener" class="simple.spring.batch.job2.Job2StepExecutionListener" />
+
+	<bean id="setupTasklet" class="simple.spring.batch.job2.SetupTasklet">
+		<property name="resources" value="classpath:/INPUT/*.csv" />
+	</bean>
+
+	<bean id="job2Reader" class="simple.spring.batch.job2.Job2Reader" />
+	<bean id="job2Processor" class="simple.spring.batch.job2.Job2Processor" />
+	<bean id="job2Writer" class="simple.spring.batch.job2.Job2Writer" />
+
+	<bean id="teardownTasklet" class="simple.spring.batch.job2.TeardownTasklet">
+		<property name="resources" value="classpath:/INPUT/*.csv" />
+	</bean>
+
+</beans>
