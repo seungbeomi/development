@@ -72,11 +72,13 @@
 			<artifactId>hsqldb</artifactId>
 			<version>1.8.0.10</version>
 		</dependency>
+		<!--  
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.2.0</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -92,6 +94,7 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.6.1</version>
 		</dependency>
+		<!--  
 		<dependency>
 			<groupId>net.sf</groupId>
 			<artifactId>log4jdbc3</artifactId>
@@ -102,6 +105,7 @@
 			<artifactId>log4jdbc-remix</artifactId>
 			<version>0.2.4</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

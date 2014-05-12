@@ -1,9 +1,7 @@
 package book.hibernate3.mapping02.onetoone;
 
-import lombok.Data;
 
 
-@Data
 public class ArticleDetail {
 
 	private int id;
@@ -14,5 +12,24 @@ public class ArticleDetail {
 	public ArticleDetail(String content) {
 		this.content = content;
 	}
+  public int getId() {
+    return id;
+  }
+  public void setId(int id) {
+    this.id = id;
+  }
+  public Article getArticle() {
+    return article;
+  }
+  public void setArticle(Article article) {
+    this.article = article;
+  }
+  public String getContent() {
+    return content;
+  }
+  public void setContent(String content) {
+    this.content = content;
+  }
+	
 	
 }

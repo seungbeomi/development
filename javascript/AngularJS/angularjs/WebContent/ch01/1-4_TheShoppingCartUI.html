@@ -1,0 +1,206 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>Shopping Cart</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <style>
+      /* P.36 CSS Classes and Styles */
+      .menu-disabled-true { color: red; }
+      .error { background-color: red; }
+      .warning { background-color: yellow; }
+      .selected { background-color: lightgreen; }
+    </style>
+  </head>
+  <body ng-controller="CartController">
+      
+    <h1>Your Order</h1>
+      <div ng-repeat="item in items">
+        <span>{{item.title}}</span>
+        <input ng-model="item.quantity" />
+        <span>{{item.price | currency}}</span>
+        <span>{{item.price * item.quantity | currency}}</span>
+        <button ng-click="remove($index)">Remove</button>
+      </div>
+    
+      <hr />
+      
+      <!-- Form Inputs 
+      <form ng-controller="SomeController">
+        <input type="checkbox" ng-model="youCheckedId" /> checkbox : {{youCheckedId}}
+      </form>
+      <form ng-controller="StartUpController">
+        Starting: <input ng-change="computeNeeded()" 
+                         ng-model="startingEstimate" />
+        Recommendation: {{needed}}
+        <button>Fund my startup!</button>
+        <button ng-click="reset()">Reset</button>
+      </form>
+      
+      <hr />
+      -->
+      
+      <!-- A Few words on Unobtrusive JavaScript -->
+      <div class="navbar" ng-controller="NavController">
+        <button ng-click="doSomething()">Something</button>
+      </div>
+      <div class="contentArea" ng-controller="ContentAreaController">
+        <button ng-click="doSomething()">Something</button>
+      </div>
+      <hr />
+      
+      <!-- P.21 Lists, Tables, and Other Repeated Elements -->
+      <div ng-controller="StudentListController">
+        <button ng-click="insertTom()">Insert</button>
+        <ul>
+          <li ng-repeat="student in students">
+            <a href="/view/{{student.id}}">{{student.id}} - {{student.name}}</a>  
+          </li>
+        </ul>
+      </div>
+      
+      <table border="1" ng-controller="AlbumController">
+        <tr ng-repeat="track in album">
+            <td>{{$index + 1}}</td>
+            <td>{{track.name}}</td>
+            <td>{{track.duration}}</td>
+        </tr>
+      </table>
+      <hr />
+       
+    <!-- P.23 Hiding and Showing -->
+    <div ng-controller="DeathrayMenuController">
+      <button ng-click="toggleMenu()">Toggle Menu</button>
+      <ul ng-show="show">
+        <li class="menu-disabled-{{isDisabled}}" ng-click="stun()">Stun</li>
+        <li ng-click="disintegrate()">Disintegrate</li>
+        <li ng-click="erase()">Erase from history</li>
+      </ul>
+    </div>
+    <hr />
+    
+    <!-- P.36 CSS Classes and Styles -->
+    <div ng-controller="HeaderController">
+      <div ng-class="{error: isError, warning: isWarning}">{{messageText}}</div>
+      <button ng-click="showError()">Error</button>
+      <button ng-click="showWarning()">Warning</button>
+    </div>
+    <table border="1" ng-controller="RestaurantTableController">
+      <tr ng-repeat="restaurant in directory" ng-click="selectRestaurant($index)" ng-class="{selected: $index==selectedRow}">
+        <td>{{restaurant.name}}</td>
+        <td>{{restaurant.cuisine}}</td>
+      </tr>
+    </table>
+    <hr />
+  
+    <!-- P.38 Considerations for src and href Attributes -->
+    <div ng-controller="ImageController">
+      <img src="http://img.naver.net/{{logo}}"><br />
+      <img ng-src="http://img.naver.net/{{logo}}"><br />
+      <a ng-href="https://www.google.co.kr/search?q={{search}}">{{search}}</a>
+    </div>
+    
+      <script>
+        function CartController($scope) {
+            $scope.items = [
+                {title: "Paint pots", quantity: 8, price: 3.95},
+                {title: "Polka dots", quantity: 17, price: 12.95},
+                {title: "Pebbles", quantity: 5, price: 6.95}
+            ];
+            $scope.remove = function(index) {
+                $scope.items.splice(index, 1);
+            }
+        }
+        function StartUpController($scope) {
+            $scope.funding = { startingEstimate: 0 };
+            $scope.computeNeeded = function() {
+                alert("computeNeeded");
+                $scope.needed = $scope.startingEstimate * 10;
+            };
+            $scope.requestFunding = function() {
+                window.alert("Sorry, plase get more customers first.");
+            }
+            $scope.reset = function() {
+                $scope.startingEstimate = 0;
+            }
+            //$scope.$watch("funding.startingEstimate", computeNeeded)
+        }
+          
+        // A Few words on Unobtrusive JavaScript
+        function NavController($scope) {
+            $scope.doSomething = function() {
+                alert("NavController");
+            }
+        }
+        function ContentAreaController($scope) {
+            $scope.doSomething = function() {
+                alert("ContentAreaController");
+            }
+        }
+          
+        // P.21 Lists, Tables, and Other Repeated Elements
+        var students = [{name: "Mary Contrary", id:"1"}
+                        , {name: "Jask Sprat", id:"2"}
+                        , {name: "Jill Hill", id:"3"}
+                       ];
+        function StudentListController($scope) {
+            $scope.students = students;
+            
+            $scope.insertTom = function() {
+                $scope.students.splice(2,0,{name:"Tom Thumb", id:"4"});
+            };
+        }
+        var album = [{name: "AAA", duration:"1.23"}
+                        , {name: "BBB", duration:"2.34"}
+                        , {name: "CCC", duration:"3.45"}
+                       ];
+        function AlbumController($scope) {
+            $scope.album = album;
+        }
+       
+        // P.23 Hiding and Showing
+        function DeathrayMenuController($scope) {
+          $scope.show = false;
+          $scope.isDisabled = false;
+          
+          $scope.toggleMenu = function() {
+            $scope.show = !$scope.show;
+            $scope.isDisabled = !$scope.isDisabled;
+          }
+        }
+
+        // P.36 CSS Classes and Styles
+        function HeaderController($scope) {
+          $scope.messageText = "Message";
+          $scope.isError = false;
+          $scope.isWarning = false;
+          
+          $scope.showError = function() {
+            $scope.messageText = "This is an error!";
+            $scope.isError = true;
+            $scope.isWarning = false;
+          }
+          $scope.showWarning = function() {
+            $scope.messageText = "Just a warning. Please carry on.";
+            $scope.isWarning = true;
+            $scope.isError = false;
+          }
+        }
+        function RestaurantTableController($scope) {
+          $scope.directory = [
+              {name: "The Handsome Heifer", cuisine:"BBQ"}
+          ,   {name: "Green's Green Greens", cuisine:"Salads"}
+          ,   {name: "House of Fine Fish", cuisine:"Seafood"}
+          ];
+          $scope.selectRestaurant = function(row) {
+            $scope.selectedRow = row;
+          }
+        }
+        
+        // P.38 Considerations for src and href Attributes
+        function ImageController($scope) {
+          $scope.logo = "static/www/u/2013/0731/nmms_224940510.gif";
+          $scope.search = "AngularJS";
+        }
+      </script>
+  </body>
+</html>
