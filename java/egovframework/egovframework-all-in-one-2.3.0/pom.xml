@@ -315,9 +315,10 @@
             <groupId>kr.go.mgov</groupId>
             <artifactId>smeapi</artifactId>
             <version>2.7</version>
-            <scope>system</scope>
+            <!-- <scope>system</scope> 
             <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/smeapi_2_7.jar</systemPath>
-        </dependency>
+            -->
+        </dependency> 
 
         <!-- 3rd party 라이브러리로 별도의 설치 필요 -->
         <!-- oracle 10g driver -->
@@ -364,22 +365,24 @@
         -->
 
         <!-- GPKI인증서 로그인처리 라이브러리 -->
-        <!--
         <dependency>
             <groupId>kr.go.gpki</groupId>
             <artifactId>gpkisecureweb</artifactId>
             <version>1.0.4.9</version>
+            <!--  
             <scope>system</scope>
             <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/gpkisecureweb-1.0.4.9.jar</systemPath>
+            -->
         </dependency>
         <dependency>
             <groupId>kr.go.gpki</groupId>
             <artifactId>libgpkiapi_jni</artifactId>
             <version>1.4.0.0</version>
+            <!--  
             <scope>system</scope>
             <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/libgpkiapi_jni-1.4.0.0.jar</systemPath>
+            -->
         </dependency>
-        -->
         <!-- 3rd party 라이브러리로 별도의 설치 필요 끝 -->
 
         <!-- 공통컴포넌트 끝 -->
