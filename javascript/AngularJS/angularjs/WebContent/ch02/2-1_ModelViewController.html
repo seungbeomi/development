@@ -6,32 +6,9 @@
   </head>
   <body ng-controller="TextController">
     
-      <p>{{someText}}</p>
-      <p>{{messages.someText}}</p>
-      <p>{{someText2.message}}</p>
+    <button ng-click='count=3'>Set count to three</button>
     
-      <script>
-          
-        var messages = {};
-        messages.someText = "Message";
-          
-        function TextController($scope) {
-            $scope.someText = "Hello";
-            $scope.messages = messages;
-        }
     
-        // ---------------------------------
-          /*
-        var myAppModule = angular.module("myApp", []);
-        myAppModule.controller("TextController",
-            function($scope) {
-                var someText2 = {};
-                someText2.message = "Test";
-                $scope.someText2 = someText2;
-            }                      
-        );
-        */
-      </script>
     
   </body>
 </html>

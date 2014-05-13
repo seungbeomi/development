@@ -3,35 +3,66 @@
   <head>
     <title>AngularJS</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.7/angular.min.js"></script>
+    <script>
+
+    </script>
   </head>
   <body ng-controller="TextController">
     
-      <p>{{someText}}</p>
-      <p>{{messages.someText}}</p>
-      <p>{{someText2.message}}</p>
+    <p>P.40 Publishing Model Data with Scopes</p>
+    <button ng-click='count=3'>Set count to three</button>
+    <!-- has the same effect -->
+    <div ng-controller='CountController'>
+      <button ng-click="setCount()">Setcount to three</button>
+    </div>
+    <hr />
     
-      <script>
-          
-        var messages = {};
-        messages.someText = "Message";
-          
-        function TextController($scope) {
-            $scope.someText = "Hello";
-            $scope.messages = messages;
+    <p>Observing Model Changes with $watch</p>
+    <div ng-controller="CartController">
+      <div ng-repeat="item in items">
+        <span>{{item.title}}</span>
+        <input ng-model="item.quantity">
+        <span>{{item.price | currency}}</span>
+        <span>{{item.price * item.quantity | currency}}</span>
+      </div>
+      <div>Total: {{totalCart() | currency}}</div>
+      <div>Discount: {{billdiscount | currency}}</div>
+      <div>Subtotal: {{subtotal() | currency}}</div>
+    </div>
+
+    <script>
+      // P40 : Publishing Model Data with Scopes
+      function CountController($scope) {
+        $scope.setCount = function() {
+          $scope.count = 3;
         }
-    
-        // ---------------------------------
-          /*
-        var myAppModule = angular.module("myApp", []);
-        myAppModule.controller("TextController",
-            function($scope) {
-                var someText2 = {};
-                someText2.message = "Test";
-                $scope.someText2 = someText2;
-            }                      
-        );
-        */
-      </script>
-    
+      }
+      
+      // P41 : Observing Model Changes with $watch
+      function CartController($scope) {
+        $scope.bill = {};
+        $scope.items = [
+          {title: 'Paint pots', quantity: 8, price: 3.95},
+          {title: 'Polka dots', quantity: 17, price: 12.95},
+          {title: 'Pebbles', quantity: 5, price: 6.95}
+        ];
+        $scope.totalCart = function() {
+          var total = 0;
+          for (var i = 0, len = $scope.items.length; i < len; i++) {
+            total = total + $scope.items[i].price * $scope.items[i].quantity;
+          }
+          return total; 
+        }
+        $scope.subtotal = function() {
+          return $scope.totalCart() - $scope.discount;
+        };
+        function calculateDiscount(newValue, oldValue, scope) { 
+          $scope.bill.discount = newValue > 100 ? 10 : 0;
+        }
+        $scope.$watch($scope.totalCart, calculateDiscount);
+      }
+
+    </script>
+      
   </body>
 </html>
