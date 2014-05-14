@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+  시  스  템 : 
+  프로그램ID : EmpDao.xml
+  프로그램명 : 
+  설      명 : 
+  작  성  자 : BS정보시스템/손승범
+  작  성  일 : 2014. 01. 06.
+-->
+<mapper namespace="kr.co.bsisys.biz.dao.EmpDao">
+
+  <select id="selectList" parameterType="kr.co.bsisys.biz.vo.Emp" resultType="kr.co.bsisys.biz.vo.Emp">
+    /* kr.co.bsisys.bootstrap.dao.EmpDao.select */
+    SELECT EMPNO
+    ,      ENAME
+    ,      JOB
+    ,      MGR
+    ,      HIREDATE
+    ,      SAL
+    ,      COMM
+    ,      DEPTNO
+    FROM EMP 
+  </select>
+
+</mapper>

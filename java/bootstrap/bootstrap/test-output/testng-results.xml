@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2838" started-at="2014-05-12T23:36:30Z" finished-at="2014-05-12T23:36:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2838" started-at="2014-05-12T23:36:30Z" finished-at="2014-05-12T23:36:33Z">
+      <class name="kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="6" started-at="2014-05-13T08:36:30Z" finished-at="2014-05-13T08:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2135" started-at="2014-05-13T08:36:30Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2014-05-13T08:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="485" started-at="2014-05-13T08:36:32Z" finished-at="2014-05-13T08:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest.testCRUD()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCRUD()[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="testCRUD" duration-ms="108" started-at="2014-05-13T08:36:33Z" finished-at="2014-05-13T08:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCRUD -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="74" started-at="2014-05-13T08:36:33Z" finished-at="2014-05-13T08:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest.testCRUD()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2014-05-13T08:36:33Z" finished-at="2014-05-13T08:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest.testSelectComClCodeList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testSelectComClCodeList()[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="testSelectComClCodeList" duration-ms="9" started-at="2014-05-13T08:36:33Z" finished-at="2014-05-13T08:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectComClCodeList -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="7" started-at="2014-05-13T08:36:33Z" finished-at="2014-05-13T08:36:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest.testSelectComClCodeList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest@7afaa550]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2014-05-13T08:36:33Z" finished-at="2014-05-13T08:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- kr.co.bsisys.com.biz.code.svc.ComClCodeServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
