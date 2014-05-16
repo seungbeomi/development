@@ -1,0 +1,46 @@
+/**
+ * Copyright (c) 2013 BS Information System
+ */
+package kr.co.bsisys.biz.dao;
+
+import kr.co.bsisys.biz.vo.Emp;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * for JPA 
+ * 
+ * @since 2014. 5. 5.
+ * @author BS정보시스템/손승범
+ */
+public interface EmpRepo extends JpaRepository<Emp, Long> {
+
+  /*
+  List<T> findAll();
+  List<T> findAll(Sort sort);
+  List<T> findAll(Iterable<ID> ids);
+  Iterable<T> findAll();
+  Iterable<T> findAll(Iterable<ID> ids);
+  
+  T findOne(ID id);
+  T getOne(ID id);
+  
+  long count();
+  boolean exists(ID id);
+  
+  <S extends T> List<S> save(Iterable<S> entities);
+  <S extends T> S save(S entity);
+  <S extends T> Iterable<S> save(Iterable<S> entities);
+  T saveAndFlush(T entity);
+  
+  void deleteInBatch(Iterable<T> entities);
+  void deleteAllInBatch();
+  void delete(ID id);
+  void delete(T entity);
+  void delete(Iterable<? extends T> entities);
+  void deleteAll();
+  
+  void flush();
+  */
+  
+}
