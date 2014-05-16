@@ -1,2 +1,0 @@
-mvn-install javax.jms jms 1.1 jms-1.1.jar 
-mvn-install net.sf log4jdbc4 1.2 log4jdbc4-1.2.jar 
