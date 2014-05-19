@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:oxm="http://www.springframework.org/schema/oxm"
+  xsi:schemaLocation="http://www.springframework.org/schema/oxm http://www.springframework.org/schema/oxm/spring-oxm-4.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+  <context:component-scan base-package="kr.co.bsisys" />
+	
+	<!-- Enables the Spring MVC @Controller programming model -->
+  <mvc:annotation-driven />
+
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+  <mvc:resources mapping="/resources/**" location="/resources/" />
+
+  <mvc:interceptors>
+    <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+      <property name="paramName" value="locale" />
+    </bean>
+    <bean class="kr.co.bsisys.fw.web.servlet.handler.LoggingHandlerMethodInterceptor" />
+    <bean class="kr.co.bsisys.fw.web.servlet.handler.SessionChekerInterceptor" />
+  </mvc:interceptors>
+
+  <mvc:view-controller path="/uncaughtException" />
+  <mvc:view-controller path="/resourceNotFound" />
+  <mvc:view-controller path="/dataAccessFailure" />
+  <mvc:view-controller path="/serverBlockageException" />
+
+  <!--  
+  <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+    <property name="basename" value="/WEB-INF/i18n/messages" />
+    <property name="fallbackToSystemLocale" value="false" />
+  </bean>
+  -->
+  
+  <!-- 컨트롤러에서 공통적으로 사용할 프로퍼티 에디터 등록 -->
+  <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+    <property name="cacheSeconds" value="0" />
+    <property name="webBindingInitializer">
+      <bean class="kr.co.bsisys.fw.web.bind.GlobalBindingInitializer" />
+    </property>
+  </bean>
+
+  <!-- store preferred language configuration in a cookie -->
+  <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+    <property name="cookieName" value="locale" />
+    <property name="defaultLocale" value="ko" />
+  </bean>
+
+  <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
+
+  <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+    <property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView" />
+    <property name="order" value="1" /> <!-- 낮은수가 우선 -->
+  </bean>
+  <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+    <property name="definitions">
+      <list>
+        <value>/WEB-INF/layout/layout.xml</value>
+        <value>/WEB-INF/view/**/view.xml</value>
+      </list>
+    </property>
+  </bean>
+
+  <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="/WEB-INF/view/" />
+    <property name="suffix" value=".jsp" />
+    <property name="order" value="9" />
+  </bean>
+
+  <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+    <property name="exceptionMappings">
+      <props>
+        <prop key=".DataAccessException">dataAccessFailure</prop>
+        <prop key=".NoSuchRequestHandlingMethodException">resourceNotFound</prop>
+        <prop key=".TypeMismatchException">resourceNotFound</prop>
+        <prop key=".MissingServletRequestParameterException">resourceNotFound</prop>
+        <prop key=".ServiceException">uncaughtException</prop>
+        <prop key=".ServerBlockageException">serverBlockageException</prop>
+      </props>
+    </property>
+    <property name="defaultErrorView" value="uncaughtException" />
+  </bean>
+  
+  <!-- Simple strategy: only path extension -->
+  <bean id="contentNegotiationManagerFactoryBean" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+    <property name="ignoreAcceptHeader" value="true" />
+    <property name="defaultContentType" value="text/html" />
+    <!-- extension -->
+    <property name="mediaTypes">
+      <map>
+        <entry key="html" value="text/html" />
+        <entry key="json" value="application/json" />
+        <entry key="xls" value="application/vnd.ms-excel" />
+      </map>
+    </property>
+  </bean>
+
+  <oxm:jaxb2-marshaller id="marshaller">
+    <oxm:class-to-be-bound name="kr.co.bsisys.fw.vo.Xml" />
+  </oxm:jaxb2-marshaller>
+
+  <beans profile="combined">
+    <!-- View resolver that delegates to other controllers based on the content type. Combined profile - CNVR owns all other resolvers. -->
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+      <property name="contentNegotiationManager" ref="contentNegotiationManagerFactoryBean" />
+      <property name="viewResolvers">
+        <list>
+          <bean class="org.springframework.web.servlet.view.XmlViewResolver">
+            <property name="location" value="/WEB-INF/view/views-excel.xml" />
+          </bean>
+          <bean class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">
+            <property name="contentType" value="text/html" />
+          </bean>
+          <bean class="kr.co.bsisys.fw.web.view.JsonViewResolver" />
+          <bean class="kr.co.bsisys.fw.web.view.MarshallingXmlViewResolver">
+            <constructor-arg ref="marshaller" />
+          </bean>
+        </list>
+      </property>
+    </bean>
+  </beans>
+
+  <beans profile="separate">
+    <!-- Separate profile - all view resolvers defined as top-level beans and the CNVR scans content to find them. -->
+    <bean class="org.springframework.web.servlet.view.XmlViewResolver">
+      <property name="location" value="/WEB-INF/spring/excel-views.xml" />
+    </bean>
+    <bean class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">
+      <property name="contentType" value="text/html" />
+    </bean>
+    <bean class="kr.co.bsisys.fw.web.view.JsonViewResolver" />
+    <bean class="kr.co.bsisys.fw.web.view.MarshallingXmlViewResolver">
+      <constructor-arg ref="marshaller" />
+    </bean>
+    <!-- View resolver that delegates to other controllers based on the content type -->
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+      <property name="contentNegotiationManager" ref="contentNegotiationManagerFactoryBean" />
+    </bean>
+  </beans>
+
+</beans>

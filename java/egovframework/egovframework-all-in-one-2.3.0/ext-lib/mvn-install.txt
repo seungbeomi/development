@@ -1,0 +1,3 @@
+mvn-install kr.go.mgov smeapi 2.7 smeapi_2_7.jar
+mvn-install kr.go.gpki gpkisecureweb 1.0.4.9 gpkisecureweb-1.0.4.9.jar
+mvn-install kr.go.gpki libgpkiapi_jni 1.4.0.0 libgpkiapi_jni-1.4.0.0.jar

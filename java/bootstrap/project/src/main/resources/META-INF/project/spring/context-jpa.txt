@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+  <beans profile="jpa">
+    <jpa:repositories base-package="kr.co.bsisys.biz" />
+
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+      <property name="dataSource" ref="dataSource" />
+      <property name="persistenceXmlLocation" value="/META-INF/jpa/persistence.xml" />
+      <property name="persistenceUnitName" value="spring-jpa" />
+      <property name="packagesToScan" value="kr.co.bsisys.vo" />
+      <property name="mappingResources" value="/META-INF/jpa/orm.xml" />
+      <property name="jpaVendorAdapter">
+        <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+          <property name="database" value="MYSQL" />
+          <property name="showSql" value="true" />
+          <property name="generateDdl" value="false" />
+        </bean>
+      </property>
+      <property name="jpaProperties">
+        <props>
+          <!-- create-drop | create | update | validate -->
+          <prop key="hibernate.hbm2ddl.auto">update</prop>
+          <prop key="hibernate.show_sql">true</prop>
+          <prop key="hibernate.format_sql">true</prop>
+        </props>
+      </property>
+    </bean>
+    
+    <!--  
+    <bean id="sessionFacoty" class="org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean">
+      <property name="entityManagerFactory" ref="entityManagerFactory" />
+    </bean>
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+      <property name="sessionFactory" ref="sessionFacoty" />
+    </bean>
+    -->
+
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+      <property name="entityManagerFactory" ref="entityManagerFactory" />
+    </bean>
+    
+    <!-- INTERCEPTOR -->
+    <bean id="customizableTraceInterceptor" class="org.springframework.aop.interceptor.CustomizableTraceInterceptor">
+      <property name="enterMessage" value="--- 시작 $[methodName]($[arguments])." />
+      <property name="exitMessage" value="--- 종료 $[methodName](..) with return value $[returnValue], took $[invocationTime]ms." />
+    </bean>
+    <aop:config>
+      <aop:advisor advice-ref="customizableTraceInterceptor" 
+                   pointcut="execution(public * org.springframework.data.repository.Repository+.*(..))" />
+    </aop:config>
+  </beans>
+  
+</beans>

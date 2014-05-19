@@ -1,0 +1,255 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>kr.co.bsisys</groupId>
+  <artifactId>egovframework</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>egovframework</name>
+
+  <parent>
+    <groupId>kr.co.bsisys</groupId>
+    <artifactId>bootstrap</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <repositories>
+    <repository>
+      <id>mvn2</id>
+      <url>http://repo1.maven.org/maven2/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>egovframe</id>
+      <url>http://www.egovframe.go.kr/maven/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <properties>
+
+		<!-- Generic properties -->
+    <java.version>1.6</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+    <egovframework.rte.version>2.7.0</egovframework.rte.version>
+
+		<!-- Spring -->
+    <spring-framework.version>3.0.5.RELEASE</spring-framework.version>
+
+		<!-- Hibernate / JPA -->
+    <hibernate.version>4.2.1.Final</hibernate.version>
+
+		<!-- Logging -->
+    <logback.version>1.0.13</logback.version>
+    <slf4j.version>1.7.5</slf4j.version>
+
+		<!-- Test -->
+    <junit.version>4.11</junit.version>
+
+  </properties>
+
+  <dependencies>
+  
+    <!-- 실행환경 라이브러리 -->
+    <dependency>
+      <groupId>egovframework.rte</groupId>
+      <artifactId>egovframework.rte.psl.dataaccess</artifactId>
+      <version>${egovframework.rte.version}</version>
+    </dependency>
+        <!--
+        mybatis를 사용하는 데 jdk1.5로 컴파일 할 경우 아래와 같이 변경해 주시기 바랍니다.
+        (3.2.X 버전에서 부터 jdk1.6으로 컴파일 되어 발생하는 현상)
+          <dependency>
+           <groupId>egovframework.rte</groupId>
+           <artifactId>egovframework.rte.psl.dataaccess</artifactId>
+           <version>${egovframework.rte.version}</version>
+           <exclusions>
+            <exclusion>
+             <artifactId>mybatis</artifactId>
+             <groupId>org.mybatis</groupId>
+            </exclusion>
+           </exclusions>
+          </dependency>
+          <dependency>
+           <groupId>org.mybatis</groupId>
+           <artifactId>mybatis</artifactId>
+           <version>3.1.1</version>
+          </dependency>
+        -->
+    <dependency>
+      <groupId>egovframework.rte</groupId>
+      <artifactId>egovframework.rte.fdl.idgnr</artifactId>
+      <version>${egovframework.rte.version}</version>
+    </dependency>
+
+        <!--
+        JBoss의 경우는 <body-context>부분을 empty로 수정하여 적용하시면 되며,
+        pom.xml을 아래와 같이 적용하시면 수정된 jar를 참조하실 수 있습니다.
+        (기존 egovframework.rte.ptl.mvc dependency에 내부적으로 참조되고 있어,
+        해당 부분을 exclude 처리해야 함)
+        아래 주석을 해제하시면 됩니다.
+        -->
+    <dependency>
+      <groupId>egovframework.rte</groupId>
+      <artifactId>egovframework.rte.ptl.mvc</artifactId>
+      <version>${egovframework.rte.version}</version>
+            <!-- <exclusions>
+                <exclusion>
+                    <artifactId>spring-modules-validation</artifactId>
+                    <groupId>org.springmodules</groupId>
+                </exclusion>
+            <exclusions> -->
+    </dependency>
+        <!-- <dependency>
+          <groupId>egovframework.rte</groupId>
+          <artifactId>spring-modules-validation</artifactId>
+          <version>0.9</version>
+        </dependency> -->
+    <dependency>
+      <groupId>egovframework.rte</groupId>
+      <artifactId>egovframework.rte.fdl.property</artifactId>
+      <version>${egovframework.rte.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>egovframework.rte</groupId>
+      <artifactId>egovframework.rte.fdl.security</artifactId>
+      <version>${egovframework.rte.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>egovframework.rte</groupId>
+      <artifactId>egovframework.rte.fdl.excel</artifactId>
+      <version>${egovframework.rte.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>egovframework.rte</groupId>
+      <artifactId>egovframework.rte.fdl.logging</artifactId>
+      <version>${egovframework.rte.version}</version>
+    </dependency>
+        <!-- 실행환경 라이브러리 끝 -->
+  
+		<!-- Spring and Transactions -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring-framework.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-tx</artifactId>
+      <version>${spring-framework.version}</version>
+    </dependency>
+
+		<!-- Logging with SLF4J & LogBack -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j.version}</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>${logback.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+
+		<!-- Hibernate -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>${hibernate.version}</version>
+    </dependency>
+    
+    <!-- fileupload -->
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+    </dependency>
+    <!-- FTP용 3rd party 라이브러리 -->
+    <dependency>
+      <groupId>commons-net</groupId>
+      <artifactId>commons-net</artifactId>
+      <version>3.0.1</version>
+    </dependency>
+    
+     <!-- Cross-Site Scripting -->
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.1</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>taglibs</groupId>
+      <artifactId>standard</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+
+    <!-- Email -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-email</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>egovframework.com.ems</groupId>
+      <artifactId>sndng-mail</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>provided</scope>
+    </dependency>
+        
+    <!-- 요소기술 달력을 위한 라이브러리 -->
+    <dependency>
+      <groupId>com.ibm.icu</groupId>
+      <artifactId>icu4j</artifactId>
+      <version>4.8</version>
+    </dependency>
+    <!-- PDF변환용 라이브러리 -->
+    <dependency>
+      <groupId>com.artofsolving</groupId>
+      <artifactId>jodconverter</artifactId>
+      <version>2.2.1</version>
+    </dependency>
+    
+		<!-- Test Artifacts -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>${spring-framework.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+</project>
