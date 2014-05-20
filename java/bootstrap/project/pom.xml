@@ -24,7 +24,8 @@
     <maven.test.skip>true</maven.test.skip>
     <maven.test.failure.ignore>true</maven.test.failure.ignore>
 
-    <spring-version>3.0.5.RELEASE</spring-version>
+    <!-- <spring-version>3.0.5.RELEASE</spring-version> -->
+    <spring-version>3.2.3.RELEASE</spring-version>
   </properties>
 
   <dependencies>

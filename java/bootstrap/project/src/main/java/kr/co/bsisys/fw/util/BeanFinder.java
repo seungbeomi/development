@@ -1,10 +1,12 @@
 package kr.co.bsisys.fw.util;
 
+import javax.servlet.ServletContext;
+
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.WebApplicationContext;
 
 /**
  * <pre>
@@ -19,19 +21,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class BeanFinder implements ApplicationContextAware {
   
-  // WebApplicationContext
-  
-  static GenericApplicationContext[] contextList = null;
+  static WebApplicationContext[] contextList = null;
   
   @Override
   public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
     if (contextList == null) {
-      contextList = new GenericApplicationContext[1];
-      contextList[0] = (GenericApplicationContext) applicationContext;
+      contextList = new WebApplicationContext[1];
+      contextList[0] = (WebApplicationContext) applicationContext;
     } else {
-      GenericApplicationContext[] newContextList = new GenericApplicationContext[contextList.length + 1];
+      WebApplicationContext[] newContextList = new WebApplicationContext[contextList.length + 1];
       System.arraycopy(contextList, 0, newContextList, 0, contextList.length);
-      newContextList[contextList.length] = (GenericApplicationContext) applicationContext;
+      newContextList[contextList.length] = (WebApplicationContext) applicationContext;
       contextList = newContextList;
     }
   }
@@ -83,7 +83,7 @@ public class BeanFinder implements ApplicationContextAware {
   }
   
   public static Object getBean(String name) {
-    for (GenericApplicationContext context : contextList) {
+    for (WebApplicationContext context : contextList) {
       try {
         Object target = context.getBean(name);
         if (target != null)
@@ -95,7 +95,7 @@ public class BeanFinder implements ApplicationContextAware {
   }
   
   public static Object getBean(Class<?> clazz) {
-    for (GenericApplicationContext context : contextList) {
+    for (WebApplicationContext context : contextList) {
       String[] beanNameList = context.getBeanNamesForType(clazz);
       if ((beanNameList != null) && (beanNameList.length != 0))
         return context.getBean(beanNameList[0]);
@@ -103,11 +103,9 @@ public class BeanFinder implements ApplicationContextAware {
     return null;
   }
   
-  /*
   public static ServletContext getServletContext() {
     if ((contextList == null) || (contextList.length == 0))
       return null;
     return contextList[0].getServletContext();
   }
-  */
 }

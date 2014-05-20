@@ -8,6 +8,7 @@
     <!-- <setting name="aggressiveLazyLoading" value="true"/> -->
     <setting name="mapUnderscoreToCamelCase" value="true"/>
     <setting name="jdbcTypeForNull" value="VARCHAR"/>
+    <setting name="logImpl" value="LOG4J"/>
   </settings>
 
 </configuration>

@@ -5,47 +5,23 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
-  <beans profile="local">
+  <bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+    <property name="driverClass" value="#{application['local.db.driverClass']}" />
+    <property name="jdbcUrl" value="#{application['local.db.jdbcUrl']}" />
+    <property name="username" value="#{application['local.db.username']}" />
+    <property name="password" value="#{application['local.db.password']}" />
+    <property name="idleConnectionTestPeriodInSeconds" value="60" />
+    <property name="idleMaxAgeInSeconds" value="240" />
+    <property name="maxConnectionsPerPartition" value="30" />
+    <property name="minConnectionsPerPartition" value="10" />
+    <property name="partitionCount" value="3" />
+    <property name="acquireIncrement" value="5" />
+    <property name="statementsCacheSize" value="100" />
+    <property name="connectionTimeoutInMs" value="10000" />
+    <property name="connectionTestStatement" value="/* ping */ select 1" />
+  </bean>
 
-    <bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
-      <property name="driverClass" value="#{application['local.db.driverClass']}" />
-      <property name="jdbcUrl" value="#{application['local.db.jdbcUrl']}" />
-      <property name="username" value="#{application['local.db.username']}" />
-      <property name="password" value="#{application['local.db.password']}" />
-      <property name="idleConnectionTestPeriodInSeconds" value="60" />
-      <property name="idleMaxAgeInSeconds" value="240" />
-      <property name="maxConnectionsPerPartition" value="30" />
-      <property name="minConnectionsPerPartition" value="10" />
-      <property name="partitionCount" value="3" />
-      <property name="acquireIncrement" value="5" />
-      <property name="statementsCacheSize" value="100" />
-      <property name="connectionTimeoutInMs" value="10000" />
-      <property name="connectionTestStatement" value="/* ping */ select 1" />
-    </bean>
-
-    <!--  
-    <bean id="dataSource" class="net.sf.log4jdbc.Log4jdbcProxyDataSource">
-      <constructor-arg ref="mysqlDataSource" />
-      <property name="logFormatter">
-        <bean class="net.sf.log4jdbc.tools.Log4JdbcCustomFormatter">
-          <property name="loggingType" value="MULTI_LINE" />
-          <property name="margin" value="19" />
-          <property name="sqlPrefix" value="SQL:::" />
-        </bean>
-      </property>
-    </bean>
-    -->
-
-  </beans>
-
-  <!--  
-  <beans profile="dev">
-    <jee:jndi-lookup id="dataSource" jndi-name="#{application['dev.db.jndi']}" />
-  </beans>
-
-  <beans profile="prd">
-    <jee:jndi-lookup id="dataSource" jndi-name="#{application['prd.db.jndi']}" />
-  </beans>
-  -->
+  <alias name="dataSource" alias="egov.dataSource" />
+  <alias name="dataSource" alias="dataSource" />
 
 </beans>
