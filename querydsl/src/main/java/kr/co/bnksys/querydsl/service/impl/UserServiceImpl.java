@@ -28,11 +28,7 @@ public class UserServiceImpl implements UserService {
     public User save(User user) {
 
         UserOutput output = userRepository.findDtoByName("44444");
-
-        user.setName("33333");
         userMapper.updateUser(user);
-        user.setName("44444");
-
         User result = userRepository.save(user);
 
         //throw new RuntimeException("ERRORRRRRRRRR!!!!");

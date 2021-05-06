@@ -32,4 +32,10 @@ public class Department {
     @JoinColumn(name = "LOCATION_ID")
     private Location location;
 
+    public Department(Long id, String name, Location location) {
+        this.id = id;
+        this.name = name;
+        this.location = location;
+    }
+
 }

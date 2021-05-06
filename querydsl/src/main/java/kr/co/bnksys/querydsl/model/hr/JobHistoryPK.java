@@ -14,7 +14,7 @@ public class JobHistoryPK implements Serializable {
 
     private static final long serialVersionUID = 4108382074104128642L;
 
-    @Column(name = "EMPLORY_ID")
+    @Column(name = "EMPLOYEE_ID")
     private Long employeeId;
 
     @Column(name = "START_DATE")

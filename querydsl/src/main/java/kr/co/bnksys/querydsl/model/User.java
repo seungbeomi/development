@@ -1,42 +1,35 @@
 package kr.co.bnksys.querydsl.model;
 
-import java.time.LocalDateTime;
-
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+@Builder
 @Getter
 @NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "TB_USERS")
 @Entity
-public class User extends BaseTimeEntity {
+public class User {
 
     @Id
-    @GeneratedValue
+    @Column(name = "USER_ID")
     private Long id;
 
-    @Column(name = "NAME")
+    @Column(name = "USER_NAME")
     private String name;
 
-    @Builder
-    public User(Long id, String name,
-            LocalDateTime fstRgDtti,
-            LocalDateTime ltChDtti) {
-        this.id = id;
-        this.name = name;
-        this.setFstRgDtti(fstRgDtti);
-        this.setLtChDtti(ltChDtti);
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "DEPT_ID")
+    private Dept dept;
 
 }

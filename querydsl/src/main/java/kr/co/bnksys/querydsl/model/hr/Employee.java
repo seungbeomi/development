@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 public class Employee {
 
     @Id
-    @Column(name = "EMPLORY_ID")
+    @Column(name = "EMPLOYEE_ID")
     private Long id;
 
     @Column(name = "FIRST_NAME", length = 20)
@@ -46,7 +46,7 @@ public class Employee {
     private Long salary;
 
     @Column(name = "COMMISSION_PCT")
-    private Long commissionPct;
+    private Double commissionPct;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "MANAGER_ID")
@@ -55,5 +55,18 @@ public class Employee {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "DEPARTMENT_ID")
     private Department department;
+
+    public Employee(Long id, String firstName, String lastName, String email, String phoneNumber, LocalDate hireDate, Job job, Long salary, Double commissionPct, Department department) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.hireDate = hireDate;
+        this.job = job;
+        this.salary = salary;
+        this.commissionPct = commissionPct;
+        this.department = department;
+    }
 
 }

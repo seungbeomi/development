@@ -2,8 +2,6 @@ package kr.co.bnksys.querydsl.service;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import java.time.LocalDateTime;
-
 import javax.transaction.Transactional;
 
 import org.junit.jupiter.api.Test;
@@ -26,8 +24,6 @@ class UserServiceTest {
         userService.save(User.builder()
                 .id(15L)
                 .name("22222")
-                .fstRgDtti(LocalDateTime.now())
-                .ltChDtti(LocalDateTime.now())
                 .build());
 
         User user = userService.findByName("44444");

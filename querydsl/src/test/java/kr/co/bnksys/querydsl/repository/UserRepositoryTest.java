@@ -4,7 +4,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertThat;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -41,8 +40,6 @@ class UserRepositoryTest {
         //assertNotNull(userRepository);
         em.persist(User.builder()
                 .name("seungbeomi")
-                .fstRgDtti(LocalDateTime.now())
-                .ltChDtti(LocalDateTime.now())
                 .build());
         em.flush();
         //}
