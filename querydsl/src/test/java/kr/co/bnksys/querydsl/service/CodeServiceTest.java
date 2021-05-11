@@ -2,32 +2,30 @@ package kr.co.bnksys.querydsl.service;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import javax.transaction.Transactional;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import kr.co.bnksys.querydsl.model.first.User;
 
-@Transactional
 @SpringBootTest
-class UserServiceTest {
+class CodeServiceTest {
+
+    @Autowired
+    CodeService codeService;
 
     @Autowired
     UserService userService;
 
     @Test
     void test() {
+        assertNotNull(codeService);
         assertNotNull(userService);
 
-        userService.save(User.builder()
-                .id(15L)
-                .name("22222")
-                .build());
+        codeService.findByCode("COM007");
 
-        User user = userService.findByName("44444");
-        assertNotNull(user);
+        User user = userService.findByName("관리자");
+        System.out.println(user);
     }
 
 }

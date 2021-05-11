@@ -1,4 +1,4 @@
-package kr.co.bnksys.querydsl.model;
+package kr.co.bnksys.querydsl.model.first;
 
 import java.time.LocalDate;
 

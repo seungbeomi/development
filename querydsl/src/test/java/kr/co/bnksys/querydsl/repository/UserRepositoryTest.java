@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
 import kr.co.bnksys.querydsl.model.QUser;
-import kr.co.bnksys.querydsl.model.User;
+import kr.co.bnksys.querydsl.model.first.User;
 
 // @Transactional
 @SpringBootTest

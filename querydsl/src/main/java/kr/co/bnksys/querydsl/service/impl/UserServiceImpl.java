@@ -4,10 +4,10 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Service;
 
-import kr.co.bnksys.querydsl.data.mapper.UserMapper;
-import kr.co.bnksys.querydsl.data.repository.UserRepository;
-import kr.co.bnksys.querydsl.data.repository.output.UserOutput;
-import kr.co.bnksys.querydsl.model.User;
+import kr.co.bnksys.querydsl.data.mapper.first.UserMapper;
+import kr.co.bnksys.querydsl.data.repository.first.UserRepository;
+import kr.co.bnksys.querydsl.data.repository.first.output.UserOutput;
+import kr.co.bnksys.querydsl.model.first.User;
 import kr.co.bnksys.querydsl.service.UserService;
 import lombok.RequiredArgsConstructor;
 

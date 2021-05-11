@@ -1,4 +1,4 @@
-package kr.co.bnksys.querydsl.data.repository.output;
+package kr.co.bnksys.querydsl.data.repository.first.output;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -14,7 +14,7 @@ import com.querydsl.core.Tuple;
 import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
-import kr.co.bnksys.querydsl.model.Employee;
+import kr.co.bnksys.querydsl.model.first.Employee;
 
 @SpringBootTest
 class JoinTest {

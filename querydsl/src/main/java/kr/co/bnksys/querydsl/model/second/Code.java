@@ -1,4 +1,4 @@
-package kr.co.bnksys.querydsl.model;
+package kr.co.bnksys.querydsl.model.second;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,15 +14,21 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "TB_USERS")
+@Table(name = "TB_EBCC_CODE")
 @Entity
-public class User {
+public class Code {
 
     @Id
-    @Column(name = "USER_ID")
+    @Column(name = "ID")
     private Long id;
 
-    @Column(name = "USER_NAME")
-    private String name;
+    @Column(name = "CODE")
+    private String code;
+
+    @Column(name = "CODE_TEXT")
+    private String codeText;
+
+    @Column(name = "CODE_VALUE")
+    private String codeValue;
 
 }

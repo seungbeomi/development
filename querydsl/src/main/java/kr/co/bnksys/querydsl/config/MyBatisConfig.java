@@ -17,7 +17,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableTransactionManagement
 @Configuration
-@MapperScan(basePackages = { "kr.co.bnksys.querydsl.data.mapper" }, sqlSessionFactoryRef = "sqlSessionFactory")
+@MapperScan(basePackages = {
+        "kr.co.bnksys.querydsl.data.mapper.first" }, sqlSessionFactoryRef = "sqlSessionFactory")
 public class MyBatisConfig {
 
     @Autowired
@@ -39,7 +40,7 @@ public class MyBatisConfig {
 
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource);
-        sqlSessionFactoryBean.setTypeAliasesPackage("kr.co.bnksys.querydsl.model");
+        sqlSessionFactoryBean.setTypeAliasesPackage("kr.co.bnksys.querydsl.model.first");
         sqlSessionFactoryBean.setMapperLocations(resources);
         sqlSessionFactoryBean.setConfiguration(configuration);
         return sqlSessionFactoryBean.getObject();

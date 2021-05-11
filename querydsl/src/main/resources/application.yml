@@ -1,10 +1,17 @@
+debug: false
 
 spring:
   datasource:
-    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    jdbc-url: jdbc:log4jdbc:oracle:thin:@localhost:1521:XE
-    username: BNK_DB
-    password: aa12345^
+    first:
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      jdbc-url: jdbc:log4jdbc:oracle:thin:@localhost:1521:XE
+      username: BNK_DB
+      password: aa12345^
+    second:
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      jdbc-url: jdbc:log4jdbc:oracle:thin:@localhost:1521:XE
+      username: EBC_DB
+      password: chrldkagh1!
 
   jpa:
     database-platform: org.hibernate.dialect.Oracle10gDialect
@@ -12,17 +19,12 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: validate
-      #naming:
-        #physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-        #implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
     properties:
       show_sql: true
       format_sql: true
       use_sql_comments: true
       hibernate:
         default_schema: BNK_DB
-        #jdbc.lob.non_contextual_creation: true
-        #temp.use_jdbc_metadata_defaults: false
         
 logging:
   level:
@@ -30,3 +32,5 @@ logging:
     jdbc.connection: error
     jdbc.audit: error
     jdbc.sqlonly: error
+    org.springframework.data: debug
+    kr.co.bnksys: debug
