@@ -5,7 +5,6 @@ import kr.co.bnksys.drools.model.TaxiRide;
 
 public interface TaxiFareCalculatorService {
 
-
     Long calculateFare(TaxiRide taxiRide, Fare rideFare);
-    
+
 }
