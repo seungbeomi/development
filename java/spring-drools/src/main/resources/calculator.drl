@@ -1,0 +1,8 @@
+import kr.co.bnksys.calculator.Input;
+
+rule "plus"
+	when 
+		i : Input("+".equals(op));
+	then
+		result = i.getNum1() + i.getNum2();
+end

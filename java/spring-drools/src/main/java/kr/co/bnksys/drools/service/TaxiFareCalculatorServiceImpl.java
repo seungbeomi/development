@@ -13,14 +13,15 @@ import lombok.RequiredArgsConstructor;
 public class TaxiFareCalculatorServiceImpl implements TaxiFareCalculatorService {
 
     private final KieContainer kieContainer;
+    private final KieSession kieSession;
 
     @Override
     public Long calculateFare(TaxiRide taxiRide, Fare rideFare) {
-        KieSession kieSession = kieContainer.newKieSession();
+        // KieSession kieSession = kieContainer.newKieSession();
         kieSession.setGlobal("rideFare", rideFare);
         kieSession.insert(taxiRide);
         kieSession.fireAllRules();
-        kieSession.dispose();
+        // kieSession.dispose();
         System.out.println("!! RIDE FARE !! " + rideFare.getTotalFare());
         return rideFare.getTotalFare();
     }

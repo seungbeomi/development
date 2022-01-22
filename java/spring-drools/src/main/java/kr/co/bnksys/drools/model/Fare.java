@@ -7,8 +7,9 @@ public class Fare {
 
     private Long nightSurcharge;
     private Long rideFare;
-    
+
     public Long getTotalFare() {
+        System.out.println("TOTAL FARE: " + nightSurcharge + " + " + rideFare);
         return nightSurcharge + rideFare;
     }
 }

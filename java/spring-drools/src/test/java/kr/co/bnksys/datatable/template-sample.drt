@@ -1,0 +1,19 @@
+template header
+	frequency
+	memory
+	power
+
+package kr.co.bnksys.datatable;
+
+import kr.co.bnksys.datatable.GPU;
+
+template "template-sample";
+
+rule "SAMPLE RULE @{row.rowNumber}"
+when 
+	$gpu : GPU(frequency == @{frequency}, memory == @{memory})
+then
+	$gpu.setPower(@{power})
+end 
+
+end template
