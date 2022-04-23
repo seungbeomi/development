@@ -42,7 +42,7 @@
     <lib.javax-servlet-jstl.version>1.1.2</lib.javax-servlet-jstl.version>
     <lib.json.version>20090211</lib.json.version>
     <lib.rome.version>1.0.0</lib.rome.version>
-    <lib.spring.version>3.0.5.RELEASE</lib.spring.version>
+    <lib.spring.version>5.3.19</lib.spring.version>
     <lib.spring-js.version>2.0.5.RELEASE</lib.spring-js.version>
     <lib.taglibs.version>1.1.2</lib.taglibs.version>
     <lib.xercesImpl.version>2.9.1</lib.xercesImpl.version>
